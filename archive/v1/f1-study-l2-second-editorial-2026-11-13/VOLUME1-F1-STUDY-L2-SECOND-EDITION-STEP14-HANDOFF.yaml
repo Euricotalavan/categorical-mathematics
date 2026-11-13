@@ -1,0 +1,168 @@
+handoff:
+  volume: V1
+  stage_from: editorial Step13 second edition
+  stage_to: dot Step14 explanation
+  source_version: F1 Study L2 second editorial edition, sourcev3/PDFv1
+  parent_version: &id001
+    library_file_id: libfile_fde3_f-2e1eadfe6b808191b24f10a96aeb0937_383d682b1c388191a1961becbec9fb77
+    version: 2
+    file_id: file_00000000bb788212966aca96b30d7f8c
+    bytes: 4105439
+    SHA256: af88d2fecaa25d90335a0cd3343c9a65e66364b2507ddcb7786862d2fb3db8bc
+  source_id_or_commit: libfile_fde3_f-2e1eadfe6b808191b24f10a96aeb0937_383d682b1c388191a1961becbec9fb77
+  source_sha256: 5adccab9146cd9a9eb5c5915d3ec6f333c1ac2094e4cd068df84eecb0e214b2b
+  created_at_utc: '2026-11-13T09:51:21.911918+00:00'
+  changed_paths_or_sections:
+  - 'layout/study/reading-guide.tex: three bold lead-ins only; exact original words/order
+    preserved'
+  - 'layout/study/frontmatter.tex: Second editorial edition identification'
+  - 'layout/study/integration.tex: second-edition footer/PDF metadata'
+  - 'verify.py: guarded reversible guide overlay'
+  - editorial/step12-13 and current QA/provenance; first-edition evidence preserved
+  outputs:
+    editable_source:
+      library_file_id: libfile_fde3_f-2e1eadfe6b808191b24f10a96aeb0937_383d682b1c388191a1961becbec9fb77
+      file_id: file_00000000e78c81f5962b8552ad5b6976
+      file_name: categorical-mathematics-volume1-f1-study-l2-source.zip
+      version: 3
+      bytes: 4193588
+      SHA256: 5adccab9146cd9a9eb5c5915d3ec6f333c1ac2094e4cd068df84eecb0e214b2b
+    pdf:
+      library_file_id: libfile_fde3_f-529a4a5c35b4819197e62982dd54c196_383d682b1c388191a1961becbec9fb77
+      file_id: file_000000005ae481f6ba1774558316d7a6
+      file_name: categorical-mathematics-volume-1-f1-study-l2-editorial-candidate.pdf
+      version: 1
+      physical_pages: 122
+      saved_download_bytes: 734812
+      saved_download_SHA256: 662a14d29639918c03c11c96bb0b9141adc963be1a12aedab3586acc964beea3
+      raw_bundled_SHA256: e8f9115d990ea6b5486586d060fa3c748dd8ffd87a6ff2b7caa65ac4bd4f6b9c
+    coverage_table: Unchanged upstream/source/content-refinement/v1 coverage records
+      in the fixed source; no boundary reopened.
+    issue_list: 'qa/editorial-issue-list.json: sole optional P2 adopted/resolved,
+      no blocking editorial issue.'
+    saved_output_verification:
+      library_file_id: libfile_fde3_f-95421c24c36c81918c965a94aa445f83_383d682b1c388191a1961becbec9fb77
+      file_id: file_0000000082f4821292d629224eaa1be6
+      file_name: categorical-mathematics-volume1-f1-study-l2-second-edition-delivery-verification.json
+      current_version_number: 0
+      SHA256: 09136acb91b8f1f842aaf50367bda0b4c1b1815b497d7fd4f931a03addf342f9
+      bytes: 50525
+  Step11_originals:
+    refinement:
+      library_file_id: libfile_fde3_f-e2c14889a5bc819193785098e6afc83c_383d682b1c388191a1961becbec9fb77
+      version: 0
+      SHA256: fc52b95b63096e65de10bff5a7bd7761768a6a06d1c24076e947ef87eb41f8bf
+      disposition: NO OBJECTIONS; no repair request
+    expansion:
+      library_file_id: libfile_fde3_f-af55ab08aeb081919f8057cff4d95cc0_383d682b1c388191a1961becbec9fb77
+      version: 0
+      SHA256: e0fde4eb435194797b90309a2e951d759477d8bcd1ad60c7140a6ba52e47e193
+      disposition: NO OBJECTIONS to proceeding; sole optional nonblocking P2
+  Step12_decision: Adopt P2 with three visual lead-ins; preserve every original guide
+    word/order and all caveats. No new math or first-edition redo.
+  Step13_results:
+    actual_pages: 122
+    actual_current_visual_reviews:
+    - 1
+    - 2
+    - 3
+    actual_white_review:
+    - 2
+    remaining120_above_footer_pages_exact_to_visually_reviewed_first_edition: true
+    all_footer_edition_strings_and_folios_checked: true
+    all40_views_upstream_math_source_and322_AUX_values_unchanged: true
+    source_redownload_byte_identity_and820_manifest_recovery: PASS
+    saved_PDF_byte_identity_to_raw: false
+    saved_PDF_all122_text_content_links_full72dpi_pixels_equal: PASS
+    PDF_packaging: Content Credentials associated file and container serialization
+      differ; no signature trust claim.
+  unresolved:
+  - gate_id: GATE:PL09
+    state: OPEN_BOOK_FRAMEWORK_ACKNOWLEDGEMENT
+    open: true
+    specific_remaining_gap:
+    - No finite-position/append/record-interpretation or finite-rule proof is missing
+      for SM-ZF:ZF-FIN-01/02 provides them.
+    - The original acknowledged-book-framework prerequisite remains;no arbitrary external
+      predicate or common-foundation realization is inferred.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - gate_id: GATE:FOUNDATIONS
+    state: OPEN_COMMON_FOUNDATION_AND_GENUINE_LARGE_SCOPE
+    open: true
+    specific_remaining_gap:
+    - SM-ZF/HFSet is a concrete relative interpretation with an explicit axiom delta,not
+      a selected book policy or consistency theorem.
+    - The original full-completeness/common-foundation and genuinely larger range
+      requirements remain;EC/V1 work stays later.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - gate_id: GATE:SIZE
+    state: OPEN_GENUINE_LARGE_RANGE_INTERPRETATION
+    open: true
+    specific_remaining_gap:
+    - All named set-indexed supply interfaces and the definable locally small large-target
+      extension are realized in SM-ZF;this is not confined to finite examples.
+    - Arbitrary proper-class-indexed/higher-type families require a different explicitly
+      acknowledged range interpretation. ZF-SIZE-01 proves why set graphs alone do
+      not cover them.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - gate_id: GATE:CHOICE
+    state: OPEN_BOOK_ACK_AND_ARBITRARY_RANGE_FORMATION
+    open: true
+    specific_remaining_gap:
+    - Unique set-valued families are formed explicitly;HFSet supplies canonical pullback/splitting/equalizer
+      families;general nonunique families remain given parameters.
+    - No global arbitrary-selection principle is added. Original large-range/whole-scope
+      formation and policy acknowledgement remain.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - gate_id: GATE:EXTERNAL-METATHEORY
+    state: OPEN_BOOK_MODEL_ACK_AND_LARGE_TYPED_SEMANTICS
+    open: true
+    specific_remaining_gap:
+    - A named comparison semantics and complete finite/set capability proofs now exist;do
+      not relabel them as merely awaiting a name.
+    - They have not been acknowledged as the book framework,and do not realize arbitrary
+      larger typed ranges or the later EC package.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - gate_id: GATE:EMPTY-CATEGORY
+    state: OPEN_BOOK_MODEL_ACKNOWLEDGEMENT
+    open: true
+    specific_remaining_gap:
+    - The CP58 working admission decision stays closed. ZF-EMPTY-01 realizes the empty-carrier
+      interpretation by bounded quantifiers,including the retained local witnesses.
+    - The remaining original common-model acknowledgement/large-scope dependency is
+      not met by a comparison alone;no set-model empty-syntax proof remains missing.
+    owner: Inherited framework/literature process, outside this bounded editorial
+      round.
+  - id: LR_BODY
+    status: UNKNOWN
+    gap: Lawvere–Rosebrugh body/exact external correspondence unknown; exhaustive
+      reference coverage not certified.
+    owner: Inherited foundation/literature work, outside this bounded editorial round.
+  unresolved_summary: All six inherited global gates OPEN and LR UNKNOWN remain. Not
+    EN-STABLE or formal complete-volume acceptance. No new mathematical defect or
+    blocking editorial issue established.
+  requested_next_action: Dot performs Step14 explanation using the two original replies,
+    adoption decision, paired second edition and exact saved-output evidence; no new
+    approval, Step11 or math review round.
+  recovery_reference:
+    first_source: *id001
+    first_PDF:
+      library_file_id: libfile_fde3_f-529a4a5c35b4819197e62982dd54c196_383d682b1c388191a1961becbec9fb77
+      version: 0
+      file_id: file_000000004710821288a7400c08ef0259
+      persisted_SHA256: 2d68ae972b2e74b33c4a0af1ce9e868c01c7a2ab21d0d82123ace8c938ea2e6b
+    current_source_recovery: Fresh downloaded ZIP CRC/safe paths/all820 manifest entries
+      and restored verify.py --pdf PASS without rebuilding; first historical manifest/docs/QA
+      preserved.
+  operations_not_performed:
+  - V0 rebuild/overwrite
+  - other-volume changes
+  - cloud deletion/move
+  - GitHub submission
+  - new math reproof/scope round
+  receiver_ack: null

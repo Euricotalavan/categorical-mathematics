@@ -1,0 +1,1012 @@
+{
+  "artifact": "V1 F1 Study L2 second editorial edition; Steps12\u201313 bounded follow-through",
+  "audited_at_utc": "2026-11-13T09:50:35.931972+00:00",
+  "source": {
+    "library_file_id": "libfile_fde3_f-2e1eadfe6b808191b24f10a96aeb0937_383d682b1c388191a1961becbec9fb77",
+    "file_id": "file_00000000e78c81f5962b8552ad5b6976",
+    "file_name": "categorical-mathematics-volume1-f1-study-l2-source.zip",
+    "version": 3,
+    "bytes": 4193588,
+    "SHA256": "5adccab9146cd9a9eb5c5915d3ec6f333c1ac2094e4cd068df84eecb0e214b2b",
+    "fresh_redownload_byte_identical_to_uploaded_ZIP": true,
+    "ZIP_CRC_safe_unique_paths_and_exact820_manifest_entries_pass": true,
+    "restored_verifier_without_rebuild": {
+      "frozen_package_manifest_items": 691,
+      "frozen_source_files": 623,
+      "canonical_view_pairs": 254,
+      "all_context_unique_labels": 2155,
+      "V1_sources_in_author_entry_order": 40,
+      "V1_unique_labels": 322,
+      "all_90_explicit_proofs_byte_unchanged": true,
+      "protected_formal_regions": 269,
+      "formal_regions_byte_unchanged": 268,
+      "formal_region_layout_only_changes": 1,
+      "all_71_complete_answer_sources_and_contents_retained": true,
+      "all_ordered_delimited_math_tokens_unchanged_except_layout_and_sentence_punctuation": true,
+      "English_edits": 16,
+      "presentation_edits": 6,
+      "all_edits_exactly_reversible_to_author_view": true,
+      "all_five_F1_repairs_retained": true,
+      "V1_scope_words_and_order_exact_F1_with_three_declared_leadins": true,
+      "Study_config_style_fonts_exact_accepted": true,
+      "external_V0_labels_used": [
+        "ex:idempotent",
+        "prop:product",
+        "sec:discrete-construction",
+        "sec:external-syntax-rule"
+      ],
+      "medical_or_mathematics_completeness_claim": false,
+      "PDF": {
+        "file": "categorical-mathematics-volume-1-f1-study-l2-editorial-candidate.pdf",
+        "bytes": 562061,
+        "SHA256": "e8f9115d990ea6b5486586d060fa3c748dd8ffd87a6ff2b7caa65ac4bd4f6b9c",
+        "physical_pages": 122,
+        "bookmarks": 109,
+        "links": {
+          "internal": 189,
+          "remote_V0": 6,
+          "URI": 0
+        },
+        "embedded_fonts": [
+          "BSDZFE+TeXGyreHeros-Regular-Identity-H",
+          "HZUCWT+TeXGyreScholaMath-Regular-Identity-H",
+          "LAMLGV+TeXGyreHeros-Bold-Identity-H",
+          "TRZNEP+TeXGyreSchola-Italic-Identity-H",
+          "VZBKFG+TeXGyreSchola-Regular-Identity-H",
+          "WCTQMZ+TeXGyreSchola-Bold-Identity-H"
+        ],
+        "prose_line_sample_count": 3029,
+        "prose_characters_p50": 75,
+        "prose_characters_p90": 81,
+        "prose_characters_max": 88,
+        "all_322_labels_resolve_in_actual_current_PDF": true
+      }
+    },
+    "seven_font_OTFs": true,
+    "one_current_PDF_no_nested_ZIP": true
+  },
+  "PDF": {
+    "library_file_id": "libfile_fde3_f-529a4a5c35b4819197e62982dd54c196_383d682b1c388191a1961becbec9fb77",
+    "file_id": "file_000000005ae481f6ba1774558316d7a6",
+    "file_name": "categorical-mathematics-volume-1-f1-study-l2-editorial-candidate.pdf",
+    "version": 1,
+    "physical_pages": 122,
+    "raw_bundled_bytes": 562061,
+    "raw_bundled_SHA256": "e8f9115d990ea6b5486586d060fa3c748dd8ffd87a6ff2b7caa65ac4bd4f6b9c",
+    "saved_download_bytes": 734812,
+    "saved_download_SHA256": "662a14d29639918c03c11c96bb0b9141adc963be1a12aedab3586acc964beea3",
+    "byte_identical_to_raw": false,
+    "all122_rawdict_text_glyph_geometry_equal": true,
+    "all122_decoded_page_contents_links_full72dpi_pixels_equal": true,
+    "all122_labels_109_bookmarks_equal": true,
+    "container_object_changes": [
+      {
+        "xref": 1,
+        "raw_object": "<<\n  /OpenAction [ 3 0 R /Fit ]\n  /PageMode /UseOutlines\n  /PageLabels <<\n    /Nums [ 0 <<\n          /S /R\n        >> 1 <<\n          /S /r\n        >> 5 <<\n          /S /D\n        >> ]\n  >>\n  /Names 1634 0 R\n  /Outlines 1635 0 R\n  /Pages 1745 0 R\n  /Type /Catalog\n>>",
+        "saved_object": "<<\n  /OpenAction [ 3 0 R /Fit ]\n  /PageMode /UseOutlines\n  /PageLabels <<\n    /Nums [ 0 <<\n          /S /R\n        >> 1 <<\n          /S /r\n        >> 5 <<\n          /S /D\n        >> ]\n  >>\n  /Names 1634 0 R\n  /Outlines 1635 0 R\n  /Pages 1745 0 R\n  /Type /Catalog\n  /AF [ 1915 0 R ]\n>>",
+        "decoded_stream_equal": true
+      },
+      {
+        "xref": 12,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1829\n  /Filter /FlateDecode\n  /Length 4262\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 371,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1908\n  /Filter /FlateDecode\n  /Length 4085\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 930,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 2043\n  /Filter /FlateDecode\n  /Length 4545\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1474,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1959\n  /Filter /FlateDecode\n  /Length 2996\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1631,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1911\n  /Filter /FlateDecode\n  /Length 2132\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1632,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1894\n  /Filter /FlateDecode\n  /Length 2085\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1633,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 2048\n  /Filter /FlateDecode\n  /Length 5929\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1634,
+        "raw_object": "<<\n  /Dests 1630 0 R\n>>",
+        "saved_object": "<<\n  /Dests 1630 0 R\n  /EmbeddedFiles <<\n    /Names [ (Content Credentials) 1915 0 R ]\n  >>\n>>",
+        "decoded_stream_equal": true
+      },
+      {
+        "xref": 1774,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 200\n  /First 1922\n  /Filter /FlateDecode\n  /Length 3025\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1877,
+        "raw_object": "<<\n  /Type /ObjStm\n  /N 41\n  /First 355\n  /Filter /FlateDecode\n  /Length 2802\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      },
+      {
+        "xref": 1913,
+        "raw_object": "<<\n  /Type /XRef\n  /ID [ <E96000E8B4128A4127A87F60F95C1DFF> <E96000E8B4128A4127A87F60F95C1DFF> ]\n  /Root 1 0 R\n  /Info 2 0 R\n  /Size 1914\n  /W [ 1 3 2 ]\n  /Filter /FlateDecode\n  /Length 4490\n>>",
+        "saved_object": null,
+        "decoded_stream_equal": false
+      }
+    ],
+    "raw_xref_length": 1914,
+    "saved_xref_length": 1917,
+    "signature_or_trust_validation_claim": false,
+    "pages": [
+      {
+        "physical_page": 1,
+        "raw_full72dpi_SHA256": "c55c24fbe4a2da8f5db76cabe321eab0291d9ad61a5677d7ecad604bb2afca02",
+        "saved_full72dpi_SHA256": "c55c24fbe4a2da8f5db76cabe321eab0291d9ad61a5677d7ecad604bb2afca02",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 2,
+        "raw_full72dpi_SHA256": "97f396402cba1d31dcc8deef254096de19a1fa5e1e19a0e8a5abd63b03df265d",
+        "saved_full72dpi_SHA256": "97f396402cba1d31dcc8deef254096de19a1fa5e1e19a0e8a5abd63b03df265d",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 3,
+        "raw_full72dpi_SHA256": "d670ccecae3b2f4ac5858beb2d8cd796c6d1ea49e95265759f85b48d16da6ce2",
+        "saved_full72dpi_SHA256": "d670ccecae3b2f4ac5858beb2d8cd796c6d1ea49e95265759f85b48d16da6ce2",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 4,
+        "raw_full72dpi_SHA256": "5da0da02865ee76317e0abd8f4876da3cb80ed58c2466f66cc04eed52b1e85c5",
+        "saved_full72dpi_SHA256": "5da0da02865ee76317e0abd8f4876da3cb80ed58c2466f66cc04eed52b1e85c5",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 5,
+        "raw_full72dpi_SHA256": "4f821322648e23ee8ce3c1bfce68002f466e21bcf1bdf4a4ffcfa8652ebb7557",
+        "saved_full72dpi_SHA256": "4f821322648e23ee8ce3c1bfce68002f466e21bcf1bdf4a4ffcfa8652ebb7557",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 6,
+        "raw_full72dpi_SHA256": "631824acb1d3d78a4b0a64d51b3e128f0f200df51e1144deace1ea619886b129",
+        "saved_full72dpi_SHA256": "631824acb1d3d78a4b0a64d51b3e128f0f200df51e1144deace1ea619886b129",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 7,
+        "raw_full72dpi_SHA256": "8813703dea9df3301108688dd4146d9b87d3da067299318c9428a4266f303be9",
+        "saved_full72dpi_SHA256": "8813703dea9df3301108688dd4146d9b87d3da067299318c9428a4266f303be9",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 8,
+        "raw_full72dpi_SHA256": "e8cd57f73810a24f732d73c36d6e351cafa7c4d8366a633d6cfc03385f9756c1",
+        "saved_full72dpi_SHA256": "e8cd57f73810a24f732d73c36d6e351cafa7c4d8366a633d6cfc03385f9756c1",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 9,
+        "raw_full72dpi_SHA256": "9c3a974041721ffbf139a2a8f4344bb91e4ffdba7db600ccda39021961e307e2",
+        "saved_full72dpi_SHA256": "9c3a974041721ffbf139a2a8f4344bb91e4ffdba7db600ccda39021961e307e2",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 10,
+        "raw_full72dpi_SHA256": "03f2f8d5ce9b0b7944a182ad589be49de30693f86d8b2d32f353ee7504ad10b9",
+        "saved_full72dpi_SHA256": "03f2f8d5ce9b0b7944a182ad589be49de30693f86d8b2d32f353ee7504ad10b9",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 11,
+        "raw_full72dpi_SHA256": "ac9e8d44f4812f88f92b342f9d78ebb02d872a678615cdaff603a138c91e43b3",
+        "saved_full72dpi_SHA256": "ac9e8d44f4812f88f92b342f9d78ebb02d872a678615cdaff603a138c91e43b3",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 12,
+        "raw_full72dpi_SHA256": "f8e27f8f451e33023c2b85f7cb655cc66371aad91bd77c0c6aab3e7182172363",
+        "saved_full72dpi_SHA256": "f8e27f8f451e33023c2b85f7cb655cc66371aad91bd77c0c6aab3e7182172363",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 13,
+        "raw_full72dpi_SHA256": "530ee85c4e35d4fbed2a6b118790f78fd315b38506dde9324f3be8179b5b4252",
+        "saved_full72dpi_SHA256": "530ee85c4e35d4fbed2a6b118790f78fd315b38506dde9324f3be8179b5b4252",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 14,
+        "raw_full72dpi_SHA256": "44d13094644979e7b3c599aab852e698d7a5dcf92eb1f2e3c179f6d3067bdae1",
+        "saved_full72dpi_SHA256": "44d13094644979e7b3c599aab852e698d7a5dcf92eb1f2e3c179f6d3067bdae1",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 15,
+        "raw_full72dpi_SHA256": "f899bafab0e137b8b79077c1c5a89e1e1218bfba2f574be653b81ef42c72cc35",
+        "saved_full72dpi_SHA256": "f899bafab0e137b8b79077c1c5a89e1e1218bfba2f574be653b81ef42c72cc35",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 16,
+        "raw_full72dpi_SHA256": "07f7041029d9813b9ccbb8a8c7ebdaaae971494d9896a94eff672d043956c360",
+        "saved_full72dpi_SHA256": "07f7041029d9813b9ccbb8a8c7ebdaaae971494d9896a94eff672d043956c360",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 17,
+        "raw_full72dpi_SHA256": "63a0fe5328ce13ad9323252b3dfb95a5dd5fa40c322a40a35ea7801f1f6f63d0",
+        "saved_full72dpi_SHA256": "63a0fe5328ce13ad9323252b3dfb95a5dd5fa40c322a40a35ea7801f1f6f63d0",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 18,
+        "raw_full72dpi_SHA256": "380457a6a993d8e05009e57cbd0561e87a1400ad3d57ce42bcc2332a4ad75955",
+        "saved_full72dpi_SHA256": "380457a6a993d8e05009e57cbd0561e87a1400ad3d57ce42bcc2332a4ad75955",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 19,
+        "raw_full72dpi_SHA256": "db09ddefffd181882c365a12869aca3f1eda8b5166003f2643397293fe0b7c68",
+        "saved_full72dpi_SHA256": "db09ddefffd181882c365a12869aca3f1eda8b5166003f2643397293fe0b7c68",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 20,
+        "raw_full72dpi_SHA256": "942313e234de02819703013ad8937ebb203c6d02b9f165f71e507972285cded4",
+        "saved_full72dpi_SHA256": "942313e234de02819703013ad8937ebb203c6d02b9f165f71e507972285cded4",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 21,
+        "raw_full72dpi_SHA256": "488555341d14ba513fbe43aa0d1d3ba4cccbf4525a2ab8ed2de84ec43b58341b",
+        "saved_full72dpi_SHA256": "488555341d14ba513fbe43aa0d1d3ba4cccbf4525a2ab8ed2de84ec43b58341b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 22,
+        "raw_full72dpi_SHA256": "c20cf73fd4ef230c7efc530a2b907477ef024a2c9494141f00a4744799bc0a03",
+        "saved_full72dpi_SHA256": "c20cf73fd4ef230c7efc530a2b907477ef024a2c9494141f00a4744799bc0a03",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 23,
+        "raw_full72dpi_SHA256": "843bce0f741defacb063391527670968114558ae830eca10e61b47f45f3b5952",
+        "saved_full72dpi_SHA256": "843bce0f741defacb063391527670968114558ae830eca10e61b47f45f3b5952",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 24,
+        "raw_full72dpi_SHA256": "7e79767bcaad17df4d26d4cb6f9084545e5ed35de233ad5235d3d22203cd6b7d",
+        "saved_full72dpi_SHA256": "7e79767bcaad17df4d26d4cb6f9084545e5ed35de233ad5235d3d22203cd6b7d",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 25,
+        "raw_full72dpi_SHA256": "46bb94909099ae400958334a7afb309d80d101e03431b5f0b5a8785b8b6ddade",
+        "saved_full72dpi_SHA256": "46bb94909099ae400958334a7afb309d80d101e03431b5f0b5a8785b8b6ddade",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 26,
+        "raw_full72dpi_SHA256": "065ecca80106c40594f717fd7109a86e3647c3aeed8c7cd1719be901aaf2a352",
+        "saved_full72dpi_SHA256": "065ecca80106c40594f717fd7109a86e3647c3aeed8c7cd1719be901aaf2a352",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 27,
+        "raw_full72dpi_SHA256": "6c70acf4f59ed18272d837d5405b01a64644c55d5cf30a12409727287f671841",
+        "saved_full72dpi_SHA256": "6c70acf4f59ed18272d837d5405b01a64644c55d5cf30a12409727287f671841",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 28,
+        "raw_full72dpi_SHA256": "06874140995d2e4f38c298c3c00c4ec9b4268d3f353146f55d4074fdc68918ef",
+        "saved_full72dpi_SHA256": "06874140995d2e4f38c298c3c00c4ec9b4268d3f353146f55d4074fdc68918ef",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 29,
+        "raw_full72dpi_SHA256": "7effb5824a9d4765b859fd19a487b9056472e3c47545a0310c38bcd2cf2ddddc",
+        "saved_full72dpi_SHA256": "7effb5824a9d4765b859fd19a487b9056472e3c47545a0310c38bcd2cf2ddddc",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 30,
+        "raw_full72dpi_SHA256": "95747888599973f9a3a0b7b18d3d4884ddedeac80d236e49f223be91475c43b0",
+        "saved_full72dpi_SHA256": "95747888599973f9a3a0b7b18d3d4884ddedeac80d236e49f223be91475c43b0",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 31,
+        "raw_full72dpi_SHA256": "930cea7946ed0e913434976aa3521fc5ded7e65c4c12f4d10a37b0d76195f197",
+        "saved_full72dpi_SHA256": "930cea7946ed0e913434976aa3521fc5ded7e65c4c12f4d10a37b0d76195f197",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 32,
+        "raw_full72dpi_SHA256": "c868b990f313ea4ee0943dacdb4e858d02b3baedc99bd2f9a1da3d54eccc1729",
+        "saved_full72dpi_SHA256": "c868b990f313ea4ee0943dacdb4e858d02b3baedc99bd2f9a1da3d54eccc1729",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 33,
+        "raw_full72dpi_SHA256": "d97bd6a8bc443c182c85357d900740a1e20230b66ca1b3bcdc10f0ff5f1cc789",
+        "saved_full72dpi_SHA256": "d97bd6a8bc443c182c85357d900740a1e20230b66ca1b3bcdc10f0ff5f1cc789",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 34,
+        "raw_full72dpi_SHA256": "90f7f68f239893a149f3302f7b9e7a424200f5dd6a226a5e35d14cde85dcf8e5",
+        "saved_full72dpi_SHA256": "90f7f68f239893a149f3302f7b9e7a424200f5dd6a226a5e35d14cde85dcf8e5",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 35,
+        "raw_full72dpi_SHA256": "9ee9f9606ced49181b22862e6be41c83f23b12e97a7638de216887df47b0d39a",
+        "saved_full72dpi_SHA256": "9ee9f9606ced49181b22862e6be41c83f23b12e97a7638de216887df47b0d39a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 36,
+        "raw_full72dpi_SHA256": "1c06e96f0ab87daf182dd16a877bdec967c2560597f994796f315b2f2e370616",
+        "saved_full72dpi_SHA256": "1c06e96f0ab87daf182dd16a877bdec967c2560597f994796f315b2f2e370616",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 37,
+        "raw_full72dpi_SHA256": "31f01f250dd535c2924a04045f71d87bd3764867ac844d28a2cc65ccd2603ee4",
+        "saved_full72dpi_SHA256": "31f01f250dd535c2924a04045f71d87bd3764867ac844d28a2cc65ccd2603ee4",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 38,
+        "raw_full72dpi_SHA256": "45d065c008dfeef11d97ac99f6d161511ada343e89530812ab5ff9fd1134b478",
+        "saved_full72dpi_SHA256": "45d065c008dfeef11d97ac99f6d161511ada343e89530812ab5ff9fd1134b478",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 39,
+        "raw_full72dpi_SHA256": "728971de77941fb562546b4b92d530ca78d66e3bbcdb44f55c8cea8a8c495943",
+        "saved_full72dpi_SHA256": "728971de77941fb562546b4b92d530ca78d66e3bbcdb44f55c8cea8a8c495943",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 40,
+        "raw_full72dpi_SHA256": "1f1778bafd0aafe8a5f4f6b6825534478e35d9fbfd774e262be122a762db9d10",
+        "saved_full72dpi_SHA256": "1f1778bafd0aafe8a5f4f6b6825534478e35d9fbfd774e262be122a762db9d10",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 41,
+        "raw_full72dpi_SHA256": "6b3048447104dacef164a1b49ccf05fa432c50e0d6905df6a9ca4ec5808d259a",
+        "saved_full72dpi_SHA256": "6b3048447104dacef164a1b49ccf05fa432c50e0d6905df6a9ca4ec5808d259a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 42,
+        "raw_full72dpi_SHA256": "8e7252608e70382a84709b14c8806f93082bd0ab6184b9fbe807a9ef56f9646a",
+        "saved_full72dpi_SHA256": "8e7252608e70382a84709b14c8806f93082bd0ab6184b9fbe807a9ef56f9646a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 43,
+        "raw_full72dpi_SHA256": "3df0b99f049a9ce9aaaf359a82804d073d58c4da83aa0e180bb473b72f35823a",
+        "saved_full72dpi_SHA256": "3df0b99f049a9ce9aaaf359a82804d073d58c4da83aa0e180bb473b72f35823a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 44,
+        "raw_full72dpi_SHA256": "6d46b62f2d4275ae513ec995618581a12261d3f7de9bb60c8608918d63ba20a1",
+        "saved_full72dpi_SHA256": "6d46b62f2d4275ae513ec995618581a12261d3f7de9bb60c8608918d63ba20a1",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 45,
+        "raw_full72dpi_SHA256": "3a4545ae90c580270977ce1e367e7a2308cc6b3b96ec0b67243b0cacbc3683ac",
+        "saved_full72dpi_SHA256": "3a4545ae90c580270977ce1e367e7a2308cc6b3b96ec0b67243b0cacbc3683ac",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 46,
+        "raw_full72dpi_SHA256": "e9a90549db527f7b00fe7cd10f3a88742f45e83dbd9b7e8d983817d5c86004cc",
+        "saved_full72dpi_SHA256": "e9a90549db527f7b00fe7cd10f3a88742f45e83dbd9b7e8d983817d5c86004cc",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 47,
+        "raw_full72dpi_SHA256": "fc5373083c7b2d313fe084b4dbc8e49b2c5618b7d22e48348d9a56ee7d075df0",
+        "saved_full72dpi_SHA256": "fc5373083c7b2d313fe084b4dbc8e49b2c5618b7d22e48348d9a56ee7d075df0",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 48,
+        "raw_full72dpi_SHA256": "77331cc1ef44e4f9aa97160ad3ef2fda9c32b3a40ecb2ee82ab770ed806e40aa",
+        "saved_full72dpi_SHA256": "77331cc1ef44e4f9aa97160ad3ef2fda9c32b3a40ecb2ee82ab770ed806e40aa",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 49,
+        "raw_full72dpi_SHA256": "6e9dcfb891fdbb7571b343048b266c6511119c8384af48b25a16bfee2d469d3f",
+        "saved_full72dpi_SHA256": "6e9dcfb891fdbb7571b343048b266c6511119c8384af48b25a16bfee2d469d3f",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 50,
+        "raw_full72dpi_SHA256": "eda98335bae038199bfc4a199052261c8f861152e337194f1817c594a73b1bbe",
+        "saved_full72dpi_SHA256": "eda98335bae038199bfc4a199052261c8f861152e337194f1817c594a73b1bbe",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 51,
+        "raw_full72dpi_SHA256": "2bfe48be74086660d13a777592ce9877d39803cebccb3f6c236e90cdc66500e4",
+        "saved_full72dpi_SHA256": "2bfe48be74086660d13a777592ce9877d39803cebccb3f6c236e90cdc66500e4",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 52,
+        "raw_full72dpi_SHA256": "edcd23a4df880c0cc7ea8512c38a1d5ba3eb3d562a7aceadde690f84ac02955b",
+        "saved_full72dpi_SHA256": "edcd23a4df880c0cc7ea8512c38a1d5ba3eb3d562a7aceadde690f84ac02955b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 53,
+        "raw_full72dpi_SHA256": "6a1b8fddb4fd00141580d9d99b081e1c155fc164274e8a99287d668fdb25dca2",
+        "saved_full72dpi_SHA256": "6a1b8fddb4fd00141580d9d99b081e1c155fc164274e8a99287d668fdb25dca2",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 54,
+        "raw_full72dpi_SHA256": "5338ebac906ebc3c8583f3c5d153805daa3aed2f5a7faefd5ca2c2098ea2aa88",
+        "saved_full72dpi_SHA256": "5338ebac906ebc3c8583f3c5d153805daa3aed2f5a7faefd5ca2c2098ea2aa88",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 55,
+        "raw_full72dpi_SHA256": "5b48730a089e86e8b074e077d7e0e4fe66d586cdbcd156f85fe831246da581bc",
+        "saved_full72dpi_SHA256": "5b48730a089e86e8b074e077d7e0e4fe66d586cdbcd156f85fe831246da581bc",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 56,
+        "raw_full72dpi_SHA256": "e7374c680ae113c7b3c0c4b9f615dcc8d48fc84b5712661abeb2773918580cab",
+        "saved_full72dpi_SHA256": "e7374c680ae113c7b3c0c4b9f615dcc8d48fc84b5712661abeb2773918580cab",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 57,
+        "raw_full72dpi_SHA256": "63f0eb06e85e8ab8aae627b34a1c823f0d42cc0bbb900ad55fb54cbc46502c00",
+        "saved_full72dpi_SHA256": "63f0eb06e85e8ab8aae627b34a1c823f0d42cc0bbb900ad55fb54cbc46502c00",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 58,
+        "raw_full72dpi_SHA256": "44b442024faf4aead6b1a2d0678742a12f73653506ca602e538fa8f391575817",
+        "saved_full72dpi_SHA256": "44b442024faf4aead6b1a2d0678742a12f73653506ca602e538fa8f391575817",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 59,
+        "raw_full72dpi_SHA256": "8dd0c6966aa246d327a121a904f130850ba6647ae6cce4baa0c0f9395d7a8d33",
+        "saved_full72dpi_SHA256": "8dd0c6966aa246d327a121a904f130850ba6647ae6cce4baa0c0f9395d7a8d33",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 60,
+        "raw_full72dpi_SHA256": "a1ae102dbac6659dcd3edcbe93050012b97825fb0bf760d9b121a452adc13bd0",
+        "saved_full72dpi_SHA256": "a1ae102dbac6659dcd3edcbe93050012b97825fb0bf760d9b121a452adc13bd0",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 61,
+        "raw_full72dpi_SHA256": "f9e132209406000dfd067180ad44fcbaa89059eba2112ba4e2198d163cd017fc",
+        "saved_full72dpi_SHA256": "f9e132209406000dfd067180ad44fcbaa89059eba2112ba4e2198d163cd017fc",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 62,
+        "raw_full72dpi_SHA256": "90947e5d547bf4af2bdb26622f1f6e26f28e6959075de0d252154cc57cb10f1a",
+        "saved_full72dpi_SHA256": "90947e5d547bf4af2bdb26622f1f6e26f28e6959075de0d252154cc57cb10f1a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 63,
+        "raw_full72dpi_SHA256": "e3b618c4ee15724cc1ca9176f8ed15a1e3e1a4e77b71eafe7b0da9da2be8a188",
+        "saved_full72dpi_SHA256": "e3b618c4ee15724cc1ca9176f8ed15a1e3e1a4e77b71eafe7b0da9da2be8a188",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 64,
+        "raw_full72dpi_SHA256": "90a3fb7c39fea96e7718cf9b59dd69ee0b93dc04f8112040917e06607c32ed41",
+        "saved_full72dpi_SHA256": "90a3fb7c39fea96e7718cf9b59dd69ee0b93dc04f8112040917e06607c32ed41",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 65,
+        "raw_full72dpi_SHA256": "88c16e8ff72f38e6efc685fab0408ec439da5caedc23e194045ca4513e421f7e",
+        "saved_full72dpi_SHA256": "88c16e8ff72f38e6efc685fab0408ec439da5caedc23e194045ca4513e421f7e",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 66,
+        "raw_full72dpi_SHA256": "95abeb4429bd5ab9d017c5a63cc7edd2c6203c87383b4a4046acdf4119300cfe",
+        "saved_full72dpi_SHA256": "95abeb4429bd5ab9d017c5a63cc7edd2c6203c87383b4a4046acdf4119300cfe",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 67,
+        "raw_full72dpi_SHA256": "9d5573f35ecd1b2d6e28406aa076c87aa8c772a795fe56718e6b2c46df5b5c51",
+        "saved_full72dpi_SHA256": "9d5573f35ecd1b2d6e28406aa076c87aa8c772a795fe56718e6b2c46df5b5c51",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 68,
+        "raw_full72dpi_SHA256": "1ed20c3a30a994f190421c4724002dcccf8dd74ab94c53b9247784eb8c668bfd",
+        "saved_full72dpi_SHA256": "1ed20c3a30a994f190421c4724002dcccf8dd74ab94c53b9247784eb8c668bfd",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 69,
+        "raw_full72dpi_SHA256": "09fc13c6ecada45232fd130468852bb0dacca89fc3494f046a986d8de2cee8f1",
+        "saved_full72dpi_SHA256": "09fc13c6ecada45232fd130468852bb0dacca89fc3494f046a986d8de2cee8f1",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 70,
+        "raw_full72dpi_SHA256": "eb24652224ba847db5c84285bb68edb3dc90876d27f2dd50d2e326ac2fb34a97",
+        "saved_full72dpi_SHA256": "eb24652224ba847db5c84285bb68edb3dc90876d27f2dd50d2e326ac2fb34a97",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 71,
+        "raw_full72dpi_SHA256": "4628dd3cbedc1235952732fac30e414d737aeabc32e137c21b7def1c7860d45b",
+        "saved_full72dpi_SHA256": "4628dd3cbedc1235952732fac30e414d737aeabc32e137c21b7def1c7860d45b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 72,
+        "raw_full72dpi_SHA256": "a474bb650cfab1b1b12515c6525af31a64df83e58e6022229466604206d730bd",
+        "saved_full72dpi_SHA256": "a474bb650cfab1b1b12515c6525af31a64df83e58e6022229466604206d730bd",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 73,
+        "raw_full72dpi_SHA256": "f72e84d7ea9e95dfa73d59d2f6ecff77d9bc8c53932e2da03cc1cdb02e06d27c",
+        "saved_full72dpi_SHA256": "f72e84d7ea9e95dfa73d59d2f6ecff77d9bc8c53932e2da03cc1cdb02e06d27c",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 74,
+        "raw_full72dpi_SHA256": "3d32e8e95d7dccfc08d436375703867464a99244e2b0f7ab9000a0a566566ec0",
+        "saved_full72dpi_SHA256": "3d32e8e95d7dccfc08d436375703867464a99244e2b0f7ab9000a0a566566ec0",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 75,
+        "raw_full72dpi_SHA256": "9564315b4649d160847856bd8e205e397cc7ab8ce12ef3bd429d229b98b7da50",
+        "saved_full72dpi_SHA256": "9564315b4649d160847856bd8e205e397cc7ab8ce12ef3bd429d229b98b7da50",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 76,
+        "raw_full72dpi_SHA256": "8fa9631509ce307cc5cbcdea289f63e52318a47ae9c8a0aaafb9af8ea650b9f4",
+        "saved_full72dpi_SHA256": "8fa9631509ce307cc5cbcdea289f63e52318a47ae9c8a0aaafb9af8ea650b9f4",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 77,
+        "raw_full72dpi_SHA256": "7241a2896949e5fb6570f37b67b14beba481f273f1ebe6f1dab328a5956cdf83",
+        "saved_full72dpi_SHA256": "7241a2896949e5fb6570f37b67b14beba481f273f1ebe6f1dab328a5956cdf83",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 78,
+        "raw_full72dpi_SHA256": "761b9bcf7cad4fd079d13ef6f329894dcccea03c4f0b75b4c96f02708570a2b2",
+        "saved_full72dpi_SHA256": "761b9bcf7cad4fd079d13ef6f329894dcccea03c4f0b75b4c96f02708570a2b2",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 79,
+        "raw_full72dpi_SHA256": "f41333c9165070d69a955f178eac634ecc8cfa01f2179750894cfe019ed77c86",
+        "saved_full72dpi_SHA256": "f41333c9165070d69a955f178eac634ecc8cfa01f2179750894cfe019ed77c86",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 80,
+        "raw_full72dpi_SHA256": "3ef2b6c0e12a123f8c303b365fc3358fef18cad9a73589017af9fccfd38f1682",
+        "saved_full72dpi_SHA256": "3ef2b6c0e12a123f8c303b365fc3358fef18cad9a73589017af9fccfd38f1682",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 81,
+        "raw_full72dpi_SHA256": "6de0afc64eb9ee82a08a5c10361f6fbe1dfc114948d767dde28195491ae6dcb5",
+        "saved_full72dpi_SHA256": "6de0afc64eb9ee82a08a5c10361f6fbe1dfc114948d767dde28195491ae6dcb5",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 82,
+        "raw_full72dpi_SHA256": "29fbd677f3e3ee9053514c344c652b50962c339949d1694e97bb9a501cbf2110",
+        "saved_full72dpi_SHA256": "29fbd677f3e3ee9053514c344c652b50962c339949d1694e97bb9a501cbf2110",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 83,
+        "raw_full72dpi_SHA256": "f93eb6cb97278c7fb72038f523cf71e8e7a80e0fc427869ec570f495f2180c65",
+        "saved_full72dpi_SHA256": "f93eb6cb97278c7fb72038f523cf71e8e7a80e0fc427869ec570f495f2180c65",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 84,
+        "raw_full72dpi_SHA256": "151622d5a90983a124ecc98d3047f0e0e235c5d89018a667659101782bf08c0b",
+        "saved_full72dpi_SHA256": "151622d5a90983a124ecc98d3047f0e0e235c5d89018a667659101782bf08c0b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 85,
+        "raw_full72dpi_SHA256": "e9c416c78d6d1777c071f64bc0147da0b58c2a4f0eaa2f51a008c0bd447f40d5",
+        "saved_full72dpi_SHA256": "e9c416c78d6d1777c071f64bc0147da0b58c2a4f0eaa2f51a008c0bd447f40d5",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 86,
+        "raw_full72dpi_SHA256": "da11ab3af37a5d86a4ee1a9cbe49fc998f1c1076a27930e7dc83d3512341e8d5",
+        "saved_full72dpi_SHA256": "da11ab3af37a5d86a4ee1a9cbe49fc998f1c1076a27930e7dc83d3512341e8d5",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 87,
+        "raw_full72dpi_SHA256": "ba46401d97e3ab0d40c2a893f9a7d70a18cd4f3fb3382604aaa2e9a430c1def8",
+        "saved_full72dpi_SHA256": "ba46401d97e3ab0d40c2a893f9a7d70a18cd4f3fb3382604aaa2e9a430c1def8",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 88,
+        "raw_full72dpi_SHA256": "5e24a8937838ea2df827204b671c0a2c088ddd81db0138c7897f07ea21cd9fdf",
+        "saved_full72dpi_SHA256": "5e24a8937838ea2df827204b671c0a2c088ddd81db0138c7897f07ea21cd9fdf",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 89,
+        "raw_full72dpi_SHA256": "cfde3073808137911da4e90ac71a36f432cfcfd4e205955085708344e7e95bed",
+        "saved_full72dpi_SHA256": "cfde3073808137911da4e90ac71a36f432cfcfd4e205955085708344e7e95bed",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 90,
+        "raw_full72dpi_SHA256": "40d61ef1655c140a4c14aabdb92adc79a51b5e26c3049a7abbc4344f4fe02210",
+        "saved_full72dpi_SHA256": "40d61ef1655c140a4c14aabdb92adc79a51b5e26c3049a7abbc4344f4fe02210",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 91,
+        "raw_full72dpi_SHA256": "f44cdd3e7b11b9059020a9211d87d3467c05c41e779f7f9d6d3d758a30df018a",
+        "saved_full72dpi_SHA256": "f44cdd3e7b11b9059020a9211d87d3467c05c41e779f7f9d6d3d758a30df018a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 92,
+        "raw_full72dpi_SHA256": "5f6517029f24f4cb475318bbade6720b021fee330a7d59f33ba124541f8d4d1f",
+        "saved_full72dpi_SHA256": "5f6517029f24f4cb475318bbade6720b021fee330a7d59f33ba124541f8d4d1f",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 93,
+        "raw_full72dpi_SHA256": "2fe4892bdea1dfe9deb1032b7ff30ca07f767682e88df4f35a8d0279be47a90e",
+        "saved_full72dpi_SHA256": "2fe4892bdea1dfe9deb1032b7ff30ca07f767682e88df4f35a8d0279be47a90e",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 94,
+        "raw_full72dpi_SHA256": "9de271b7fd4a98cbf40c7964b970739b1a0c5f217332edfb6a10fdb254535a8f",
+        "saved_full72dpi_SHA256": "9de271b7fd4a98cbf40c7964b970739b1a0c5f217332edfb6a10fdb254535a8f",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 95,
+        "raw_full72dpi_SHA256": "2419bfa93a7a54824939bd6bec4c5a241b4bbe96499dffd7dd7b0e82bc67e492",
+        "saved_full72dpi_SHA256": "2419bfa93a7a54824939bd6bec4c5a241b4bbe96499dffd7dd7b0e82bc67e492",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 96,
+        "raw_full72dpi_SHA256": "a13682424e3a340741a56ced2e630ade100a2532af1c9a6eaabb94d9e54fd1cc",
+        "saved_full72dpi_SHA256": "a13682424e3a340741a56ced2e630ade100a2532af1c9a6eaabb94d9e54fd1cc",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 97,
+        "raw_full72dpi_SHA256": "0368fa55304509f86ab62d6f5b9b46dc60578863047be1d2f810739a2e9ead2a",
+        "saved_full72dpi_SHA256": "0368fa55304509f86ab62d6f5b9b46dc60578863047be1d2f810739a2e9ead2a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 98,
+        "raw_full72dpi_SHA256": "f79249ba752b9659530e77ed4a214489c8d4bbaba92a65bcdff51c43958c1e89",
+        "saved_full72dpi_SHA256": "f79249ba752b9659530e77ed4a214489c8d4bbaba92a65bcdff51c43958c1e89",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 99,
+        "raw_full72dpi_SHA256": "9fd67a8da20a76d3bbac7614e54679f7c95617d6fbee5b2dc0697972cf212624",
+        "saved_full72dpi_SHA256": "9fd67a8da20a76d3bbac7614e54679f7c95617d6fbee5b2dc0697972cf212624",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 100,
+        "raw_full72dpi_SHA256": "7e7fd1fbde3ce52d4613c0bb39ba1b80f81be835c088cb7b78d9289039eb0e55",
+        "saved_full72dpi_SHA256": "7e7fd1fbde3ce52d4613c0bb39ba1b80f81be835c088cb7b78d9289039eb0e55",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 101,
+        "raw_full72dpi_SHA256": "15c73e68950d25c263de7c23cb9940c167d2a19fb441ff4ebd91c3d3c1425b4e",
+        "saved_full72dpi_SHA256": "15c73e68950d25c263de7c23cb9940c167d2a19fb441ff4ebd91c3d3c1425b4e",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 102,
+        "raw_full72dpi_SHA256": "6c9169dbc4a6ca411ff3a14b1d2593fd656c0ba89b197a022ea75b91ffb2f339",
+        "saved_full72dpi_SHA256": "6c9169dbc4a6ca411ff3a14b1d2593fd656c0ba89b197a022ea75b91ffb2f339",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 103,
+        "raw_full72dpi_SHA256": "721bf533fc4d2a11226e724a3819617e46634191f0870a562e07a587f0f7a49a",
+        "saved_full72dpi_SHA256": "721bf533fc4d2a11226e724a3819617e46634191f0870a562e07a587f0f7a49a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 104,
+        "raw_full72dpi_SHA256": "549db47589152a0d2fcaa8add332c135da961ea33090fd98b91253ddbc1d90e4",
+        "saved_full72dpi_SHA256": "549db47589152a0d2fcaa8add332c135da961ea33090fd98b91253ddbc1d90e4",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 105,
+        "raw_full72dpi_SHA256": "15a38b4f81a21e658a71fdef32469b581cfb63fa5f9c05b52f07a3e89f39fd53",
+        "saved_full72dpi_SHA256": "15a38b4f81a21e658a71fdef32469b581cfb63fa5f9c05b52f07a3e89f39fd53",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 106,
+        "raw_full72dpi_SHA256": "fb90489095a7a27bfdd7f284ac75fc3d9a597b265f7ddb4eacf8be61fa9a1622",
+        "saved_full72dpi_SHA256": "fb90489095a7a27bfdd7f284ac75fc3d9a597b265f7ddb4eacf8be61fa9a1622",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 107,
+        "raw_full72dpi_SHA256": "90298b55304893e6b09486005576e28221ece57d0ba0a03e589dcff8e4079334",
+        "saved_full72dpi_SHA256": "90298b55304893e6b09486005576e28221ece57d0ba0a03e589dcff8e4079334",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 108,
+        "raw_full72dpi_SHA256": "53100e58b43e85076ac0ad687224771dd61fac6ed9c2836e177fad031c323fa6",
+        "saved_full72dpi_SHA256": "53100e58b43e85076ac0ad687224771dd61fac6ed9c2836e177fad031c323fa6",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 109,
+        "raw_full72dpi_SHA256": "1172941f48fa8ed1fd779b6c0bf83f8e6e8eb714c4ab65af436f34fe54d49f8b",
+        "saved_full72dpi_SHA256": "1172941f48fa8ed1fd779b6c0bf83f8e6e8eb714c4ab65af436f34fe54d49f8b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 110,
+        "raw_full72dpi_SHA256": "b844e85e7f64e2821e1410e0afcdb0cf3e4cdaafe91b53c55f98d79dced1054e",
+        "saved_full72dpi_SHA256": "b844e85e7f64e2821e1410e0afcdb0cf3e4cdaafe91b53c55f98d79dced1054e",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 111,
+        "raw_full72dpi_SHA256": "070bf8982ec9171dd02d1f8838587433a5f32d2ac9f7cf6b9e467074a5c70815",
+        "saved_full72dpi_SHA256": "070bf8982ec9171dd02d1f8838587433a5f32d2ac9f7cf6b9e467074a5c70815",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 112,
+        "raw_full72dpi_SHA256": "a3ee31ee49b38799a141e51862360439a8ab0181483dfb70209eb28772201839",
+        "saved_full72dpi_SHA256": "a3ee31ee49b38799a141e51862360439a8ab0181483dfb70209eb28772201839",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 113,
+        "raw_full72dpi_SHA256": "d411374eb1a1eea87129f231a1c5accc4c49867061581deb04a33915179d0ab6",
+        "saved_full72dpi_SHA256": "d411374eb1a1eea87129f231a1c5accc4c49867061581deb04a33915179d0ab6",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 114,
+        "raw_full72dpi_SHA256": "b5f40ed6526f93de7b19a2d1f64f661c764474a247e18022c7c5e40f2921e870",
+        "saved_full72dpi_SHA256": "b5f40ed6526f93de7b19a2d1f64f661c764474a247e18022c7c5e40f2921e870",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 115,
+        "raw_full72dpi_SHA256": "c3fe7918a70378b2088c8af2d8c0d5c457dfd25fb376de7db7d2205439253e63",
+        "saved_full72dpi_SHA256": "c3fe7918a70378b2088c8af2d8c0d5c457dfd25fb376de7db7d2205439253e63",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 116,
+        "raw_full72dpi_SHA256": "d346669cb37e86c09a53bfc28444d1449b04e4a6e73daeb8f798757d92427e9a",
+        "saved_full72dpi_SHA256": "d346669cb37e86c09a53bfc28444d1449b04e4a6e73daeb8f798757d92427e9a",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 117,
+        "raw_full72dpi_SHA256": "230f94b270064b8a9f33909a080054ebfa02b1b59c01be1f3c74c8bb556e742d",
+        "saved_full72dpi_SHA256": "230f94b270064b8a9f33909a080054ebfa02b1b59c01be1f3c74c8bb556e742d",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 118,
+        "raw_full72dpi_SHA256": "e56811f20566a933a0efab4ddd34f70842a4da0143d8e4b45c833b744ec94162",
+        "saved_full72dpi_SHA256": "e56811f20566a933a0efab4ddd34f70842a4da0143d8e4b45c833b744ec94162",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 119,
+        "raw_full72dpi_SHA256": "3e308cb9dfa3224c5006326edb708619690d64ef8d1f95cf2c84b10d33549dbe",
+        "saved_full72dpi_SHA256": "3e308cb9dfa3224c5006326edb708619690d64ef8d1f95cf2c84b10d33549dbe",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 120,
+        "raw_full72dpi_SHA256": "9d66e4b990d4a6cad23e39e275943b6b84ca5c874d481a433630f6c340e20e2b",
+        "saved_full72dpi_SHA256": "9d66e4b990d4a6cad23e39e275943b6b84ca5c874d481a433630f6c340e20e2b",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 121,
+        "raw_full72dpi_SHA256": "67dc6629fbab3859a3c7f7cbad4200495c8c52c04ba6f42183c2724726faec36",
+        "saved_full72dpi_SHA256": "67dc6629fbab3859a3c7f7cbad4200495c8c52c04ba6f42183c2724726faec36",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      },
+      {
+        "physical_page": 122,
+        "raw_full72dpi_SHA256": "842538adc2ce6f3c9c2721c881b6f4b0e8536f0673779056d40bd178137b1a24",
+        "saved_full72dpi_SHA256": "842538adc2ce6f3c9c2721c881b6f4b0e8536f0673779056d40bd178137b1a24",
+        "text_glyphs_geometry_content_stream_and_links_equal": true
+      }
+    ]
+  },
+  "Step12": {
+    "received_at_utc": "2026-11-13T09:43:25.520525+00:00",
+    "parent_source": {
+      "library_file_id": "libfile_fde3_f-2e1eadfe6b808191b24f10a96aeb0937_383d682b1c388191a1961becbec9fb77",
+      "version": 2,
+      "file_id": "file_00000000bb788212966aca96b30d7f8c",
+      "bytes": 4105439,
+      "SHA256": "af88d2fecaa25d90335a0cd3343c9a65e66364b2507ddcb7786862d2fb3db8bc"
+    },
+    "parent_PDF": {
+      "library_file_id": "libfile_fde3_f-529a4a5c35b4819197e62982dd54c196_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "file_id": "file_000000004710821288a7400c08ef0259",
+      "persisted_SHA256": "2d68ae972b2e74b33c4a0af1ce9e868c01c7a2ab21d0d82123ace8c938ea2e6b"
+    },
+    "refiner_response": {
+      "library_file_id": "libfile_fde3_f-e2c14889a5bc819193785098e6afc83c_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "SHA256": "fc52b95b63096e65de10bff5a7bd7761768a6a06d1c24076e947ef87eb41f8bf",
+      "disposition": "NO OBJECTIONS; no repair request"
+    },
+    "expansion_response": {
+      "library_file_id": "libfile_fde3_f-af55ab08aeb081919f8057cff4d95cc0_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "SHA256": "e0fde4eb435194797b90309a2e951d759477d8bcd1ad60c7140a6ba52e47e193",
+      "disposition": "NO OBJECTIONS to proceeding; sole optional nonblocking P2"
+    },
+    "step12_decision": "Adopt P2 with three visual lead-ins; preserve every original guide word/order and all caveats. No new math or first-edition redo.",
+    "step13_status": "COMPLETE:122-page incremental warm/white builds, current1\u20133 visual pass; delivery persistence/roundtrip in external companion report",
+    "next": "After resolution, dot Step14 explanation, not another feedback/math round.",
+    "completed_at_utc": "2026-11-13T09:47:38.100652+00:00"
+  },
+  "Step13_QA": {
+    "actual_current_full_page_Poppler_reviews": [
+      1,
+      2,
+      3
+    ],
+    "actual_current_white_review": [
+      2
+    ],
+    "unchanged_above_footer_pages_with_carried_actual_first_edition_coverage": 120,
+    "overlap_page": 3,
+    "all122_edition_footer_folios_verified": true,
+    "all40_views_and_complete_upstream_exact_parent_bytes": true,
+    "all322_AUX_values_folios_destinations_equal": true,
+    "no_new_math_review_no_other_volume_or_GitHub_or_deletion": true,
+    "fresh_measures": {
+      "prose_line_sample_count": 3029,
+      "characters_p50": 75,
+      "characters_p90": 81,
+      "characters_max": 88,
+      "sample_rule": "verify.py: NFKC extracted line length>=30, >=55% from nonmath Schola spans near11.5TeX pt; diagnostic rather than all prose or aesthetic validation.",
+      "colors": {
+        "paper": "F5F1E7",
+        "body": "242A28",
+        "secondary": "454D49",
+        "accent": "2D5660"
+      },
+      "body_contrast": 12.957966010405862,
+      "secondary_contrast": 7.722961072434094,
+      "medical_or_universal_comfort_claim": false,
+      "PDF_SHA256": "e8f9115d990ea6b5486586d060fa3c748dd8ffd87a6ff2b7caa65ac4bd4f6b9c",
+      "freshly_recomputed_at_utc": "2026-11-13T09:47:38.100652+00:00",
+      "body_size_Point_span_counts": [
+        [
+          11.457,
+          8493
+        ],
+        [
+          10.1619,
+          407
+        ],
+        [
+          11.9552,
+          148
+        ],
+        [
+          8.0199,
+          26
+        ]
+      ],
+      "consecutive_prose_baseline_gap_samples": 2294,
+      "baseline_gap_Point_modes": [
+        [
+          15.741,
+          1153
+        ],
+        [
+          15.74103,
+          732
+        ],
+        [
+          15.74097,
+          175
+        ],
+        [
+          19.72601,
+          41
+        ]
+      ],
+      "glyph_gap_rule": "All nonmath Schola spans counted; gap sample uses consecutive extracted body lines of>=30 chars, first span near11.457 PDF points, same left within1pt and gap in(0,25)pt."
+    },
+    "diagnostics": {
+      "entry": "volume",
+      "converged_passes": 2,
+      "hard_diagnostics": [],
+      "overfull_or_header_diagnostics": [],
+      "underfull_diagnostics": [
+        "Underfull \\hbox (badness 1082) in paragraph at lines 31--36"
+      ],
+      "pdf_sha256": "e8f9115d990ea6b5486586d060fa3c748dd8ffd87a6ff2b7caa65ac4bd4f6b9c"
+    }
+  },
+  "rollback": "Fixed first source v2 SHA af88d2fecaa25d90335a0cd3343c9a65e66364b2507ddcb7786862d2fb3db8bc and PDF v0 SHA2d68ae972b2e74b33c4a0af1ce9e868c01c7a2ab21d0d82123ace8c938ea2e6b remain versions, not replaced by a historical input.",
+  "remaining_limits": "All six inherited global gates OPEN; LR body/exact external correspondence UNKNOWN. No EN-STABLE, exhaustive-reference or formal complete-volume acceptance claim.",
+  "next": "dot Step14 explanation; no new Step11/reproof/boundary round.",
+  "write_conflict_resolution": "Initial PDF guard0 returned conflict; same current node reread and refreshed unchanged v0 before guarded reapplication. Source savedv3 once; not resent."
+}
