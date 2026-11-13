@@ -1,0 +1,170 @@
+handoff:
+  volume: V0
+  stage_from: editorial_step13_second_edition
+  stage_to: dot_step14_closure_explanation
+  source_version: F1 / Study L2 / second editorial edition; Library source v5
+  parent_version: 'First editorial edition: source v4 SHA256 8fa1adc1a994d6e81a7294e723bb29390602904eb5f3b9bf9fbed8efe92c94d1;
+    PDF v0 367 pages'
+  source_id_or_commit: libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77
+  source_sha256: 0a0d81675a5c494c14480136321fe53bb9a74e985c7b6b19f9cbd84c25680dfe
+  changed_paths_or_sections:
+  - 'layout/study/reading-guide.tex: exact original wording, three labeled layers'
+  - 'layout/study/frontmatter.tex: second-edition identification only'
+  - 'layout/study/integration.tex: footer/PDF identification only'
+  - 'verify.py and provenance/QA: exact guide-layer guards and current evidence'
+  - 'editorial/step12-13/: both original replies, complete contract, independent decision
+    and local fit record'
+  outputs:
+    editable_source:
+      library_file_id: libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77
+      file_id: file_00000000f1e88230b799bc9c3d3d588a
+      current_version_number: 5
+      downloaded_bytes: 5729203
+      downloaded_sha256: 0a0d81675a5c494c14480136321fe53bb9a74e985c7b6b19f9cbd84c25680dfe
+    pdf:
+      library_file_id: libfile_fde3_f-a3482ecc25d08191b87c8271fb6ea8d0_383d682b1c388191a1961becbec9fb77
+      file_id: file_000000006c7481fb87a235ee5fc186e6
+      current_version_number: 1
+      downloaded_bytes: 2124880
+      downloaded_sha256: d4d7996be987225b6d90266a905a60e910d747254f729d97df8f3f4019b6f459
+      preupload_sha256: 60bd18d285587e6c28a7e7ad7e9432f3c24168789e3e026736c3a73affc6ad3b
+    coverage_table:
+      location_in_source: provenance/content-f1/CONTENT-COMPLETENESS.json
+      status: Existing F1 content coverage accepted unchanged; no new literature/proof
+        audit.
+    issue_list:
+      location_in_source: editorial/step12-13/DECISION.md and provenance/content-f1/REMAINING-GATES.json
+      adopted_P2: Resolved; all original history and limitations preserved.
+    delivery_verification:
+      library_file_id: libfile_fde3_f-c55dfda2cea881918fff93e51e6a14df_383d682b1c388191a1961becbec9fb77
+      file_id: file_0000000015688212b6de1085dbdcd683
+      version: 0
+      SHA256: 5aa75046a541adfecd8ce1e01a742ed4067685550f8833c90302db2ecbd7263b
+  unresolved:
+    source: Accepted r71/v77 current register;no new model research or gate closure
+    gates:
+    - gate_id: GATE:PL09
+      state: OPEN_BOOK_FRAMEWORK_ACKNOWLEDGEMENT
+      open: true
+      remaining:
+      - No finite-position/append/record-interpretation or finite-rule proof is missing
+        for SM-ZF:ZF-FIN-01/02 provides them.
+      - The original acknowledged-book-framework prerequisite remains;no arbitrary
+        external predicate or common-foundation realization is inferred.
+    - gate_id: GATE:FOUNDATIONS
+      state: OPEN_COMMON_FOUNDATION_AND_GENUINE_LARGE_SCOPE
+      open: true
+      remaining:
+      - SM-ZF/HFSet is a concrete relative interpretation with an explicit axiom delta,not
+        a selected book policy or consistency theorem.
+      - The original full-completeness/common-foundation and genuinely larger range
+        requirements remain;EC/V1 work stays later.
+    - gate_id: GATE:SIZE
+      state: OPEN_GENUINE_LARGE_RANGE_INTERPRETATION
+      open: true
+      remaining:
+      - All named set-indexed supply interfaces and the definable locally small large-target
+        extension are realized in SM-ZF;this is not confined to finite examples.
+      - Arbitrary proper-class-indexed/higher-type families require a different explicitly
+        acknowledged range interpretation. ZF-SIZE-01 proves why set graphs alone
+        do not cover them.
+    - gate_id: GATE:CHOICE
+      state: OPEN_BOOK_ACK_AND_ARBITRARY_RANGE_FORMATION
+      open: true
+      remaining:
+      - Unique set-valued families are formed explicitly;HFSet supplies canonical
+        pullback/splitting/equalizer families;general nonunique families remain given
+        parameters.
+      - No global arbitrary-selection principle is added. Original large-range/whole-scope
+        formation and policy acknowledgement remain.
+    - gate_id: GATE:EXTERNAL-METATHEORY
+      state: OPEN_BOOK_MODEL_ACK_AND_LARGE_TYPED_SEMANTICS
+      open: true
+      remaining:
+      - A named comparison semantics and complete finite/set capability proofs now
+        exist;do not relabel them as merely awaiting a name.
+      - They have not been acknowledged as the book framework,and do not realize arbitrary
+        larger typed ranges or the later EC package.
+    - gate_id: GATE:EMPTY-CATEGORY
+      state: OPEN_BOOK_MODEL_ACKNOWLEDGEMENT
+      open: true
+      remaining:
+      - The CP58 working admission decision stays closed. ZF-EMPTY-01 realizes the
+        empty-carrier interpretation by bounded quantifiers,including the retained
+        local witnesses.
+      - The remaining original common-model acknowledgement/large-scope dependency
+        is not met by a comparison alone;no set-model empty-syntax proof remains missing.
+    policy_decision_group: Whether/where to acknowledge a formal external framework
+      for the series and how its genuinely larger admitted ranges are interpreted.
+      SM-ZF/HFSet remains comparison evidence,not adopted policy. This cannot be settled
+      by routine wording or by silently restricting the book to small cases.
+    LR_body: UNKNOWN;prevents exhaustive LR correspondence/no-omission certification
+    impact_on_content_handoff: Does not require returning the already supplied V0
+      core and retained extensions to expansion;does prevent unconditional full-volume/foundation/reference
+      certification
+    later_EC_realization: Remains later-volume work
+    all_six_gates_closed: false
+  requested_next_action: 'dot Step 14: closure explanation of this completed editorial
+    round, both Step 11 responses, Step 12 decision, actual paired outputs and unchanged
+    formal/literature limits. No new editing, expansion or proof audit requested.'
+  recovery_reference:
+    fixed_parent_source_library_file_id: libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77
+    fixed_parent_version: 4
+    fixed_parent_file_id: file_000000007a0c81fd9a0e50bffdf53362
+    parent_source_sha256: 8fa1adc1a994d6e81a7294e723bb29390602904eb5f3b9bf9fbed8efe92c94d1
+    fresh_parent_CRC_safe_extract_and_874_manifest_verified: true
+    second_edition_899_manifest_and_restored_verify_passed: true
+    first_edition_PDF_file_id: file_00000000bde081fd8d7abe4ba9a930e6
+    CP58_retained: true
+  receiver_ack: null
+editor_receipt:
+  received_contract:
+    library_file_id: libfile_fde3_f-216948c89d58819192b4de1801584dc0_383d682b1c388191a1961becbec9fb77
+    version: 0
+    contract_version: '1.0'
+    SHA256: 67cb3f63d2781bc1f01d355941a54a025e15643abd3322fd61a789a227154a9d
+  received_refiner_response:
+    library_file_id: libfile_fde3_f-ae4c403c5f948191ac1bff73b611ba89_383d682b1c388191a1961becbec9fb77
+    version: 0
+    SHA256: 8500b5e5ecfa0eecb32264df5a71b73296ebaa27456e706aefd8482f28e334dd
+    decision: NO OBJECTIONS; no corrections requested
+  received_expansion_response:
+    library_file_id: libfile_fde3_f-4623286acdc081918fbf434a4904069f_383d682b1c388191a1961becbec9fb77
+    version: 0
+    SHA256: 561c7d15fd71fd1c25f98181a03a0937311fb1e55592d249662fb7da8b0a8a57
+    decision: No blocking objections; one optional P2 readability suggestion
+  decisions:
+  - item: Refiner NO OBJECTIONS
+    action: Accepted as supplied; no correction requested or mathematical task initiated.
+  - item: Expansion sole optional P2
+    action: Adopted exact-wording reading route / provenance / working assumptions-open
+      scope layers. Resolved in second edition.
+  steps_12_13_complete: true
+  no_new_math_or_body_or_other_volume_changes: true
+QA_summary:
+  actual_pages: 367
+  actual_current_warm_visual_physical_pages:
+  - 1
+  - 2
+  - 3
+  actual_white_visual_physical_page: 2
+  above_footer_pages_equal_to_first_edition: 365
+  coverage_overlap: 1
+  all_1018_label_values_folios_destinations_equal: true
+  all_bookmarks_and_links_equal: true
+  source_download_byte_identical: true
+  PDF_download_byte_identical: false
+  all_367_persisted_PDF_pages_text_geometry_links_streams_and_72DPI_pixels_equal: true
+  formal_framework_and_LR_UNKNOWN_retained: true
+archive_status:
+  scoped_inventory_and_recovery_checked: true
+  account_wide_quota_audit: false
+  private_remote_visibility_or_recovery_checked: false
+  GitHub_upload_or_submission: false
+  deleted_or_moved_active_data: false
+  permissions_changed: false
+  150MB: Future target, not achieved/certified or used as deletion authority.
+acknowledgement_note: Editor actually received both separate Step 11 responses and
+  the full contract and completed steps 12–13. receiver_ack stays null until dot actually
+  acknowledges these fixed second-edition outputs.
+created_at_utc: '2026-11-13T06:05:55.192069+00:00'

@@ -1,0 +1,2910 @@
+{
+  "edition": "F1 Study L2 second editorial edition, workflow steps 12\u201313; candidate, not EN-STABLE",
+  "verified_at_utc": "2026-11-13T06:04:51.862413+00:00",
+  "step11_and_contract_inputs": {
+    "received_at_utc": "2026-11-13T05:55:39.928695+00:00",
+    "contract": {
+      "library_file_id": "libfile_fde3_f-216948c89d58819192b4de1801584dc0_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "contract_version": "1.0",
+      "SHA256": "67cb3f63d2781bc1f01d355941a54a025e15643abd3322fd61a789a227154a9d"
+    },
+    "refiner": {
+      "library_file_id": "libfile_fde3_f-ae4c403c5f948191ac1bff73b611ba89_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "SHA256": "8500b5e5ecfa0eecb32264df5a71b73296ebaa27456e706aefd8482f28e334dd",
+      "decision": "NO OBJECTIONS; no corrections requested"
+    },
+    "expansion": {
+      "library_file_id": "libfile_fde3_f-4623286acdc081918fbf434a4904069f_383d682b1c388191a1961becbec9fb77",
+      "version": 0,
+      "SHA256": "561c7d15fd71fd1c25f98181a03a0937311fb1e55592d249662fb7da8b0a8a57",
+      "decision": "No blocking objections; one optional P2 readability suggestion"
+    },
+    "parent_source": {
+      "library_file_id": "libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77",
+      "version": 4,
+      "file_id": "file_000000007a0c81fd9a0e50bffdf53362",
+      "SHA256": "8fa1adc1a994d6e81a7294e723bb29390602904eb5f3b9bf9fbed8efe92c94d1"
+    },
+    "editor_step12_decision": "Adopt optional P2 as exact-wording, three-layer guide. No further math task; first-edition body/layout retained.",
+    "next": "dot Step 14 closure explanation using actual paired outputs and delivery record. No new feedback round or math task.",
+    "step13_disposition": "Completed: exact-wording three-layer guide; 367 pages; actual cover/guide/next-page and white-guide review passed; no changes to body, math, other volumes or accepted Study design."
+  },
+  "scope": "One existing P2 readability suggestion adopted; no new mathematical review, body edits, further feedback round or first-edition redo.",
+  "files": [
+    {
+      "file_name": "categorical-mathematics-volume-0-f1-study-l2-editorial-candidate.pdf",
+      "library_file_id": "libfile_fde3_f-a3482ecc25d08191b87c8271fb6ea8d0_383d682b1c388191a1961becbec9fb77",
+      "file_id": "file_000000006c7481fb87a235ee5fc186e6",
+      "current_version_number": 1,
+      "preupload_bytes": 1671278,
+      "preupload_sha256": "60bd18d285587e6c28a7e7ad7e9432f3c24168789e3e026736c3a73affc6ad3b",
+      "downloaded_bytes": 2124880,
+      "downloaded_sha256": "d4d7996be987225b6d90266a905a60e910d747254f729d97df8f3f4019b6f459",
+      "byte_identical": false,
+      "PDF_equivalence": {
+        "verified": true,
+        "all_367_pages": [
+          {
+            "physical_page": 1,
+            "printed_label": "I",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b23f8ff5771e10754b3b59c50ccc702226c5edfa215bf25b0c86ee9960a504be"
+          },
+          {
+            "physical_page": 2,
+            "printed_label": "i",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "47847885cd61ed9a34a5782707c356ee57ba522de13823362456f1018e60f548"
+          },
+          {
+            "physical_page": 3,
+            "printed_label": "ii",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0a0db260d49315209d68c407be2ddbd43ad5d0735c27f4cb5ee6d7f8b2e258b4"
+          },
+          {
+            "physical_page": 4,
+            "printed_label": "iii",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1649c746339f79d3021d29fdf8f53438b1daaedb76f18e88c6cb004d7c13c641"
+          },
+          {
+            "physical_page": 5,
+            "printed_label": "iv",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5f819eec2f02f35459772bcfd1ac727ebd6bd4441172371332852d8a85b6f3cd"
+          },
+          {
+            "physical_page": 6,
+            "printed_label": "v",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "91d2d54fda48087532f0d1252d69c63784133db0bc5b50b6afc667c5c0f25c0d"
+          },
+          {
+            "physical_page": 7,
+            "printed_label": "vi",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "99dde294f16053901fcbda4aeb11923685f9e830b8e12b4ecc1a172aa351f55f"
+          },
+          {
+            "physical_page": 8,
+            "printed_label": "vii",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4420bd186bb77a6cccbfa101ff3782e0986cb899365082a040f793b6fa5de055"
+          },
+          {
+            "physical_page": 9,
+            "printed_label": "viii",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9daf6ef4fea6066a72e7b9cde1dfc9a2bd43ef552a803721dff28c9c0139eb0f"
+          },
+          {
+            "physical_page": 10,
+            "printed_label": "ix",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "06edc7ac925134a20f6d17b559a47f27711404596cabb361f01cbbef692acb26"
+          },
+          {
+            "physical_page": 11,
+            "printed_label": "1",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0f71536f2daf5b8ca28deb55fdfe35d3470da829ec11aa1357b1babb63a842ce"
+          },
+          {
+            "physical_page": 12,
+            "printed_label": "2",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f9264dc909daab3c4376b60cd1608d09be8c7611a5e5fb7661daf65cb6df9811"
+          },
+          {
+            "physical_page": 13,
+            "printed_label": "3",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f3823b0a880d62870124076789d8cc5153f314b506e1c39ba68304069452e3fa"
+          },
+          {
+            "physical_page": 14,
+            "printed_label": "4",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0643a4ca05715bce2ae3e0987c66263768e20b0c7eb8e90a724023a199506bb1"
+          },
+          {
+            "physical_page": 15,
+            "printed_label": "5",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0fac75f7c51207eea080da52af1e328059d067f212873414f31834a665415b4f"
+          },
+          {
+            "physical_page": 16,
+            "printed_label": "6",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0eded08ca0aac71f3d8f1cca3725d3c8e4e242791b90f27529f0b62b268ff9ad"
+          },
+          {
+            "physical_page": 17,
+            "printed_label": "7",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0defe652e64ecc20d765f822164c70afec5a5524b02c6db9e76fa7f9e4d6578b"
+          },
+          {
+            "physical_page": 18,
+            "printed_label": "8",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "bfb7157ef50efd74018763536a32ef286b721efda87480a5836eb4d860a2385c"
+          },
+          {
+            "physical_page": 19,
+            "printed_label": "9",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "114870c2443804545be4857135ac3f46dce43609ba201c2f2bd61b9d7371176b"
+          },
+          {
+            "physical_page": 20,
+            "printed_label": "10",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b3dd143981ab3a6975f1191e16e5fd9f45798bfcb68660b0d0abb49a6a592ca0"
+          },
+          {
+            "physical_page": 21,
+            "printed_label": "11",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d311856c72362e61d764d6f6f9c0e07d2b6fdc0257a8aa8e9adbe1e7d57b9c40"
+          },
+          {
+            "physical_page": 22,
+            "printed_label": "12",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "86cb4c082ec0531baebf72dfb8006404ef95cea87f13f3a375acafb85c1712a9"
+          },
+          {
+            "physical_page": 23,
+            "printed_label": "13",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ab2ab591e3775192e762b3bd11db67143e5d1ee08973d4a8754cf56c6aad21b7"
+          },
+          {
+            "physical_page": 24,
+            "printed_label": "14",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "91d691d274397e859a785ae1ad710be3aa7db5b18b6874b2cb37bef61420ca31"
+          },
+          {
+            "physical_page": 25,
+            "printed_label": "15",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9b1b00fd595fca33d25dfb7232c867ab3979bb1a583a0f2204622aee85c9b3c5"
+          },
+          {
+            "physical_page": 26,
+            "printed_label": "16",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e4e3cde224c223db693f75caf776dbbae83fec0448ffa3764d8c8de50a48f88f"
+          },
+          {
+            "physical_page": 27,
+            "printed_label": "17",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d577354fca39147dd31506662cc020a4c07e298860ebf4c337aa4f9690634204"
+          },
+          {
+            "physical_page": 28,
+            "printed_label": "18",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8194926ae492017f1ee63a78d01ce6486cb2c2eb4b1dbe0bbcf0d74a2f16f58d"
+          },
+          {
+            "physical_page": 29,
+            "printed_label": "19",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2f685b963078b6418891ac25c302b03cc73739cf3b731ca1257f376f9f23c6c2"
+          },
+          {
+            "physical_page": 30,
+            "printed_label": "20",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "97880fbe5f3c891d0f1fa75ef16391fb0215839c3b2e5b283cd8503b0b7b20fd"
+          },
+          {
+            "physical_page": 31,
+            "printed_label": "21",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "65c19b85830c78847e265dbf1e47bd51526026beb2268e19e0b83487349290d3"
+          },
+          {
+            "physical_page": 32,
+            "printed_label": "22",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "121edc5c0df9d4efb2cd4ec652c41503e72eb04e69176cc0111e2cd7f15f7b88"
+          },
+          {
+            "physical_page": 33,
+            "printed_label": "23",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4a710d2bd747179382933a65a30c3e053db1c973d91c2ca679f38ea03d85f3e4"
+          },
+          {
+            "physical_page": 34,
+            "printed_label": "24",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ed90384aa38cc2889dbc4e77b41b32adafd0aa0f241c2a5c75c29829708ae4ba"
+          },
+          {
+            "physical_page": 35,
+            "printed_label": "25",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7dcaf3463016bb21e9a7c97895da6a9de7ecbf913006b6f0c2605350df538a94"
+          },
+          {
+            "physical_page": 36,
+            "printed_label": "26",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0070ffc7eac7fce3da69aa24f7d7e2d741a61f3d9d15801e413cb246031faa55"
+          },
+          {
+            "physical_page": 37,
+            "printed_label": "27",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "308018cb97eb4bffce3501a8cf4a9f7cd2156a412347a761aacf892ef371dc64"
+          },
+          {
+            "physical_page": 38,
+            "printed_label": "28",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ecfad0e62b49f27da8e1ee05ad36fcddf684b1fcb3c2cef237248f0a5b9f396a"
+          },
+          {
+            "physical_page": 39,
+            "printed_label": "29",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "de3cce194beb3166a255b373e9fc94940f225fa1920cf7bceb6f185f7f34739a"
+          },
+          {
+            "physical_page": 40,
+            "printed_label": "30",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "555a1a7bfdcab096e7edd2f2c31d06447d5837903b6e1518649bf3396a7536ae"
+          },
+          {
+            "physical_page": 41,
+            "printed_label": "31",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5c66b49ccebd41971bc1a6825e2eaa939a5992ae988289e893a23033ab71a1ec"
+          },
+          {
+            "physical_page": 42,
+            "printed_label": "32",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d39827137d13fd90609518f251557c639f3e52189d82ea1e66e7c7eca4f1f6f6"
+          },
+          {
+            "physical_page": 43,
+            "printed_label": "33",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cba206161fb4836734c62a5c0a915f807a169e202546e1c7ab8b838a2276cbbb"
+          },
+          {
+            "physical_page": 44,
+            "printed_label": "34",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2c7178038b8e4d0558c5ccdb57b266dfd3b0d574d93abb9b5792d5de11130896"
+          },
+          {
+            "physical_page": 45,
+            "printed_label": "35",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c6ab285b2b0e16d2504f28cd8a5abb182f65306a6c73e1ee139249977e1bd880"
+          },
+          {
+            "physical_page": 46,
+            "printed_label": "36",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d3f0323659aa6aceb73d1c43cb412a9b47c4c325312207bbd368d92213f6610e"
+          },
+          {
+            "physical_page": 47,
+            "printed_label": "37",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "66017b60f87058fd02ea3dded6087c0540317fffd9c2d94b935ccd53004912cb"
+          },
+          {
+            "physical_page": 48,
+            "printed_label": "38",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c9f09348e9ff0314cbcb7dd7d67f2abd19cc9aaaddd9191fd7f2087fb0794a35"
+          },
+          {
+            "physical_page": 49,
+            "printed_label": "39",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "84d6c7a00522ed2a0b16103a7a87d14bbb3caaa85f3094eb736f6d14d6d860e7"
+          },
+          {
+            "physical_page": 50,
+            "printed_label": "40",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "083b5e76bf9f86e37bc1a788db818d924f3a349f0dbc5709aff7c373369a9f5d"
+          },
+          {
+            "physical_page": 51,
+            "printed_label": "41",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "206fd8dfcad9484734d444593aa18decb72c973fbe1f2fba3d9f2a90c73a148b"
+          },
+          {
+            "physical_page": 52,
+            "printed_label": "42",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f962a6e55afff7fb41405653c9af8d4c37d85d4a81b738431491c4033497a49f"
+          },
+          {
+            "physical_page": 53,
+            "printed_label": "43",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5034304a3cb87ec47cb8dad15b26927ee1fa7cb86aa4610f03be632df859e38c"
+          },
+          {
+            "physical_page": 54,
+            "printed_label": "44",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8eb1f4d2cd141ebaafc2d4ab67ac132be2548105e79379a9e4b78cf1cf883098"
+          },
+          {
+            "physical_page": 55,
+            "printed_label": "45",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4e4754d247c13956cc9b212a525c09dbfa2abdb62ea73648ef66ed21cfb40ea2"
+          },
+          {
+            "physical_page": 56,
+            "printed_label": "46",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d26f350bc8258d927a66391d363f1006f1d15d9e738c77a0e0e825014f58a66b"
+          },
+          {
+            "physical_page": 57,
+            "printed_label": "47",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "bcebd07515befba1755e04ebdf014d733a28d8e0da49c78042acbd702cf55d83"
+          },
+          {
+            "physical_page": 58,
+            "printed_label": "48",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8501534c5b0d779eca9b240f50fd812395f0907a89193b71952f74e8b6bbef5d"
+          },
+          {
+            "physical_page": 59,
+            "printed_label": "49",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9b1d937be8cf806405d51244c647929c890d43f1d7e7f70f4b5c09e970f2f994"
+          },
+          {
+            "physical_page": 60,
+            "printed_label": "50",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a4d260510d6c4072061b53ad9751476be76d9825009a56103aa096e419121b66"
+          },
+          {
+            "physical_page": 61,
+            "printed_label": "51",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "94556a189778372ebe1b1a9bea1a69ca66acb1801c8c66698127bcbf1d7d0bea"
+          },
+          {
+            "physical_page": 62,
+            "printed_label": "52",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3bf9960c16edc66dac663347f0b755f31fa1604ba4c2c4b174f88219eba94611"
+          },
+          {
+            "physical_page": 63,
+            "printed_label": "53",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "61cf11e074798c881dd699d573aa2a2714b420198d1cb784280760a111234e75"
+          },
+          {
+            "physical_page": 64,
+            "printed_label": "54",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aa1f433d87e824d1c2eb26de21e37720b7382c81277b49b41cef4be5770cc095"
+          },
+          {
+            "physical_page": 65,
+            "printed_label": "55",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e94b6bb5abf93dc74cf233b4b7ba1eb4efd48db589d3fe90b1b06eb565e3fb68"
+          },
+          {
+            "physical_page": 66,
+            "printed_label": "56",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e72dd64f10c08ba18c67b4afa4fe502579b29709a25d69d536c192a8031f9792"
+          },
+          {
+            "physical_page": 67,
+            "printed_label": "57",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8798d2e7f07c4d5ae7ff05bd01e0942922bc744919f5e8041e621e12b3bf7cfc"
+          },
+          {
+            "physical_page": 68,
+            "printed_label": "58",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "24d990c03bf61fa4ff5f42080a921d042184dfa694522a45726628e2f1ae7d9f"
+          },
+          {
+            "physical_page": 69,
+            "printed_label": "59",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7b7386c59af7afd72605095d53221f3e8878c8630cb3adda5bf2874aea708020"
+          },
+          {
+            "physical_page": 70,
+            "printed_label": "60",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2b8be9ffaded629e9a2ddb6ed78dae56e06f7c720240c1ff343fb3a95ceaadf8"
+          },
+          {
+            "physical_page": 71,
+            "printed_label": "61",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a9a664239c3c33e99086e1a24e4e39cb88a956559fe5e11c3ff27abf76f0ed2b"
+          },
+          {
+            "physical_page": 72,
+            "printed_label": "62",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d93dce556ac6c14d6921ea188e19786bc4eed0c08e02985e1e3dcb53f4b9a757"
+          },
+          {
+            "physical_page": 73,
+            "printed_label": "63",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "182db287059cb5289df71f65f4f7fdf1faeb2245771638e3889f368e1088fe93"
+          },
+          {
+            "physical_page": 74,
+            "printed_label": "64",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0ddb56221703d14c5ffaeeb3f029e4e892f962c99a048f078900813b38d55e4d"
+          },
+          {
+            "physical_page": 75,
+            "printed_label": "65",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a59dce762cd049973e53d3658f0535f6b0c0c3df3d18649ce1e9a021b5a114ca"
+          },
+          {
+            "physical_page": 76,
+            "printed_label": "66",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d95cb155c9cd24b1fe0666e1f54db68c5f1a4524126cf9931ace955287942499"
+          },
+          {
+            "physical_page": 77,
+            "printed_label": "67",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "07647a40112fb1ba38bdc73debbfa4b87b6ef9e60c3d9481da88cac7b61e4299"
+          },
+          {
+            "physical_page": 78,
+            "printed_label": "68",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b015e5acc86397835907e15f665d06b43fac27d0a627e8d1328b4b09ae7b2b67"
+          },
+          {
+            "physical_page": 79,
+            "printed_label": "69",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aea4509bfb28c17de1b6607c61c0e56f01e53f35798c50396b110849aa22f30e"
+          },
+          {
+            "physical_page": 80,
+            "printed_label": "70",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7a160a2a3670bd83571ac3d7e310b723542f18653c6d5de333f90e3e4613e9a0"
+          },
+          {
+            "physical_page": 81,
+            "printed_label": "71",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9bf54bb57a2d9301b4e688d273d318767231a1c6f35bad1e9bb4358dbe8efc06"
+          },
+          {
+            "physical_page": 82,
+            "printed_label": "72",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c27b54a0077a15a271d4691fa2cafa672dfa5a99345051689a387d637a2f5e6e"
+          },
+          {
+            "physical_page": 83,
+            "printed_label": "73",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "412bfb75e7cbf0598c62b5e1ab562d1f65b07c87be7c8929c15932d74ac5dc3d"
+          },
+          {
+            "physical_page": 84,
+            "printed_label": "74",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7f575e9949f671152f3a7412c40e3827ba403a10658750525f786a6510e6c75e"
+          },
+          {
+            "physical_page": 85,
+            "printed_label": "75",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2e949a2cc7be2e3c6049bf4c716e8c9fa431c07746a7b8a2eda11db305594ef4"
+          },
+          {
+            "physical_page": 86,
+            "printed_label": "76",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f0a9b6ad4599522da1aaaac326c708464bb790d10d9b9793d1d259ff7c0f3eff"
+          },
+          {
+            "physical_page": 87,
+            "printed_label": "77",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4fe8420c048daf452eba56b2fc78d46e54031d40ba51a4a5ebf1dadf18a4eaa3"
+          },
+          {
+            "physical_page": 88,
+            "printed_label": "78",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cf08ceb497ecdf56f63acb57956cf2fb1537110d2cd8386f2db3125b62ce80cb"
+          },
+          {
+            "physical_page": 89,
+            "printed_label": "79",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8a82d7482da2c42db04c635a23a3cac7299681dce1947b1f39c4cf6cb4883415"
+          },
+          {
+            "physical_page": 90,
+            "printed_label": "80",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "07bcb2b62996401205eb83202d66de32008ffad1e9a77259e0fffad847ce9460"
+          },
+          {
+            "physical_page": 91,
+            "printed_label": "81",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6af0a4898d0b57360319dbd86944b3d46d8878c9b584d01179d56a6829355316"
+          },
+          {
+            "physical_page": 92,
+            "printed_label": "82",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "573d48966152d456f6d90409ca4ca75ac285405ddaa594b3695fbca03ac1ad42"
+          },
+          {
+            "physical_page": 93,
+            "printed_label": "83",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "03a972edc6d7f8984e6901c62a2023e002b021f589e555538dd1c806efbee6cc"
+          },
+          {
+            "physical_page": 94,
+            "printed_label": "84",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "782ebbc65f2c300279c6e4a02e9e68092a953e59e0528c0f420579857af6bd78"
+          },
+          {
+            "physical_page": 95,
+            "printed_label": "85",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7edd590750b915ab48bc58610ee8a1054dfb5b9fc20c5cbb755192c17674b1cb"
+          },
+          {
+            "physical_page": 96,
+            "printed_label": "86",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "878ababffe4e3383bd874db0a3b0d7cd39d3047b673ff832c59af63f933f56e8"
+          },
+          {
+            "physical_page": 97,
+            "printed_label": "87",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f201d39ea74e4ccbf6980c4bd96394dc1c1ef879bac66f3ec198075584efc47c"
+          },
+          {
+            "physical_page": 98,
+            "printed_label": "88",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "79dadc441b90815fa83306247a390b116957d467932fc8236a255a61aa526cc4"
+          },
+          {
+            "physical_page": 99,
+            "printed_label": "89",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "53b88f2a8fc35cba9d300b0bdec47e9eaf02e1bf989c4334ffbe141851a70509"
+          },
+          {
+            "physical_page": 100,
+            "printed_label": "90",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1b7b1f857b337fd86671d58629ae83a964a27d314a77ef5df3e27c3602eaed9f"
+          },
+          {
+            "physical_page": 101,
+            "printed_label": "91",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "dc6f8298da62a832bd0fcfedcd347062bdb7ed70dd536ebd7eb8010e21c7563c"
+          },
+          {
+            "physical_page": 102,
+            "printed_label": "92",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0b27d35653f8902dd03e90511eb9b54e1ff7e76c51e08fdd014e2662bdcf9ba0"
+          },
+          {
+            "physical_page": 103,
+            "printed_label": "93",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e365425b105364a011c4c2a6895254c79da332e59a4e01fe3658a56ae173d6a9"
+          },
+          {
+            "physical_page": 104,
+            "printed_label": "94",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "62bc3a5ba2e0aabac9360bb4a5dbfba35f2094a31ea239ecb8150dc966b43802"
+          },
+          {
+            "physical_page": 105,
+            "printed_label": "95",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3573b46a7db92541000299cd155358199bf07062fea78946d99f0bb52cda082d"
+          },
+          {
+            "physical_page": 106,
+            "printed_label": "96",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "95515a53bfff2798a147b9e8166eb93303eaf9cb306738e91aa71ebc1d37e5c3"
+          },
+          {
+            "physical_page": 107,
+            "printed_label": "97",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d1e3698411ed7f1722b2202638c53b699089776e9b87de7287791e18b9ca1860"
+          },
+          {
+            "physical_page": 108,
+            "printed_label": "98",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "efc65153ef0406e34f197b81bf1eaf66d33be8bd8e129b15603377b2e73bcb51"
+          },
+          {
+            "physical_page": 109,
+            "printed_label": "99",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7943b5cadfb24ce70dd6d2a2607f4eecd037abc71a7c014cf6093fff07893b8f"
+          },
+          {
+            "physical_page": 110,
+            "printed_label": "100",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "03204a2a7deb218e899deaeb60f12f3915f33c9ed2eb9599fe044bba8caa91fb"
+          },
+          {
+            "physical_page": 111,
+            "printed_label": "101",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "bb16fc05bb74a73dc81705b25c828fec73f280da142ef1a3618d2136e1df3afa"
+          },
+          {
+            "physical_page": 112,
+            "printed_label": "102",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aae2131eb645c5ef9cfe07562b6169b121379a79cc8bd2c7b2876382cbfeb46a"
+          },
+          {
+            "physical_page": 113,
+            "printed_label": "103",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "263b54f430c053a93d7b374d9e0d00f3f19e897a88928a2422e1392c9e4e3a5b"
+          },
+          {
+            "physical_page": 114,
+            "printed_label": "104",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cfd40c416b8d3a4f3d6a6e6a97b613835dc382f50ccadce4098978b35752eccb"
+          },
+          {
+            "physical_page": 115,
+            "printed_label": "105",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "50793bc83b48a9d5fd45c06eefc3d3bb08d134791ba83918bb21f55eb93f4a54"
+          },
+          {
+            "physical_page": 116,
+            "printed_label": "106",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1b626119052c6e29f639a2e3c9cf53d16dfafa0ae5fdd17538a8306bef9f9b79"
+          },
+          {
+            "physical_page": 117,
+            "printed_label": "107",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5a668cb59335ff632e111f4cf1a09f2ba1b7c82c5d2d184b78761762c7080c49"
+          },
+          {
+            "physical_page": 118,
+            "printed_label": "108",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6eabb3e174436a5d1d9ac29661a7f84f0161cc607d5361573a575803c86fe06c"
+          },
+          {
+            "physical_page": 119,
+            "printed_label": "109",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b9a4ef623302d90459a8f5dafe4ca1e4ef4b3fb1ff94e608f80128e14ae13993"
+          },
+          {
+            "physical_page": 120,
+            "printed_label": "110",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a951b25894a1be4f170df805f2e35e91740e90ed878a5fdecb102ae7077b4753"
+          },
+          {
+            "physical_page": 121,
+            "printed_label": "111",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c89f80d39c5878d2843210972bfc275d3a37151b241a5ea5fb48cfc8f6e01763"
+          },
+          {
+            "physical_page": 122,
+            "printed_label": "112",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fae79074670e9abff7d9d11d0139e1601e560410fc43de756add2f6286486cb9"
+          },
+          {
+            "physical_page": 123,
+            "printed_label": "113",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "79e4e96ed99aeb85177ca2635718977b9e959d7bfc477e131b812451f568a3f4"
+          },
+          {
+            "physical_page": 124,
+            "printed_label": "114",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "82f0f41ab6c3766a59cc232d1dddf7d9c76b602bfb44706890d3139f18073c43"
+          },
+          {
+            "physical_page": 125,
+            "printed_label": "115",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6d691463a23c78fc42b16a5a5d22a35193029e6ac26e2d00089fe16ce4fcffe1"
+          },
+          {
+            "physical_page": 126,
+            "printed_label": "116",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "07bbb3ec5a1fa8b0429a5d19f6cd0a35b6f1ecd5211e036a0aa3a285d9206faf"
+          },
+          {
+            "physical_page": 127,
+            "printed_label": "117",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f78b4dbac4b1dc6dc34b61c9e143fb4719c2e24fa00295fc8b3d3c47aa527482"
+          },
+          {
+            "physical_page": 128,
+            "printed_label": "118",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b72ef7f37c77f068f6a6539ddfb0e5533eb954ed5048d9b32c35465b6878351c"
+          },
+          {
+            "physical_page": 129,
+            "printed_label": "119",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0450be5b91bed4b5c874c817d51d86e97835da3001188e2394fec9a5accaa422"
+          },
+          {
+            "physical_page": 130,
+            "printed_label": "120",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9136ad352095262aad071724cfa0172a44187a23beb5d5c585bafdc65b09018a"
+          },
+          {
+            "physical_page": 131,
+            "printed_label": "121",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7281d19a4b4f687bf59747890b9a284e096478878cb41f1951b69f76fadffb4c"
+          },
+          {
+            "physical_page": 132,
+            "printed_label": "122",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "998556d10e0265f64f0b17c4539f9c457d8181eba838f1a42eae971652a4f932"
+          },
+          {
+            "physical_page": 133,
+            "printed_label": "123",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "99b77e27f25c5f215d95c72576132239e69154777d7e066668a05aa9374f3d93"
+          },
+          {
+            "physical_page": 134,
+            "printed_label": "124",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c248755f56eabfedbae6d404b73b165e6cedd65b7f8c2545d7c6b05172f6954d"
+          },
+          {
+            "physical_page": 135,
+            "printed_label": "125",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b90f5ccb9ed1e0be48b7bd7d19293f87fcd5ab160efd7711b45cfe8b6e9da38c"
+          },
+          {
+            "physical_page": 136,
+            "printed_label": "126",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "558f5bce9bee6f6cbfe8647d8f959f018c2cf579859659e8285e066135559482"
+          },
+          {
+            "physical_page": 137,
+            "printed_label": "127",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0358bc183409e473cb7c10752177c3ca3f3a75ccaa3b2b3f78536884c1650e83"
+          },
+          {
+            "physical_page": 138,
+            "printed_label": "128",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d1ff04ce03a020ecb0fd3a6dc48e38f80279fed335cf9876bf57ed41ca20d9d0"
+          },
+          {
+            "physical_page": 139,
+            "printed_label": "129",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "34562210801d31fed6880744b7a428dc5ea8777f6a32e6e45db435405e673172"
+          },
+          {
+            "physical_page": 140,
+            "printed_label": "130",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d3462902a70d131e054cafb1bc2f30d9d662a38b7ff697cb79f12a57f18fc0ea"
+          },
+          {
+            "physical_page": 141,
+            "printed_label": "131",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8e7809d834b60ffd8746e2a26f8aea9d53667eb3fb754d9f8b1466047f4a0a70"
+          },
+          {
+            "physical_page": 142,
+            "printed_label": "132",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7daf2495320780743f2a6eb65b534939ed2747b1766c1dcc3d7ce7b8aea0dfde"
+          },
+          {
+            "physical_page": 143,
+            "printed_label": "133",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2df43184dbb80c44add70f90cf51bb090b2947490d7f5ecee53dab3deb88ca00"
+          },
+          {
+            "physical_page": 144,
+            "printed_label": "134",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3c415c04372498c989776a5634e85cadb4135bf5db7aca6720aa707536981100"
+          },
+          {
+            "physical_page": 145,
+            "printed_label": "135",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2b6a6f684cad7b40f11f8feb464d144006398137fed18b83a4e49cd301388482"
+          },
+          {
+            "physical_page": 146,
+            "printed_label": "136",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "363a7a99efdb91f2f88c0bb542134e6e087a4e0e8444fd257a1080ce511194ae"
+          },
+          {
+            "physical_page": 147,
+            "printed_label": "137",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3a84570ed88463405c68ebb7b0638a6ddf196133b8a2ff0ccac0771914338a61"
+          },
+          {
+            "physical_page": 148,
+            "printed_label": "138",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e4da99e55fb79688520369cc17f4353588ba88a626e0360d864170593784611c"
+          },
+          {
+            "physical_page": 149,
+            "printed_label": "139",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ae0ca1ad47adcc414d40c7a8707022609ecf23a146033007348485381c2bd1b0"
+          },
+          {
+            "physical_page": 150,
+            "printed_label": "140",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b2e987fb008cf0c536df5d967abc47e4e48cc9a0ca86013af4b6a10160296223"
+          },
+          {
+            "physical_page": 151,
+            "printed_label": "141",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e369f6f2315313590d5480eba22da65cbaa03f38d0c889baf141c0bebc0c75a5"
+          },
+          {
+            "physical_page": 152,
+            "printed_label": "142",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a66610974be1a636a4d6a16936344da3e2c470a0591b08ab98dd7c4fc1c537db"
+          },
+          {
+            "physical_page": 153,
+            "printed_label": "143",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2a7004f784c081c3dd04f7bcc801379507f3ccad1bcab4047483a72fec7a3991"
+          },
+          {
+            "physical_page": 154,
+            "printed_label": "144",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "241b14b5597fc076dfbaa7847d1d780f6cf9992f7fa62fdaceea03fb3c0ef426"
+          },
+          {
+            "physical_page": 155,
+            "printed_label": "145",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "eb348b9c71e5c6f88757dfbfb49cfaa5faeab7108d13d45c50c3370e76750a0d"
+          },
+          {
+            "physical_page": 156,
+            "printed_label": "146",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6efc2c3cbab18e900413fed63aed265822b13df53cb88499ef03f303e30ce76b"
+          },
+          {
+            "physical_page": 157,
+            "printed_label": "147",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5b5c3ff8e1ff3d8ae5e545a2f1107b178f38833f7b1299cfe2e083be56146a92"
+          },
+          {
+            "physical_page": 158,
+            "printed_label": "148",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d807cecad6fcd7d8e463cba833c3b783274e3686749c7b111b353fe8729f029f"
+          },
+          {
+            "physical_page": 159,
+            "printed_label": "149",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7e4430b322b92f9fcd1659c9fcd8c4764860168d51c14a1b27bf9b8f6a6a3236"
+          },
+          {
+            "physical_page": 160,
+            "printed_label": "150",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2e1aca83203056ab9ba5c619f825dd320369773d36025c714776dab77e9befbe"
+          },
+          {
+            "physical_page": 161,
+            "printed_label": "151",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "673b5276d481d14d31bf15ba487772a51f7fe210c4692ececc4ace68c298bfcf"
+          },
+          {
+            "physical_page": 162,
+            "printed_label": "152",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "59a18d5d6781af0222f72c6093f0032f7fa9c6d96f06eb5da99b287708202328"
+          },
+          {
+            "physical_page": 163,
+            "printed_label": "153",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aa38671719be682ba6e8792f6f51695a413cb92b4d1617e332917937654eb364"
+          },
+          {
+            "physical_page": 164,
+            "printed_label": "154",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "32b1e52e5f6a78f971ac5085d1218a7fa515e3d3efee4a7fbd998ed73a834bfd"
+          },
+          {
+            "physical_page": 165,
+            "printed_label": "155",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "84f25d124482fb61364632fa4f28498c77ca24b5d6481270a06aac40bd4b97e3"
+          },
+          {
+            "physical_page": 166,
+            "printed_label": "156",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e212cc716885b3e26cac739f7656e8cc699a7a6bdcfde21f7ac697845b139aa3"
+          },
+          {
+            "physical_page": 167,
+            "printed_label": "157",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8dd7ae1a40f6af716b7dd5c5258712cf0c2f3ee2bc815915d7f81fa6af4df21f"
+          },
+          {
+            "physical_page": 168,
+            "printed_label": "158",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "02739052c6a7f19a83a3a452c2ef7715d2d820d7d006b8154e87e80a08ef3662"
+          },
+          {
+            "physical_page": 169,
+            "printed_label": "159",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0deb2b87140c4da372a158c2ec2b3db9b408dc728e192ffc3c6bccb0a813329c"
+          },
+          {
+            "physical_page": 170,
+            "printed_label": "160",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1609508b4c12a77778e5e2ab06954dac0dbfa367f040b8cc43077d2ffbdb0baf"
+          },
+          {
+            "physical_page": 171,
+            "printed_label": "161",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "21591644e1b59a1bc25071760a15e912eae68bc8d023add6bafef93c60f90a0b"
+          },
+          {
+            "physical_page": 172,
+            "printed_label": "162",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4d653603d690d3b6957c9bbe44d82b87174e189e66007ceb3515187383b20c13"
+          },
+          {
+            "physical_page": 173,
+            "printed_label": "163",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "916d108428509e6ccf794dbbef7d82bc22743e2944cc11fe4ae8db6cd8e075eb"
+          },
+          {
+            "physical_page": 174,
+            "printed_label": "164",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "341577779c133480172402514e254a0e6379264033b6bd28f204693c25e50451"
+          },
+          {
+            "physical_page": 175,
+            "printed_label": "165",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f1024665d398946a6dbdf8f410bd10d0d270ece2aac5d9896322f4b1911a1b3b"
+          },
+          {
+            "physical_page": 176,
+            "printed_label": "166",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9b60ba0e5d3d52be44ca432fdfe23bea4ca3414c4c59cdc561ae7f5563d85864"
+          },
+          {
+            "physical_page": 177,
+            "printed_label": "167",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c6a98448cc291d932aa298b5c63d03b8f6d4d488d082d1cd4e087cd24da6430c"
+          },
+          {
+            "physical_page": 178,
+            "printed_label": "168",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a598f801995682dd67cf4d827a442640fb5fde483c21d142b8540faf80f99dab"
+          },
+          {
+            "physical_page": 179,
+            "printed_label": "169",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "574acea76f771b3d96b835733ca53bfe1391f6483b233896bb57469d1ba805d0"
+          },
+          {
+            "physical_page": 180,
+            "printed_label": "170",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "56366857d0fa8b069acf9e2c104ce95a86728beeff8cedb32814eac7632019c8"
+          },
+          {
+            "physical_page": 181,
+            "printed_label": "171",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "27a99b35e4cf80ea03cbf87b2adeac2f3015fdff331ffcaeec319b0d25b42b3a"
+          },
+          {
+            "physical_page": 182,
+            "printed_label": "172",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3a5e90c1d91c3e76b6cd648e788a317e89f4ea98b83087d495cb2b2cdb6691ae"
+          },
+          {
+            "physical_page": 183,
+            "printed_label": "173",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d69b9400e77d2f24eaa7eea97fc7fd8edcf6c909b0340bf93eb47e84e039dadb"
+          },
+          {
+            "physical_page": 184,
+            "printed_label": "174",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9ba529c25cb190bb483b003d91bd437c76c3877246a79b3cd9a2d364f382c467"
+          },
+          {
+            "physical_page": 185,
+            "printed_label": "175",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "76dc2e19436ec5f8c20de06af9e8ffe2a0cb71ee31a02b4dfcf10a1805271fd1"
+          },
+          {
+            "physical_page": 186,
+            "printed_label": "176",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a02dbd12e0fac6a54871d3981651417657ee344a79d2aaa944b4331f6c5df909"
+          },
+          {
+            "physical_page": 187,
+            "printed_label": "177",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cb2cab08820c8bc48dd46e7e0d89c30781ae182dfb5cf367eea83d72e86a77ba"
+          },
+          {
+            "physical_page": 188,
+            "printed_label": "178",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b17904453ca47152e84d9409d0091858ece5f0573b5f03120856ceecaa60bb98"
+          },
+          {
+            "physical_page": 189,
+            "printed_label": "179",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5292303e1ac87327da83a20d7909f81196a60d56443896ba6aa7a9bf358b1f26"
+          },
+          {
+            "physical_page": 190,
+            "printed_label": "180",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "916a557a35c75dfb8d22249c066f7a788173c8fef11bfd81f01ed98a794f2cf3"
+          },
+          {
+            "physical_page": 191,
+            "printed_label": "181",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3797aeaf2afe408a657520a5ea453fcc45617ce391053f5b67b29921d4623c70"
+          },
+          {
+            "physical_page": 192,
+            "printed_label": "182",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4e31ad9c4319eb2fce1355be6a429612e7f60a0812c1d946218e9613aa61c2e1"
+          },
+          {
+            "physical_page": 193,
+            "printed_label": "183",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "24c8beacbacac6db8e86f9054ec096c1306f035aab32dbb9241de0acfbcdcc60"
+          },
+          {
+            "physical_page": 194,
+            "printed_label": "184",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d7d2d0dbbbcce49edb218abb1d2da226437602aff95d6db16414643fce39d144"
+          },
+          {
+            "physical_page": 195,
+            "printed_label": "185",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "68be94788bcc129abe25a6c73cda10e2c7dd9f2b56b8431255ddc1ed6d9bfbe4"
+          },
+          {
+            "physical_page": 196,
+            "printed_label": "186",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6c3d4c28aad7162379712394f5569310cd52e3320b244c29578d0a15778c9b91"
+          },
+          {
+            "physical_page": 197,
+            "printed_label": "187",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b0cfabb83649c457b9b3574cb63bf493a8c0269ed586840547cca5280405b3bc"
+          },
+          {
+            "physical_page": 198,
+            "printed_label": "188",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6fc3b001ed81b8efd2d1f4acb650015f7cc93a92ca7c0f19fec218c50cd4d611"
+          },
+          {
+            "physical_page": 199,
+            "printed_label": "189",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d46f641359a17df7fe2cc276cdb04d04d79407d679cab4c166d4b489ab72a381"
+          },
+          {
+            "physical_page": 200,
+            "printed_label": "190",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8d3245ada36bc82cdbc9402e57c3b450082041566b940c47105fa63a4559f966"
+          },
+          {
+            "physical_page": 201,
+            "printed_label": "191",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f830850f08668000cd8d612a300abafc3e06947c4902fc85d7f55d136dfa35f5"
+          },
+          {
+            "physical_page": 202,
+            "printed_label": "192",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "418cade9745aebb63d0268a8fb6a954e653c267a1825c31b8091582016bec979"
+          },
+          {
+            "physical_page": 203,
+            "printed_label": "193",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c8d99e6b7e69a1a43744ac5e2b23b4dc37d24113f0ed3a88ed4ae47ab8d245e1"
+          },
+          {
+            "physical_page": 204,
+            "printed_label": "194",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aff9a374315c96c39aa183589cea71b5c990f35570d24c0636bf2cd85e357a4e"
+          },
+          {
+            "physical_page": 205,
+            "printed_label": "195",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "029936fecbb2acecb940b7f8d9cdcd22235309cc1063a047faeb3144feffd2dd"
+          },
+          {
+            "physical_page": 206,
+            "printed_label": "196",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8c69bf51292060b3a6dcd9bc9b3756eaea40e19e7b6cdc4efd1e0e9c9dfe0e15"
+          },
+          {
+            "physical_page": 207,
+            "printed_label": "197",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "082b946cc9c2def601fd3080e7fffb6703219cc48e2b3f02a91b587558b80fcf"
+          },
+          {
+            "physical_page": 208,
+            "printed_label": "198",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ce63eae4a36742edb754efe42c12386de84d0921088862d031fd3588e157cf2e"
+          },
+          {
+            "physical_page": 209,
+            "printed_label": "199",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6f09425998be371da90596e5f7989876f8d3c7cdc8b83222cce6564726cbf396"
+          },
+          {
+            "physical_page": 210,
+            "printed_label": "200",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ca37bf3d69db095a31c594ff83712f3a9adc5738fcdd9d9cc3b58d54efcf454e"
+          },
+          {
+            "physical_page": 211,
+            "printed_label": "201",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "bd5cb31b72051b5f1ece518cd20181e83540d07a71d9d30250778c4d27ddc1f8"
+          },
+          {
+            "physical_page": 212,
+            "printed_label": "202",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1829f19e2fc47e1f6fa9bb2535c4074b3a31bc6fa6dec8da082e5f17a82e953a"
+          },
+          {
+            "physical_page": 213,
+            "printed_label": "203",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d7d8e4525f5578f1c60db41eec2bb74ebefe22cce15993a6b5cdcc9aef530cbe"
+          },
+          {
+            "physical_page": 214,
+            "printed_label": "204",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f5b393d0990da0b5f735dca731e71ce63b69f668c8eefac2211d2fb788585518"
+          },
+          {
+            "physical_page": 215,
+            "printed_label": "205",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6eaecd015653282bb3483f83b1fcb0172558d6f7e4b11a9b88d901f4247bbe6d"
+          },
+          {
+            "physical_page": 216,
+            "printed_label": "206",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "10af826f1ca221078fff882a92b0b670fea6213cdb86557abdd406976c14e000"
+          },
+          {
+            "physical_page": 217,
+            "printed_label": "207",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f86959fa02eb1f0be58ce62f16ad99d202c0b43374d1b1343bd25b3aa16d4988"
+          },
+          {
+            "physical_page": 218,
+            "printed_label": "208",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ca870553097035651bd98174c4ca78287b9dbd7155235d61de232e999674d4f5"
+          },
+          {
+            "physical_page": 219,
+            "printed_label": "209",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "aaf8b3ebb18a8d35522fa03492ab67a83c11607ec659c5e5663cf3c32b934883"
+          },
+          {
+            "physical_page": 220,
+            "printed_label": "210",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0fc3d0ab54fd186b5ea8c81e8e7788e5f67a7522a473ecfead24ad3553bf6e9a"
+          },
+          {
+            "physical_page": 221,
+            "printed_label": "211",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "91b5b75ea29b28317661659f7868aa83859963599b02dedd66b048a2d19c905d"
+          },
+          {
+            "physical_page": 222,
+            "printed_label": "212",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "259eae58796f8c91e079c14ee7b63a0361595e19196aaa655115b388d4d75e39"
+          },
+          {
+            "physical_page": 223,
+            "printed_label": "213",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "26ed924d72ccfaa66c389d8b33a567612cd9fb26b707a614f3c8a22ccb70cba0"
+          },
+          {
+            "physical_page": 224,
+            "printed_label": "214",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "93d521ee92fdf7220574a9b8fbc7ca1714e39ad79b94d464aafe21235df48b40"
+          },
+          {
+            "physical_page": 225,
+            "printed_label": "215",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "586fa660eb981cc6d11ed0b2838de22f357236f86dde4ffa1285b64502b241ee"
+          },
+          {
+            "physical_page": 226,
+            "printed_label": "216",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6fbb75d147059b25abb56ca20942c2c1da1ad2f98bd69d636bf53173df3c8b90"
+          },
+          {
+            "physical_page": 227,
+            "printed_label": "217",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d650859b7aa9c03726bf50e047280de9d2786732395b6b88ad9fb21f358ee7e5"
+          },
+          {
+            "physical_page": 228,
+            "printed_label": "218",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a139d0021b8508435eb901fa0ff9a97a3fae107e4e03d6273ad832dae3b9ec4b"
+          },
+          {
+            "physical_page": 229,
+            "printed_label": "219",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5e3529898cdb8595d22cafb2d19e39294d4b03c0133132c79aa22c3489c1b41d"
+          },
+          {
+            "physical_page": 230,
+            "printed_label": "220",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3c137d28a951d79f2a5596d15d2044a84622aa919287d06bae5aa03d6efd181a"
+          },
+          {
+            "physical_page": 231,
+            "printed_label": "221",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "22f0b75e7ebc5b72137df5dfe7692c63c9aee2cab0df81bf9f2d957cf31bec59"
+          },
+          {
+            "physical_page": 232,
+            "printed_label": "222",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a910ab8a4393dbdfc68b8c45ee94db20da35190ad797ce1dad84767b8daa988e"
+          },
+          {
+            "physical_page": 233,
+            "printed_label": "223",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b086637a6f4c8f56d5b4f43dee2114b068e9b36d03c7e57f11096f30b4a036f6"
+          },
+          {
+            "physical_page": 234,
+            "printed_label": "224",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "53f44439a0f63595c51daec0837aca673cc15fc8eeb25ac432a7aea23de3b118"
+          },
+          {
+            "physical_page": 235,
+            "printed_label": "225",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f1d1ca68a1e8f729247d9320b05bcad49b6eabcbfa70563efc5cf823556441ca"
+          },
+          {
+            "physical_page": 236,
+            "printed_label": "226",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ccfbdaff74414b527b682001d81bc4cf671954a7bfaeda7d9329fcb137193d83"
+          },
+          {
+            "physical_page": 237,
+            "printed_label": "227",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3c75f09fd79778fed80eadab74151b23f891aee17bd8622cfc3a61f74fc57198"
+          },
+          {
+            "physical_page": 238,
+            "printed_label": "228",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f4ddcc1906b3313494a20d4299149a94d612ab0971a9f1a8a7dc0a7a25143a35"
+          },
+          {
+            "physical_page": 239,
+            "printed_label": "229",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "12b53ce0219900b07ed7df047e9c25ec1c6085dd8e3658404e8f4a0d4092e818"
+          },
+          {
+            "physical_page": 240,
+            "printed_label": "230",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4ca7eebf3ad8de59786c11f7c87bc9fe35ceded586b9b4c8c232d86f0f2f3d1b"
+          },
+          {
+            "physical_page": 241,
+            "printed_label": "231",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fb9f3f845599e509e78a5e6fc42151ddf1de9b7a171e12977bbeffa8f9fa67dd"
+          },
+          {
+            "physical_page": 242,
+            "printed_label": "232",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e9954a7034ec8f3660f5921d8c996b645e7e04f0f58d683e86ffbc0a49b4ce82"
+          },
+          {
+            "physical_page": 243,
+            "printed_label": "233",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "10c467be63d6b9c0ddba7034980708a36c19cb18cfb148d1acf4930b10fa927d"
+          },
+          {
+            "physical_page": 244,
+            "printed_label": "234",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a86b293ec56c834f96d4c1c80ee7a4b14554547f2cb602e9392c36d5f9400bc9"
+          },
+          {
+            "physical_page": 245,
+            "printed_label": "235",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6abc18b4a15947858fcf95404f23b8b6809a72c74156becb631d5bcb185e953b"
+          },
+          {
+            "physical_page": 246,
+            "printed_label": "236",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "115a84cc43b007f65d3bb7d4bbef9080128a8bf1012681a38efcb6229a0449c7"
+          },
+          {
+            "physical_page": 247,
+            "printed_label": "237",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "bb3a0684ee27890d630073cc3821dfbbdfb6f5f8f628d2a035f8fa355c2e0049"
+          },
+          {
+            "physical_page": 248,
+            "printed_label": "238",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "664b2facece7db538361cf0b48532f507159e6b64e251da2650ba21286f25270"
+          },
+          {
+            "physical_page": 249,
+            "printed_label": "239",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2f7800a62a7897aee72a0f4ffac4dd1ba539ef72cc3fde71a48ca322ca89a15b"
+          },
+          {
+            "physical_page": 250,
+            "printed_label": "240",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "18f5a54439d11b00e49308b5b18dd1dc81aa3806e417ba50f7595d8ed54cb952"
+          },
+          {
+            "physical_page": 251,
+            "printed_label": "241",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9d4449f8234672f7a44af072e372d9971e12b4b8009313af77818fadf84077ef"
+          },
+          {
+            "physical_page": 252,
+            "printed_label": "242",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8b5135c25de0434bdebcfba820b438ac66891531cc0f1015e5c980f69bea3970"
+          },
+          {
+            "physical_page": 253,
+            "printed_label": "243",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3dec3d7347b12a63495596dc748e6fd3c4f3ef14accc5900303196ea874e3f2c"
+          },
+          {
+            "physical_page": 254,
+            "printed_label": "244",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ee577ef24175b6ee5dc11d5cd8443f7a631cd9d84cc46bfc9699c31ab3542094"
+          },
+          {
+            "physical_page": 255,
+            "printed_label": "245",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d486f2eb874156bbc940fc0d21c00e7e8ca2a6ad3219d5e71741fe927e08a4e6"
+          },
+          {
+            "physical_page": 256,
+            "printed_label": "246",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "89a7aa23243f958d1f17e42188c184768ad422b5a93ca21ea6bcb5d7fb43501e"
+          },
+          {
+            "physical_page": 257,
+            "printed_label": "247",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9e96aa0376025c9e436742b35bc73591b80911eda392ca534edf3cf56fa9a2e3"
+          },
+          {
+            "physical_page": 258,
+            "printed_label": "248",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1033933c113348f7f0c5cd46d41a55a077944104db6636be633843ccc32d8799"
+          },
+          {
+            "physical_page": 259,
+            "printed_label": "249",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "35b6aff8722054de185fc4c4b8760b253d23dd842059d1c342cbebd30447db3c"
+          },
+          {
+            "physical_page": 260,
+            "printed_label": "250",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6260a97df4813bc40be4de1e6f6c5677b1243faf808b47ba17cace330b3dfe03"
+          },
+          {
+            "physical_page": 261,
+            "printed_label": "251",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cde72a737c7a7bac8b51f8f95bd1902c96ec738092a16bfd540d433735524b5d"
+          },
+          {
+            "physical_page": 262,
+            "printed_label": "252",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6880aa5650d43f31d14db419fa3d6ae947593343a665d9f5a902526e5d9e36be"
+          },
+          {
+            "physical_page": 263,
+            "printed_label": "253",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a3ff5d02f18733d19c93a2a4f51a7a7d0a49c0a70b3a31321e0e0f4034db8f5d"
+          },
+          {
+            "physical_page": 264,
+            "printed_label": "254",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ad8c294839a6e6b4644655e0680308cba5cbb75bddb4992d50743fb3902659b9"
+          },
+          {
+            "physical_page": 265,
+            "printed_label": "255",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d3f3c0517081f9c2cc534acc8c41cce7e80ecb67ec0d01e7746b5af762280cd2"
+          },
+          {
+            "physical_page": 266,
+            "printed_label": "256",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "8525d32d2dc8935706b3e4d28d4ebeafdac7361fa893d5c7172c228b88b9ae9e"
+          },
+          {
+            "physical_page": 267,
+            "printed_label": "257",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e9a8e53ce994e74baa3b28d69222f50721fb1147cefa98b6772d867aee3756b9"
+          },
+          {
+            "physical_page": 268,
+            "printed_label": "258",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "078476599693ff8b427c55e9d1667b2bfb364c17ed36d85caebc8bafb440c5f2"
+          },
+          {
+            "physical_page": 269,
+            "printed_label": "259",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2c81f3a24614cfc26d4238b224b8c6007d58028c8557404e7ac05984a1142078"
+          },
+          {
+            "physical_page": 270,
+            "printed_label": "260",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4638c2c2a9ce36ebddcd80fef24836adaa57b38890620a953718ddccd228a84e"
+          },
+          {
+            "physical_page": 271,
+            "printed_label": "261",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f6368051c6fcfc1f7747005d624e6b3b693f0d043b7a5b8a98ad780eeda752da"
+          },
+          {
+            "physical_page": 272,
+            "printed_label": "262",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "a897ea536bfbba6ea09e53931a6f18d2037de486cf1ea23680f2697699596210"
+          },
+          {
+            "physical_page": 273,
+            "printed_label": "263",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "daf725509312aa93fc129c8f44a48c7e48c9aa4a2b9f30ad6f938dbbf1acce93"
+          },
+          {
+            "physical_page": 274,
+            "printed_label": "264",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3bb662fd23824e928097429d39dc9379d94c223ff59ae146ba23d7c642eac10a"
+          },
+          {
+            "physical_page": 275,
+            "printed_label": "265",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4a23da0d825e7d1ea3aaf656fc45084055d541b9e137681252b8769ba6322256"
+          },
+          {
+            "physical_page": 276,
+            "printed_label": "266",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5276d037fc76bb5e88ed5191f4e5e327b30a324bccd4a7a128e0d210f6ae6d52"
+          },
+          {
+            "physical_page": 277,
+            "printed_label": "267",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "100e6dde4f60ef73d6c6f94a9e443aa10b3723bd49fbc7f746505fe1b7582491"
+          },
+          {
+            "physical_page": 278,
+            "printed_label": "268",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ab1a98ee23c5244f12a0d8868bbecfac946daf04c9817956a823bafd2189041e"
+          },
+          {
+            "physical_page": 279,
+            "printed_label": "269",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "43cfc7c1b8f03e08c9e5e1893dfae359f2a7d3cf09644f7d18efb8c35d196b34"
+          },
+          {
+            "physical_page": 280,
+            "printed_label": "270",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "673479fd386bb68f75ac58b4ea0c729737ff8aa2ac186ce1121c6da3a2fe3712"
+          },
+          {
+            "physical_page": 281,
+            "printed_label": "271",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b31f480a41c8acb50956421ee3b3db02c9468f14fea4d04a70558104f597798b"
+          },
+          {
+            "physical_page": 282,
+            "printed_label": "272",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "619dfce13a221c2924460b20bbe65e4a725b2ffc0f81086b03e40a4b9b2a4675"
+          },
+          {
+            "physical_page": 283,
+            "printed_label": "273",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fb550d2b733cbece514a506d333abb4b3b7673fc9a2459644cef83d5ff71733b"
+          },
+          {
+            "physical_page": 284,
+            "printed_label": "274",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "647c23481adce639477bce417bee3719f40ef5b33249cee939560c9d6c9d9e8a"
+          },
+          {
+            "physical_page": 285,
+            "printed_label": "275",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d3435162fff3ea7d134fecd52a85dff3a882a5dada29837f0b2bc7e972f1e3a9"
+          },
+          {
+            "physical_page": 286,
+            "printed_label": "276",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f6822aebde3840cfac46cfeb5b3b1db34ebc381e57d1883c01ac88b6a0ff9f3a"
+          },
+          {
+            "physical_page": 287,
+            "printed_label": "277",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e500114155058efdbf34e6856c081b3c74190abf8244b0eece786a9cdfcb4f04"
+          },
+          {
+            "physical_page": 288,
+            "printed_label": "278",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "18ec132f06a7a61d477c883bd49894882eb686c600c9f2a585f4fdc6baba34d0"
+          },
+          {
+            "physical_page": 289,
+            "printed_label": "279",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "90378ae20606a2c0989bab34c00b396119247d2b0eb911386c781604df41fc23"
+          },
+          {
+            "physical_page": 290,
+            "printed_label": "280",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7bcf94a283cc78ccb0b9eba6ea0941e0f6ab369d5aa96500b9841c8d5e35eb2a"
+          },
+          {
+            "physical_page": 291,
+            "printed_label": "281",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d869cd6c0bb022bd7a8db24e22fd8441fe01264109b479ee9440028d865460e8"
+          },
+          {
+            "physical_page": 292,
+            "printed_label": "282",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "383e76e36038e3cc3c11bb1d7175d45e0532cf36f431d80f702c18292a65d547"
+          },
+          {
+            "physical_page": 293,
+            "printed_label": "283",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6bd924d6b213dce97ab8027ec2ddab50b1231df5dcb04395693c8ba31483ea4b"
+          },
+          {
+            "physical_page": 294,
+            "printed_label": "284",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "87b9405ead34c2c430bb56228f717e56aa21075b215793b1d92fb642ea932077"
+          },
+          {
+            "physical_page": 295,
+            "printed_label": "285",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b7016c89801f7df89273b7a73e4e0f648f4fe9ced21842e3812b7e6889484852"
+          },
+          {
+            "physical_page": 296,
+            "printed_label": "286",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "83a50e51d30b04d8094ae807cf2e0bc9ff86dfc89041caaac58c1533f6c09e40"
+          },
+          {
+            "physical_page": 297,
+            "printed_label": "287",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0947e49109f28affbd920ac901ec05146d2962cf9146b4d15b29f31d6add1aae"
+          },
+          {
+            "physical_page": 298,
+            "printed_label": "288",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3e17920d16fc414834f623b2d1457041ae7522aa37c01a58300a062d6a5b9942"
+          },
+          {
+            "physical_page": 299,
+            "printed_label": "289",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "95335fb8b34d44b00c39eae964bef64a2ec89a1b44c849b00c01a14cdf6264d6"
+          },
+          {
+            "physical_page": 300,
+            "printed_label": "290",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "753256af5ffb61a6570284f2f243a6c79cbaa98fdf96e1c42575adf8e7fb4c12"
+          },
+          {
+            "physical_page": 301,
+            "printed_label": "291",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "9f0f1c10d7dfce8875b8e530d2144ef47cc72bb5d7b98d079ebc3f9e85813585"
+          },
+          {
+            "physical_page": 302,
+            "printed_label": "292",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4a5e290bc50bbcb6cf9502c100d8b6f5dbb70841b1ff208c8690398df4459f32"
+          },
+          {
+            "physical_page": 303,
+            "printed_label": "293",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "163902eab2250cb982432f9349cffdb242a1b4f3b330adb6d7352690c4907443"
+          },
+          {
+            "physical_page": 304,
+            "printed_label": "294",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "316dda93431159ffdf5186697cb537078abc974977c155d9ec3088ed4d177967"
+          },
+          {
+            "physical_page": 305,
+            "printed_label": "295",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "54c74d063c87ee81c1e7f9b103bbd913cd609ec345045603933319a3725d6c3f"
+          },
+          {
+            "physical_page": 306,
+            "printed_label": "296",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "93995adac73c2c837ce3e8cd9cacb1d364cd8f4a116df65b431db19ac985aec8"
+          },
+          {
+            "physical_page": 307,
+            "printed_label": "297",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "69d357d6dc02256dc3984132513416a559ed1e2ffd2aa58903f6e5cb3c2a6049"
+          },
+          {
+            "physical_page": 308,
+            "printed_label": "298",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "092a470b55d99497b1ee104ca76957ef455b5b330814c8ec12df0e1b3f365167"
+          },
+          {
+            "physical_page": 309,
+            "printed_label": "299",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1b943c53114e598f0d0b97f0c60603f1f1a0c016f7939acb29227408371cf945"
+          },
+          {
+            "physical_page": 310,
+            "printed_label": "300",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d206f33282e923565422230cf345b91c25ce49f6633890a4663585a0aa23da3e"
+          },
+          {
+            "physical_page": 311,
+            "printed_label": "301",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "c5a8b584237d6624a3ec311b1e1c55c676995b2a1b5089c486f6c700106fc881"
+          },
+          {
+            "physical_page": 312,
+            "printed_label": "302",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ff167a4f5e89a97b01a14a1bf0cbd5ae52ea330be39b1ff4bea3fe42d7e82c11"
+          },
+          {
+            "physical_page": 313,
+            "printed_label": "303",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d28af80c5afb1021e44057e653a685a94e310544460ac45f0353d25632c83eef"
+          },
+          {
+            "physical_page": 314,
+            "printed_label": "304",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "733aa2f57189867e0b5e3f790be7876887bbca0b0cf64739fe01cf0aa36cdd1b"
+          },
+          {
+            "physical_page": 315,
+            "printed_label": "305",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ec1e29b5e8117b6d4e3cf57d2a74d080588b78caa6d3de7de4c417ac072fdaf8"
+          },
+          {
+            "physical_page": 316,
+            "printed_label": "306",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4bbd6dbcbcc4afdf278afb6c2334083959bb099c92fd42536e0734ef350f47a6"
+          },
+          {
+            "physical_page": 317,
+            "printed_label": "307",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e68227b615788cc97f8c59e7d4090a4180a307ab735c290cdce9e67678cf2d5c"
+          },
+          {
+            "physical_page": 318,
+            "printed_label": "308",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6850ba3842da234c12654d248b4a54db8a441549ee03981c67e705248cdb83aa"
+          },
+          {
+            "physical_page": 319,
+            "printed_label": "309",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "dea73f6db7b59f11bd80d42d873d92cb312048bf5af7daf5f9c444a90519cad9"
+          },
+          {
+            "physical_page": 320,
+            "printed_label": "310",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "baa35e6f2b56a60d1a9900a086a55b2667baa4ba54dd6a72afbcacdae77235f0"
+          },
+          {
+            "physical_page": 321,
+            "printed_label": "311",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "00f6aa0e4ac2d088e9d2ac442fc6a5c2da998f6cd2b2c8131e4cc3cadfedd601"
+          },
+          {
+            "physical_page": 322,
+            "printed_label": "312",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0608f23ad9d53e4a8bd07a424f7f637c26ca895b4aae8cbddb4fef589d202bb3"
+          },
+          {
+            "physical_page": 323,
+            "printed_label": "313",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "e9b469e067372318182b05c71de38173c889540aada73af4b9cde94098a263bb"
+          },
+          {
+            "physical_page": 324,
+            "printed_label": "314",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "da45023e3b0de6145fff8ec9662c09682510f20fc3ffcd890a9669fc8a483c63"
+          },
+          {
+            "physical_page": 325,
+            "printed_label": "315",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "817cdd98f8b5bb7a990d11da9ac314b2c8d30144feb9f10649f8467e0ce33305"
+          },
+          {
+            "physical_page": 326,
+            "printed_label": "316",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "23a7534fbd964f40f3825f642e6985893b2f0e6b0eaa0aa45b074cc4869d4b85"
+          },
+          {
+            "physical_page": 327,
+            "printed_label": "317",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "2e5701c8c1219e8849768d0b3caa5310621769cbd60e1b38484777a91488579f"
+          },
+          {
+            "physical_page": 328,
+            "printed_label": "318",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fc7e7d671bc5ba1782fe1093979594bb692bafe8279dd17df268be539b188e5f"
+          },
+          {
+            "physical_page": 329,
+            "printed_label": "319",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "40068c7d68a98cc0a6be3ede2a78eccb8839547b34c4ace5886dda77e947dbbf"
+          },
+          {
+            "physical_page": 330,
+            "printed_label": "320",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fe2661ce84a327d11c8b7751c78be323d7971ea64e9bbc3866cee7a8529fdb78"
+          },
+          {
+            "physical_page": 331,
+            "printed_label": "321",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0ce409637d22ea1eec851c4343219b872823b16ddd1fa55f4bea8e53e89c39e7"
+          },
+          {
+            "physical_page": 332,
+            "printed_label": "322",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3ca264ec34f063112ed790675a87de8a00dcfc22a18dc78faec6a6aa5743c45e"
+          },
+          {
+            "physical_page": 333,
+            "printed_label": "323",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "63160d301bae9d4196cbd48d826c5bccf5b6b0393628446888ca4737249a9276"
+          },
+          {
+            "physical_page": 334,
+            "printed_label": "324",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b739a5c344d17068b08e18feea6ff3b0a44370598af848a862a4f0c6d1ee152a"
+          },
+          {
+            "physical_page": 335,
+            "printed_label": "325",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0cfe03a9c00530c49bd4f0b30fb623c808e89fadb17556697d8e2b282f634723"
+          },
+          {
+            "physical_page": 336,
+            "printed_label": "326",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1751ec873376c8a612951dee1fd6647689f53d10fe5ce08cb3ba5b01fc236c44"
+          },
+          {
+            "physical_page": 337,
+            "printed_label": "327",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "729013d6f5de4aed8828688805186674b75bc68e05026126b992ff01be5ecfd7"
+          },
+          {
+            "physical_page": 338,
+            "printed_label": "328",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d7f5902d8a15a9904921806febe20766d2b1e201b755058337085adc31a1ac3b"
+          },
+          {
+            "physical_page": 339,
+            "printed_label": "329",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fd8e0dc773a21d55e0bfb66571e110eb8ad489aa96c8b7d8c22027aed3e8b7bd"
+          },
+          {
+            "physical_page": 340,
+            "printed_label": "330",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7b9afb70b1fddfd8128d87deb5a7c04b60e0b90805bc87855f06b2595fccb825"
+          },
+          {
+            "physical_page": 341,
+            "printed_label": "331",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "0528aa6e7bf879267d68b0a8bb86d2b735004d732f2e86d6f9b07d6ef4982d99"
+          },
+          {
+            "physical_page": 342,
+            "printed_label": "332",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "58d55b33cbf8851ad80ac966239158c84a7386b4fb2b423adf6244bbe968c892"
+          },
+          {
+            "physical_page": 343,
+            "printed_label": "333",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "5473189b623c586579ca9e669b275d8d7f27c9ab38b3a801559721595317570d"
+          },
+          {
+            "physical_page": 344,
+            "printed_label": "334",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f6245b599b18c5aa523464e73d80a021b243b85ff66363a75ff35bc1f170d8ff"
+          },
+          {
+            "physical_page": 345,
+            "printed_label": "335",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1a39eabb4d53931b5947e12fd218d14eaadc5958985df158f64c732378863f79"
+          },
+          {
+            "physical_page": 346,
+            "printed_label": "336",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ab7ef35dcd2dd25ac9bf03261c2064859dfe9fab336dfe23c7e9837c8fd1499a"
+          },
+          {
+            "physical_page": 347,
+            "printed_label": "337",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "d681e2e29ac8e49b6e8deed72025d9c8e380a87973b56823110540d320d061d0"
+          },
+          {
+            "physical_page": 348,
+            "printed_label": "338",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "3382e6317ea03f3765b2f3eddaf54931d8ce7cdfa6cda32695feeade9633919d"
+          },
+          {
+            "physical_page": 349,
+            "printed_label": "339",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "44f7049039c4704fbeb12ade1337b15947579460e509d984a94c58dd69e19c74"
+          },
+          {
+            "physical_page": 350,
+            "printed_label": "340",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "ad7b4b3162bdab14af33ed183214d995906a4ba425381af3ed06e9719544f5c2"
+          },
+          {
+            "physical_page": 351,
+            "printed_label": "341",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "86bac0e1972f3de9cb474b909fc92df996004113078b67f47485e53c32335714"
+          },
+          {
+            "physical_page": 352,
+            "printed_label": "342",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4e1aa377d1e706d69f17bc53ed1e36bfb86ea01b7151267158feec9304180a30"
+          },
+          {
+            "physical_page": 353,
+            "printed_label": "343",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "cae3b09997b374c32fb09357c5900a89bcfbee2dedc282be733e9e2d0108c8e3"
+          },
+          {
+            "physical_page": 354,
+            "printed_label": "344",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "481812b1c6353df5c5defe56f1cd171b6b550d4ddef6fdb65c280b7e3948aa71"
+          },
+          {
+            "physical_page": 355,
+            "printed_label": "345",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6750f0c61d1cf1ca21dc2a19a3d2f511cee8d86d37d87276af7a2bd4b6341674"
+          },
+          {
+            "physical_page": 356,
+            "printed_label": "346",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "7def66a85a7872781cb95a7f7e00440072a24d3347662772153f3280a5ab5727"
+          },
+          {
+            "physical_page": 357,
+            "printed_label": "347",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "182621093eb3ac2881849111eef776f2db7f97c35323926d615560e6e11bcfec"
+          },
+          {
+            "physical_page": 358,
+            "printed_label": "348",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fc9f302737158b74ecdceb174c7444bef8e508c1d0a09e6855de4a641162de34"
+          },
+          {
+            "physical_page": 359,
+            "printed_label": "349",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "b8ef8b02a92bd29347fd89a91aea7d6ff4942dcae8af9f5779dde543291b8a53"
+          },
+          {
+            "physical_page": 360,
+            "printed_label": "350",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "f283fd7ea51ee1dd998d48762b831c0e8bbdf8ce8da2bc93ef7c52cfccccbb11"
+          },
+          {
+            "physical_page": 361,
+            "printed_label": "351",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "1f5b8afd5791544853043288445a27890cb9182136e38dce5ed2513ed6abc68a"
+          },
+          {
+            "physical_page": 362,
+            "printed_label": "352",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "4d025218523504d1cfd1f299129b83e464d5c158fc2cb9e130c02b0bc7a884d0"
+          },
+          {
+            "physical_page": 363,
+            "printed_label": "353",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "fa18e207fb4492e03d5ecb61c8dc45659a011c09bb29a0ea261db875622a9b22"
+          },
+          {
+            "physical_page": 364,
+            "printed_label": "354",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "510bc8a482ea6068f385737ff3dcbeddc0d0cac407f02b8334c27db47b98c856"
+          },
+          {
+            "physical_page": 365,
+            "printed_label": "355",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "60b4a4df681553467f6e556ae21fa6e622005f38c5c660a77e26ea3e0e3e94d9"
+          },
+          {
+            "physical_page": 366,
+            "printed_label": "356",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "69f3b2c26f406a2fbdaea5479ddab91f4a835d232a7e35036ec7383d657a145a"
+          },
+          {
+            "physical_page": 367,
+            "printed_label": "357",
+            "text_geometry_links_and_decoded_page_streams_equal": true,
+            "render_72dpi_equal": true,
+            "render_72dpi_sha256": "6dd2c0aebc56c49c243bd03fdccae4a2edf37c78263104004a8467cd9280ef3d"
+          }
+        ],
+        "unchanged_original_noncontainer_objects": 5217,
+        "reserialized_container_xrefs": [
+          12,
+          239,
+          578,
+          994,
+          1370,
+          1784,
+          2206,
+          2911,
+          4071,
+          4439,
+          4440,
+          4441,
+          4442,
+          4443,
+          4444,
+          4445,
+          4446,
+          4539,
+          4740,
+          4848,
+          4968,
+          5079,
+          5191,
+          5243
+        ],
+        "attachment_dictionary_changes": [
+          {
+            "xref": 1,
+            "before": "<<\n  /OpenAction [ 3 0 R /Fit ]\n  /PageMode /UseOutlines\n  /PageLabels <<\n    /Nums [ 0 <<\n          /S /R\n        >> 1 <<\n          /S /r\n        >> 10 <<\n          /S /D\n        >> ]\n  >>\n  /Names 4447 0 R\n  /Outlines 4448 0 R\n  /Pages 4742 0 R\n  /Type /Catalog\n>>",
+            "after": "<<\n  /OpenAction [ 3 0 R /Fit ]\n  /PageMode /UseOutlines\n  /PageLabels <<\n    /Nums [ 0 <<\n          /S /R\n        >> 1 <<\n          /S /r\n        >> 10 <<\n          /S /D\n        >> ]\n  >>\n  /Names 4447 0 R\n  /Outlines 4448 0 R\n  /Pages 4742 0 R\n  /Type /Catalog\n  /AF [ 5245 0 R ]\n>>"
+          },
+          {
+            "xref": 4447,
+            "before": "<<\n  /Dests 4438 0 R\n>>",
+            "after": "<<\n  /Dests 4438 0 R\n  /EmbeddedFiles <<\n    /Names [ (Content Credentials) 5245 0 R ]\n  >>\n>>"
+          }
+        ],
+        "new_attachment_and_xref_objects": [
+          {
+            "xref": 5244,
+            "dictionary": "<<\n  /Type /EmbeddedFile\n  /Subtype /application#2Fc2pa\n  /Length 24296\n>>"
+          },
+          {
+            "xref": 5245,
+            "dictionary": "<<\n  /AFRelationship /C2PA_Manifest\n  /Desc (Content Credentials)\n  /F (Content Credentials)\n  /EF <<\n    /F 5244 0 R\n  >>\n  /Subtype (application/c2pa)\n  /Type /Filespec\n  /UF (Content Credentials)\n>>"
+          },
+          {
+            "xref": 5246,
+            "dictionary": "<<\n  /Type /XRef\n  /ID [ <E65A71932294B4081F226A77D503853F> <E65A71932294B4081F226A77D503853F> ]\n  /Root 1 0 R\n  /Info 2 0 R\n  /Size 5247\n  /W [ 1 4 2 ]\n  /Index [ 1 11 13 226 240 338 579 415 995 375 1371 413 1785 421\n      2207 704 2912 1159 4072 367 4447 92 4540 200 4741 107 4849\n      119 4969 110 5080 111 5192 51 5244 3 ]\n  /Length 36554\n>>"
+          }
+        ],
+        "metadata_bookmarks_page_labels_equal": true,
+        "C2PA_attachment_names": [
+          "Content Credentials"
+        ],
+        "interpretation": "Added platform C2PA Content Credentials and container reserialization change PDF bytes. All original page/font/resource objects and decoded streams, page text/geometry/links and all 367 full 72DPI page rasters remain equal. No byte-identity or independent C2PA-signature-authentication claim."
+      }
+    },
+    {
+      "file_name": "categorical-mathematics-volume0-f1-study-l2-source.zip",
+      "library_file_id": "libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77",
+      "file_id": "file_00000000f1e88230b799bc9c3d3d588a",
+      "current_version_number": 5,
+      "preupload_bytes": 5729203,
+      "preupload_sha256": "0a0d81675a5c494c14480136321fe53bb9a74e985c7b6b19f9cbd84c25680dfe",
+      "downloaded_bytes": 5729203,
+      "downloaded_sha256": "0a0d81675a5c494c14480136321fe53bb9a74e985c7b6b19f9cbd84c25680dfe",
+      "byte_identical": true
+    }
+  ],
+  "source_recovery": {
+    "CRC_safe_paths_no_duplicate_paths_passed": true,
+    "manifest_entries_verified": 899,
+    "all_sizes_and_SHA256_match": true,
+    "manifest_exactly_covers_extracted_files_except_itself": true,
+    "restored_verify_pdf_passed_without_rebuild": true,
+    "complete_upstream_and_all_115_body_views_identical_to_fixed_first_edition": true,
+    "current_raw_PDF_equals_preupload_raw_PDF": true,
+    "single_current_PDF_no_nested_historical_PDF_or_ZIP": true,
+    "parent_source_v4_fresh_download_hash_rechecked": true,
+    "canonical_source_view_pairs": 249,
+    "frozen_unique_labels": 2139,
+    "V0_labels": 1018,
+    "protected_formal_regions_preserved": 902,
+    "complete_answer_regions_preserved": 51
+  },
+  "step13_integrity": {
+    "fixed_parent_manifest_items_verified": 874,
+    "complete_upstream_and_all_115_derived_body_views_byte_identical_to_first_edition": true,
+    "accepted_style_config_and_fonts_byte_identical": true,
+    "all_AUX_labels_values_folios_and_destinations_equal": true,
+    "all_367_page_labels_and_291_bookmarks_equal": true,
+    "all_page_link_targets_equal": true,
+    "changed_above_footer_physical_pages": [
+      1,
+      2
+    ],
+    "actual_current_visual_pages": [
+      1,
+      2,
+      3
+    ],
+    "no_whole_volume_proof_reread_or_new_math_review": true
+  },
+  "visual_QA": {
+    "PDF_SHA256": "60bd18d285587e6c28a7e7ad7e9432f3c24168789e3e026736c3a73affc6ad3b",
+    "physical_pages": 367,
+    "renderer": "PyMuPDF 72dpi exact comparison of current and fixed first-edition PDF; actual changed pages and neighbor inspected with Poppler 1500px PNGs",
+    "changed_above_footer_pages": [
+      1,
+      2
+    ],
+    "actual_visual_pages": [
+      1,
+      2,
+      3
+    ],
+    "carried_above_footer_matches": 365,
+    "coverage_overlap": 1,
+    "covered_pages": 367,
+    "footer_cutoff": 0.94,
+    "all_footer_text_and_folios_checked": true,
+    "coverage_note": "Only cover identification and guide change above footer. All 365 remaining above-footer page renders and text geometry equal the fixed first edition; page 3 was also actually viewed. Edition footer differs; full-page identity is not claimed.",
+    "white_print_actual_page": 2
+  },
+  "print_entry": {
+    "warm_PDF_SHA256": "60bd18d285587e6c28a7e7ad7e9432f3c24168789e3e026736c3a73affc6ad3b",
+    "print_PDF_SHA256": "41aef6a8f9b3319add4114b98e8f31407f6c24bd37b4d3e9ff0ff97d52ce0bff",
+    "pages_each": 367,
+    "all_nonspace_glyph_positions_bounds_fonts_sizes_and_characters_equal": true,
+    "all_page_labels_bookmarks_link_rectangles_and_targets_equal": true,
+    "white_actual_visual_detail": {
+      "physical_page": 2,
+      "actually_viewed": true,
+      "result": "All three layers and explicit limitations remain clear, fit one page and do not collide with footer."
+    },
+    "blank_entries": "Source/config/style/fonts exactly unchanged; accepted prior one-page builds and actual visual coverage reused, no redundant blank-entry build."
+  },
+  "pagination": {
+    "from": "Fixed F1 Study L2 first editorial edition, source v4/PDF v0",
+    "to": "Second editorial edition under workflow steps 12\u201313",
+    "pages_before": 367,
+    "pages_after": 367,
+    "all_1018_label_values_folios_and_destinations_unchanged": true,
+    "all_page_labels_unchanged": true,
+    "all_291_bookmarks_and_all_links_equal": true,
+    "label_folio_changes": [],
+    "internal_anchor_serial_changes": []
+  },
+  "fresh_measurements": {
+    "PDF_SHA256": "60bd18d285587e6c28a7e7ad7e9432f3c24168789e3e026736c3a73affc6ad3b",
+    "pages": 367,
+    "prose_line_sample_count": 9405,
+    "characters_p50": 75,
+    "characters_p90": 80,
+    "characters_max": 88,
+    "sample_method": "verify.py: NFKC-normalized extracted line length >=30; nonmath Schola spans near 11.5 TeX pt contribute at least 55% of that length. Diagnostic rather than all-text or aesthetic rating.",
+    "Schola_Regular_span_point_sizes": [
+      [
+        11.457,
+        26267
+      ],
+      [
+        10.1619,
+        1217
+      ],
+      [
+        8.0199,
+        146
+      ],
+      [
+        14.3462,
+        2
+      ],
+      [
+        5.7285,
+        1
+      ]
+    ],
+    "consecutive_prose_baseline_gap_samples": 1180,
+    "baseline_gap_points_modes": [
+      [
+        15.741,
+        670
+      ],
+      [
+        15.74103,
+        352
+      ],
+      [
+        15.74097,
+        69
+      ],
+      [
+        15.73999,
+        18
+      ]
+    ],
+    "fresh_contrast": {
+      "paper": "F5F1E7",
+      "body": "242A28",
+      "secondary": "454D49",
+      "body_ratio": 12.957966010405862,
+      "secondary_ratio": 7.722961072434094
+    },
+    "medical_eye_protection_effect_claim": false
+  },
+  "remaining_gates": {
+    "source": "Accepted r71/v77 current register;no new model research or gate closure",
+    "gates": [
+      {
+        "gate_id": "GATE:PL09",
+        "state": "OPEN_BOOK_FRAMEWORK_ACKNOWLEDGEMENT",
+        "open": true,
+        "remaining": [
+          "No finite-position/append/record-interpretation or finite-rule proof is missing for SM-ZF:ZF-FIN-01/02 provides them.",
+          "The original acknowledged-book-framework prerequisite remains;no arbitrary external predicate or common-foundation realization is inferred."
+        ]
+      },
+      {
+        "gate_id": "GATE:FOUNDATIONS",
+        "state": "OPEN_COMMON_FOUNDATION_AND_GENUINE_LARGE_SCOPE",
+        "open": true,
+        "remaining": [
+          "SM-ZF/HFSet is a concrete relative interpretation with an explicit axiom delta,not a selected book policy or consistency theorem.",
+          "The original full-completeness/common-foundation and genuinely larger range requirements remain;EC/V1 work stays later."
+        ]
+      },
+      {
+        "gate_id": "GATE:SIZE",
+        "state": "OPEN_GENUINE_LARGE_RANGE_INTERPRETATION",
+        "open": true,
+        "remaining": [
+          "All named set-indexed supply interfaces and the definable locally small large-target extension are realized in SM-ZF;this is not confined to finite examples.",
+          "Arbitrary proper-class-indexed/higher-type families require a different explicitly acknowledged range interpretation. ZF-SIZE-01 proves why set graphs alone do not cover them."
+        ]
+      },
+      {
+        "gate_id": "GATE:CHOICE",
+        "state": "OPEN_BOOK_ACK_AND_ARBITRARY_RANGE_FORMATION",
+        "open": true,
+        "remaining": [
+          "Unique set-valued families are formed explicitly;HFSet supplies canonical pullback/splitting/equalizer families;general nonunique families remain given parameters.",
+          "No global arbitrary-selection principle is added. Original large-range/whole-scope formation and policy acknowledgement remain."
+        ]
+      },
+      {
+        "gate_id": "GATE:EXTERNAL-METATHEORY",
+        "state": "OPEN_BOOK_MODEL_ACK_AND_LARGE_TYPED_SEMANTICS",
+        "open": true,
+        "remaining": [
+          "A named comparison semantics and complete finite/set capability proofs now exist;do not relabel them as merely awaiting a name.",
+          "They have not been acknowledged as the book framework,and do not realize arbitrary larger typed ranges or the later EC package."
+        ]
+      },
+      {
+        "gate_id": "GATE:EMPTY-CATEGORY",
+        "state": "OPEN_BOOK_MODEL_ACKNOWLEDGEMENT",
+        "open": true,
+        "remaining": [
+          "The CP58 working admission decision stays closed. ZF-EMPTY-01 realizes the empty-carrier interpretation by bounded quantifiers,including the retained local witnesses.",
+          "The remaining original common-model acknowledgement/large-scope dependency is not met by a comparison alone;no set-model empty-syntax proof remains missing."
+        ]
+      }
+    ],
+    "policy_decision_group": "Whether/where to acknowledge a formal external framework for the series and how its genuinely larger admitted ranges are interpreted. SM-ZF/HFSet remains comparison evidence,not adopted policy. This cannot be settled by routine wording or by silently restricting the book to small cases.",
+    "LR_body": "UNKNOWN;prevents exhaustive LR correspondence/no-omission certification",
+    "impact_on_content_handoff": "Does not require returning the already supplied V0 core and retained extensions to expansion;does prevent unconditional full-volume/foundation/reference certification",
+    "later_EC_realization": "Remains later-volume work",
+    "all_six_gates_closed": false
+  },
+  "archive_inventory_and_recovery": {
+    "action": "Read-only inventory and local recovery check; no GitHub access/submission, file move, cleanup or permissions change.",
+    "source_parent_library_file_id": "libfile_fde3_f-fc6dc66ac82c8191957363810d0d785f_383d682b1c388191a1961becbec9fb77",
+    "source_parent_version": 4,
+    "source_parent_bytes": 5603062,
+    "source_parent_SHA256": "8fa1adc1a994d6e81a7294e723bb29390602904eb5f3b9bf9fbed8efe92c94d1",
+    "parent_zip_crc_safe_extraction_and_874_manifest_checks_passed": true,
+    "parent_recovery_check": "The fixed source v4 was freshly downloaded, safely extracted and fully manifest-verified before this successor. Current verify.py --pdf passes; final saved-output roundtrip recorded separately.",
+    "current_inventory_files_excluding_build": 898,
+    "current_inventory_bytes_excluding_build": 13754237,
+    "cloud_retention_target_bytes": 150000000,
+    "scope_note": "This is a scoped current-artifact inventory, not an account-wide quota audit. No deletion/move is authorized or executed. Private remote identity/visibility/recovery has NOT been checked; no archive completion claim."
+  },
+  "PDF_save_conflict_resolution": {
+    "first_attempt": "Version-guard rejection; no PDF write occurred. Source v5 saved successfully.",
+    "reconciliation": "Read same PDF node, freshly materialized its exact current v0; persisted hash bd90d96142c22da9c0bfb30fe5de676765227d2f8711edbaa7e7294f5c849136 and every page text/geometry/links matched first edition. Reapplied verified second-edition bytes to metadata-bearing current working copy; same-node guarded v0 replacement then succeeded as v1. No guard bypass or stale overwrite."
+  },
+  "next": "dot Step 14 closure explanation. Sole adopted P2 resolved; no further feedback/math task. Existing formal/publication and LR body unknown remain; no EN-STABLE or complete-volume acceptance claim."
+}
