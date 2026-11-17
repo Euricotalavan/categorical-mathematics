@@ -1,3 +1,5 @@
+> Completed on 2026-11-17. Retained as historical transfer instructions; see VERIFICATION.md for the actual receipt. No new upload is needed.
+
 # Completion steps — upload the missing binary assets
 
 This file documents the single remaining Git transfer dependency. It is **not** a receipt of completed upload.

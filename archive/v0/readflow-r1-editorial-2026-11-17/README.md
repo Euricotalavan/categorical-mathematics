@@ -1,6 +1,6 @@
-# V0 / F1 / ReadFlow R1 — proposed current editorial version
+# V0 / F1 / ReadFlow R1 — current editorial candidate
 
-**Status: STAGING — source ZIP and PDF binaries have NOT yet been added to Git.** This directory is deliberately on an upload staging branch. Do not merge it as a complete V0 delivery until the binary assets listed below are present and verified.
+**Status: BINARY DELIVERY VERIFIED — current V0 editorial candidate, not mathematical final acceptance.** All three exact binary artifacts are included. See `VERIFICATION.md` for the independently retrieved Git artifact checks.
 
 - Volume: V0, *Language and given constructions*, Chapters 0–9 (next volume V1 begins Chapter 10).
 - Editorial method: ReadFlow architecture II; workflow **A/v3** (not production scheme B).
@@ -11,7 +11,7 @@
 - Important: ReadFlow rendering/engineering pass is **not** v3 steps 10–12 thickening final mathematical acceptance, publication, EN-STABLE, complete source coverage, or A/B effectiveness proof.
 - OPEN: six formal publication/foundation gates; Lawvere–Rosebrugh item-level comparison UNKNOWN; independent full mathematical review still pending; full continuous human page inspection pending; cross-machine/paper/assistive-technology tests not certified.
 
-## Expected binary assets (not uploaded in this commit)
+## Verified binary assets
 
 | Relative filename | Bytes | SHA-256 |
 | --- | ---: | --- |
@@ -21,7 +21,7 @@
 
 The source ZIP also contains *raw* compiler PDFs with different SHA-256 hashes due to host-side PDF repackaging. Their paired rendering/text/navigation was checked; preserve both identities rather than silently replacing the delivery checksums.
 
-## Promotion checklist
+## Historical promotion checklist and remaining review
 
 1. Upload the **three exact binary files above** to this directory, without changing their bytes. Do not upload proprietary textbooks, font files or credentials.
 2. Verify all three SHA-256 values; PDF counts/TOC; source ZIP CRC and mathematical-source fingerprints. Record immutable Git commit SHA and updated checksums.
@@ -29,4 +29,4 @@ The source ZIP also contains *raw* compiler PDFs with different SHA-256 hashes d
 4. Route the *candidate* to the V0 thickening reviewer for v3 10–12 independent final review. Do not declare mathematically final without that result.
 5. Preserve all past archives and versions: no history rewrite, no deletion of old V0.
 
-This staging file is an inventory and transfer receipt, **not evidence that the binary upload succeeded**.
+The binary upload is recorded in `VERIFICATION.md`. Steps 1–3 are complete; independent mathematical final review remains pending. Historical statements inside the byte-frozen ZIP describe the packaging-time state, not the current Git transfer status.

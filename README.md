@@ -2,11 +2,11 @@
 
 Source files and PDFs for the Categorical Mathematics series. **Editorial candidates and archived volumes are not unconditional mathematical/publication acceptances.**
 
-## Current V0 editorial candidate (pending promotion)
+## Current V0 editorial candidate
 
-**V0 — Language and given constructions, Chapter 0–9:** [ReadFlow R1 editorial candidate](archive/v0/readflow-r1-editorial-2026-11-17/README.md), 2026-11-17. This branch is **staging only** until the 464-page reading PDF, 464-page print PDF and source ZIP are added and checked with [verify_release.py](archive/v0/readflow-r1-editorial-2026-11-17/verify_release.py).
+**V0 — Language and given constructions, Chapter 0–9:** [ReadFlow R1 editorial candidate](archive/v0/readflow-r1-editorial-2026-11-17/README.md), 2026-11-17. The 464-page reading PDF, 464-page print PDF and complete source ZIP are included and verified with [verify_release.py](archive/v0/readflow-r1-editorial-2026-11-17/verify_release.py).
 
-When the three verified files are uploaded, the links will be:
+Verified delivery files:
 - [V0 ReadFlow R1 reading PDF](archive/v0/readflow-r1-editorial-2026-11-17/V0-ReadFlow-R1.pdf)
 - [V0 ReadFlow R1 complete source ZIP](archive/v0/readflow-r1-editorial-2026-11-17/V0-ReadFlow-R1-Source.zip)
 - [V0 ReadFlow R1 print PDF](archive/v0/readflow-r1-editorial-2026-11-17/V0-ReadFlow-R1-Print.pdf)
