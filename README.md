@@ -2,6 +2,12 @@
 
 Source files and PDFs for the Categorical Mathematics series. **Editorial candidates and archived volumes are not unconditional mathematical/publication acceptances.**
 
+## Adopted unified layout template
+
+The owner has formally adopted **ReadFlow R1, as implemented in the V0 R1 source package, as the unified layout template for subsequent volumes**. It is no longer an experimental or candidate template. See [the template adoption record](archive/v0/readflow-r1-editorial-2026-11-17/TEMPLATE-ADOPTION.md) for the fixed implementation and historical-status clarification.
+
+Template adoption is separate from textbook acceptance: V0 remains pending its independent strict mathematical final review, and all OPEN/UNKNOWN items remain unchanged.
+
 ## Current V0 editorial candidate
 
 **V0 — Language and given constructions, Chapter 0–9:** [ReadFlow R1 editorial candidate](archive/v0/readflow-r1-editorial-2026-11-17/README.md), 2026-11-17. The 464-page reading PDF, 464-page print PDF and complete source ZIP are included and verified with [verify_release.py](archive/v0/readflow-r1-editorial-2026-11-17/verify_release.py).

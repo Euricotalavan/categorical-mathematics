@@ -11,6 +11,10 @@
 - Important: ReadFlow rendering/engineering pass is **not** v3 steps 10–12 thickening final mathematical acceptance, publication, EN-STABLE, complete source coverage, or A/B effectiveness proof.
 - OPEN: six formal publication/foundation gates; Lawvere–Rosebrugh item-level comparison UNKNOWN; independent full mathematical review still pending; full continuous human page inspection pending; cross-machine/paper/assistive-technology tests not certified.
 
+## Template status: formally adopted
+
+The owner has formally adopted the **actual V0 ReadFlow R1 implementation** as the unified template for subsequent volumes. The template is **not experimental and not a candidate**. V0’s textbook/mathematical acceptance status is separate and remains unchanged. See [TEMPLATE-ADOPTION.md](TEMPLATE-ADOPTION.md). The immutable ZIP contains packaging-time descriptions such as “isolated trial” and “not an adopted common Study template”; those historical template-status statements are superseded by this adoption record, not instructions to restart a trial.
+
 ## Verified binary assets
 
 | Relative filename | Bytes | SHA-256 |
