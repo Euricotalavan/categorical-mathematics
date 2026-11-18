@@ -1,0 +1,928 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "adoption_state",
+    "status",
+    "scope",
+    "sources",
+    "reader_context",
+    "finding",
+    "math_obligations",
+    "change",
+    "impact",
+    "verification",
+    "review_context",
+    "open_unknown",
+    "handoff"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0-research-draft"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "adoption_state": {
+      "const": "RESEARCH_PROPOSAL_NOT_ADOPTED"
+    },
+    "status": {
+      "enum": [
+        "KEEP",
+        "NO_SUPPORTED_DEFECT",
+        "NO_TEXT_DIFFERENCE",
+        "HYPOTHESIS",
+        "UNKNOWN",
+        "INSUFFICIENT_CONTEXT",
+        "PROPOSED",
+        "RESOLVED_LOCAL",
+        "RETURNED",
+        "BLOCKED",
+        "STOP_EXPANSION",
+        "REVERTED"
+      ]
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "volume",
+        "scheme",
+        "stage",
+        "a_step_mapping",
+        "role",
+        "authorization_basis",
+        "unit_ids",
+        "chapter_number_basis",
+        "frozen_limits",
+        "formal_template_baseline",
+        "local_template_patches"
+      ],
+      "properties": {
+        "volume": {
+          "type": "string"
+        },
+        "scheme": {
+          "enum": [
+            "A",
+            "B",
+            "RESEARCH_ONLY"
+          ]
+        },
+        "stage": {
+          "type": "string"
+        },
+        "a_step_mapping": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "enum": [
+            "擴充",
+            "打厚",
+            "精修",
+            "排版",
+            "研究"
+          ]
+        },
+        "authorization_basis": {
+          "type": "string"
+        },
+        "unit_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "chapter_number_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "frozen_limits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "formal_template_baseline": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "local_template_patches": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "kind",
+          "file",
+          "retrieval_url_or_library_id",
+          "version",
+          "commit",
+          "sha256",
+          "bytes",
+          "retrieval_status",
+          "pairing_id",
+          "pairing_evidence",
+          "actual_read_scope"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "MANUSCRIPT",
+              "PDF",
+              "REFERENCE",
+              "RULE",
+              "TEMPLATE",
+              "DIFF",
+              "REVIEW",
+              "EXPERIMENT"
+            ]
+          },
+          "file": {
+            "type": "string"
+          },
+          "retrieval_url_or_library_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "commit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "retrieval_status": {
+            "enum": [
+              "READ",
+              "MATERIALIZED_NOT_READ",
+              "MISSING",
+              "UNVERIFIED"
+            ]
+          },
+          "pairing_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pairing_evidence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "actual_read_scope": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "reader_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_reader",
+        "prior_knowledge",
+        "missing_materials",
+        "uses_only_available_reader_material",
+        "reader_task"
+      ],
+      "properties": {
+        "target_reader": {
+          "type": "string"
+        },
+        "prior_knowledge": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "claim",
+              "status",
+              "anchors"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "EXPLICIT_PREREQUISITE",
+                  "TAUGHT_BEFORE",
+                  "UNKNOWN"
+                ]
+              },
+              "anchors": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/anchor"
+                }
+              }
+            }
+          }
+        },
+        "missing_materials": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uses_only_available_reader_material": {
+          "type": "boolean"
+        },
+        "reader_task": {
+          "type": "string"
+        }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "category",
+        "severity",
+        "quote",
+        "anchors",
+        "reader_task",
+        "obstacle",
+        "evidence",
+        "counterevidence_sought",
+        "preserved_function"
+      ],
+      "properties": {
+        "category": {
+          "enum": [
+            "REDUNDANCY_WITHOUT_FUNCTION",
+            "MISSING_REASON",
+            "MISSING_RECOGNITION_EXAMPLE",
+            "UNDEFINED_TERM",
+            "UNSTATED_PRIOR_THEOREM",
+            "SYMBOL_OR_CONDITION_LOOKBACK",
+            "SEQUENCE_INTERRUPTION",
+            "UNCLEAR_PURPOSE",
+            "MISLEADING_EXPLANATION",
+            "PDF_CONTINUITY",
+            "CONTEXT_PACKAGE_DEFECT",
+            "DESIGN_TRADEOFF",
+            "FUNCTIONAL_REPETITION",
+            "NO_SUPPORTED_DEFECT",
+            "NO_TEXT_DIFFERENCE",
+            "OTHER_WITH_EXPLANATION"
+          ]
+        },
+        "severity": {
+          "enum": [
+            "BLOCKS_CORRECT_USE",
+            "SIGNIFICANT_RECONSTRUCTION_OR_LOOKBACK",
+            "MINOR",
+            "OPTIONAL_PREFERENCE",
+            "NOT_A_DEFECT",
+            "UNKNOWN"
+          ]
+        },
+        "quote": {
+          "type": "string"
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/anchor"
+          }
+        },
+        "reader_task": {
+          "type": "string"
+        },
+        "obstacle": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "level",
+              "claim",
+              "anchors",
+              "limitations"
+            ],
+            "properties": {
+              "level": {
+                "enum": [
+                  "OBSERVED_TEXT",
+                  "OBSERVED_PDF",
+                  "ENGINEERING_RESULT",
+                  "MATHEMATICAL_CHECK",
+                  "HUMAN_READING_RESULT",
+                  "AI_REVIEW_RESULT",
+                  "EXTERNAL_RESEARCH",
+                  "INFERENCE",
+                  "UNVERIFIED_HYPOTHESIS"
+                ]
+              },
+              "claim": {
+                "type": "string"
+              },
+              "anchors": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/anchor"
+                }
+              },
+              "limitations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "counterevidence_sought": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preserved_function": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "math_obligations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "obligation_id",
+          "requirement",
+          "before",
+          "after",
+          "status",
+          "evidence"
+        ],
+        "properties": {
+          "obligation_id": {
+            "type": "string"
+          },
+          "requirement": {
+            "type": "string"
+          },
+          "before": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/anchor"
+            }
+          },
+          "after": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/anchor"
+            }
+          },
+          "status": {
+            "enum": [
+              "PRESERVED",
+              "CHANGED_MEANING",
+              "MISSING",
+              "UNKNOWN",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "change": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "change_id",
+            "owner_role",
+            "action",
+            "before_text",
+            "after_text",
+            "diff_source_id",
+            "reason",
+            "authorized_scope",
+            "state"
+          ],
+          "properties": {
+            "change_id": {
+              "type": "string"
+            },
+            "owner_role": {
+              "enum": [
+                "擴充",
+                "打厚",
+                "精修",
+                "排版",
+                "研究"
+              ]
+            },
+            "action": {
+              "type": "string"
+            },
+            "before_text": {
+              "type": "string"
+            },
+            "after_text": {
+              "type": "string"
+            },
+            "diff_source_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "authorized_scope": {
+              "type": "string"
+            },
+            "state": {
+              "enum": [
+                "PROPOSED",
+                "APPLIED_IN_ISOLATED_COPY",
+                "APPLIED_WITH_AUTHORIZATION",
+                "REVERTED"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "impact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "direct_units",
+        "downstream_units",
+        "invalidated_checks",
+        "recheck_scope",
+        "unaffected_scope"
+      ],
+      "properties": {
+        "direct_units": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "downstream_units": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "invalidated_checks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recheck_scope": {
+          "type": "string"
+        },
+        "unaffected_scope": {
+          "type": "string"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_anchors",
+        "math_semantics",
+        "engineering",
+        "pdf",
+        "chapter_continuity",
+        "volume_continuity",
+        "reading"
+      ],
+      "properties": {
+        "source_anchors": {
+          "$ref": "#/$defs/check"
+        },
+        "math_semantics": {
+          "$ref": "#/$defs/check"
+        },
+        "engineering": {
+          "$ref": "#/$defs/check"
+        },
+        "pdf": {
+          "$ref": "#/$defs/check"
+        },
+        "chapter_continuity": {
+          "$ref": "#/$defs/check"
+        },
+        "volume_continuity": {
+          "$ref": "#/$defs/check"
+        },
+        "reading": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "modality",
+            "result",
+            "evidence",
+            "scope",
+            "limitations",
+            "human_test_protocol_id",
+            "human_results_source_id"
+          ],
+          "properties": {
+            "modality": {
+              "enum": [
+                "AI_ONLY",
+                "HUMAN",
+                "NOT_PERFORMED"
+              ]
+            },
+            "result": {
+              "enum": [
+                "LOCAL_OBSTACLE_RESOLVED",
+                "LOCAL_OBSTACLE_REMAINS",
+                "NEW_OBSTACLE",
+                "NO_DIFFERENCE",
+                "INCONCLUSIVE",
+                "NOT_PERFORMED"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "scope": {
+              "type": "string"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "human_test_protocol_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "human_results_source_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "review_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_role",
+        "independent_of_author_chat",
+        "same_underlying_model",
+        "actual_model",
+        "actual_reasoning_mode",
+        "setting_verification",
+        "author_rationale_seen",
+        "historical_scores_seen",
+        "version_labels_seen",
+        "presented_order",
+        "procedure_deviations",
+        "actual_read_scope",
+        "order_swap_result"
+      ],
+      "properties": {
+        "reviewer_role": {
+          "enum": [
+            "擴充",
+            "打厚",
+            "精修",
+            "排版",
+            "研究"
+          ]
+        },
+        "independent_of_author_chat": {
+          "type": "boolean"
+        },
+        "same_underlying_model": {
+          "enum": [
+            "YES",
+            "NO_VERIFIED",
+            "UNKNOWN"
+          ]
+        },
+        "actual_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actual_reasoning_mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "setting_verification": {
+          "enum": [
+            "VERIFIED_FROM_RUNTIME",
+            "UNVERIFIED"
+          ]
+        },
+        "author_rationale_seen": {
+          "type": "boolean"
+        },
+        "historical_scores_seen": {
+          "type": "boolean"
+        },
+        "version_labels_seen": {
+          "type": "boolean"
+        },
+        "presented_order": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "procedure_deviations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "actual_read_scope": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/anchor"
+          }
+        },
+        "order_swap_result": {
+          "enum": [
+            "STABLE",
+            "POSITION_SENSITIVE",
+            "INCONCLUSIVE",
+            "NOT_PERFORMED"
+          ]
+        }
+      }
+    },
+    "open_unknown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "issue",
+          "location",
+          "owner_role",
+          "blocking",
+          "next_action"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "issue": {
+            "type": "string"
+          },
+          "location": {
+            "$ref": "#/$defs/anchor"
+          },
+          "owner_role": {
+            "enum": [
+              "擴充",
+              "打厚",
+              "精修",
+              "排版",
+              "研究",
+              "使用者決策"
+            ]
+          },
+          "blocking": {
+            "type": "boolean"
+          },
+          "next_action": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "full_v4_handoff_id",
+        "next_role",
+        "next_action",
+        "return_condition",
+        "do_not_redo",
+        "transmission_status",
+        "terminal_authority"
+      ],
+      "properties": {
+        "full_v4_handoff_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_role": {
+          "enum": [
+            "擴充",
+            "打厚",
+            "精修",
+            "排版",
+            "研究",
+            "使用者決策",
+            "無下一步"
+          ]
+        },
+        "next_action": {
+          "type": "string"
+        },
+        "return_condition": {
+          "type": "string"
+        },
+        "do_not_redo": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transmission_status": {
+          "enum": [
+            "DRAFT_ONLY",
+            "WAITING_USER_FORWARD",
+            "DELIVERED_NOT_ACKNOWLEDGED",
+            "ACTUAL_READ_ACKNOWLEDGED",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "terminal_authority": {
+          "const": "依A/B v4；排版後唯一整卷終審與複核為打厚，研究紀錄不授予終審權"
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:readflow:research:reading-defect:1",
+  "title": "ReadFlow 閱讀缺陷紀錄研究草案 v1",
+  "description": "研究用欄位規格，未正式採納；僅驗證欄位形狀，不判數學真偽、閱讀品質或整卷終審。須與A/B v4完整交接共用。KEEP/NO_SUPPORTED_DEFECT 可使用空義務或空證據陣列並在scope中解釋，不能偽造已核結果。",
+  "$defs": {
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "paragraph_ids",
+        "location_note"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "paragraph_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "line_start": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "line_end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "pdf_physical_pages": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "printed_pages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "location_note": {
+          "type": "string"
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "result",
+        "evidence",
+        "scope",
+        "limitations"
+      ],
+      "properties": {
+        "result": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNKNOWN",
+            "NOT_PERFORMED",
+            "NOT_APPLICABLE_WITH_REASON"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

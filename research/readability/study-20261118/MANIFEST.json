@@ -1,0 +1,99 @@
+{
+  "handoff_id": "RF-RESEARCH-PUBLICATION-20261118-v1",
+  "version": "v1",
+  "parent_commit": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+  "exclusion": "This manifest does not include its own self-reference; Git tree/blob identifies it.",
+  "status": "research publication; formal proposals not adopted",
+  "files": [
+    {
+      "path": "research/readability/README.md",
+      "version": "public-research-v1",
+      "purpose": "研究入口",
+      "bytes": 4440,
+      "sha256": "cd21d2d005739413e796fc434833d1a0ab15ded8e9610258f9f37fbbb9c9f601",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/EXPERIMENTS.md",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 10483,
+      "sha256": "6d37ae2bae5ace1d4356e579a8b782a4319c2716a65019f24ceb299bb9391bf5",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/HANDOFF.md",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 10774,
+      "sha256": "2b83fca6ad07062f816fb871617550c282a9530402cffd9bb83b52805361fc00",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/RESULTS.md",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 26692,
+      "sha256": "bb3ed90691861f2c6220175df70b6ba29b9b2baa99edda03d53c0c936c8825b8",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/ROLE-PROMPTS.md",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 11340,
+      "sha256": "46758d9c26cb36e80cb53bcd49f24372b26f9b0e7febead0688cac1a013815e4",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/evidence/literature.json",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 12452,
+      "sha256": "b9b5bc86bbc00eb48fb724fc996e0964a7037a01b3427542b090185fd50a06e6",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/evidence/research-record.json",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 23929,
+      "sha256": "21f2403795feebf6a85661899e9bb76914578f1235052ad603b44e512b88cd7d",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/evidence/source-identities.json",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 29107,
+      "sha256": "354051969af6ae3b3328ba117ad00354084b3fa07d45a2435c8fb9afddd5b6e9",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/reading-defect.schema.json",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 21221,
+      "sha256": "fbf8d7ba3a0cfd7e21477ea637823b80e9dfc1ab5929c459887f01ee39a52c48",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    },
+    {
+      "path": "research/readability/study-20261118/verify.py",
+      "version": "public-research-v1",
+      "purpose": "公開研究結論／操作／證據／交接，具體範圍見檔內",
+      "bytes": 905,
+      "sha256": "c3029fc3b7056bf16f8ffb77ef17ac50fc0aec4ea6d3be0ed6f72f841d58a024",
+      "recovery": "this Git commit and repository path",
+      "verification": "bytes/SHA256; semantic limitations recorded separately"
+    }
+  ]
+}
