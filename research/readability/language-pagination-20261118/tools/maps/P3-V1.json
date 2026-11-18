@@ -1,0 +1,16 @@
+{
+  "page_roles": {
+    "103": "mixed_prose_exercises_and_solutions",
+    "104": "solution"
+  },
+  "edges": [
+    {
+      "id": "ex23.7-to-short-answer",
+      "kind": "statement_short_solution",
+      "from_anchor": "A commuting square which is too small",
+      "to_anchor": "The image f.m is the whole singleton",
+      "review_question": "The answer is a single short paragraph: is a whole extra page justified?"
+    }
+  ],
+  "expected_sha256": "4fda902bda98cbcad74f8ce6552cfaf92b575f56f70a9814a428a99f00805224"
+}

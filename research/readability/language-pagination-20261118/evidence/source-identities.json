@@ -1,0 +1,446 @@
+{
+  "research_baseline_commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+  "scope": "48 fixed input identities; not all inputs publicly available or completely reread in this commission",
+  "sources": [
+    {
+      "name": "各版逐頁明細_R6_R7_P2.csv",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 152798,
+      "sha256": "86774be55ad823d82e0520dbae699ab4ccd521a37c24a0489c4e80811c1fb98c",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "逐頁對照_R6_R7_P2.csv",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 89088,
+      "sha256": "d18a697095c89063de7d121c10380cac674a3c8688c2e44a204f45de18332d25",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "R6_R7_P2_逐頁文字密度.xlsx",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 267469,
+      "sha256": "b04d367e46721cb0d0e26a6fd0aff79ab90455b111cb37c8c0af16cf80fb9f4b",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "R6_R7_P2_逐頁文字密度_全套.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 282619,
+      "sha256": "7094bbe40ecae9b19c63e85f549deeeee7bb6cd26470e363a0e1783d58e05679",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "HANDOFF_R7_P2.md",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 6832,
+      "sha256": "e3d876f8466e5fad2e7a63d38c2f8b751919791de16efaed7ead6b99a9cdca76",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "Categorical_Mathematics_R7_P2_Source_Delta.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 34798,
+      "sha256": "b288540ed74e36bb3e85b43a2c60e08adccea4097dbbf299af654cc0ae05da33",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "Categorical_Mathematics_R7_P2_Three_Volume_Scoring_Set.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 3304817,
+      "sha256": "ec4643d8730afa35d8abaaa8effdcfa78261a5d72e8f17395eac8c6f88af513b",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V2_ReadFlow_R7_P3_Reading.pdf",
+      "kind": "historical_P2_P3_delivery",
+      "version": "2",
+      "bytes": 1122382,
+      "sha256": "07a34aaf68afb25aca68545c605cc406fa212142f32a512b3b47766d3def8c7b",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V1_ReadFlow_R7_P3_Reading.pdf",
+      "kind": "historical_P2_P3_delivery",
+      "version": "2",
+      "bytes": 877765,
+      "sha256": "2343dcb96923ea31a4ed260e5aed261d2c850f4f69f850ada0d916b1739fb92f",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0_ReadFlow_R7_P3_Reading.pdf",
+      "kind": "historical_P2_P3_delivery",
+      "version": "2",
+      "bytes": 2453006,
+      "sha256": "4f48fe32d19559f05bd132cf8c4a5932510838050b1cb5bb66df49c7196b5cd7",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "HANDOFF_R7_P3.md",
+      "kind": "historical_P2_P3_delivery",
+      "version": "2",
+      "bytes": 10424,
+      "sha256": "f90e4fe5b6e21e47ad4a0ef886f7cfb1dc210de8b12c33f7709a89bd4a0e263c",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "Categorical_Mathematics_R7_P3_Three_Volume_Scoring_Set.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "2",
+      "bytes": 3355628,
+      "sha256": "8ea53f2ac33c42af524a7fc8f74b948bd5a09945730c9a5df827262c15b548b4",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "Categorical_Mathematics_R7_P3_Cumulative_Source_Delta.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 490971,
+      "sha256": "8ef85a24de876ea3a8fc212b5f19678bcd645f59b9c3d6aa0c36dec0d5200bed",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "QA_R7_P3.json",
+      "kind": "historical_P2_P3_delivery",
+      "version": "1",
+      "bytes": 6946,
+      "sha256": "07536d80fc61a85d9593664337969cda13e0bd7260bd75c71d886040d7a26719",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "page_density_R7_P3.csv",
+      "kind": "historical_P2_P3_delivery",
+      "version": "1",
+      "bytes": 24929,
+      "sha256": "097b5fa677ef8c7e4394b63059662805748a8fff85bf23e92ceae8fe00f6752e",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "R7_P3_Three_Volume_Scoring_Set.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "1",
+      "bytes": 3350288,
+      "sha256": "6f59a53372ef753fb52f5b6d21c0b9236426567122eb7dfc0bd4e7bf7b262e20",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "R7_P3_Complete_Editable_LaTeX.zip",
+      "kind": "historical_P2_P3_delivery",
+      "version": "0",
+      "bytes": 12828047,
+      "sha256": "80eb5008015e4a8fe266aca9b52ad9e49343f8c11ee5fdd8207d9f7ef9010152",
+      "read_scope": "identity and explicitly documented source/PDF/QA comparisons; spreadsheet xlsx identity only, parallel CSV used",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0_Ch1_S2_1_Handoff.md",
+      "kind": "historical_calibration_handoff",
+      "version": "1",
+      "bytes": 4638,
+      "sha256": "5b07a089ea8822a31dd85eb2160d7b744db0de9c84e006cad0f7695748106eed",
+      "read_scope": "full text; historical not current template adoption",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "math-extractor-v0.4.zip",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 1021262,
+      "sha256": "c2d47e097447a836bcad63d5a030106b1ec261bac4ffe32a6aecc783aca244f3",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "math-curriculum-v4-git-aligned.html",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 2167706,
+      "sha256": "098aaacab85e330cb0493fc928916361c3fba09c0d36b3964f61c74ad2a2e1df",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "math-references-v4-git-aligned.html",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 3482004,
+      "sha256": "4b3e0af09024a799744ee6fbb76ad68b95d82baeb020e5a6b8033cf00361a59d",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "文獻擷取與覆蓋工作流-v2.txt",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 4865,
+      "sha256": "c607c7db2aaf7aeedeb24420b2e876a578abd54b802a318e4efe6d1d7522ecd5",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "Math_Readability_System_Study_v1.html",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 308180,
+      "sha256": "5b07cfcac26be6816af532330e5a08432c1bd40f72e3d124d22df8fd8fda0347",
+      "read_scope": "existing study evidence read in preceding study and unchanged input reused; operating draft and handoff limitations checked",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Editor_Operating_Draft_v1.md",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 4986,
+      "sha256": "84a62270d02019a31001470fd23f8c503c4fd79d72b0fd17a1cc74cb11a2b8fa",
+      "read_scope": "existing study evidence read in preceding study and unchanged input reused; operating draft and handoff limitations checked",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Study_Handoff_v1.md",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 11074,
+      "sha256": "1220ea24fa381e19a78c96995189d5732c10a975c8afbd7b0ddc559c78e24ea9",
+      "read_scope": "existing study evidence read in preceding study and unchanged input reused; operating draft and handoff limitations checked",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Delivery_Manifest_v1.json",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 5056,
+      "sha256": "1597085afa26fbc580ec23c4526301f8b0fdd55c7f2683d53dd20690262511ee",
+      "read_scope": "existing study evidence read in preceding study and unchanged input reused; operating draft and handoff limitations checked",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Evidence_v1.json",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 32521,
+      "sha256": "97168aeaa98eb3a31e4af97257e5397fdc6346b0c8833924738d2185f0574d51",
+      "read_scope": "existing study evidence read in preceding study and unchanged input reused; operating draft and handoff limitations checked",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Research_Samples_Screen_v1.pdf",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 71014,
+      "sha256": "3996571dc6bb4f5acf5692fb715f4760d3219451c600b66df79cf7b19b646ff9",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0_Ch1_S2_1_Smaller_Font.pdf",
+      "kind": "project_input",
+      "version": "1",
+      "bytes": 167150,
+      "sha256": "436c2ddd005621eea22aa0341eb8ff29e7be3bfe8a28539e55d9211d50a53895",
+      "read_scope": "historical 14-page calibration; previous study PDF read retained, not new human test",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "ReadFlow_Research_Kit_v1.zip",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 1311342,
+      "sha256": "fc75b72e39c8006af57daaa2efab55a41e9d0967e3e25198468390f28229446d",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0_Ch1_S2_1_Editable_LaTeX.zip",
+      "kind": "project_input",
+      "version": "1",
+      "bytes": 19011,
+      "sha256": "a772b4bb2ea1bae4b37d14298b0147ed7b637d08178e8d9cae73cc84818b5e79",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "A-B製作與交接總規範-v4.txt",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 39172,
+      "sha256": "bb095f08c70f79ecfb84abbabf3f1350ee7f53ba9de707c917a412301bac4fea",
+      "read_scope": "current authority read; adopted R1 and A/B constraints applied",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "固定來源入口與歷史限制-v2.txt",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 6841,
+      "sha256": "26ace7d453b12b4f533dd2b478a9a6883ba4b030b7662cceeeb54dbee5ae8efa",
+      "read_scope": "current authority read; adopted R1 and A/B constraints applied",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "來源導覽與版本映射-v1.txt",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 9303,
+      "sha256": "099d845787542f49e0a2379e6fce0d9fbf78dc0fee58f7d9d901f262ebbd5a02",
+      "read_scope": "current authority read; adopted R1 and A/B constraints applied",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "排版官必讀：Git方法論與QA入口-v1.txt",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 2659,
+      "sha256": "daec7694b1813f1ea4dc1e1b3feaeeffe0980e1896c5926f4d31ee6130a109d6",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "A-B標準流程圖-v2-相容修正版.html",
+      "kind": "project_input",
+      "version": "filename-fixed",
+      "bytes": 35197,
+      "sha256": "e7abc462f8fe4549e3493ece650e2ea885f9479bf2f95f5791e490fb932a47d6",
+      "read_scope": "fixed identity; original full-table/tool content not newly audited",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0_ReadFlow_R7_Source.zip",
+      "kind": "fixed_R7_restore_input",
+      "version": "3",
+      "bytes": 7651354,
+      "sha256": "0c7b57ef13987be95e81c79696fb3ce51967ea9c32fb55a87ffb94ca03e3c358",
+      "read_scope": "hash fixed and restoration baseline, not full fresh mathematical audit",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V1_ReadFlow_R7_Source.zip",
+      "kind": "fixed_R7_restore_input",
+      "version": "3",
+      "bytes": 6347265,
+      "sha256": "61d257b077b7119fe82fb1689d6d0a981838c85de4ed5246102d1dbc3ca8e50d",
+      "read_scope": "hash fixed and restoration baseline, not full fresh mathematical audit",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V2_ReadFlow_R7_Source.zip",
+      "kind": "fixed_R7_restore_input",
+      "version": "3",
+      "bytes": 5369965,
+      "sha256": "d8db301cf6da1cd4463ee81717ccc7d24ca766347ec650309545f19c6b9e4786",
+      "read_scope": "hash fixed and restoration baseline, not full fresh mathematical audit",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "V0-ReadFlow-R1-Source.zip",
+      "kind": "adopted_formal_template",
+      "version": "Library v3",
+      "commit": "8b9dc7f3749de81e47de9f525d7c5e0b3f8036c3",
+      "bytes": 7007679,
+      "sha256": "5f91243f32d7e76d643575a76488d5b1e26d4909aa3017bd812cb526bf5ed732",
+      "read_scope": "source identity and build method/template read; not new full-volume rebuild",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "TEMPLATE-ADOPTION.md",
+      "kind": "formal_adoption",
+      "commit": "c749e4867538888d3069346fa055ac2ca834c9e1",
+      "bytes": 2631,
+      "sha256": "e379ec03aabfa14a60f4b68b9a10047a16422dca99420438b6c88d6c9efdccea",
+      "read_scope": "formal adoption status",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/EDITOR-QA-v1.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 6081,
+      "sha256": "152c3b0ea5f3d6b702d31c89a27f8bea61980847493131d5a601f051d9e943c5",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/EDITOR-QA-v1.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/LESSONS-R3-R7-20261118.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 11601,
+      "sha256": "ae25090cf75dc72544a450395ba145a36396699b229d83706ad52b26957cf54e",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/LESSONS-R3-R7-20261118.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/LESSONS-R7-P3-1750-20261118.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 10131,
+      "sha256": "f4b5a319245381dd07aa73e835b7ef16222a082c49c4b70fe3024870c956ae40",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/LESSONS-R7-P3-1750-20261118.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/METHODOLOGY-v1.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 17686,
+      "sha256": "a2d89bba12f74b2eac883fd9009a85acec95e2ae9dbf50a3a54b9af9063330df",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/METHODOLOGY-v1.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/study-20261118/EXPERIMENTS.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 10483,
+      "sha256": "6d37ae2bae5ace1d4356e579a8b782a4319c2716a65019f24ceb299bb9391bf5",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/study-20261118/EXPERIMENTS.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/study-20261118/RESULTS.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 26692,
+      "sha256": "bb3ed90691861f2c6220175df70b6ba29b9b2baa99edda03d53c0c936c8825b8",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/study-20261118/RESULTS.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    },
+    {
+      "name": "research/readability/study-20261118/ROLE-PROMPTS.md",
+      "kind": "fixed_git_research",
+      "commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+      "bytes": 11340,
+      "sha256": "46758d9c26cb36e80cb53bcd49f24372b26f9b0e7febead0688cac1a013815e4",
+      "read_scope": "new P3 lessons full text; unchanged previous study/methodology/QA retained and identity checked",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/4076cc01c41106be449ccd02e9c494a829bdd5f2/research/readability/study-20261118/ROLE-PROMPTS.md",
+      "availability": "Identity record only unless a public_url is given; source holder retains original inputs and private recovery references."
+    }
+  ]
+}

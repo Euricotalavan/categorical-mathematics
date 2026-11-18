@@ -9,6 +9,16 @@
 - [完整方法論與研究證據](./METHODOLOGY-v1.md)：設計思想、版面參數起點、內容類型、A/B 接入、兩組工程測試與尚未解決的風險。
 - [行文排版官操作與 QA 清單](./EDITOR-QA-v1.md)：接收、分類、編譯、視檢、交接、退回的可直接執行步驟。
 
+## 2026-11-18：數學語言壓縮與自然分頁研究結果
+
+依使用者在研究完成後的明確授權，新增 [language-pagination-20261118](./language-pagination-20261118/README.md)。固定比較基線為 `4076cc01c41106be449ccd02e9c494a829bdd5f2`；P2為70分、P3為68分，均為主觀閱讀回饋。
+
+- [完整結論](./language-pagination-20261118/RESULTS.md)：安全符號化、必要文字、自然分頁、習題題目／詳解分流與規模化。
+- [84頁隔離實驗結果](./language-pagination-20261118/EXPERIMENTS.md)與[原PDF具體缺陷](./language-pagination-20261118/FORENSICS.md)：成功、無變化、失敗及先備OPEN一併保留。
+- [角色Prompt](./language-pagination-20261118/ROLE-PROMPTS.md)、[定位工具](./language-pagination-20261118/tools/reading_diagnostics.py)、[公開交接](./language-pagination-20261118/HANDOFF.md)。
+
+公開版只包含研究文字、紀錄與工具；原始教材/PDF/字型及私人恢復入口不在本次提交中。沒有新人類測試、沒有穩定90分保證、沒有正式採納、解凍或重啟書稿。
+
 ## 2026-11-18 完整研究結果
 
 本次將「S2.1 的93分與跨卷60–65分差距」研究整理成可直接閱讀與使用的Git文件。固定比較基線仍是 `1dace0ac242267e1bf2c3650df4d21d9879383b8`。60–65是跨卷整體主觀評價，不是R7單版驗收分數。

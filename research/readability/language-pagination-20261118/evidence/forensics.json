@@ -1,0 +1,2197 @@
+{
+  "study": "symbolic-pagination 2026-11-18",
+  "research_only": true,
+  "user_scores_source": "latest user message: P2=70,P3=65+3=68; subjective, no controlled inference",
+  "input_identities": [
+    {
+      "path": "sources/history/Categorical_Mathematics_R7_P2_Source_Delta.zip",
+      "bytes": 34798,
+      "sha256": "b288540ed74e36bb3e85b43a2c60e08adccea4097dbbf299af654cc0ae05da33"
+    },
+    {
+      "path": "sources/history/Categorical_Mathematics_R7_P2_Three_Volume_Scoring_Set.zip",
+      "bytes": 3304817,
+      "sha256": "ec4643d8730afa35d8abaaa8effdcfa78261a5d72e8f17395eac8c6f88af513b"
+    },
+    {
+      "path": "sources/history/Categorical_Mathematics_R7_P3_Cumulative_Source_Delta.zip",
+      "bytes": 490971,
+      "sha256": "8ef85a24de876ea3a8fc212b5f19678bcd645f59b9c3d6aa0c36dec0d5200bed"
+    },
+    {
+      "path": "sources/history/Categorical_Mathematics_R7_P3_Three_Volume_Scoring_Set.zip",
+      "bytes": 3355628,
+      "sha256": "8ea53f2ac33c42af524a7fc8f74b948bd5a09945730c9a5df827262c15b548b4"
+    },
+    {
+      "path": "sources/history/HANDOFF_R7_P2.md",
+      "bytes": 6832,
+      "sha256": "e3d876f8466e5fad2e7a63d38c2f8b751919791de16efaed7ead6b99a9cdca76"
+    },
+    {
+      "path": "sources/history/HANDOFF_R7_P3.md",
+      "bytes": 10424,
+      "sha256": "f90e4fe5b6e21e47ad4a0ef886f7cfb1dc210de8b12c33f7709a89bd4a0e263c"
+    },
+    {
+      "path": "sources/history/QA_R7_P3.json",
+      "bytes": 6946,
+      "sha256": "07536d80fc61a85d9593664337969cda13e0bd7260bd75c71d886040d7a26719"
+    },
+    {
+      "path": "sources/history/R6_R7_P2_逐頁文字密度.xlsx",
+      "bytes": 267469,
+      "sha256": "b04d367e46721cb0d0e26a6fd0aff79ab90455b111cb37c8c0af16cf80fb9f4b"
+    },
+    {
+      "path": "sources/history/R6_R7_P2_逐頁文字密度_全套.zip",
+      "bytes": 282619,
+      "sha256": "7094bbe40ecae9b19c63e85f549deeeee7bb6cd26470e363a0e1783d58e05679"
+    },
+    {
+      "path": "sources/history/R7_P3_Complete_Editable_LaTeX.zip",
+      "bytes": 12828047,
+      "sha256": "80eb5008015e4a8fe266aca9b52ad9e49343f8c11ee5fdd8207d9f7ef9010152"
+    },
+    {
+      "path": "sources/history/R7_P3_Three_Volume_Scoring_Set.zip",
+      "bytes": 3350288,
+      "sha256": "6f59a53372ef753fb52f5b6d21c0b9236426567122eb7dfc0bd4e7bf7b262e20"
+    },
+    {
+      "path": "sources/history/V0_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 2453006,
+      "sha256": "4f48fe32d19559f05bd132cf8c4a5932510838050b1cb5bb66df49c7196b5cd7"
+    },
+    {
+      "path": "sources/history/V1_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 877765,
+      "sha256": "2343dcb96923ea31a4ed260e5aed261d2c850f4f69f850ada0d916b1739fb92f"
+    },
+    {
+      "path": "sources/history/V2_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 1122382,
+      "sha256": "07a34aaf68afb25aca68545c605cc406fa212142f32a512b3b47766d3def8c7b"
+    },
+    {
+      "path": "sources/history/page_density_R7_P3.csv",
+      "bytes": 24929,
+      "sha256": "097b5fa677ef8c7e4394b63059662805748a8fff85bf23e92ceae8fe00f6752e"
+    },
+    {
+      "path": "sources/history/各版逐頁明細_R6_R7_P2.csv",
+      "bytes": 152798,
+      "sha256": "86774be55ad823d82e0520dbae699ab4ccd521a37c24a0489c4e80811c1fb98c"
+    },
+    {
+      "path": "sources/history/逐頁對照_R6_R7_P2.csv",
+      "bytes": 89088,
+      "sha256": "d18a697095c89063de7d121c10380cac674a3c8688c2e44a204f45de18332d25"
+    }
+  ],
+  "mechanical": {
+    "method": "PyMuPDF get_text clip(45,65,w-45,h-55); count Unicode not isspace; safety bottom h-40. Occupied y span is only diagnostic, not blank-area/quality metric.",
+    "volumes": {
+      "V0": {
+        "P2": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P2_Three_Volume_Scoring_Set/volume-0.pdf",
+          "bytes": 1917650,
+          "sha256": "ac173bc6a2bd1812ab9cf2100597950bf0e524236d3384f6525049dfd8260fa3",
+          "pages": 462,
+          "over1750": 82,
+          "max_chars": 2222,
+          "median_chars": 1536.0,
+          "mean_chars": 1521.34,
+          "bookmarks": 291,
+          "links": 954
+        },
+        "P3": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P3_Three_Volume_Scoring_Set/V0_ReadFlow_R7_P3_Reading.pdf",
+          "bytes": 1943359,
+          "sha256": "3682e25a1363ec420dfbd273e99421bd810255357e99deee1a1f29790e7f79ee",
+          "pages": 484,
+          "over1750": 0,
+          "max_chars": 1748,
+          "median_chars": 1501.0,
+          "mean_chars": 1452.35,
+          "bookmarks": 291,
+          "links": 954
+        }
+      },
+      "V1": {
+        "P2": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P2_Three_Volume_Scoring_Set/volume-1.pdf",
+          "bytes": 669561,
+          "sha256": "60a44b7df6dbed93367269f8cc5092d7670cea109fad506580bc4c88ecfb596c",
+          "pages": 158,
+          "over1750": 41,
+          "max_chars": 2167,
+          "median_chars": 1539.0,
+          "mean_chars": 1487.78,
+          "bookmarks": 116,
+          "links": 207
+        },
+        "P3": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P3_Three_Volume_Scoring_Set/V1_ReadFlow_R7_P3_Reading.pdf",
+          "bytes": 678084,
+          "sha256": "4fda902bda98cbcad74f8ce6552cfaf92b575f56f70a9814a428a99f00805224",
+          "pages": 169,
+          "over1750": 0,
+          "max_chars": 1738,
+          "median_chars": 1453,
+          "mean_chars": 1390.14,
+          "bookmarks": 116,
+          "links": 207
+        }
+      },
+      "V2": {
+        "P2": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P2_Three_Volume_Scoring_Set/volume-2.pdf",
+          "bytes": 885901,
+          "sha256": "e9142336256daca9b347e2df7fa2cf4b0f7432e9693ef350ab93e9714ea171f1",
+          "pages": 221,
+          "over1750": 41,
+          "max_chars": 2227,
+          "median_chars": 1548,
+          "mean_chars": 1501.42,
+          "bookmarks": 94,
+          "links": 141
+        },
+        "P3": {
+          "pdf": "sources/unpacked/Categorical_Mathematics_R7_P3_Three_Volume_Scoring_Set/V2_ReadFlow_R7_P3_Reading.pdf",
+          "bytes": 898011,
+          "sha256": "c6d86de914b338689396f70a6209e290dd6c3d12b6441873e60ef02069fa20f2",
+          "pages": 233,
+          "over1750": 0,
+          "max_chars": 1750,
+          "median_chars": 1486,
+          "mean_chars": 1423.03,
+          "bookmarks": 94,
+          "links": 141
+        }
+      }
+    },
+    "source_audit": {
+      "V0": {
+        "complete_files": 1035,
+        "restore_disagreements": [
+          "V0_ReadFlow_R7_P3/R7-P2-CURRENT.json",
+          "V0_ReadFlow_R7_P3/qa/build-volume.json"
+        ],
+        "shared_templates_equal_to_P2": {
+          "layout/shared/readflow-base.tex": true,
+          "layout/study/readflow-layout.tex": true,
+          "layout/study/config.tex": true
+        }
+      },
+      "V1": {
+        "complete_files": 203,
+        "restore_disagreements": [
+          "V1_ReadFlow_R7_P3/R7-P2-CURRENT.json",
+          "V1_ReadFlow_R7_P3/qa/editorial/build-volume.json"
+        ],
+        "shared_templates_equal_to_P2": {
+          "layout/shared/readflow-base.tex": true,
+          "layout/study/readflow-layout.tex": true,
+          "layout/study/config.tex": true
+        }
+      },
+      "V2": {
+        "complete_files": 967,
+        "restore_disagreements": [
+          "V2_ReadFlow_R7_P3/R7-P2-CURRENT.json",
+          "V2_ReadFlow_R7_P3/qa/build-volume.json"
+        ],
+        "shared_templates_equal_to_P2": {
+          "layout/shared/readflow-base.tex": true,
+          "layout/study/readflow-layout.tex": true,
+          "layout/study/config.tex": true
+        }
+      }
+    },
+    "PDF_repack_audit": {
+      "V0_external": {
+        "bytes": 2453006,
+        "sha256": "4f48fe32d19559f05bd132cf8c4a5932510838050b1cb5bb66df49c7196b5cd7",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      },
+      "V0_other_zip": {
+        "bytes": 1943359,
+        "sha256": "3682e25a1363ec420dfbd273e99421bd810255357e99deee1a1f29790e7f79ee",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      },
+      "V1_external": {
+        "bytes": 877765,
+        "sha256": "2343dcb96923ea31a4ed260e5aed261d2c850f4f69f850ada0d916b1739fb92f",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      },
+      "V1_other_zip": {
+        "bytes": 678084,
+        "sha256": "4fda902bda98cbcad74f8ce6552cfaf92b575f56f70a9814a428a99f00805224",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      },
+      "V2_external": {
+        "bytes": 1122382,
+        "sha256": "07a34aaf68afb25aca68545c605cc406fa212142f32a512b3b47766d3def8c7b",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      },
+      "V2_other_zip": {
+        "bytes": 898011,
+        "sha256": "c6d86de914b338689396f70a6209e290dd6c3d12b6441873e60ef02069fa20f2",
+        "pages_equal": true,
+        "text_mismatches": [],
+        "geometry_mismatches": [],
+        "rgb72_mismatches": []
+      }
+    },
+    "no_fresh_rebuild": true,
+    "changed_tex_files": 120,
+    "command_totals": {
+      "V0": {
+        "enlargethispage": {
+          "before": 1,
+          "after": 121
+        },
+        "pagebreak": {
+          "before": 0,
+          "after": 1
+        },
+        "newpage": {
+          "before": 0,
+          "after": 0
+        },
+        "clearpage": {
+          "before": 0,
+          "after": 0
+        },
+        "Needspace": {
+          "before": 20,
+          "after": 20
+        },
+        "needspace": {
+          "before": 0,
+          "after": 0
+        }
+      },
+      "V1": {
+        "enlargethispage": {
+          "before": 0,
+          "after": 60
+        },
+        "pagebreak": {
+          "before": 0,
+          "after": 1
+        },
+        "newpage": {
+          "before": 0,
+          "after": 0
+        },
+        "clearpage": {
+          "before": 0,
+          "after": 0
+        },
+        "Needspace": {
+          "before": 13,
+          "after": 13
+        },
+        "needspace": {
+          "before": 0,
+          "after": 0
+        }
+      },
+      "V2": {
+        "enlargethispage": {
+          "before": 5,
+          "after": 66
+        },
+        "pagebreak": {
+          "before": 0,
+          "after": 2
+        },
+        "newpage": {
+          "before": 0,
+          "after": 0
+        },
+        "clearpage": {
+          "before": 0,
+          "after": 0
+        },
+        "Needspace": {
+          "before": 126,
+          "after": 126
+        },
+        "needspace": {
+          "before": 0,
+          "after": 0
+        }
+      }
+    }
+  },
+  "active_input_audit": {
+    "V0": {
+      "reachable_literal_inputs_count": 146,
+      "unresolved_inputs": [],
+      "changed_tex_count": 56,
+      "changed_tex_not_reachable": [],
+      "added_enlargethispage_argument_counts": {
+        "-3\\baselineskip": 11,
+        "-5\\baselineskip": 82,
+        "-4\\baselineskip": 15,
+        "-6\\baselineskip": 6,
+        "-8\\baselineskip": 2,
+        "-7\\baselineskip": 2,
+        "-1\\baselineskip": 1,
+        "-10\\baselineskip": 1
+      },
+      "source_reachability_method": "Literal input graph from volume entry using build cwd and TEXINPUTS; comments stripped; no fresh recorder build.",
+      "paths": [
+        "editorial_r2/patches/b43-relative-universal-properties.tex",
+        "editorial_r3/views/v0/preliminaries/00-proof-language-I.tex",
+        "editorial_r3/views/v0/sections/01-opening.tex",
+        "editorial_r3/views/v0/sections/03-isomorphisms.tex",
+        "editorial_r3/views/v0/sections/04-terminal-objects.tex",
+        "editorial_r3/views/v0/sections/08-monomorphisms.tex",
+        "editorial_r3/views/v0/sections/22-pullbacks.tex",
+        "editorial_r3/views/v0/sections/28-monic-comparisons.tex",
+        "editorial_r3/views/v0/sections/43-existence-boundary.tex",
+        "editorial_r4/views/v0/breadth/b10-functors.tex",
+        "editorial_r4/views/v0/breadth/b11-natural-transformations.tex",
+        "editorial_r5/views/v0/breadth/b17-whiskering-and-horizontal-composition.tex",
+        "editorial_r5/views/v0/breadth/b33-generators-and-separating-probes.tex",
+        "editorial_r6/views/v0/breadth/b14-equivalences-of-categories.tex",
+        "editorial_r6/views/v0/breadth/b21-right-adjoints-preserve-supplied-limits.tex",
+        "editorial_r6/views/v0/breadth/b25-presented-diagrams-and-functor-tests.tex",
+        "editorial_r6/views/v0/breadth/b31-orbits-and-stabilizers.tex",
+        "editorial_r6/views/v0/breadth/b34-supplied-diagram-categories.tex",
+        "editorial_r6/views/v0/breadth/b35-categories-of-elements.tex",
+        "editorial_r6/views/v0/breadth/b37-groups-and-homomorphisms.tex",
+        "editorial_r6/views/v0/breadth/b42-finite-connectedness-and-zigzags.tex",
+        "editorial_r6/views/v0/breadth/b44-partial-functions-and-equalizers.tex",
+        "editorial_r6/views/v0/breadth/b46-group-kernels-and-pullbacks.tex",
+        "editorial_r6/views/v0/breadth/b48-idempotent-completion.tex",
+        "editorial_r6/views/v0/breadth/b51-yoneda-evaluation-and-universal-elements.tex",
+        "editorial_r7/001-00-proof-language-I-solutions.tex",
+        "editorial_r7/002-01-proof-language-II.tex",
+        "editorial_r7/003-01-proof-language-II-solutions.tex",
+        "editorial_r7/004-03-reading-the-constructions.tex",
+        "editorial_r7/005-b01-subcategories-and-groupoids.tex",
+        "editorial_r7/006-12-terminal-routes.tex",
+        "editorial_r7/007-05-global-elements.tex",
+        "editorial_r7/008-b02-three-components.tex",
+        "editorial_r7/009-15-preorder-categories.tex",
+        "editorial_r7/010-16-posets-and-monotone-maps.tex",
+        "editorial_r7/011-18-discrete-categories.tex",
+        "editorial_r7/012-b03-involutions.tex",
+        "editorial_r7/013-b12-full-faithful-functors.tex",
+        "editorial_r7/014-b18-adjunctions-and-transposition.tex",
+        "editorial_r7/015-b19-triangle-data-and-adjoint-uniqueness.tex",
+        "editorial_r7/016-b24-category-presentations.tex",
+        "editorial_r7/017-b27-skeleta-and-chosen-representatives.tex",
+        "editorial_r7/018-b28-endomorphism-and-automorphism-calculus.tex",
+        "editorial_r7/019-b29-monoid-actions-as-functors.tex",
+        "editorial_r7/020-b36-directed-graph-morphisms.tex",
+        "editorial_r7/021-b38-rings-and-homomorphisms.tex",
+        "editorial_r7/022-b40-finite-topological-spaces.tex",
+        "editorial_r7/023-b45-finite-stochastic-maps.tex",
+        "editorial_r7/024-b04-retracts-and-structured-equalizers.tex",
+        "editorial_r7/025-b08-opposite-categories.tex",
+        "editorial_r7/026-24-pullback-practice-solutions.tex",
+        "editorial_r7/027-27-pasting-practice-solutions.tex",
+        "editorial_r7/028-b15-equivalence-and-universal-properties.tex",
+        "editorial_r7/029-b52-composition-of-supplied-spans.tex",
+        "editorial_r7/030-30-representative-practice-solutions.tex",
+        "editorial_r7/031-32-intersections-functions.tex",
+        "editorial_r7/032-36-pulled-comparison-solutions.tex",
+        "editorial_r7/033-37-iterated-pullbacks.tex",
+        "editorial_r7/034-39-iterated-pullback-solutions.tex",
+        "editorial_r7/035-b09-slice-categories.tex",
+        "editorial_r7/036-b13-arrow-category.tex",
+        "editorial_r7/037-b16-equivalence-slices-and-subobjects.tex",
+        "editorial_r7/038-b20-comma-categories-and-universal-arrows.tex",
+        "editorial_r7/039-b47-reindexing-and-postcomposition.tex",
+        "editorial_r7/040-b49-pointwise-equalizers-in-supplied-diagrams.tex",
+        "editorial_r7/041-b50-reindexing-categories-of-elements.tex",
+        "layout/shared/readflow-base.tex",
+        "layout/study/chapter4-route.tex",
+        "layout/study/chapter8-route.tex",
+        "layout/study/config.tex",
+        "layout/study/frontmatter.tex",
+        "layout/study/integration.tex",
+        "layout/study/notes.tex",
+        "layout/study/readflow-layout.tex",
+        "layout/study/reading-guide.tex",
+        "layout/study/volume-0-study.tex",
+        "layout/views/v0/breadth/b05-fibers-and-parameters.tex",
+        "layout/views/v0/breadth/b06-finite-intersection-laws.tex",
+        "layout/views/v0/breadth/b07-path-categories.tex",
+        "layout/views/v0/breadth/b22-diagonal-product-adjunction.tex",
+        "layout/views/v0/breadth/b23-composition-of-adjunctions.tex",
+        "layout/views/v0/breadth/b26-connected-categories-and-zigzags.tex",
+        "layout/views/v0/breadth/b30-action-categories.tex",
+        "layout/views/v0/breadth/b32-natural-families-of-generalized-elements.tex",
+        "layout/views/v0/breadth/b39-deterministic-transition-systems.tex",
+        "layout/views/v0/breadth/b41-finite-topologies-and-preorders.tex",
+        "layout/views/v0/preliminaries/02-external-finite-syntax.tex",
+        "layout/views/v0/sections/06-products.tex",
+        "layout/views/v0/sections/07-opening-exercises.tex",
+        "layout/views/v0/sections/09-proof-reading-and-inverse-equations.tex",
+        "layout/views/v0/sections/10-invertible-functions.tex",
+        "layout/views/v0/sections/11-isomorphism-triangles.tex",
+        "layout/views/v0/sections/13-product-comparison-practice.tex",
+        "layout/views/v0/sections/14-monoid-categories.tex",
+        "layout/views/v0/sections/17-order-classifications.tex",
+        "layout/views/v0/sections/19-equalizers.tex",
+        "layout/views/v0/sections/20-equalizers-of-functions.tex",
+        "layout/views/v0/sections/21-equalizer-practice.tex",
+        "layout/views/v0/sections/23-pullbacks-of-functions.tex",
+        "layout/views/v0/sections/24-pullback-practice.tex",
+        "layout/views/v0/sections/25-pullback-pasting.tex",
+        "layout/views/v0/sections/26-pasting-functions.tex",
+        "layout/views/v0/sections/27-pasting-practice.tex",
+        "layout/views/v0/sections/29-equivalent-representatives.tex",
+        "layout/views/v0/sections/30-representative-practice.tex",
+        "layout/views/v0/sections/31-given-intersections.tex",
+        "layout/views/v0/sections/33-intersection-practice.tex",
+        "layout/views/v0/sections/34-pulling-back-comparisons.tex",
+        "layout/views/v0/sections/35-inverse-image-comparisons.tex",
+        "layout/views/v0/sections/36-pulled-comparison-practice.tex",
+        "layout/views/v0/sections/38-iterated-inverse-images.tex",
+        "layout/views/v0/sections/39-iterated-pullback-practice.tex",
+        "layout/views/v0/sections/40-pulling-back-intersections.tex",
+        "layout/views/v0/sections/41-intersection-change-comparisons.tex",
+        "layout/views/v0/sections/42-pulled-intersection-practice.tex",
+        "layout/views/v0/solutions/01-opening-solutions.tex",
+        "layout/views/v0/solutions/02-external-finite-syntax-solutions.tex",
+        "layout/views/v0/solutions/07-opening-solutions.tex",
+        "layout/views/v0/solutions/08-monomorphisms-solutions.tex",
+        "layout/views/v0/solutions/09-inverse-equations-solutions.tex",
+        "layout/views/v0/solutions/13-product-comparison-solutions.tex",
+        "layout/views/v0/solutions/18-discrete-categories-solutions.tex",
+        "layout/views/v0/solutions/21-equalizer-practice-solutions.tex",
+        "layout/views/v0/solutions/33-intersection-practice-solutions.tex",
+        "layout/views/v0/solutions/42-pulled-intersection-solutions.tex",
+        "upstream/source/figures/01-values.tikz",
+        "upstream/source/figures/02-composition.tikz",
+        "upstream/source/figures/03-inverse.tikz",
+        "upstream/source/figures/04-terminal-uniqueness.tikz",
+        "upstream/source/figures/05-global-action.tikz",
+        "upstream/source/figures/06-pointed-counterexample.tikz",
+        "upstream/source/figures/07-product-property.tikz",
+        "upstream/source/figures/08-monic-cancellation.tikz",
+        "upstream/source/figures/09-isomorphism-triangles.tikz",
+        "upstream/source/figures/10-terminal-routes.tikz",
+        "upstream/source/figures/11-order-diamond.tikz",
+        "upstream/source/figures/12-discrete-labels.tikz",
+        "upstream/source/figures/13-equalizer-property.tikz",
+        "upstream/source/figures/14-equalizer-comparison.tikz",
+        "upstream/source/figures/15-pullback-property.tikz",
+        "upstream/source/figures/16-pullback-pasting-rectangle.tikz",
+        "upstream/source/figures/17-monic-comparison.tikz",
+        "upstream/source/figures/18-given-intersection.tikz",
+        "upstream/source/figures/19-pulled-comparison.tikz",
+        "upstream/source/figures/20-iterated-pullbacks.tikz",
+        "upstream/source/figures/21-pulled-intersection.tikz"
+      ],
+      "changes": [
+        {
+          "path": "editorial_r7/002-01-proof-language-II.tex",
+          "added": {
+            "-3\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/027-27-pasting-practice-solutions.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/026-24-pullback-practice-solutions.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/034-39-iterated-pullback-solutions.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/016-b24-category-presentations.tex",
+          "added": {
+            "-3\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/041-b50-reindexing-categories-of-elements.tex",
+          "added": {
+            "-4\\baselineskip": 1,
+            "-5\\baselineskip": 2,
+            "-6\\baselineskip": 1,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/004-03-reading-the-constructions.tex",
+          "added": {
+            "-3\\baselineskip": 2,
+            "-5\\baselineskip": 3,
+            "-8\\baselineskip": 1,
+            "-7\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/023-b45-finite-stochastic-maps.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/014-b18-adjunctions-and-transposition.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/029-b52-composition-of-supplied-spans.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/035-b09-slice-categories.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/020-b36-directed-graph-morphisms.tex",
+          "added": {
+            "-8\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/024-b04-retracts-and-structured-equalizers.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/005-b01-subcategories-and-groupoids.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/011-18-discrete-categories.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/013-b12-full-faithful-functors.tex",
+          "added": {
+            "-5\\baselineskip": 3
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/040-b49-pointwise-equalizers-in-supplied-diagrams.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/025-b08-opposite-categories.tex",
+          "added": {
+            "-5\\baselineskip": 1,
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/012-b03-involutions.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/037-b16-equivalence-slices-and-subobjects.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/022-b40-finite-topological-spaces.tex",
+          "added": {
+            "-3\\baselineskip": 1,
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/017-b27-skeleta-and-chosen-representatives.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/028-b15-equivalence-and-universal-properties.tex",
+          "added": {
+            "-5\\baselineskip": 1,
+            "-3\\baselineskip": 1,
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r3/views/v0/sections/01-opening.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/study/reading-guide.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/study/integration.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/study/volume-0-study.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b05-fibers-and-parameters.tex",
+          "added": {
+            "-6\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b26-connected-categories-and-zigzags.tex",
+          "added": {
+            "-1\\baselineskip": 1,
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b41-finite-topologies-and-preorders.tex",
+          "added": {
+            "-5\\baselineskip": 4
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b06-finite-intersection-laws.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b07-path-categories.tex",
+          "added": {
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b23-composition-of-adjunctions.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/breadth/b39-deterministic-transition-systems.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/sections/31-given-intersections.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/sections/41-intersection-change-comparisons.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/sections/29-equivalent-representatives.tex",
+          "added": {
+            "-5\\baselineskip": 3
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/sections/35-inverse-image-comparisons.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/solutions/42-pulled-intersection-solutions.tex",
+          "added": {
+            "-5\\baselineskip": 4
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/solutions/02-external-finite-syntax-solutions.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/solutions/33-intersection-practice-solutions.tex",
+          "added": {
+            "-7\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v0/preliminaries/02-external-finite-syntax.tex",
+          "added": {
+            "-5\\baselineskip": 4,
+            "-6\\baselineskip": 2,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r4/views/v0/breadth/b11-natural-transformations.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r4/views/v0/breadth/b10-functors.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r5/views/v0/breadth/b33-generators-and-separating-probes.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b34-supplied-diagram-categories.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b31-orbits-and-stabilizers.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b48-idempotent-completion.tex",
+          "added": {
+            "-4\\baselineskip": 2,
+            "-5\\baselineskip": 2,
+            "-10\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b42-finite-connectedness-and-zigzags.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "-3\\baselineskip": 1,
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b14-equivalences-of-categories.tex",
+          "added": {
+            "-5\\baselineskip": 3
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b46-group-kernels-and-pullbacks.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b51-yoneda-evaluation-and-universal-elements.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b35-categories-of-elements.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b37-groups-and-homomorphisms.tex",
+          "added": {
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/views/v0/breadth/b44-partial-functions-and-equalizers.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r2/patches/b43-relative-universal-properties.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        }
+      ]
+    },
+    "V1": {
+      "reachable_literal_inputs_count": 50,
+      "unresolved_inputs": [],
+      "changed_tex_count": 27,
+      "changed_tex_not_reachable": [],
+      "added_enlargethispage_argument_counts": {
+        "-5\\baselineskip": 43,
+        "-3\\baselineskip": 3,
+        "-4\\baselineskip": 6,
+        "-9\\baselineskip": 1,
+        "-8\\baselineskip": 1,
+        "2\\baselineskip": 2,
+        "-7\\baselineskip": 3,
+        "-6\\baselineskip": 1
+      },
+      "source_reachability_method": "Literal input graph from volume entry using build cwd and TEXINPUTS; comments stripped; no fresh recorder build.",
+      "paths": [
+        "editorial_r6/sections/49-exponentials.tex",
+        "editorial_r6/sections/63-stable-regular-images.tex",
+        "editorial_r6/sections/64-direct-images.tex",
+        "editorial_r6/sections/66-composing-relations.tex",
+        "editorial_r6/sections/69-descent-and-saturated-conditions.tex",
+        "editorial_r6/sections/70-initial-objects-and-coproducts.tex",
+        "editorial_r6/sections/71-stable-unions-and-disjunction.tex",
+        "editorial_r6/sections/73-disjoint-decompositions-and-negation.tex",
+        "editorial_r6/sections/74-coproducts-of-quotients.tex",
+        "editorial_r6/sections/76-given-natural-number-objects.tex",
+        "editorial_r7/001-50-evaluation-calculus.tex",
+        "editorial_r7/002-51-exponential-laws.tex",
+        "editorial_r7/003-53-predicates-and-intersections.tex",
+        "editorial_r7/004-56-predicate-implication.tex",
+        "editorial_r7/005-54-power-objects.tex",
+        "editorial_r7/006-57-exponentials-preserve-constructions.tex",
+        "editorial_r7/007-v1-d03-predicate-to-images.tex",
+        "editorial_r7/008-65-existential-predicates.tex",
+        "editorial_r7/009-67-equivalence-relations-and-effective-quotients.tex",
+        "editorial_r7/010-68-total-and-functional-relations.tex",
+        "editorial_r7/011-72-relational-formulas-and-finite-queries.tex",
+        "editorial_r7/012-75-gluing-along-intersections.tex",
+        "layout/shared/readflow-base.tex",
+        "layout/study/config.tex",
+        "layout/study/frontmatter.tex",
+        "layout/study/integration.tex",
+        "layout/study/notes.tex",
+        "layout/study/readflow-layout.tex",
+        "layout/study/readflow-navigation.tex",
+        "layout/study/reading-guide.tex",
+        "layout/study/volume-1-study.tex",
+        "manuscript/sections/44-existence-interface.tex",
+        "manuscript/sections/45-constructing-pullbacks.tex",
+        "manuscript/sections/46-diagonals-and-equalizers.tex",
+        "manuscript/sections/47-order-existence-models.tex",
+        "manuscript/sections/48-existence-practice.tex",
+        "manuscript/sections/52-subobject-classifiers.tex",
+        "manuscript/sections/55-relations-and-graphs.tex",
+        "manuscript/sections/58-operations-on-predicate-families.tex",
+        "manuscript/sections/59-epimorphisms.tex",
+        "manuscript/sections/60-coequalizers.tex",
+        "manuscript/sections/61-kernel-pairs-and-regular-epis.tex",
+        "manuscript/sections/62-image-factorizations.tex",
+        "manuscript/sections/v1-d01-existence-route.tex",
+        "manuscript/sections/v1-d02-finite-cones.tex",
+        "manuscript/sections/v1-d03-gluing-to-recursion.tex",
+        "manuscript/sections/v1-d04-assumption-map.tex",
+        "manuscript/solutions/44-existence-interface-solutions.tex",
+        "manuscript/solutions/48-existence-practice-solutions.tex",
+        "upstream/source/author-volumes/cross-volume-links.tex"
+      ],
+      "changes": [
+        {
+          "path": "editorial_r7/012-75-gluing-along-intersections.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/010-68-total-and-functional-relations.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-3\\baselineskip": 1,
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/009-67-equivalence-relations-and-effective-quotients.tex",
+          "added": {
+            "-5\\baselineskip": 4,
+            "-9\\baselineskip": 1,
+            "-8\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/006-57-exponentials-preserve-constructions.tex",
+          "added": {
+            "2\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/008-65-existential-predicates.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/study/reading-guide.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/study/volume-1-study.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/study/integration.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/44-existence-interface.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/59-epimorphisms.tex",
+          "added": {
+            "-5\\baselineskip": 1,
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/52-subobject-classifiers.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "2\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/58-operations-on-predicate-families.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/v1-d02-finite-cones.tex",
+          "added": {
+            "-5\\baselineskip": 4
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/60-coequalizers.tex",
+          "added": {
+            "-4\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/v1-d01-existence-route.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/47-order-existence-models.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/v1-d04-assumption-map.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-7\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "manuscript/sections/55-relations-and-graphs.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/73-disjoint-decompositions-and-negation.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/71-stable-unions-and-disjunction.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/69-descent-and-saturated-conditions.tex",
+          "added": {
+            "-5\\baselineskip": 3,
+            "-7\\baselineskip": 1,
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/70-initial-objects-and-coproducts.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/64-direct-images.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/66-composing-relations.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/76-given-natural-number-objects.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/74-coproducts-of-quotients.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/63-stable-regular-images.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        }
+      ]
+    },
+    "V2": {
+      "reachable_literal_inputs_count": 98,
+      "unresolved_inputs": [],
+      "changed_tex_count": 37,
+      "changed_tex_not_reachable": [],
+      "added_enlargethispage_argument_counts": {
+        "-5\\baselineskip": 33,
+        "-4\\baselineskip": 8,
+        "-3\\baselineskip": 8,
+        "-9\\baselineskip": 1,
+        "-8\\baselineskip": 2,
+        "-6\\baselineskip": 6,
+        "-10\\baselineskip": 1,
+        "2\\baselineskip": 1,
+        "-7\\baselineskip": 1
+      },
+      "source_reachability_method": "Literal input graph from volume entry using build cwd and TEXINPUTS; comments stripped; no fresh recorder build.",
+      "paths": [
+        "editorial_r6/expansion-v2/residue-ring-and-squaring.tex",
+        "editorial_r6/sections/101-supplied-integer-completion.tex",
+        "editorial_r6/sections/102-integer-ring-operations.tex",
+        "editorial_r6/sections/113-two-coprime-moduli.tex",
+        "editorial_r6/sections/114-compatible-moduli-and-three-tests.tex",
+        "editorial_r6/sections/115-reduced-fraction-object.tex",
+        "editorial_r6/sections/116-fraction-ring-operations.tex",
+        "editorial_r6/sections/117-fraction-inverses-and-universal-test.tex",
+        "editorial_r6/sections/118-order-and-bounds-for-fractions.tex",
+        "editorial_r6/sections/119-finite-rational-estimates.tex",
+        "editorial_r6/sections/136-monotone-completeness.tex",
+        "editorial_r7/001-79-multiplication-semiring.tex",
+        "editorial_r7/002-81-iteration-and-monoid-objects.tex",
+        "editorial_r7/003-82-primitive-recursion-and-invariants.tex",
+        "editorial_r7/004-86-minimum-maximum-and-difference.tex",
+        "editorial_r7/005-87-bounded-index-objects.tex",
+        "editorial_r7/006-90-divisibility-and-parity.tex",
+        "editorial_r7/007-91-bounded-boolean-tests.tex",
+        "editorial_r7/008-92-bounded-search.tex",
+        "editorial_r7/009-94-division-by-a-positive-divisor.tex",
+        "editorial_r7/010-98-euclidean-state-and-witnesses.tex",
+        "editorial_r7/011-104-integer-sign-and-order.tex",
+        "editorial_r7/012-106-extended-euclidean-coefficients.tex",
+        "editorial_r7/013-108-coprime-cancellation.tex",
+        "editorial_r7/014-prime-factorization.tex",
+        "editorial_r7/015-111-solving-linear-congruences.tex",
+        "editorial_r7/016-112-classifying-congruence-solutions.tex",
+        "editorial_r7/017-120-exact-rational-bisection.tex",
+        "editorial_r7/018-121-rational-completeness-boundary.tex",
+        "editorial_r7/019-122-external-completion-interface.tex",
+        "editorial_r7/020-133-completion-comparison.tex",
+        "layout/expansion-v2/chapter-29-route.tex",
+        "layout/expansion-v2/chapter-30-route.tex",
+        "layout/expansion-v2/chapter-31-route.tex",
+        "layout/expansion-v2/chapter-32-route.tex",
+        "layout/expansion-v2/chapter-33-route.tex",
+        "layout/expansion-v2/chapter-34-route.tex",
+        "layout/expansion-v2/chapter-35-route.tex",
+        "layout/expansion-v2/chapter-36-route.tex",
+        "layout/expansion-v2/chapter-37-route.tex",
+        "layout/expansion-v2/chapter-38-route.tex",
+        "layout/expansion-v2/chapter-39-route.tex",
+        "layout/expansion-v2/chapter-40-route.tex",
+        "layout/expansion-v2/chapter-41-route.tex",
+        "layout/expansion-v2/chapter-42-route.tex",
+        "layout/expansion-v2/chapter-43-route.tex",
+        "layout/expansion-v2/chapter-44-route.tex",
+        "layout/expansion-v2/chapter-45-route.tex",
+        "layout/expansion-v2/chapter-46-route.tex",
+        "layout/expansion-v2/chapter-47-route.tex",
+        "layout/expansion-v2/chapter-48-route.tex",
+        "layout/expansion-v2/chapter-49-route.tex",
+        "layout/expansion-v2/chapter-50-route.tex",
+        "layout/expansion-v2/chapter-51-route.tex",
+        "layout/expansion-v2/closing-map.tex",
+        "layout/expansion-v2/reading-guide-v2.tex",
+        "layout/expansion-v2/route-and-assumptions.tex",
+        "layout/expansion-v2/supremum-calculus.tex",
+        "layout/shared/readflow-base.tex",
+        "layout/study/config.tex",
+        "layout/study/frontmatter.tex",
+        "layout/study/integration.tex",
+        "layout/study/notes.tex",
+        "layout/study/readflow-layout.tex",
+        "layout/study/readflow-navigation.tex",
+        "layout/study/volume-2-study.tex",
+        "layout/views/v2/sections/100-constructed-gcd.tex",
+        "layout/views/v2/sections/103-integer-universal-property.tex",
+        "layout/views/v2/sections/105-absolute-values-and-positive-cancellation.tex",
+        "layout/views/v2/sections/107-linear-diophantine-tests.tex",
+        "layout/views/v2/sections/109-least-common-multiples.tex",
+        "layout/views/v2/sections/110-integer-remainders.tex",
+        "layout/views/v2/sections/123-cauchy-estimates.tex",
+        "layout/views/v2/sections/124-null-equivalence.tex",
+        "layout/views/v2/sections/125-completion-ring.tex",
+        "layout/views/v2/sections/126-order-from-tails.tex",
+        "layout/views/v2/sections/127-completion-inverses.tex",
+        "layout/views/v2/sections/128-archimedean-density.tex",
+        "layout/views/v2/sections/129-rational-codes.tex",
+        "layout/views/v2/sections/130-canonical-approximation.tex",
+        "layout/views/v2/sections/131-limits-and-estimates.tex",
+        "layout/views/v2/sections/132-sequential-completeness.tex",
+        "layout/views/v2/sections/134-supremum-by-bisection.tex",
+        "layout/views/v2/sections/135-rational-cuts.tex",
+        "layout/views/v2/sections/77-parameter-induction.tex",
+        "layout/views/v2/sections/78-addition-and-translations.tex",
+        "layout/views/v2/sections/80-arithmetic-powers.tex",
+        "layout/views/v2/sections/83-predecessor-and-truncated-difference.tex",
+        "layout/views/v2/sections/84-order-by-a-unique-gap.tex",
+        "layout/views/v2/sections/85-trichotomy-and-comparison.tex",
+        "layout/views/v2/sections/88-finite-folds.tex",
+        "layout/views/v2/sections/89-finite-sums-and-identities.tex",
+        "layout/views/v2/sections/93-finite-binary-reconstruction.tex",
+        "layout/views/v2/sections/95-remainder-calculus.tex",
+        "layout/views/v2/sections/96-common-divisor-reduction.tex",
+        "layout/views/v2/sections/97-greatest-common-divisor-tests.tex",
+        "layout/views/v2/sections/99-euclidean-stopping-bound.tex",
+        "upstream/source/author-volumes/cross-volume-links.tex"
+      ],
+      "changes": [
+        {
+          "path": "editorial_r7/017-120-exact-rational-bisection.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/008-92-bounded-search.tex",
+          "added": {
+            "-5\\baselineskip": 2,
+            "-4\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/006-90-divisibility-and-parity.tex",
+          "added": {
+            "-3\\baselineskip": 2,
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/014-prime-factorization.tex",
+          "added": {
+            "-9\\baselineskip": 1,
+            "-5\\baselineskip": 4,
+            "-8\\baselineskip": 1,
+            "-3\\baselineskip": 1,
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/016-112-classifying-congruence-solutions.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/005-87-bounded-index-objects.tex",
+          "added": {
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/018-121-rational-completeness-boundary.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/011-104-integer-sign-and-order.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/020-133-completion-comparison.tex",
+          "added": {
+            "-5\\baselineskip": 1,
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/007-91-bounded-boolean-tests.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r7/009-94-division-by-a-positive-divisor.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/study/volume-2-study.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/study/integration.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/expansion-v2/closing-map.tex",
+          "added": {
+            "-8\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/expansion-v2/supremum-calculus.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/expansion-v2/route-and-assumptions.tex",
+          "added": {
+            "-10\\baselineskip": 1,
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/expansion-v2/reading-guide-v2.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/125-completion-ring.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/93-finite-binary-reconstruction.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/99-euclidean-stopping-bound.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/134-supremum-by-bisection.tex",
+          "added": {
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/97-greatest-common-divisor-tests.tex",
+          "added": {
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/109-least-common-multiples.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/130-canonical-approximation.tex",
+          "added": {
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/107-linear-diophantine-tests.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/105-absolute-values-and-positive-cancellation.tex",
+          "added": {},
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/110-integer-remainders.tex",
+          "added": {
+            "-3\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/100-constructed-gcd.tex",
+          "added": {
+            "2\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "layout/views/v2/sections/83-predecessor-and-truncated-difference.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/116-fraction-ring-operations.tex",
+          "added": {
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/118-order-and-bounds-for-fractions.tex",
+          "added": {
+            "-3\\baselineskip": 1,
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/115-reduced-fraction-object.tex",
+          "added": {
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/102-integer-ring-operations.tex",
+          "added": {
+            "-4\\baselineskip": 1,
+            "-6\\baselineskip": 1,
+            "-5\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/136-monotone-completeness.tex",
+          "added": {
+            "-4\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/101-supplied-integer-completion.tex",
+          "added": {
+            "-4\\baselineskip": 2,
+            "-5\\baselineskip": 2
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/sections/117-fraction-inverses-and-universal-test.tex",
+          "added": {
+            "-7\\baselineskip": 1
+          },
+          "removed": {}
+        },
+        {
+          "path": "editorial_r6/expansion-v2/residue-ring-and-squaring.tex",
+          "added": {
+            "-5\\baselineskip": 4,
+            "-6\\baselineskip": 1
+          },
+          "removed": {}
+        }
+      ]
+    }
+  },
+  "visual_scope": {
+    "panels": 9,
+    "page_occurrences": 27,
+    "unique_physical_pages": 25,
+    "resolution_dpi": 108,
+    "not_continuous_whole_volume_read": true
+  },
+  "cases": [
+    {
+      "id": "F01",
+      "kind": "new continuity defect",
+      "volume": "V2",
+      "source": "editorial_r7/014-prime-factorization.tex",
+      "P3_lines": "64–72",
+      "control": "L67: \\enlargethispage{-8\\baselineskip}",
+      "quote_before": "The bounded-search theorem therefore gives a whole-source least index, not just local existential witnesses. Let $p(r)$ be that index plus two.",
+      "quote_after": "Same mathematical prose; PDF 134 ends before “Let p(r) be that index plus two”, which begins PDF 135.",
+      "observation": "原本同段的選中索引與 p(r) 命名，被翻頁分開。下一頁首行依賴 that index；後續公式又依賴 p(r)。",
+      "interpretation": "回指距離增加；縮頁讓頁底留白，沒有沿段落邊界斷開。控制命令與PDF位置支持此機制，但未逐一關閉命令做消融。",
+      "severity": "reader-context risk",
+      "image": "qa/forensics_visual/F01_index_split.png",
+      "source_sha256": {
+        "P2": "e1fa64cb3bfeb0e1eb434e9fb5fa8d2eb0cb4e24fa3790b06ac3275635e16bb7",
+        "P3": "d89dda86996c7a150a6ed2b0c67b0021845f9dca26d9ff6397a692b9277e16cb"
+      },
+      "page_records": [
+        {
+          "volume": "V2",
+          "version": "P2",
+          "physical_page": "129",
+          "chars": "1664",
+          "extended_chars": "1664",
+          "body_y0": "65.08",
+          "body_y1": "651.94",
+          "occupied_y_span": "586.86",
+          "footer": "V2 / ReadFlow R1 / R7-P2 scoring draft | 120",
+          "start": "on each stable source part. Moreover 𝑣𝑝(1) = f: an equation 1 = 𝑝𝑤with 𝑝≥2 is impos- sible on a noninitial par",
+          "end": "ion on the counter 𝑖 constructs a state with four natural coordinates (𝑟0, 𝐶0, 𝑃0, 𝑈0) = (𝑛, 0, 1, 1), (𝑟, 𝐶, 𝑃, 𝑈) ⟼􏿴𝑣(𝑟), 𝐶+ 𝑝(𝑟)𝑈, 𝑃𝑝(𝑟), 𝐵𝑈􏿷. (F1)"
+        },
+        {
+          "volume": "V2",
+          "version": "P3",
+          "physical_page": "134",
+          "chars": "1557",
+          "extended_chars": "1557",
+          "body_y0": "68.56",
+          "body_y1": "545.05",
+          "occupied_y_span": "476.49",
+          "footer": "V2 / ReadFlow R1 / R7-P3 scoring draft | 123",
+          "start": "pf. Let 𝑔= 𝐺(𝑝, 𝑎). The gcd construction supplies 𝑔∣𝑝. On each represented factor- ization 𝑝= 𝑔𝑐, primality fo",
+          "end": "ange and tests true, since it is 𝑟itself. The bounded-search theorem therefore gives a whole-source least index, not just local existential witnesses."
+        },
+        {
+          "volume": "V2",
+          "version": "P3",
+          "physical_page": "135",
+          "chars": "1190",
+          "extended_chars": "1190",
+          "body_y0": "68.64",
+          "body_y1": "554.19",
+          "occupied_y_span": "485.55",
+          "footer": "V2 / ReadFlow R1 / R7-P3 scoring draft | 124",
+          "start": "Let 𝑝(𝑟) be that index plus two. The preceding proposition proves that it is prime, and division supplies 𝑣(𝑟)",
+          "end": "otal arrow 𝑎∶𝑁× 𝑃+ →𝑁; no extension of an arbitrary map on 𝐼𝑖has been assumed. The equalizer for 𝑛= 𝑃𝑖𝑟𝑖is invariant because (𝑃𝑖𝑝(𝑟𝑖))𝑣(𝑟𝑖) = 𝑃𝑖𝑟𝑖= 𝑛."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F02",
+      "kind": "new isolated solution tail",
+      "volume": "V1",
+      "source": "editorial_r6/sections/64-direct-images.tex",
+      "P3_lines": "200–214",
+      "control": "L207: \\enlargethispage{-5\\baselineskip}",
+      "quote_before": "The image $f_*m$ is the whole singleton, and its pullback along $b$ is again the whole singleton. But $a^*m$ has empty domain and target $X'$, so its image under $f'$ is the empty subset of $Y'$.",
+      "quote_after": "Same full solution moved to a new chapter-end PDF page 104.",
+      "observation": "Exercise 23.7 題目留在 P3 103，解答在104，後者標準裁切312字元、文字縱向跨度77.68pt。P2題目與解答同在99。",
+      "interpretation": "低於密度上限並未避免孤立末頁；300字元短頁警示會漏掉這個312字元例子。題目與詳解可分頁，但本例新增一整張只承載短解答，應整組比較閱讀成本。",
+      "severity": "pagination regression",
+      "image": "qa/forensics_visual/F02_solution_detached.png",
+      "source_sha256": {
+        "P2": "3590508f10c4c4ecc016018bff9c9de2b23af82e884019c4ee8935d200350936",
+        "P3": "4c580faefc84636575a37878133c75f2e06ae5178a30646eda492cade46a6045"
+      },
+      "page_records": [
+        {
+          "volume": "V1",
+          "version": "P2",
+          "physical_page": "99",
+          "chars": "1893",
+          "extended_chars": "1893",
+          "body_y0": "68.56",
+          "body_y1": "680.32",
+          "occupied_y_span": "611.76",
+          "footer": "V1 / ReadFlow R1 / R7-P2 scoring draft | 91",
+          "start": "pf. Take the pullback 𝑇of 𝑓𝑚∶𝑀→𝑌and 𝑛∶𝑁→𝑌, with 𝑢∶𝑇→𝑀, 𝑣∶𝑇→𝑁. The arrow 𝑚𝑢∶𝑇→𝑋is monic: 𝑢is the pullback of th",
+          "end": " the compatible identity maps from a singleton to 𝑋, 𝑌′ would require a map into the empty 𝑋′. Thus the extra point in the true pullback is essential."
+        },
+        {
+          "volume": "V1",
+          "version": "P3",
+          "physical_page": "103",
+          "chars": "1581",
+          "extended_chars": "1581",
+          "body_y0": "68.56",
+          "body_y1": "582.37",
+          "occupied_y_span": "513.81",
+          "footer": "V1 / ReadFlow R1 / R7-P3 scoring draft | 94",
+          "start": "pf. Take the pullback 𝑇of 𝑓𝑚∶𝑀→𝑌and 𝑛∶𝑁→𝑌, with 𝑢∶𝑇→𝑀, 𝑣∶𝑇→𝑁. The arrow 𝑚𝑢∶𝑇→𝑋is monic: 𝑢is the pullback of th",
+          "end": " 𝑏= id, and 𝑋′ empty with its unique maps 𝑎, 𝑓′. With 𝑚= id𝑋, compute both sides of the change-of-base equation and explain the missing pullback test."
+        },
+        {
+          "volume": "V1",
+          "version": "P3",
+          "physical_page": "104",
+          "chars": "312",
+          "extended_chars": "312",
+          "body_y0": "65.08",
+          "body_y1": "142.76",
+          "occupied_y_span": "77.68",
+          "footer": "V1 / ReadFlow R1 / R7-P3 scoring draft | 95",
+          "start": "Solution. The image 𝑓∗𝑚is the whole singleton, and its pullback along 𝑏is again the whole singleton. But 𝑎∗𝑚ha",
+          "end": " the compatible identity maps from a singleton to 𝑋, 𝑌′ would require a map into the empty 𝑋′. Thus the extra point in the true pullback is essential."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F03",
+      "kind": "new isolated solution tail",
+      "volume": "V1",
+      "source": "editorial_r6/sections/69-descent-and-saturated-conditions.tex",
+      "P3_lines": "161–214",
+      "control": "L161 -5, L181 -7, L194 -4, L202 -5 baselineskip",
+      "quote_before": "Precomposing with $q$ gives $(s\\bar h)q=l=(t\\bar h)q$, hence $s\\bar h=\\bar l=t\\bar h$ by epicity of $q$.",
+      "quote_after": "Same Exercise 25.8 solution starts an otherwise almost empty new page 129.",
+      "observation": "P2 121同頁題解，P3 128題／129解。129含351有效字元、文字縱向跨度77.77pt。",
+      "interpretation": "多個沿舊頁碼加入的負向頁高控制串聯，密度達標卻把一個短核對單位拆成兩頁。這不是缺少數學文字，而是分頁預算位置不當。",
+      "severity": "pagination regression",
+      "image": "qa/forensics_visual/F03_solution_detached.png",
+      "source_sha256": {
+        "P2": "5534fb8bf7c15e745706dabbbf435e146d4adb3e72ea8ee169563724332c995e",
+        "P3": "364d1aba1e4eb8fe13fb63397575f156993273ce0a19e0d8631782a41db6a871"
+      },
+      "page_records": [
+        {
+          "volume": "V1",
+          "version": "P2",
+          "physical_page": "121",
+          "chars": "1801",
+          "extended_chars": "1801",
+          "body_y0": "68.64",
+          "body_y1": "590.02",
+          "occupied_y_span": "521.39",
+          "footer": "V1 / ReadFlow R1 / R7-P2 scoring draft | 113",
+          "start": "The invariant function with block values 𝑥, 𝑦descends uniquely to the function send- ing 0 to 𝑥and 1 to 𝑦; the",
+          "end": "ant 0, 𝑡= id𝑋, and 𝑙selecting 0. Then 𝑠ℎ= 𝑙= 𝑡ℎand 𝑠≠𝑡. Descent reflects equations on its target 𝐵, not arbitrary equality beyond the displayed image."
+        },
+        {
+          "volume": "V1",
+          "version": "P3",
+          "physical_page": "128",
+          "chars": "1294",
+          "extended_chars": "1294",
+          "body_y0": "69.89",
+          "body_y1": "432.61",
+          "occupied_y_span": "362.72",
+          "footer": "V1 / ReadFlow R1 / R7-P3 scoring draft | 119",
+          "start": "Exercise 25.7 (Why the kernel pair matters). Use the noneffective relation on the fully marked 𝐴= {0, 1} from ",
+          "end": "et invariant ℎ∶𝐴→𝑋 and 𝑙∶𝐴→𝑌have descended maps ̄ℎ, ̄𝑙. For two arrows 𝑠, 𝑡∶𝑋→𝑌satisfying 𝑠ℎ= 𝑙= 𝑡ℎ, what equality is forced on 𝐵? Does it force 𝑠= 𝑡?"
+        },
+        {
+          "volume": "V1",
+          "version": "P3",
+          "physical_page": "129",
+          "chars": "351",
+          "extended_chars": "351",
+          "body_y0": "65.08",
+          "body_y1": "142.85",
+          "occupied_y_span": "77.77",
+          "footer": "V1 / ReadFlow R1 / R7-P3 scoring draft | 120",
+          "start": "Solution. Precomposing with 𝑞gives (𝑠̄ℎ)𝑞= 𝑙= (𝑡̄ℎ)𝑞, hence 𝑠̄ℎ= ̄𝑙= 𝑡̄ℎby epicity of 𝑞. This does not force 𝑠",
+          "end": "ant 0, 𝑡= id𝑋, and 𝑙selecting 0. Then 𝑠ℎ= 𝑙= 𝑡ℎand 𝑠≠𝑡. Descent reflects equations on its target 𝐵, not arbitrary equality beyond the displayed image."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F04",
+      "kind": "exercise statement split on mixed page",
+      "volume": "V0",
+      "source": "editorial_r3/views/v0/sections/01-opening.tex",
+      "P3_lines": "255; 296–309",
+      "control": "L255: \\enlargethispage{-5\\baselineskip}, earlier on the chapter flow",
+      "quote_before": "Use the same row/column convention as Example~\\ref{ex:idempotent}. Check that $e$ satisfies the identity laws, then use a triple to show that this is not a category.",
+      "quote_after": "The table is on PDF 50; the instruction is in an Exercise 1.3 (continued) box at the top of PDF 51.",
+      "observation": "P2 44 的 Exercise1.3 表格與作答指令同頁；P3 50/51分開。50是正文結尾與習題混合頁，不宜套全頁一個密度門檻。",
+      "interpretation": "表格＋條件＋動作指令是一個可保護的短題目單位；P3新增跨頁會迫使回看表格。此例直接支持習題題目與一般敘事分流。",
+      "severity": "exercise-unit regression",
+      "image": "qa/forensics_visual/F04_exercise_split.png",
+      "source_sha256": {
+        "P2": "9b4b9dd16e3d73f894f96241de48fe51d063fd4f0bfd3efbaf2031e705f543e2",
+        "P3": "6bf2580a8b6f35b8c855d969a5ee7b31d82961a84cebd84b40a0f3379d22c070"
+      },
+      "page_records": [
+        {
+          "volume": "V0",
+          "version": "P2",
+          "physical_page": "44",
+          "chars": "1315",
+          "extended_chars": "1315",
+          "body_y0": "68.64",
+          "body_y1": "602.3",
+          "occupied_y_span": "533.66",
+          "footer": "V0 / ReadFlow R1 / R7-P2 scoring draft | 32",
+          "start": "or a later internal number object. A nonunique family of construction choices must itself be supplied, or its ",
+          "end": " 𝑒 Use the same row/column convention as Example 1.13. Check that 𝑒satisfies the identity laws, then use a triple to show that this is not a category."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "50",
+          "chars": "1561",
+          "extended_chars": "1561",
+          "body_y0": "68.64",
+          "body_y1": "650.24",
+          "occupied_y_span": "581.6",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 35",
+          "start": "automatically existing object. Object and arrow ranges need not be sets; this wording does not assert that arb",
+          "end": "estion. Exercise 1.3 (Associativity still has to be checked). On one object 𝑃, take ar- rows 𝑒, 𝑎, 𝑏∶𝑃→𝑃with the table ∘ 𝑒 𝑎 𝑏 𝑒 𝑒 𝑎 𝑏 𝑎 𝑎 𝑏 𝑒 𝑏 𝑏 𝑒 𝑒"
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "51",
+          "chars": "1404",
+          "extended_chars": "1404",
+          "body_y0": "65.2",
+          "body_y1": "671.56",
+          "occupied_y_span": "606.36",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 36",
+          "start": "Exercise 1.3 (continued) Use the same row/column convention as Example 1.13. Check that 𝑒satisfies the identit",
+          "end": "on with- out values. The next chapter asks when a route can be reversed: returning to its source must recover the identity, at both ends of the arrow."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F05",
+      "kind": "new short chapter-end continuation",
+      "volume": "V0",
+      "source": "editorial_r7/005-b01-subcategories-and-groupoids.tex",
+      "P3_lines": "170–180",
+      "control": "L170: \\enlargethispage{-5\\baselineskip}",
+      "quote_before": "For the all-identities selection, a composable pair $\\id_X,\\id_Y$ requires $X=Y$ and composes to that same identity.",
+      "quote_after": "Same final part of Exercise 2.3 solution moved to PDF 71.",
+      "observation": "P3 71僅313字元、74.12pt文字跨度；P2 64可容納整段。P2原頁視覺偏滿，P3前頁確有減負，但成本是另開一頁。",
+      "interpretation": "保留密度改善的局部事實，同時判定全閱讀單位被拆散。不能把每個減密頁都視為收益。",
+      "severity": "pagination tradeoff requiring redesign",
+      "image": "qa/forensics_visual/F05_short_tail.png",
+      "source_sha256": {
+        "P2": "72dc2cb033b9122844c82ef9b9afac8e120a7e973eba4123da465aa9b3393637",
+        "P3": "6a0080b7cdcfa915ec1aa4c9bbe404b27b7846266ac217e5c3eb759e5c8b8052"
+      },
+      "page_records": [
+        {
+          "volume": "V0",
+          "version": "P2",
+          "physical_page": "64",
+          "chars": "1860",
+          "extended_chars": "1860",
+          "body_y0": "63.1",
+          "body_y1": "679.9",
+          "occupied_y_span": "616.81",
+          "footer": "V0 / ReadFlow R1 / R7-P2 scoring draft | 52",
+          "start": "2.7 Practice: closure is part of the data Exercise 2.2 (Two possible reversible parts). For the four functions",
+          "end": "row in 𝒞is an identity, which is the discrete-category condition: fullness now tests every original pair of objects because all objects were retained."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "70",
+          "chars": "1547",
+          "extended_chars": "1547",
+          "body_y0": "63.1",
+          "body_y1": "600.2",
+          "occupied_y_span": "537.11",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 55",
+          "start": "2.7 Practice: closure is part of the data Exercise 2.2 (Two possible reversible parts). For the four functions",
+          "end": "her such arrow. These are all arrows of 𝒞with endpoints in the one-object selection, which proves fullness. The inherited laws prove it is a category."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "71",
+          "chars": "313",
+          "extended_chars": "313",
+          "body_y0": "68.64",
+          "body_y1": "142.76",
+          "occupied_y_span": "74.12",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 56",
+          "start": "For the all-identities selection, a composable pair id𝑋, id𝑌requires 𝑋= 𝑌and com- poses to that same identity.",
+          "end": "row in 𝒞is an identity, which is the discrete-category condition: fullness now tests every original pair of objects because all objects were retained."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F06",
+      "kind": "mixed improvement and regression",
+      "volume": "V2",
+      "source": "editorial_r7/014-prime-factorization.tex",
+      "P3_lines": "45–56",
+      "control": "L49: \\enlargethispage{-5\\baselineskip}",
+      "quote_before": "$v_p(xy)=v_p(x)\\lor_2 v_p(y)$ on each stable source part.",
+      "quote_after": "Same display and its source qualification now occur together on P3 PDF 134.",
+      "observation": "P2 128底端公式與129首行 on each stable source part 分離；P3 134把整個證明放一起。但命題42.5留在133，證明在134，且134→135另產生F01。",
+      "interpretation": "同次改動可以修復一個相鄰關係並破壞另一個；應審查命題／證明／下一段整個窗口。不能把P3全部頁面一律判壞，也不能用單一改善頁證明整體成功。",
+      "severity": "mixed outcome",
+      "image": "qa/forensics_visual/F06_proof_tradeoff.png",
+      "source_sha256": {
+        "P2": "e1fa64cb3bfeb0e1eb434e9fb5fa8d2eb0cb4e24fa3790b06ac3275635e16bb7",
+        "P3": "d89dda86996c7a150a6ed2b0c67b0021845f9dca26d9ff6397a692b9277e16cb"
+      },
+      "page_records": [
+        {
+          "volume": "V2",
+          "version": "P2",
+          "physical_page": "128",
+          "chars": "1879",
+          "extended_chars": "1879",
+          "body_y0": "72.87",
+          "body_y1": "680.74",
+          "occupied_y_span": "607.86",
+          "footer": "V2 / ReadFlow R1 / R7-P2 scoring draft | 119",
+          "start": "Proposition 42.4 (Least nonunit divisor test). For a given natural input 𝑛≥2, the least divisor 𝑝of 𝑛satisfyin",
+          "end": "e prime 𝑝, division gives a Boolean decision 𝑣𝑝(𝑥) for 𝑝∣𝑥. The two-factor result and the converse witness multiplication give 𝑣𝑝(𝑥𝑦) = 𝑣𝑝(𝑥) ∨2 𝑣𝑝(𝑦)"
+        },
+        {
+          "volume": "V2",
+          "version": "P2",
+          "physical_page": "129",
+          "chars": "1664",
+          "extended_chars": "1664",
+          "body_y0": "65.08",
+          "body_y1": "651.94",
+          "occupied_y_span": "586.86",
+          "footer": "V2 / ReadFlow R1 / R7-P2 scoring draft | 120",
+          "start": "on each stable source part. Moreover 𝑣𝑝(1) = f: an equation 1 = 𝑝𝑤with 𝑝≥2 is impos- sible on a noninitial par",
+          "end": "ion on the counter 𝑖 constructs a state with four natural coordinates (𝑟0, 𝐶0, 𝑃0, 𝑈0) = (𝑛, 0, 1, 1), (𝑟, 𝐶, 𝑃, 𝑈) ⟼􏿴𝑣(𝑟), 𝐶+ 𝑝(𝑟)𝑈, 𝑃𝑝(𝑟), 𝐵𝑈􏿷. (F1)"
+        },
+        {
+          "volume": "V2",
+          "version": "P3",
+          "physical_page": "133",
+          "chars": "1392",
+          "extended_chars": "1392",
+          "body_y0": "68.64",
+          "body_y1": "530.27",
+          "occupied_y_span": "461.63",
+          "footer": "V2 / ReadFlow R1 / R7-P3 scoring draft | 122",
+          "start": "compositeness. The Boolean test below separates the source parts; no object of all properties is assumed. Prop",
+          "end": "which these data apply, 𝑝∣𝑎or 𝑝∣𝑏on the appropriate stable parts. More generally, a prime dividing a given finite product divides at least one factor."
+        },
+        {
+          "volume": "V2",
+          "version": "P3",
+          "physical_page": "134",
+          "chars": "1557",
+          "extended_chars": "1557",
+          "body_y0": "68.56",
+          "body_y1": "545.05",
+          "occupied_y_span": "476.49",
+          "footer": "V2 / ReadFlow R1 / R7-P3 scoring draft | 123",
+          "start": "pf. Let 𝑔= 𝐺(𝑝, 𝑎). The gcd construction supplies 𝑔∣𝑝. On each represented factor- ization 𝑝= 𝑔𝑐, primality fo",
+          "end": "ange and tests true, since it is 𝑟itself. The bounded-search theorem therefore gives a whole-source least index, not just local existential witnesses."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F07",
+      "kind": "sentence split and isolated concluding tail",
+      "volume": "V0",
+      "source": "editorial_r7/004-03-reading-the-constructions.tex",
+      "P3_lines": "104–127",
+      "control": "L121: \\enlargethispage{-5\\baselineskip}; 6 earlier negative controls in same source",
+      "quote_before": "It was the proposed shorter condition that lost information.",
+      "quote_after": "PDF 42 ends “It was the proposed”; PDF 43 starts “shorter condition that lost information.” followed by one concluding paragraph.",
+      "observation": "P3 43只有371字元、96.44pt文字跨度；不自然處包括句中斷與依賴上頁的句尾。P2 37結論在同頁。",
+      "interpretation": "只禁止小於300字元的孤頁仍會漏掉。對讀者有意義的是句子和論證閉合，不是最低字元數。",
+      "severity": "clear sentence-level regression",
+      "image": "qa/forensics_visual/F07_six_line_tail.png",
+      "source_sha256": {
+        "P2": "ee0aa0ea52fe93fd44b97ab50dbb9dd783e1fb7a67c7794591f610b74debe380",
+        "P3": "e17bc1d23334112c8928fa8cdf075e129f6aa8ad638d58bfad7258ff7b68c92a"
+      },
+      "page_records": [
+        {
+          "volume": "V0",
+          "version": "P2",
+          "physical_page": "37",
+          "chars": "1366",
+          "extended_chars": "1366",
+          "body_y0": "68.64",
+          "body_y1": "484.08",
+          "occupied_y_span": "415.44",
+          "footer": "V0 / ReadFlow R1 / R7-P2 scoring draft | 25",
+          "start": "The first and last steps use associativity; the middle step substitutes the original com- patibility equation.",
+          "end": "s equations, then com- pare candidates for that one test. The comparison used only the given pullback and arrows; no further construction was assumed."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "42",
+          "chars": "1562",
+          "extended_chars": "1562",
+          "body_y0": "65.08",
+          "body_y1": "566.86",
+          "occupied_y_span": "501.78",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 27",
+          "start": "A worked reading test. Fix a category and given arrows 𝑓∶𝐴→𝐶, 𝑔∶𝐵→𝐶 with a supplied pullback (𝑃, 𝑝, 𝑞), where ",
+          "end": "ed 𝑤sending 𝑥to 1 has 𝑝∘𝑤= 𝛼∘𝑡but differs from 𝑢∘𝑡at 𝑥; it fails the required 𝑞equation. Uniqueness still holds for the full test. It was the proposed"
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "43",
+          "chars": "371",
+          "extended_chars": "371",
+          "body_y0": "68.64",
+          "body_y1": "165.07",
+          "occupied_y_span": "96.44",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 28",
+          "start": "shorter condition that lost information. This example connects types, substitution, supplied existence and fix",
+          "end": "s equations, then com- pare candidates for that one test. The comparison used only the given pullback and arrows; no further construction was assumed."
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F08",
+      "kind": "short-page negative control",
+      "volume": "V2",
+      "source": "layout/study/volume-2-study.tex",
+      "P3_lines": "12",
+      "control": "TOC baseline set to18pt",
+      "quote_before": "End of table of contents.",
+      "quote_after": "End of table of contents, five entries on P3 PDF 11.",
+      "observation": "P3 11僅263字元，但屬目錄結束，不是證明或題目被任意拆散。",
+      "interpretation": "不得只因短而列為數學閱讀缺陷；可另評目錄空間效率，沒有證據把它當造成68分的特定原因。",
+      "severity": "no mathematical-continuity defect established",
+      "image": "qa/forensics_visual/F08_toc_short_control.png",
+      "source_sha256": {
+        "P2": "3427267faa4c2d1cb9689e2a121f9e647b226b2de4f3f7f8c2a1a6f6e7327a09",
+        "P3": "7b8c79f19cecc56e51b91db0da5c40a4eb6ff834a167a04f1e70e6c211aa4e12"
+      },
+      "page_records": [
+        {
+          "volume": "V2",
+          "version": "P2",
+          "physical_page": "9",
+          "chars": "998",
+          "extended_chars": "998",
+          "body_y0": "69.21",
+          "body_y1": "480.07",
+          "occupied_y_span": "410.86",
+          "footer": "V2 / ReadFlow R1 / R7-P2 scoring draft | viii",
+          "start": "48 The ordered field of Cauchy values 177 48.1 Completion ring . . . . . . . . . . . . . . . . . . . . . . . .",
+          "end": " . . . . . . . . . . . . . . . . . 208 From arithmetic to analysis: what the constructions deliver . . . . . . . . . . . . . . . 211 Working notes 212"
+        },
+        {
+          "volume": "V2",
+          "version": "P3",
+          "physical_page": "11",
+          "chars": "263",
+          "extended_chars": "263",
+          "body_y0": "69.36",
+          "body_y1": "185.17",
+          "occupied_y_span": "115.82",
+          "footer": "V2 / ReadFlow R1 / R7-P3 scoring draft | x",
+          "start": "51.2 Affine transport of bounds and separated sets . . . . . . . . . . . . . . . . . . 213 51.3 Rational cuts ",
+          "end": " . . . . . . . . . . . . . . . . . 218 From arithmetic to analysis: what the constructions deliver . . . . . . . . . . . . . . . 221 Working notes 222"
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    },
+    {
+      "id": "F09",
+      "kind": "definition split with local adjacency benefit",
+      "volume": "V0",
+      "source": "layout/views/v0/breadth/b07-path-categories.tex",
+      "P3_lines": "23–50",
+      "control": "L23: \\enlargethispage{-3\\baselineskip}",
+      "quote_before": "For every supplied vertex $v$ there is also a length-zero path $\\varepsilon_v$ from $v$ to $v$, with no edges.",
+      "quote_after": "These two final lines of Definition1.15 are carried to a continued box on PDF53; positive-length paths remain on PDF52.",
+      "observation": "P2 46同頁容納正長及零長路徑；P3 52/53拆開。但P3零長路徑與其必要tagging警語同頁，比P2的警語在47更接近。",
+      "interpretation": "應以整個定義＋關鍵例外說明為閱讀單位考量。不得刪掉空路徑的端點標記以減短；不同頂點的空路徑必須區分。",
+      "severity": "mixed outcome needing unit-level design",
+      "image": "qa/forensics_visual/F09_definition_split.png",
+      "source_sha256": {
+        "P2": "d4edddb683623e05bfc2c696f7dd2c1c1b4a37d175fd14dda875e6a15e61b358",
+        "P3": "3f3b30809be13ab85647a193cc3cfbf2a645afedf612b861011be2a5d91325a5"
+      },
+      "page_records": [
+        {
+          "volume": "V0",
+          "version": "P2",
+          "physical_page": "46",
+          "chars": "1760",
+          "extended_chars": "1760",
+          "body_y0": "63.1",
+          "body_y1": "665.48",
+          "occupied_y_span": "602.39",
+          "footer": "V0 / ReadFlow R1 / R7-P2 scoring draft | 34",
+          "start": "Related reading F. W. Lawvere and R. Rosebrugh, Sets for Mathematics, Cambridge University Press, 2003, §1.1 (",
+          "end": "𝑒2, … , 𝑒𝑛), 𝑠(𝑒1) = 𝑣, 𝑡(𝑒𝑛) = 𝑤, 𝑡(𝑒𝑖) = 𝑠(𝑒𝑖+1) (1 ≤𝑖< 𝑛). For every supplied vertex 𝑣there is also a length-zero path 𝜀𝑣from 𝑣to 𝑣, with no edges."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "52",
+          "chars": "1687",
+          "extended_chars": "1687",
+          "body_y0": "63.1",
+          "body_y1": "623.94",
+          "occupied_y_span": "560.85",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 37",
+          "start": "Related reading F. W. Lawvere and R. Rosebrugh, Sets for Mathematics, Cambridge University Press, 2003, §1.1 (",
+          "end": "n different edges. A path of positive length from 𝑣to 𝑤is a supplied finite list 𝑝= (𝑒1, 𝑒2, … , 𝑒𝑛), 𝑠(𝑒1) = 𝑣, 𝑡(𝑒𝑛) = 𝑤, 𝑡(𝑒𝑖) = 𝑠(𝑒𝑖+1) (1 ≤𝑖< 𝑛)."
+        },
+        {
+          "volume": "V0",
+          "version": "P3",
+          "physical_page": "53",
+          "chars": "1635",
+          "extended_chars": "1635",
+          "body_y0": "65.2",
+          "body_y1": "680.27",
+          "occupied_y_span": "615.07",
+          "footer": "V0 / ReadFlow R1 / R7-P3 scoring draft | 38",
+          "start": "Definition 1.15 (continued) For every supplied vertex 𝑣there is also a length-zero path 𝜀𝑣from 𝑣to 𝑣, with no ",
+          "end": " contain, in precisely this order, the edge occurrences of 𝑝, those of 𝑞, and those of 𝑟. Neither bracketing changes an edge or its position. Equality"
+        }
+      ],
+      "evidence_class": "actual source diff + PDF text + rendered visual inspection; diagnostic interpretation is not human scoring",
+      "math_scope": "No full chapter/volume mathematical acceptance; examples retain source qualifications."
+    }
+  ],
+  "scope_limits": [
+    "No new human reading score or learning test.",
+    "No fresh XeLaTeX reconstruction of complete P2/P3 in this subtask.",
+    "The isolated restore and manifests verify source bytes, not mathematics.",
+    "P2 handoff/delta PDF hash fields disagree with same-package QA_FINAL and scoring PDF_MANIFEST; latter two match obtained PDF bytes.",
+    "P2 old per-page CSV agrees837/841; 4 count differences cannot be attributed confidently to repackaging.",
+    "P3 CSV agrees886/886; external PDF and two scoring ZIPs are text/geometry/72dpi RGB equivalent for all886 pages.",
+    "No active literal remark/why environments found; do not fabricate P3 Remark/Why breakup examples."
+  ],
+  "source_restore_verified": {
+    "P2_files_replaced": [
+      3,
+      2,
+      4
+    ],
+    "P3_files_replaced": [
+      57,
+      28,
+      40
+    ],
+    "R7_baseline_zip_hashes_verified": true,
+    "P3_full_manifest_entries_verified": 2205,
+    "fresh_compile_performed": false
+  },
+  "csv_agreement": {
+    "P3_equal": 886,
+    "P3_total": 886,
+    "P2_equal": 837,
+    "P2_total": 841,
+    "P2_differences": [
+      {
+        "volume": "V0",
+        "page": 462,
+        "reported": 908,
+        "recomputed": 888
+      },
+      {
+        "volume": "V1",
+        "page": 158,
+        "reported": 908,
+        "recomputed": 888
+      },
+      {
+        "volume": "V2",
+        "page": 123,
+        "reported": 1821,
+        "recomputed": 1804
+      },
+      {
+        "volume": "V2",
+        "page": 221,
+        "reported": 908,
+        "recomputed": 888
+      }
+    ]
+  },
+  "P2_hash_conflict_resolution": {
+    "observation": "Actual PDF bytes match scoring PDF_MANIFEST and delta QA_FINAL; handoff/delta pdf fields disagree.",
+    "resolved_comparison_input": "Acquired scoring ZIP PDFs pinned by SHA; source is restored R7+P2 delta.",
+    "unknown": "Alternative b2c6/ae83/8f93 PDF bytes and explanation of discrepancy."
+  },
+  "authorization_history": "No Git or official modification during research; later explicit user instruction authorizes this research-only publication into PR #1. No official manuscript/template/workflow edits.",
+  "public_scope": "Page/source metadata and quotations only; historical PDFs, screenshots, source ZIPs and private recovery locators are not published here."
+}
