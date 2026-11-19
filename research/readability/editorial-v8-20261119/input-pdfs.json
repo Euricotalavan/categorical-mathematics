@@ -1,0 +1,62 @@
+{
+  "P2_V0": {
+    "all_pages": 462,
+    "chapter_first": 13,
+    "chapter_end": 461,
+    "sha256": "ac173bc6a2bd1812ab9cf2100597950bf0e524236d3384f6525049dfd8260fa3",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  },
+  "P2_V1": {
+    "all_pages": 158,
+    "chapter_first": 9,
+    "chapter_end": 157,
+    "sha256": "60a44b7df6dbed93367269f8cc5092d7670cea109fad506580bc4c88ecfb596c",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  },
+  "P2_V2": {
+    "all_pages": 221,
+    "chapter_first": 10,
+    "chapter_end": 220,
+    "sha256": "e9142336256daca9b347e2df7fa2cf4b0f7432e9693ef350ab93e9714ea171f1",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  },
+  "v8_V0": {
+    "all_pages": 481,
+    "chapter_first": 13,
+    "chapter_end": 480,
+    "sha256": "4d931401a3bcbec3d7bae6b593c8e7d98d2821ac76c577ea40441f9631f15e85",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  },
+  "v8_V1": {
+    "all_pages": 174,
+    "chapter_first": 9,
+    "chapter_end": 173,
+    "sha256": "4bc998ed7a28d073247fe863036f875c4af3dec3c391e5e9349da452bd19eb43",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  },
+  "v8_V2": {
+    "all_pages": 231,
+    "chapter_first": 10,
+    "chapter_end": 230,
+    "sha256": "ad29b6392b95938ff9f471c05a6f53332f4afda1761d4c43818a6166dbb59537",
+    "dimensions_pt": [
+      538.5800170898438,
+      737.010009765625
+    ]
+  }
+}
