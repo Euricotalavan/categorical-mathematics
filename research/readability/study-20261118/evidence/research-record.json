@@ -1,0 +1,700 @@
+{
+  "version": "public-research-v1",
+  "date": "2026-11-18 Asia/Taipei",
+  "authorization": "Original research was read-only with isolated prototypes. A later explicit user request authorizes organizing these results into PR #1; publication does not adopt the proposals or authorize manuscript/template/workflow edits.",
+  "baselines": {
+    "research": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+    "adopted_template_source": "8b9dc7f3749de81e47de9f525d7c5e0b3f8036c3",
+    "template_adoption": "c749e4867538888d3069346fa055ac2ca834c9e1"
+  },
+  "engineering_counts": {
+    "historical_deliveries_recovered": 40,
+    "source_zip_crc_passed": 15,
+    "current_manifest_entries_verified": 10422,
+    "embedded_external_pdf_pairs": 12,
+    "page_pairs_compared": 3361,
+    "comparison": "text, geometry, 72dpi RGB; not human continuous reading",
+    "r4_gap": "3 source ZIPs lack embedded PDF; external PDFs available, no full-volume rebuild in this study"
+  },
+  "human_reading_test": "NOT_PERFORMED",
+  "formal_math_final_review": "NOT_PERFORMED",
+  "stable_90_plus": "NOT_ESTABLISHED",
+  "cross_162_volumes": "NOT_ESTABLISHED",
+  "prototype_metrics": [
+    {
+      "sample": "E1",
+      "condition": "0",
+      "bytes": 1370,
+      "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+      "tex_character_count": 1370,
+      "approx_english_tokens": 247,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E1",
+      "condition": "I",
+      "bytes": 1370,
+      "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+      "tex_character_count": 1370,
+      "approx_english_tokens": 247,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E1",
+      "condition": "II",
+      "bytes": 1370,
+      "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+      "tex_character_count": 1370,
+      "approx_english_tokens": 247,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E1",
+      "condition": "III",
+      "bytes": 1370,
+      "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+      "tex_character_count": 1370,
+      "approx_english_tokens": 247,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E2",
+      "condition": "0",
+      "bytes": 1832,
+      "sha256": "e8582bb8da371c9444d0ee896e447c8379ba215ae00a768191026e104a18f0c1",
+      "tex_character_count": 1832,
+      "approx_english_tokens": 292,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E2",
+      "condition": "I",
+      "bytes": 1768,
+      "sha256": "e717afa27c11819422929c75495d0cb9c892236177ea7fb74b39ba052288af4e",
+      "tex_character_count": 1768,
+      "approx_english_tokens": 282,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E2",
+      "condition": "II",
+      "bytes": 1769,
+      "sha256": "b0028f4f97ffd924b4a3164b7f4be51c11c30651c31a6ea5f7e629db45c7b7a6",
+      "tex_character_count": 1769,
+      "approx_english_tokens": 282,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E2",
+      "condition": "III",
+      "bytes": 1969,
+      "sha256": "4e48f268039db4ff44bca042a8e94e84a3ed5de70953ba2f9d98e3f1ed0ac5ec",
+      "tex_character_count": 1969,
+      "approx_english_tokens": 307,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E3",
+      "condition": "0",
+      "bytes": 4764,
+      "sha256": "1abdeb0bfff33d62f2b18f21d2b1c2182cc332c21f3255b1a48d4af793b934c2",
+      "tex_character_count": 4764,
+      "approx_english_tokens": 809,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E3",
+      "condition": "I",
+      "bytes": 4629,
+      "sha256": "62d90a46702e24f10fb479ca73eada5b4c8e2647b59110132193d62bd73f03d4",
+      "tex_character_count": 4629,
+      "approx_english_tokens": 788,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E3",
+      "condition": "II",
+      "bytes": 4687,
+      "sha256": "eebe19c2e30f7a8f7fbbdfb2cc5bc193eaeb3adce69cb3fb8a2310562458fb81",
+      "tex_character_count": 4687,
+      "approx_english_tokens": 796,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E3",
+      "condition": "III",
+      "bytes": 4817,
+      "sha256": "87f1fcc16ef6d38f756bd654f63fbe44296c8edd7038bf25fa252c7861ff8d8b",
+      "tex_character_count": 4817,
+      "approx_english_tokens": 814,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E4",
+      "condition": "0",
+      "bytes": 1748,
+      "sha256": "4b0e6e32020b22298d41f885a8e1226d34b6a06c5db3e5f84f28087c0b4bcf5f",
+      "tex_character_count": 1748,
+      "approx_english_tokens": 264,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E4",
+      "condition": "I",
+      "bytes": 1503,
+      "sha256": "643719b6dc414ae7babcd0694236b6c89318bf6eaf9d0e686f15b2a1fb8f3291",
+      "tex_character_count": 1503,
+      "approx_english_tokens": 223,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E4",
+      "condition": "II",
+      "bytes": 1643,
+      "sha256": "221d59a374050e7bfcffc53507ea89cc9a5d06ea82ee72d7bd58d31dcc82f569",
+      "tex_character_count": 1643,
+      "approx_english_tokens": 246,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E4",
+      "condition": "III",
+      "bytes": 1620,
+      "sha256": "db85444aa76130d0fbcaf07b2ae09392ebba7d64810f80eba3c1add08140cac0",
+      "tex_character_count": 1620,
+      "approx_english_tokens": 243,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E5",
+      "condition": "0",
+      "bytes": 1766,
+      "sha256": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe",
+      "tex_character_count": 1766,
+      "approx_english_tokens": 253,
+      "identical_to_baseline": true,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E5",
+      "condition": "I",
+      "bytes": 1519,
+      "sha256": "78e8fc62cebfec80906ba38a9e08e81f6b7e0580016ac278133880bdde2651bf",
+      "tex_character_count": 1519,
+      "approx_english_tokens": 210,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E5",
+      "condition": "II",
+      "bytes": 1792,
+      "sha256": "b53f9c1208fdbc9cbdbe231031a66188ea9813ba6c794583e12e227ff30ed8e6",
+      "tex_character_count": 1792,
+      "approx_english_tokens": 247,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    },
+    {
+      "sample": "E5",
+      "condition": "III",
+      "bytes": 1867,
+      "sha256": "a91ee50249974561f6ddd2f379c128488e957f4406a33fdb3f40f1c21ee0c97c",
+      "tex_character_count": 1867,
+      "approx_english_tokens": 257,
+      "identical_to_baseline": false,
+      "metric_limit": "source-description only; not readability score"
+    }
+  ],
+  "selected_r6_r7_changes": [
+    {
+      "source_r6": "editorial_r6/views/v0/breadth/b36-directed-graph-morphisms.tex",
+      "source_r7": "editorial_r7/020-b36-directed-graph-morphisms.tex",
+      "parent_sha256": "0824b83390062c518f96ac7a346689d8eb058a7ee7a68615dc8b960aa52a0f6a",
+      "new_sha256": "5323697982fe70c5887c78fc1da3af43d963277de20b3544b8f4a307a22a0e90",
+      "math_ref_label_fragment_sequence_equal": true,
+      "paragraph_splits": [],
+      "count_splits": 0,
+      "rewrites": [
+        {
+          "old": "It is full: for each pair of source objects, every target\narrow between their images is reached.  At $(A,B)$,",
+          "new": "It is full: at $(A,B)$,",
+          "rationale": "The following sentences already test all arrow types, so the repeated quantifier description is unnecessary.",
+          "saved_chars": 86
+        },
+        {
+          "old": "Finally both target objects\n$U,V$ are images of $A,B$,",
+          "new": "Both target objects\n$U,V$ are images of $A,B$,",
+          "rationale": "Remove decorative transition.",
+          "saved_chars": 8
+        },
+        {
+          "old": "Alternatively apply the typed-edge extension\nof Proposition~\\ref{prop:breadth-free-path-functor}.",
+          "new": "Equivalently, apply Proposition~\\ref{prop:breadth-free-path-functor}.",
+          "rationale": "Keep reference while shortening a second proof route.",
+          "saved_chars": 28
+        },
+        {
+          "old": "The source path category has identity paths",
+          "new": "The source path category has identities",
+          "rationale": "Shorten redundant noun.",
+          "saved_chars": 4
+        },
+        {
+          "old": "It is not faithful, since\nthe distinct arrows $(e)$ and $(f)$ have equal images.",
+          "new": "It is not faithful: distinct arrows $(e)$ and $(f)$ have equal images.",
+          "rationale": "Retain the counterexample without a subordinate clause.",
+          "saved_chars": 10
+        },
+        {
+          "old": "There are no nontrivial composable pairs of nonidentity\narrows in $\\operatorname{Path}(G)$, so compositions with\nidentities are the only required functor checks and are\npreserved.",
+          "new": "No two nonidentity arrows compose in $\\operatorname{Path}(G)$;\nthe only functor checks concern identities, which are preserved.",
+          "rationale": "Condense a vacuous composition check; keep its exact reason.",
+          "saved_chars": 52
+        },
+        {
+          "old": "the given functor cannot be\ninduced by a graph map.",
+          "new": "no graph map induces the given functor.",
+          "rationale": "Use direct wording for the conclusion.",
+          "saved_chars": 12
+        },
+        {
+          "old": "Vertex injectivity is\nunnecessary: let $G$ have two distinct vertices and no\nedges, and $H$ one vertex and no edges.",
+          "new": "Vertex injectivity is unnecessary: take $G$ with two vertices\nand no edges, and $H$ with one vertex and no edges.",
+          "rationale": "Streamline an explicit countermodel without changing its data.",
+          "saved_chars": 3
+        }
+      ],
+      "old_hash_checked": true,
+      "new_hash_checked": true,
+      "volume": 0,
+      "scope": "selected local textual changes; not a theorem audit",
+      "pdf_physical_page": 204,
+      "pdf_printed_page": 192
+    },
+    {
+      "source_r6": "editorial_r6/sections/75-gluing-along-intersections.tex",
+      "source_r7": "editorial_r7/012-75-gluing-along-intersections.tex",
+      "parent_sha256": "7a8cdbf9099035f7d85516a69687a0536c21f5017139d00d091eaefdb84441d7",
+      "new_sha256": "685722680e21790d0815ad7f4a3617b5c5a0ea2be8b239f246bc3454b657e197",
+      "math_ref_label_fragment_sequence_equal": true,
+      "paragraph_splits": [],
+      "count_splits": 0,
+      "rewrites": [
+        {
+          "old": "Categorically, the proof descends the copairing through a regular\nquotient, using all eligible arrow tests. We then treat three parts.",
+          "new": "The proof descends the copairing through a regular quotient,\nchecking all eligible tests; three-part gluing follows.",
+          "rationale": "Condense introductory map without altering premises.",
+          "saved_chars": 18
+        },
+        {
+          "old": "This necessity uses the commuting square,\nwithout regularity. Sufficiency is where regular descent and the\ncase decomposition were used.",
+          "new": "Necessity uses the commuting square without regularity;\nsufficiency uses regular descent and case decomposition.",
+          "rationale": "Preserve distinction of hypotheses while removing repetition.",
+          "saved_chars": 24
+        },
+        {
+          "old": "The final glued map is therefore the same\nfunction.",
+          "new": "The two gluing orders give the same function.",
+          "rationale": "Name the actual comparison rather than using a generic transition.",
+          "saved_chars": 6
+        }
+      ],
+      "old_hash_checked": true,
+      "new_hash_checked": true,
+      "volume": 1,
+      "scope": "selected local textual changes; not a theorem audit",
+      "pdf_physical_page": 147,
+      "pdf_printed_page": 139
+    },
+    {
+      "source_r6": "editorial_r6/expansion-v2/prime-factorization.tex",
+      "source_r7": "editorial_r7/014-prime-factorization.tex",
+      "parent_sha256": "970dd611bd440453a9fc7df09f3b6c100551ccd35c353326ead027f4874ccb5c",
+      "new_sha256": "e1fa64cb3bfeb0e1eb434e9fb5fa8d2eb0cb4e24fa3790b06ac3275635e16bb7",
+      "math_ref_label_fragment_sequence_equal": true,
+      "paragraph_splits": [],
+      "count_splits": 0,
+      "rewrites": [
+        {
+          "old": "Coprime cancellation controls prime divisors of products. To factor a\nnumber we also need a prime test, finite-product data and terminating\nsearch. No object of all finite words is assumed.",
+          "new": "Factoring requires a prime test, finite-product data and terminating\nsearch in addition to coprime cancellation. No object of all finite\nwords is assumed.",
+          "rationale": "Condense section objective and retain the explicit non-existence caveat.",
+          "saved_chars": 35
+        },
+        {
+          "old": "These hypotheses are used for represented bounded invariants and the previously constructed coprime-cancellation test. Use the strict comparison and divisibility relations already constructed on $N$.",
+          "new": "They support the represented bounded invariants and the previously\nproved coprime-cancellation test. Use the already constructed strict\ncomparison and divisibility relations on $N$.",
+          "rationale": "Remove metalinguistic repetition without changing hypotheses.",
+          "saved_chars": 18
+        },
+        {
+          "old": "\\noindent\\emph{Prime test (sourcewise).}",
+          "new": "\\noindent\\textbf{Prime test (sourcewise).}",
+          "rationale": "Improve scanability of two distinct tests without altering content or geometry.",
+          "saved_chars": -2
+        },
+        {
+          "old": "\\noindent\\emph{Composite test (whole source).}",
+          "new": "\\noindent\\textbf{Composite test (whole source).}",
+          "rationale": "Match the parallel prime/composite cues.",
+          "saved_chars": -2
+        },
+        {
+          "old": "This specifies\nwhat the word ``or'' means for varying families; it is not a global\nchoice of one alternative for all parameters.",
+          "new": "Here ``or'' means a sourcewise split, not a single globally\nchosen alternative.",
+          "rationale": "Condense the same sourcewise-logic warning.",
+          "saved_chars": 49
+        },
+        {
+          "old": "Thus failure of whole-source\nprimality does not imply compositeness.",
+          "new": "Thus whole-source nonprimality need not mean compositeness.",
+          "rationale": "Direct phrasing; retain the non-implication.",
+          "saved_chars": 9
+        },
+        {
+          "old": "Notice that primality was \\emph{proved} for a returned divisor; it was not assumed as the search predicate.",
+          "new": "Primality was proved for the returned divisor, not assumed by the search.",
+          "rationale": "Remove repetitive metacommentary without weakening proof.",
+          "saved_chars": 34
+        }
+      ],
+      "old_hash_checked": true,
+      "new_hash_checked": true,
+      "volume": 2,
+      "scope": "selected local textual changes; not a theorem audit",
+      "pdf_physical_page": 127,
+      "pdf_printed_page": 118
+    }
+  ],
+  "prototype_build": {
+    "pages": 40,
+    "pdf_bytes": 160278,
+    "sha256": "ae8c865946d4e79f425d2b6f71a7bc0d7fa1a8ccdc79af59f31ef4c562bb180d",
+    "source_sha256": "80b3e58488c0fa645cd5d384d9926f17875726b67fbee8d983400929ff6f59d1",
+    "compile_passes": 2,
+    "diagnostics": [],
+    "outline": [
+      [
+        1,
+        "E1 / specimen K9",
+        3
+      ],
+      [
+        2,
+        "1.1 Maps have specified endpoints",
+        3
+      ],
+      [
+        1,
+        "E1 / specimen M4",
+        4
+      ],
+      [
+        2,
+        "1.1 Maps have specified endpoints",
+        4
+      ],
+      [
+        1,
+        "E1 / specimen P7",
+        5
+      ],
+      [
+        2,
+        "1.1 Maps have specified endpoints",
+        5
+      ],
+      [
+        1,
+        "E1 / specimen T3",
+        6
+      ],
+      [
+        2,
+        "1.1 Maps have specified endpoints",
+        6
+      ],
+      [
+        1,
+        "E2 / specimen M4",
+        8
+      ],
+      [
+        2,
+        "2.1 A product in the output",
+        8
+      ],
+      [
+        1,
+        "E2 / specimen J2",
+        9
+      ],
+      [
+        2,
+        "2.1 A product in the output",
+        9
+      ],
+      [
+        1,
+        "E2 / specimen T3",
+        10
+      ],
+      [
+        2,
+        "2.1 A product in the output",
+        10
+      ],
+      [
+        1,
+        "E2 / specimen P7",
+        11
+      ],
+      [
+        2,
+        "2.1 A product in the output",
+        11
+      ],
+      [
+        1,
+        "E2 / layout ablation",
+        13
+      ],
+      [
+        2,
+        "2.1 A product in the output",
+        13
+      ],
+      [
+        1,
+        "E3 / specimen Q5",
+        15
+      ],
+      [
+        2,
+        "3.1 Category axioms",
+        15
+      ],
+      [
+        2,
+        "3.2 Finite models and a failed model",
+        16
+      ],
+      [
+        1,
+        "E3 / specimen M4",
+        18
+      ],
+      [
+        2,
+        "3.1 Category axioms",
+        18
+      ],
+      [
+        2,
+        "3.2 Finite models and a failed model",
+        19
+      ],
+      [
+        1,
+        "E3 / specimen T3",
+        21
+      ],
+      [
+        2,
+        "3.1 Category axioms",
+        21
+      ],
+      [
+        2,
+        "3.2 Finite models and a failed model",
+        21
+      ],
+      [
+        1,
+        "E3 / specimen P7",
+        24
+      ],
+      [
+        2,
+        "3.1 Category axioms",
+        24
+      ],
+      [
+        2,
+        "3.2 Finite models and a failed model",
+        24
+      ],
+      [
+        1,
+        "E4 / specimen M4",
+        28
+      ],
+      [
+        1,
+        "E4 / specimen B8",
+        30
+      ],
+      [
+        1,
+        "E4 / specimen K9",
+        32
+      ],
+      [
+        1,
+        "E4 / specimen Q5",
+        34
+      ],
+      [
+        1,
+        "E5 / specimen T3",
+        37
+      ],
+      [
+        1,
+        "E5 / specimen R6",
+        38
+      ],
+      [
+        1,
+        "E5 / specimen P7",
+        39
+      ],
+      [
+        1,
+        "E5 / specimen B8",
+        40
+      ]
+    ],
+    "human_reading_test": "NOT_PERFORMED",
+    "formal_math_audit": "NOT_PERFORMED",
+    "math_scope": "research excerpts only; obligation audit separate"
+  },
+  "e4_exact_algebra_check": {
+    "checks": {
+      "D_cubed_zero": true,
+      "left_inverse": true,
+      "right_inverse": true,
+      "eigenvalues": true,
+      "eigenspace_dim_one": true,
+      "preimage_substitution": true
+    },
+    "all_pass": true,
+    "sympy_version": "1.14.0",
+    "scope": "finite polynomial operator computations only; not proof of textbook readability or whole-volume correctness"
+  },
+  "prototype_visual_scope": {
+    "pdf_sha256": "ae8c865946d4e79f425d2b6f71a7bc0d7fa1a8ccdc79af59f31ef4c562bb180d",
+    "physical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "method": "root inspected rendered contact sheets; page35 additionally full-size; text extraction checked E4 pp27–35",
+    "findings": [
+      {
+        "id": "EXP-VIS-E4-01",
+        "pages": [
+          28,
+          29
+        ],
+        "observation": "baseline example conclusion continues for three lines on next page",
+        "status": "observed; retained as experiment result"
+      },
+      {
+        "id": "EXP-VIS-E4-02",
+        "pages": [
+          30,
+          32,
+          34
+        ],
+        "observation": "specimen heading alone; complete shorter example moves to following page",
+        "status": "layout defect in research wrapper; not acceptable finished textbook output"
+      },
+      {
+        "id": "EXP-VIS-E5-01",
+        "pages": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "observation": "each specimen fits one page; proof/negative example order differs as authored; no visible clipping",
+        "status": "engineering observation only"
+      }
+    ],
+    "human_reading_test": "NOT_RUN",
+    "all_prototype_visual_pages_team_coverage": "root1–7,27–40; reviewer a8–14; reviewer b15–26"
+  },
+  "binary_pairing_note": {
+    "scope": "actual persisted files retrieved independently; byte identity separate from page equivalence",
+    "files": [
+      {
+        "name": "ReadFlow_Research_Report_v1.html",
+        "local_bytes": 1171785,
+        "local_sha256": "6e608960fff32723f2c22013f7de994ea940b005c0b4d6787b24ccd1e9856bf7",
+        "retrieved_bytes": 1171785,
+        "retrieved_sha256": "6e608960fff32723f2c22013f7de994ea940b005c0b4d6787b24ccd1e9856bf7",
+        "binary_equal": true
+      },
+      {
+        "name": "ReadFlow_Controlled_Prototypes_v1.pdf",
+        "local_bytes": 160278,
+        "local_sha256": "ae8c865946d4e79f425d2b6f71a7bc0d7fa1a8ccdc79af59f31ef4c562bb180d",
+        "retrieved_bytes": 227692,
+        "retrieved_sha256": "676085ad1fa794ca67402abadef51e155ed927a05a41512bbd03831316bd9567",
+        "binary_equal": false,
+        "pages": 40,
+        "retrieved_pages": 40,
+        "all_page_text_equal": true,
+        "all_page_geometry_equal": true,
+        "all_page_72dpi_rgb_equal": true,
+        "bookmarks_equal": true
+      }
+    ]
+  },
+  "limitations": [
+    "Original PDF/source inputs are not included in this public textual publication; hashes establish identities, not public access or independent reproduction.",
+    "No new human preference/comprehension/application/retention scores; user ratings are subjective and not controlled.",
+    "Two reviewer contexts are not verified distinct underlying models; High setting unverified.",
+    "Reviewer A first read E1–E3 in filename order; author-check fields exposed for A/E4 and B/E4–E5; reviewer B was informed of E2 context gap.",
+    "E3 heading scope and E4 research-wrapper heading-only pages remain open; prototypes are not accepted textbook outputs.",
+    "The E2 comparison fixes mathematical body text and varies cue style; specimen identifiers differ. No human causal effect is estimated.",
+    "S2.1 isolated rebuild has normalized text equality but all 14 rendered pages differ; exact historical font binaries not restored.",
+    "Original HTML browser interaction was blocked; limited offline structure/static checks do not establish desktop/mobile browser acceptance."
+  ]
+}

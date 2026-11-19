@@ -1,0 +1,82 @@
+--- P2/V2/layout/views/v2/sections/103-integer-universal-property.tex
++++ v8/V2/layout/views/v2/sections/103-integer-universal-property.tex
+@@ -17,18 +17,23 @@
+ \begin{samepage}
+ \begin{proposition}[The group-completion property]
+ \label{prop:integer-group-completion}
+-For every such $H,f$, there is exactly one group homomorphism
+-$\bar f:Z\to H$ with $\bar f j=f$.
+-It satisfies $\bar f q(a,b)=f a-f b$.
++For each such $H,f$ there is a group homomorphism $\bar f:Z\to H$
++with
++\begin{equation*}
++\bar f j=f,\qquad \bar f q(a,b)=f a-f b.
++\end{equation*}
++Among group homomorphisms, the first equation already determines $\bar f$.
+ \end{proposition}
+ \end{samepage}
+ 
+ \begin{proof}
+ Define $F:P\to H$ by $F(a,b)=f a-f b$.
+-If $a+d=c+b$, additivity gives
+-$f a+f d=f c+f b$. Adding $-f b-f d$ to both
+-sides and using the abelian group laws gives
+-$f a-f b=f c-f d$.
++If $a+d=c+b$, additivity gives $f a+f d=f c+f b$.
++Add $-f b-f d$ to both sides and use the abelian group
++laws to obtain
++\begin{equation*}
++F(a,b)=f a-f b=f c-f d=F(c,d).
++\end{equation*}
+ Thus $F d_1=F d_2$. The actual coequalizer property
+ supplies a unique $\bar f:Z\to H$ with $\bar f q=F$.
+ At $(a,0)$ this gives $\bar f j=f$.
+@@ -42,9 +47,12 @@
+ agree after the epic map $q\times q$, so agree on
+ $Z\times Z$. The zero equation follows from $F(0,0)=0$.
+ Hence $\bar f$ is a group homomorphism.
+-If $h$ is another one with $h j=f$, the representation
+-$q(a,b)=j a-j b$ gives $h q=F=\bar f q$.
+-Epicity of $q$ gives $h=\bar f$.
++If $h$ is another group homomorphism with $h j=f$, then
++the representation equation gives
++\begin{equation*}
++h q(a,b)=h j a-h j b=f a-f b=\bar f q(a,b).
++\end{equation*}
++This equality has source $P$. Epicity of $q$ gives $h=\bar f$.
+ \end{proof}
+ 
+ If another supplied completion has this property, its compatible
+@@ -78,11 +86,15 @@
+ successor step from zero.
+ 
+ Next compare $f(ab)$ and $f a\,f b$, again recursing
+-in $a$ with parameter $b$. Their bases are zero.
+-By additivity and multiplication recursion in $N$, the
+-first has step $f(ab+b)=f(ab)+f b$.
+-The second has step $(f a+1_H)f b=f a\,f b+f b$
+-by distribution. Parameter uniqueness proves multiplicativity.
++in $a$ with parameter $b$. Their bases are zero, and
++their successor equations are
++\begin{align*}
++f((s a)b)&=f(ab+b)=f(ab)+f b,\\
++f(s a)f b&=(f a+1_H)f b=f a\,f b+f b.
++\end{align*}
++The first uses additivity and natural multiplication recursion;
++the second uses distribution in $H$. Both steps add $f b$,
++so parameter uniqueness proves multiplicativity.
+ 
+ The group-completion property supplies a group homomorphism
+ $h:Z\to H$ extending $f$. It preserves one because
+@@ -125,9 +137,8 @@
+ \paragraph{Solution.}
+ For the single supplied regular cover $q:P\to Z$,
+ $u q(a,b)=u j a-u j b=v j a-v j b=v q(a,b)$.
+-These are equations of maps $P\to H$. Epicity of $q$
+-then gives $u=v$. The argument never constructs a section
+-of $q$ or a representation for an arbitrary parameter arrow.
++This proves $uq=vq$ as arrows $P\to H$. Epicity of $q$ gives $u=v$.
++The comparison uses the supplied pair object $P$.
+ 
+ \begin{problem}[The zero extension]
+ \label{ex:integer-zero-extension}

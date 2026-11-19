@@ -1,0 +1,1387 @@
+{
+  "version": "public-v1",
+  "research_commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+  "human_outcomes": "NOT_MEASURED",
+  "formal_math_final_review": "NOT_PERFORMED",
+  "distinct_models_verified": false,
+  "high_setting_verified": false,
+  "scope": "All records describe bounded research, not formal textbook acceptance. Original paths identify holder files, not necessarily public members.",
+  "semantic_build": [
+    {
+      "condition": "B",
+      "pages": 14,
+      "bytes": 93273,
+      "sha256": "163f603d53d0541ebad0046a43230fdec13a94c29d486c514cfb7602e59e7b11",
+      "entry_sha256": "ea7d64ec4036a4108adbf49f8e3da0364d6f5820935c19562a1744b0e8ffe2fa",
+      "toc": [
+        [
+          1,
+          "T1: Maps: first introduction",
+          1
+        ],
+        [
+          2,
+          "1.1 Maps have specified endpoints",
+          1
+        ],
+        [
+          1,
+          "T2: Finite stochastic maps",
+          2
+        ],
+        [
+          2,
+          "2.1 Finite stochastic maps and composition of weights",
+          2
+        ],
+        [
+          1,
+          "T3: Exponential product: long proof",
+          5
+        ],
+        [
+          2,
+          "3.1 A product in the output",
+          5
+        ],
+        [
+          1,
+          "T4: Adjacent abstractions and a square",
+          7
+        ],
+        [
+          2,
+          "4.1 Comparing functors",
+          7
+        ],
+        [
+          1,
+          "T5: Polynomial operator and matrix",
+          8
+        ],
+        [
+          1,
+          "T6: Uniform convergence and a solution",
+          10
+        ],
+        [
+          1,
+          "T7: Problem statements without a density cap",
+          12
+        ],
+        [
+          2,
+          "7.1 Problems: finite maps and quotients",
+          12
+        ],
+        [
+          1,
+          "T8: Worked quotient solution",
+          14
+        ],
+        [
+          2,
+          "8.1 A representative formula must descend",
+          14
+        ]
+      ],
+      "groups": [
+        {
+          "case": "T1",
+          "start": 1,
+          "end": 1,
+          "pages": 1,
+          "extracted_chars_nonspace": 1325
+        },
+        {
+          "case": "T2",
+          "start": 2,
+          "end": 4,
+          "pages": 3,
+          "extracted_chars_nonspace": 3501
+        },
+        {
+          "case": "T3",
+          "start": 5,
+          "end": 6,
+          "pages": 2,
+          "extracted_chars_nonspace": 2268
+        },
+        {
+          "case": "T4",
+          "start": 7,
+          "end": 7,
+          "pages": 1,
+          "extracted_chars_nonspace": 1380
+        },
+        {
+          "case": "T5",
+          "start": 8,
+          "end": 9,
+          "pages": 2,
+          "extracted_chars_nonspace": 2103
+        },
+        {
+          "case": "T6",
+          "start": 10,
+          "end": 11,
+          "pages": 2,
+          "extracted_chars_nonspace": 1666
+        },
+        {
+          "case": "T7",
+          "start": 12,
+          "end": 13,
+          "pages": 2,
+          "extracted_chars_nonspace": 1795
+        },
+        {
+          "case": "T8",
+          "start": 14,
+          "end": 14,
+          "pages": 1,
+          "extracted_chars_nonspace": 1128
+        }
+      ],
+      "diagnostics": [],
+      "human_outcomes": "NOT_MEASURED",
+      "mathematical_review": "Separate obligation audit; not formal final review"
+    },
+    {
+      "condition": "S",
+      "pages": 14,
+      "bytes": 93265,
+      "sha256": "37f8b60b94e6af15212fcbb516da40da115522d98ee1cbfa99de9db054170efc",
+      "entry_sha256": "ef30183fb27c73cbfa34486ba7cc3e3b927c39d2f1ebc5debd12d7a6574a6154",
+      "toc": [
+        [
+          1,
+          "T1: Maps: first introduction",
+          1
+        ],
+        [
+          2,
+          "1.1 Maps have specified endpoints",
+          1
+        ],
+        [
+          1,
+          "T2: Finite stochastic maps",
+          2
+        ],
+        [
+          2,
+          "2.1 Finite stochastic maps and composition of weights",
+          2
+        ],
+        [
+          1,
+          "T3: Exponential product: long proof",
+          5
+        ],
+        [
+          2,
+          "3.1 A product in the output",
+          5
+        ],
+        [
+          1,
+          "T4: Adjacent abstractions and a square",
+          7
+        ],
+        [
+          2,
+          "4.1 Comparing functors",
+          7
+        ],
+        [
+          1,
+          "T5: Polynomial operator and matrix",
+          8
+        ],
+        [
+          1,
+          "T6: Uniform convergence and a solution",
+          10
+        ],
+        [
+          1,
+          "T7: Problem statements without a density cap",
+          12
+        ],
+        [
+          2,
+          "7.1 Problems: finite maps and quotients",
+          12
+        ],
+        [
+          1,
+          "T8: Worked quotient solution",
+          14
+        ],
+        [
+          2,
+          "8.1 A representative formula must descend",
+          14
+        ]
+      ],
+      "groups": [
+        {
+          "case": "T1",
+          "start": 1,
+          "end": 1,
+          "pages": 1,
+          "extracted_chars_nonspace": 1325
+        },
+        {
+          "case": "T2",
+          "start": 2,
+          "end": 4,
+          "pages": 3,
+          "extracted_chars_nonspace": 3507
+        },
+        {
+          "case": "T3",
+          "start": 5,
+          "end": 6,
+          "pages": 2,
+          "extracted_chars_nonspace": 2261
+        },
+        {
+          "case": "T4",
+          "start": 7,
+          "end": 7,
+          "pages": 1,
+          "extracted_chars_nonspace": 1317
+        },
+        {
+          "case": "T5",
+          "start": 8,
+          "end": 9,
+          "pages": 2,
+          "extracted_chars_nonspace": 2047
+        },
+        {
+          "case": "T6",
+          "start": 10,
+          "end": 11,
+          "pages": 2,
+          "extracted_chars_nonspace": 1661
+        },
+        {
+          "case": "T7",
+          "start": 12,
+          "end": 13,
+          "pages": 2,
+          "extracted_chars_nonspace": 1795
+        },
+        {
+          "case": "T8",
+          "start": 14,
+          "end": 14,
+          "pages": 1,
+          "extracted_chars_nonspace": 1117
+        }
+      ],
+      "diagnostics": [],
+      "human_outcomes": "NOT_MEASURED",
+      "mathematical_review": "Separate obligation audit; not formal final review"
+    },
+    {
+      "condition": "F",
+      "pages": 14,
+      "bytes": 92902,
+      "sha256": "32a32c017c58d493c63711ea2e9ca568a3cc225cabb421302b49102485c495c1",
+      "entry_sha256": "ad7f664a92fcd8219961660b045fb304e8fb22f5829682f16e234a30a9967783",
+      "toc": [
+        [
+          1,
+          "T1: Maps: first introduction",
+          1
+        ],
+        [
+          2,
+          "1.1 Maps have specified endpoints",
+          1
+        ],
+        [
+          1,
+          "T2: Finite stochastic maps",
+          2
+        ],
+        [
+          2,
+          "2.1 Finite stochastic maps and composition of weights",
+          2
+        ],
+        [
+          1,
+          "T3: Exponential product: long proof",
+          5
+        ],
+        [
+          2,
+          "3.1 A product in the output",
+          5
+        ],
+        [
+          1,
+          "T4: Adjacent abstractions and a square",
+          7
+        ],
+        [
+          2,
+          "4.1 Comparing functors",
+          7
+        ],
+        [
+          1,
+          "T5: Polynomial operator and matrix",
+          8
+        ],
+        [
+          1,
+          "T6: Uniform convergence and a solution",
+          10
+        ],
+        [
+          1,
+          "T7: Problem statements without a density cap",
+          12
+        ],
+        [
+          2,
+          "7.1 Problems: finite maps and quotients",
+          12
+        ],
+        [
+          1,
+          "T8: Worked quotient solution",
+          14
+        ],
+        [
+          2,
+          "8.1 A representative formula must descend",
+          14
+        ]
+      ],
+      "groups": [
+        {
+          "case": "T1",
+          "start": 1,
+          "end": 1,
+          "pages": 1,
+          "extracted_chars_nonspace": 1325
+        },
+        {
+          "case": "T2",
+          "start": 2,
+          "end": 4,
+          "pages": 3,
+          "extracted_chars_nonspace": 3403
+        },
+        {
+          "case": "T3",
+          "start": 5,
+          "end": 6,
+          "pages": 2,
+          "extracted_chars_nonspace": 2214
+        },
+        {
+          "case": "T4",
+          "start": 7,
+          "end": 7,
+          "pages": 1,
+          "extracted_chars_nonspace": 1274
+        },
+        {
+          "case": "T5",
+          "start": 8,
+          "end": 9,
+          "pages": 2,
+          "extracted_chars_nonspace": 2056
+        },
+        {
+          "case": "T6",
+          "start": 10,
+          "end": 11,
+          "pages": 2,
+          "extracted_chars_nonspace": 1666
+        },
+        {
+          "case": "T7",
+          "start": 12,
+          "end": 13,
+          "pages": 2,
+          "extracted_chars_nonspace": 1795
+        },
+        {
+          "case": "T8",
+          "start": 14,
+          "end": 14,
+          "pages": 1,
+          "extracted_chars_nonspace": 1128
+        }
+      ],
+      "diagnostics": [],
+      "human_outcomes": "NOT_MEASURED",
+      "mathematical_review": "Separate obligation audit; not formal final review"
+    },
+    {
+      "condition": "C",
+      "pages": 14,
+      "bytes": 92879,
+      "sha256": "cc563ad73ca6b0593ddf72b45ab70ee81a3bcb84b92e1adad530d2eedc046438",
+      "entry_sha256": "3a92d3ae1824dfa017e896a9b53a1cacc85dc669ce5413823dd39d6c39da7c40",
+      "toc": [
+        [
+          1,
+          "T1: Maps: first introduction",
+          1
+        ],
+        [
+          2,
+          "1.1 Maps have specified endpoints",
+          1
+        ],
+        [
+          1,
+          "T2: Finite stochastic maps",
+          2
+        ],
+        [
+          2,
+          "2.1 Finite stochastic maps and composition of weights",
+          2
+        ],
+        [
+          1,
+          "T3: Exponential product: long proof",
+          5
+        ],
+        [
+          2,
+          "3.1 A product in the output",
+          5
+        ],
+        [
+          1,
+          "T4: Adjacent abstractions and a square",
+          7
+        ],
+        [
+          2,
+          "4.1 Comparing functors",
+          7
+        ],
+        [
+          1,
+          "T5: Polynomial operator and matrix",
+          8
+        ],
+        [
+          1,
+          "T6: Uniform convergence and a solution",
+          10
+        ],
+        [
+          1,
+          "T7: Problem statements without a density cap",
+          12
+        ],
+        [
+          2,
+          "7.1 Problems: finite maps and quotients",
+          12
+        ],
+        [
+          1,
+          "T8: Worked quotient solution",
+          14
+        ],
+        [
+          2,
+          "8.1 A representative formula must descend",
+          14
+        ]
+      ],
+      "groups": [
+        {
+          "case": "T1",
+          "start": 1,
+          "end": 1,
+          "pages": 1,
+          "extracted_chars_nonspace": 1325
+        },
+        {
+          "case": "T2",
+          "start": 2,
+          "end": 4,
+          "pages": 3,
+          "extracted_chars_nonspace": 3409
+        },
+        {
+          "case": "T3",
+          "start": 5,
+          "end": 6,
+          "pages": 2,
+          "extracted_chars_nonspace": 2207
+        },
+        {
+          "case": "T4",
+          "start": 7,
+          "end": 7,
+          "pages": 1,
+          "extracted_chars_nonspace": 1211
+        },
+        {
+          "case": "T5",
+          "start": 8,
+          "end": 9,
+          "pages": 2,
+          "extracted_chars_nonspace": 2000
+        },
+        {
+          "case": "T6",
+          "start": 10,
+          "end": 11,
+          "pages": 2,
+          "extracted_chars_nonspace": 1661
+        },
+        {
+          "case": "T7",
+          "start": 12,
+          "end": 13,
+          "pages": 2,
+          "extracted_chars_nonspace": 1795
+        },
+        {
+          "case": "T8",
+          "start": 14,
+          "end": 14,
+          "pages": 1,
+          "extracted_chars_nonspace": 1117
+        }
+      ],
+      "diagnostics": [],
+      "human_outcomes": "NOT_MEASURED",
+      "mathematical_review": "Separate obligation audit; not formal final review"
+    },
+    {
+      "condition": "I",
+      "pages": 14,
+      "bytes": 91984,
+      "sha256": "6fe5de6daefa53fb5bdb1918a6b40de595c63673fc3d2562f759eb812f184666",
+      "entry_sha256": "3b25e1f59fda964291a4f0ec576a64f5e6f1ac2fb2abe957156008b0a8b9cbb8",
+      "toc": [
+        [
+          1,
+          "T1: Maps: first introduction",
+          1
+        ],
+        [
+          2,
+          "1.1 Maps have specified endpoints",
+          1
+        ],
+        [
+          1,
+          "T2: Finite stochastic maps",
+          2
+        ],
+        [
+          2,
+          "2.1 Finite stochastic maps and composition of weights",
+          2
+        ],
+        [
+          1,
+          "T3: Exponential product: long proof",
+          5
+        ],
+        [
+          2,
+          "3.1 A product in the output",
+          5
+        ],
+        [
+          1,
+          "T4: Adjacent abstractions and a square",
+          7
+        ],
+        [
+          2,
+          "4.1 Comparing functors",
+          7
+        ],
+        [
+          1,
+          "T5: Polynomial operator and matrix",
+          8
+        ],
+        [
+          1,
+          "T6: Uniform convergence and a solution",
+          10
+        ],
+        [
+          1,
+          "T7: Problem statements without a density cap",
+          12
+        ],
+        [
+          2,
+          "7.1 Problems: finite maps and quotients",
+          12
+        ],
+        [
+          1,
+          "T8: Worked quotient solution",
+          14
+        ],
+        [
+          2,
+          "8.1 A representative formula must descend",
+          14
+        ]
+      ],
+      "groups": [
+        {
+          "case": "T1",
+          "start": 1,
+          "end": 1,
+          "pages": 1,
+          "extracted_chars_nonspace": 1325
+        },
+        {
+          "case": "T2",
+          "start": 2,
+          "end": 4,
+          "pages": 3,
+          "extracted_chars_nonspace": 3409
+        },
+        {
+          "case": "T3",
+          "start": 5,
+          "end": 6,
+          "pages": 2,
+          "extracted_chars_nonspace": 2207
+        },
+        {
+          "case": "T4",
+          "start": 7,
+          "end": 7,
+          "pages": 1,
+          "extracted_chars_nonspace": 1211
+        },
+        {
+          "case": "T5",
+          "start": 8,
+          "end": 9,
+          "pages": 2,
+          "extracted_chars_nonspace": 1976
+        },
+        {
+          "case": "T6",
+          "start": 10,
+          "end": 11,
+          "pages": 2,
+          "extracted_chars_nonspace": 1661
+        },
+        {
+          "case": "T7",
+          "start": 12,
+          "end": 13,
+          "pages": 2,
+          "extracted_chars_nonspace": 1795
+        },
+        {
+          "case": "T8",
+          "start": 14,
+          "end": 14,
+          "pages": 1,
+          "extracted_chars_nonspace": 1117
+        }
+      ],
+      "diagnostics": [],
+      "human_outcomes": "NOT_MEASURED",
+      "mathematical_review": "Separate obligation audit; not formal final review"
+    }
+  ],
+  "common_amendments": {
+    "round": 1,
+    "reviewer": "symbolic_language",
+    "not_a_strategy_effect": true,
+    "before_hashes_T7": {
+      "B": "725e5ce5524443a78e5ba24caf3bae15515d7799ba2c3ccfcb507f2a72f24ec7",
+      "S": "725e5ce5524443a78e5ba24caf3bae15515d7799ba2c3ccfcb507f2a72f24ec7",
+      "F": "725e5ce5524443a78e5ba24caf3bae15515d7799ba2c3ccfcb507f2a72f24ec7",
+      "C": "725e5ce5524443a78e5ba24caf3bae15515d7799ba2c3ccfcb507f2a72f24ec7"
+    },
+    "changes": [
+      {
+        "case": "T7",
+        "issue": "u,v,w not explicitly distinct; singleton B is counterexample to none surjective",
+        "fix": "Here u,v,w are distinct in all conditions",
+        "scope": "research-original problem statement only"
+      },
+      {
+        "case": "T2",
+        "issue": "numerical carriers must belong to K",
+        "fix": "shared context explicitly assumes X,Y,Z in K",
+        "scope": "all conditions; historical body unchanged; excerpt-context clarification"
+      }
+    ]
+  },
+  "exact_algebra": {
+    "tool": "SymPy 1.14.0",
+    "T2_LK": "Matrix([[1/3, 2/3], [2/3, 1/3]])",
+    "T2_expected": true,
+    "T5_D3_zero": true,
+    "T5_two_sided_inverse": true,
+    "T5_eigenspace_dimension": 1,
+    "T5_characteristic": "lambda**3 - 3*lambda**2 + 3*lambda - 1",
+    "T5_inverse_image_substitution": true,
+    "T7_original_counterexample": "If u=v=w then B has one element and every A→B is surjective; fixed all variants by explicitly distinct labels.",
+    "T8_proof": "AI independently checked necessity with a=n,b=0; sufficiency a-b=nt=mkt. No automated theorem prover used.",
+    "limits": "Concrete algebra verification only; not a general category proof, reader test, or formal whole-volume review."
+  },
+  "layout_comparison": [
+    {
+      "case": "L1-atomic-units",
+      "same_body_sha256": true,
+      "baseline_pages": 1,
+      "natural_pages": 1,
+      "extracted_text_equal_after_whitespace": true,
+      "note": "PDF extraction order and discretionary hyphens may differ; body-file hash is the primary equality test.",
+      "pixel_identity_90dpi": true,
+      "extracted_text_equal_after_whitespace_and_line_hyphens": true
+    },
+    {
+      "case": "L2-long-proof",
+      "same_body_sha256": true,
+      "baseline_pages": 2,
+      "natural_pages": 1,
+      "extracted_text_equal_after_whitespace": false,
+      "note": "PDF extraction order and discretionary hyphens may differ; body-file hash is the primary equality test.",
+      "pixel_identity_90dpi": false,
+      "extracted_text_equal_after_whitespace_and_line_hyphens": true
+    },
+    {
+      "case": "L3-long-example",
+      "same_body_sha256": true,
+      "baseline_pages": 2,
+      "natural_pages": 1,
+      "extracted_text_equal_after_whitespace": false,
+      "note": "PDF extraction order and discretionary hyphens may differ; body-file hash is the primary equality test.",
+      "pixel_identity_90dpi": false,
+      "extracted_text_equal_after_whitespace_and_line_hyphens": true
+    },
+    {
+      "case": "L4-problem-statements",
+      "same_body_sha256": true,
+      "baseline_pages": 2,
+      "natural_pages": 2,
+      "extracted_text_equal_after_whitespace": true,
+      "note": "PDF extraction order and discretionary hyphens may differ; body-file hash is the primary equality test.",
+      "pixel_identity_90dpi": true,
+      "extracted_text_equal_after_whitespace_and_line_hyphens": true
+    },
+    {
+      "case": "L5-solution",
+      "same_body_sha256": true,
+      "baseline_pages": 1,
+      "natural_pages": 1,
+      "extracted_text_equal_after_whitespace": true,
+      "note": "PDF extraction order and discretionary hyphens may differ; body-file hash is the primary equality test.",
+      "pixel_identity_90dpi": true,
+      "extracted_text_equal_after_whitespace_and_line_hyphens": true
+    }
+  ],
+  "layout_results": [
+    {
+      "case": "L1-atomic-units",
+      "condition": "baseline",
+      "body_sha256": "a1dc1121c8b71f3b1da7c7c50e0677ad8a13425a64f5884ceaf0adb457603aea",
+      "driver_sha256": "dcbd630685b03faa7ff9936e3df516b4a615a5f654d57d173b65a0f683d14bd1",
+      "adapter_sha256": "b9bd5c68b39c86500725a4f03fcc7c5ea107531e02ad0bf25cd40c1fb05bdc5a",
+      "pdf_sha256": "16a5f00e9af18232a21cca179819bd8385fdd493c8d2d9238d0e423db31c5d47",
+      "pdf_bytes": 38606,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 685,
+          "body_text": "1.1 Maps and a commuting square\nIn this specimen, a function carries a specified domain and codomain. Composition\nis written in the order in which it is evaluated: 𝑔𝑓means 𝑔∘𝑓.\nDefinition 1.1 (Commuting square).\nFor maps 𝑓∶𝐴→𝐵, ℎ∶𝐴→𝐶, 𝑔∶𝐵→𝐷, and 𝑘∶𝐶→𝐷, the square\n𝐴\n𝐵\n𝐶\n𝐷\n𝑓\nℎ\n𝑔\n𝑘\ncommutes if 𝑔∘𝑓= 𝑘∘ℎas maps 𝐴→𝐷.\nThe paths have the same starting point and the same ending point. Commutativity\ncompares their values; the picture alone does not establish that equality.\nExample 1.2 (A square that commutes). Take 𝐴= 𝐵= 𝐶= 𝐷= ℝ, 𝑓(𝑥) = 2𝑥,\nℎ(𝑥) = 3𝑥, 𝑔(𝑥) = 3𝑥, and 𝑘(𝑥) = 2𝑥. Then\n(𝑔∘𝑓)(𝑥) = 6𝑥= (𝑘∘ℎ)(𝑥)\n(𝑥∈ℝ).\nThus the two composites are equal as maps ℝ→ℝ.\nRemark.\nAn equality of paths\nA diagram records a claim to check.\nWhy? Following both paths gives two maps with a common type. The commutativity\nclaim is the equality of those maps.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 524.884033203125
+        }
+      ]
+    },
+    {
+      "case": "L1-atomic-units",
+      "condition": "natural-v1",
+      "body_sha256": "a1dc1121c8b71f3b1da7c7c50e0677ad8a13425a64f5884ceaf0adb457603aea",
+      "driver_sha256": "9850c3cdc6e2837b7620808dcc2a466ad445956f514a7832f2fd8b2d206354c1",
+      "adapter_sha256": "1af2eb62e2602478a83a920e2c1a6fc595559ed8542594a10a5869651075d584",
+      "pdf_sha256": "273a962cbba951956393a1220c41dd2db862e6fa8b45c60dfeeb42ffe1ce0433",
+      "pdf_bytes": 38605,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 685,
+          "body_text": "1.1 Maps and a commuting square\nIn this specimen, a function carries a specified domain and codomain. Composition\nis written in the order in which it is evaluated: 𝑔𝑓means 𝑔∘𝑓.\nDefinition 1.1 (Commuting square).\nFor maps 𝑓∶𝐴→𝐵, ℎ∶𝐴→𝐶, 𝑔∶𝐵→𝐷, and 𝑘∶𝐶→𝐷, the square\n𝐴\n𝐵\n𝐶\n𝐷\n𝑓\nℎ\n𝑔\n𝑘\ncommutes if 𝑔∘𝑓= 𝑘∘ℎas maps 𝐴→𝐷.\nThe paths have the same starting point and the same ending point. Commutativity\ncompares their values; the picture alone does not establish that equality.\nExample 1.2 (A square that commutes). Take 𝐴= 𝐵= 𝐶= 𝐷= ℝ, 𝑓(𝑥) = 2𝑥,\nℎ(𝑥) = 3𝑥, 𝑔(𝑥) = 3𝑥, and 𝑘(𝑥) = 2𝑥. Then\n(𝑔∘𝑓)(𝑥) = 6𝑥= (𝑘∘ℎ)(𝑥)\n(𝑥∈ℝ).\nThus the two composites are equal as maps ℝ→ℝ.\nRemark.\nAn equality of paths\nA diagram records a claim to check.\nWhy? Following both paths gives two maps with a common type. The commutativity\nclaim is the equality of those maps.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 524.884033203125
+        }
+      ]
+    },
+    {
+      "case": "L2-long-proof",
+      "condition": "baseline",
+      "body_sha256": "8a0505f651e250eab8abc66f9873ed8254b1330928b5515b83d998e36e5f59f7",
+      "driver_sha256": "0625fa653691dceb555a56ee621f6701f4511656e1da85ff982e9de18a49db00",
+      "adapter_sha256": "b9bd5c68b39c86500725a4f03fcc7c5ea107531e02ad0bf25cd40c1fb05bdc5a",
+      "pdf_sha256": "7375fb11027338cfb319030c11ba983ec214c71992896843debe07026a3ba1e7",
+      "pdf_bytes": 36693,
+      "page_count": 2,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 959,
+          "body_text": "1.1 A product in the output\nProposition 1.1 (Pairing output families).\nGive products and the exponentials 𝐵𝐴, 𝐶𝐴, (𝐵× 𝐶)𝐴. There is an evaluation-\ncompatible isomorphism\n(𝐵× 𝐶)𝐴≅𝐵𝐴× 𝐶𝐴.\nIts components are 𝑝𝐴\n𝐵and 𝑝𝐴\n𝐶, induced by the projections 𝑝𝐵∶𝐵× 𝐶→𝐵, 𝑝𝐶∶\n𝐵× 𝐶→𝐶.\nThe proof contains two different uniqueness clauses: first compare output compo-\nnents, then compare transposes. Neither projection is assumed monic.\npf. We construct an exponential using the two supplied output families. Put 𝐷= 𝐵𝐴×\n𝐶𝐴, with projections 𝑑𝐵, 𝑑𝐶. On 𝐷× 𝐴define\n𝑣= 􏾉ev𝐵,𝐴(𝑑𝐵𝜋𝐷, 𝜋𝐴), ev𝐶,𝐴(𝑑𝐶𝜋𝐷, 𝜋𝐴)􏽼∶𝐷× 𝐴→𝐵× 𝐶.\nWe prove that (𝐷, 𝑣) is an exponential of 𝐵× 𝐶by 𝐴.\nConstruct the factor.\nFor any 𝑓∶𝑋× 𝐴→𝐵× 𝐶, transpose its two components:\n𝑢𝐵= Λ(𝑝𝐵𝑓) ∶𝑋→𝐵𝐴,\n𝑢𝐶= Λ(𝑝𝐶𝑓) ∶𝑋→𝐶𝐴,\n𝑢= ⟨𝑢𝐵, 𝑢𝐶⟩∶𝑋→𝐷.\nCheck evaluation.\nThe two components of 𝑣∘(𝑢× id𝐴) are 𝑝𝐵𝑓, 𝑝𝐶𝑓by the evaluation equations.\nProduct uniqueness into 𝐵× 𝐶gives 𝑣∘(𝑢× id𝐴) = 𝑓.\nCheck uniqueness.\nIf 𝑤∶𝑋→𝐷has this evaluation, its components 𝑑𝐵𝑤, 𝑑𝐶𝑤transpose 𝑝𝐵𝑓, 𝑝𝐶𝑓, re-\nspectively. Their unique transposes are 𝑢𝐵, 𝑢𝐶, so the product property gives 𝑤= 𝑢.\nExponential comparison now gives the isomorphism.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 600.6449584960938
+        },
+        {
+          "physical_page": 2,
+          "nonspace_characters": 294,
+          "body_text": "Identify the comparison maps.\nFor the claimed components, apply the candidate construction to 𝑓= ev𝐵×𝐶,𝐴. Its\ncomponents are precisely the transposes of 𝑝𝐵ev and 𝑝𝐶ev, which by definition are\n𝑝𝐴\n𝐵, 𝑝𝐴\n𝐶. The reverse arrow is the transpose of 𝑣using the supplied (𝐵×𝐶)𝐴. Both inverse\nequations are those in the proved exponential comparison theorem.\n",
+          "body_y_min": 64.08499145507812,
+          "body_y_max": 148.13694763183594
+        }
+      ]
+    },
+    {
+      "case": "L2-long-proof",
+      "condition": "natural-v1",
+      "body_sha256": "8a0505f651e250eab8abc66f9873ed8254b1330928b5515b83d998e36e5f59f7",
+      "driver_sha256": "48ac1f7e730e2a1e24566c9df5bddf3a18c0f5c6f2c161a5457e5d761264a817",
+      "adapter_sha256": "1af2eb62e2602478a83a920e2c1a6fc595559ed8542594a10a5869651075d584",
+      "pdf_sha256": "b7cf06f1099a9e96b00082ffe88225d01e194a44875d93be7e7a596bd0d0b45a",
+      "pdf_bytes": 35836,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1252,
+          "body_text": "1.1 A product in the output\nProposition 1.1 (Pairing output families).\nGive products and the exponentials 𝐵𝐴, 𝐶𝐴, (𝐵× 𝐶)𝐴. There is an evaluation-\ncompatible isomorphism\n(𝐵× 𝐶)𝐴≅𝐵𝐴× 𝐶𝐴.\nIts components are 𝑝𝐴\n𝐵and 𝑝𝐴\n𝐶, induced by the projections 𝑝𝐵∶𝐵× 𝐶→𝐵, 𝑝𝐶∶\n𝐵× 𝐶→𝐶.\nThe proof contains two different uniqueness clauses: first compare output compo-\nnents, then compare transposes. Neither projection is assumed monic.\npf. We construct an exponential using the two supplied output families. Put 𝐷= 𝐵𝐴×\n𝐶𝐴, with projections 𝑑𝐵, 𝑑𝐶. On 𝐷× 𝐴define\n𝑣= 􏾉ev𝐵,𝐴(𝑑𝐵𝜋𝐷, 𝜋𝐴), ev𝐶,𝐴(𝑑𝐶𝜋𝐷, 𝜋𝐴)􏽼∶𝐷× 𝐴→𝐵× 𝐶.\nWe prove that (𝐷, 𝑣) is an exponential of 𝐵× 𝐶by 𝐴.\nConstruct the factor. For any 𝑓∶𝑋× 𝐴→𝐵× 𝐶, transpose its two components:\n𝑢𝐵= Λ(𝑝𝐵𝑓) ∶𝑋→𝐵𝐴,\n𝑢𝐶= Λ(𝑝𝐶𝑓) ∶𝑋→𝐶𝐴,\n𝑢= ⟨𝑢𝐵, 𝑢𝐶⟩∶𝑋→𝐷.\nCheck evaluation. The two components of 𝑣∘(𝑢×id𝐴) are 𝑝𝐵𝑓, 𝑝𝐶𝑓by the evaluation\nequations.\nProduct uniqueness into 𝐵× 𝐶gives 𝑣∘(𝑢× id𝐴) = 𝑓.\nCheck uniqueness. If 𝑤∶𝑋→𝐷has this evaluation, its components 𝑑𝐵𝑤, 𝑑𝐶𝑤\ntranspose 𝑝𝐵𝑓, 𝑝𝐶𝑓, respectively. Their unique transposes are 𝑢𝐵, 𝑢𝐶, so the product\nproperty gives 𝑤= 𝑢. Exponential comparison now gives the isomorphism.\nIdentify the comparison maps. For the claimed components, apply the candidate\nconstruction to 𝑓= ev𝐵×𝐶,𝐴. Its components are precisely the transposes of 𝑝𝐵ev and\n𝑝𝐶ev, which by definition are 𝑝𝐴\n𝐵, 𝑝𝐴\n𝐶. The reverse arrow is the transpose of 𝑣using\nthe supplied (𝐵× 𝐶)𝐴. Both inverse equations are those in the proved exponential\ncomparison theorem.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 642.68798828125
+        }
+      ]
+    },
+    {
+      "case": "L3-long-example",
+      "condition": "baseline",
+      "body_sha256": "7caecf104a6acd6f1f983c92404cf21a20b4b71aa76b785c1a09ada29176eda7",
+      "driver_sha256": "efbf2b1f6a3a61a1039443134e9ba49278eea034007a982d3aa17bdd8455979a",
+      "adapter_sha256": "b9bd5c68b39c86500725a4f03fcc7c5ea107531e02ad0bf25cd40c1fb05bdc5a",
+      "pdf_sha256": "893c7a42d4e3423b88b3578142bd11e219384aa4e082eafe4990dae929ec626f",
+      "pdf_bytes": 38428,
+      "page_count": 2,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 22,
+          "body_text": "1.1 A polynomial operator\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 81.41374969482422
+        },
+        {
+          "physical_page": 2,
+          "nonspace_characters": 1133,
+          "body_text": "Example 1.1 (A polynomial operator). For 𝑇∶𝑃2(ℝ) →𝑃2(ℝ) defined by\n𝑇(𝑝) = 𝑝+ 𝑝′, find its matrix in ℬ, its eigenvalues and eigenspaces, and deter-\nmine whether it is diagonalizable and invertible. Find the inverse image of an\narbitrary 𝑎+ 𝑏𝑥+ 𝑐𝑥2.\nRead the matrix from the basis images. The map is linear because differentia-\ntion and the identity are linear. Compute\n𝑇(1) = 1,\n𝑇(𝑥) = 1 + 𝑥,\n𝑇(𝑥2) = 2𝑥+ 𝑥2.\nPut their coordinates in columns, in the order (1, 𝑥, 𝑥2):\n[𝑇]ℬ=\n⎛\n⎜⎜⎜⎜⎜⎜⎜⎜⎝\n1\n1\n0\n0\n1\n2\n0\n0\n1\n⎞\n⎟⎟⎟⎟⎟⎟⎟⎟⎠\n.\nRecover the polynomial by cancelling derivatives. Write 𝐷(𝑝) = 𝑝′, so 𝑇=\nid +𝐷. Since 𝐷3 = 0 on 𝑃2(ℝ), the alternating sum cancels all intermediate deriva-\ntives:\n(id +𝐷)(id −𝐷+ 𝐷2) = id +𝐷3 = id,\n(id −𝐷+ 𝐷2)(id +𝐷) = id .\nThe products verify both sides of the inverse relation. Hence\n𝑇−1 = id −𝐷+ 𝐷2.\nFor 𝑎+ 𝑏𝑥+ 𝑐𝑥2, the unique inverse image is\n𝑞= (𝑎−𝑏+ 2𝑐) + (𝑏−2𝑐)𝑥+ 𝑐𝑥2.\nIndeed, 𝑞′ = (𝑏−2𝑐) + 2𝑐𝑥, and\n𝑞+ 𝑞′ = 𝑎+ 𝑏𝑥+ 𝑐𝑥2.\nCheck whether there are enough eigenvectors. An inverse recovers each input;\ndiagonalizability requires an eigenvector basis. The matrix is upper triangular\nwith all diagonal entries 1, so its only eigenvalue is 1. Now\n𝑇(𝑝) = 𝑝⟺𝑝′ = 0,\n𝐸1 = span{1}.\nExactly the constants have zero derivative. This eigenspace has dimension one,\nwhereas 𝑃2(ℝ) has dimension three. There cannot be an eigenvector basis. Thus\n𝑇is invertible but not diagonalizable.\n",
+          "body_y_min": 69.81299591064453,
+          "body_y_max": 640.1885986328125
+        }
+      ]
+    },
+    {
+      "case": "L3-long-example",
+      "condition": "natural-v1",
+      "body_sha256": "7caecf104a6acd6f1f983c92404cf21a20b4b71aa76b785c1a09ada29176eda7",
+      "driver_sha256": "bfca0aaa0c0f1098d8cd95cdc270b0e98e3420e74e5c9a8f4234a19c971e3d5e",
+      "adapter_sha256": "1af2eb62e2602478a83a920e2c1a6fc595559ed8542594a10a5869651075d584",
+      "pdf_sha256": "2d6d63f0251c9cda72a56d9feb542089933f1b2448f3b42738036f951b48d38d",
+      "pdf_bytes": 37302,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1153,
+          "body_text": "1.1 A polynomial operator\nExample 1.1 (A polynomial operator). For 𝑇∶𝑃2(ℝ) →𝑃2(ℝ) defined by 𝑇(𝑝) =\n𝑝+ 𝑝′, find its matrix in ℬ, its eigenvalues and eigenspaces, and determine whether\nit is diagonalizable and invertible. Find the inverse image of an arbitrary 𝑎+ 𝑏𝑥+ 𝑐𝑥2.\nRead the matrix from the basis images. The map is linear because differentiation and\nthe identity are linear. Compute\n𝑇(1) = 1,\n𝑇(𝑥) = 1 + 𝑥,\n𝑇(𝑥2) = 2𝑥+ 𝑥2.\nPut their coordinates in columns, in the order (1, 𝑥, 𝑥2):\n[𝑇]ℬ=\n⎛\n⎜⎜⎜⎜⎜⎜⎜⎜⎝\n1\n1\n0\n0\n1\n2\n0\n0\n1\n⎞\n⎟⎟⎟⎟⎟⎟⎟⎟⎠\n.\nRecover the polynomial by cancelling derivatives. Write 𝐷(𝑝) = 𝑝′, so 𝑇= id +𝐷.\nSince 𝐷3 = 0 on 𝑃2(ℝ), the alternating sum cancels all intermediate derivatives:\n(id +𝐷)(id −𝐷+ 𝐷2) = id +𝐷3 = id,\n(id −𝐷+ 𝐷2)(id +𝐷) = id .\nThe products verify both sides of the inverse relation. Hence\n𝑇−1 = id −𝐷+ 𝐷2.\nFor 𝑎+ 𝑏𝑥+ 𝑐𝑥2, the unique inverse image is\n𝑞= (𝑎−𝑏+ 2𝑐) + (𝑏−2𝑐)𝑥+ 𝑐𝑥2.\nIndeed, 𝑞′ = (𝑏−2𝑐) + 2𝑐𝑥, and\n𝑞+ 𝑞′ = 𝑎+ 𝑏𝑥+ 𝑐𝑥2.\nCheck whether there are enough eigenvectors. An inverse recovers each input; di-\nagonalizability requires an eigenvector basis. The matrix is upper triangular with all\ndiagonal entries 1, so its only eigenvalue is 1. Now\n𝑇(𝑝) = 𝑝⟺𝑝′ = 0,\n𝐸1 = span{1}.\nExactly the constants have zero derivative. This eigenspace has dimension one,\nwhereas 𝑃2(ℝ) has dimension three. There cannot be an eigenvector basis. Thus 𝑇is\ninvertible but not diagonalizable.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 657.533935546875
+        }
+      ]
+    },
+    {
+      "case": "L4-problem-statements",
+      "condition": "baseline",
+      "body_sha256": "f7a892a8544affda8372dff1e33fe62bab88c63320782ff79e28c7e1eae67a10",
+      "driver_sha256": "10f96bffb055c65f9555927b302058d82867120de601912f7dc42972f5303a94",
+      "adapter_sha256": "b9bd5c68b39c86500725a4f03fcc7c5ea107531e02ad0bf25cd40c1fb05bdc5a",
+      "pdf_sha256": "055856984aa7be4b123b7035b866378baec5a24ef6ad591f72a620a09ca01e53",
+      "pdf_bytes": 38243,
+      "page_count": 2,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1193,
+          "body_text": "1.1 Exercises on maps and linear operators\nThese problems use only functions, finite sets, composition, and elementary linear\nalgebra. Matrices act on column vectors over ℝ.\nExercise 1.1. Let 𝐴= {1, 2, 3} and 𝐵= {𝑎, 𝑏}. List all functions 𝑓∶𝐴→𝐵. How\nmany are surjective? Justify your count.\nExercise 1.2. For 𝑓∶𝐴→𝐵and 𝑔∶𝐵→𝐶, prove that 𝑔∘𝑓is injective if both\nmaps are injective. If 𝑔∘𝑓is injective, which of 𝑓and 𝑔must be injective? Give a\ncounterexample for the other implication.\nExercise 1.3. For the same types, prove that the composite of two surjective\nmaps is surjective. If the composite is surjective, determine which factor must\nbe surjective, and give a counterexample to the remaining implication.\nExercise 1.4. Let 𝑓∶𝐴→𝐵admit 𝑠∶𝐵→𝐴with 𝑠∘𝑓= id𝐴. Prove that 𝑓is\ninjective. Show by an example that 𝑓∘𝑠need not be id𝐵.\nExercise 1.5. Let 𝑓∶𝐴→𝐵admit 𝑟∶𝐵→𝐴with 𝑓∘𝑟= id𝐵. Prove that 𝑓is\nsurjective. Must 𝑟be unique? Explain.\nExercise 1.6. Suppose 𝑓∶𝐴→𝐵has a left inverse 𝑠and a right inverse 𝑟. Use\nassociativity to prove 𝑠= 𝑟. State precisely which compositions occur in your\ncalculation.\nExercise 1.7. Let 𝑉be a vector space and 𝑃∶𝑉→𝑉be linear with 𝑃2 = 𝑃.\nProve that 𝑉= ker 𝑃⊕im 𝑃. Identify the two summands of an arbitrary 𝑣∈𝑉.\nExercise 1.8. For 𝑇∶ℝ3 →ℝ3 with matrix\n⎛\n⎜⎜⎜⎜⎜⎜⎜⎜⎝\n1\n1\n0\n0\n1\n2\n0\n0\n1\n⎞\n⎟⎟⎟⎟⎟⎟⎟⎟⎠\n,\nfind ker(𝑇−id) and an inverse matrix. Decide whether 𝑇is diagonalizable, giving\na reason for each conclusion.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 676.0159301757812
+        },
+        {
+          "physical_page": 2,
+          "nonspace_characters": 248,
+          "body_text": "Exercise 1.9. Let 𝐷∶𝑃2(ℝ) →𝑃2(ℝ) denote differentiation. Prove 𝐷3 = 0. Ver-\nify both products showing that id −𝐷+ 𝐷2 is an inverse of id +𝐷.\nExercise 1.10. For a commuting square 𝑔𝑓= 𝑘ℎwith types 𝑓∶𝐴→𝐵, 𝑔∶𝐵→\n𝐷, ℎ∶𝐴→𝐶, and 𝑘∶𝐶→𝐷, suppose 𝑘is injective. Show that any ℎ′ satisfying\n𝑘ℎ′ = 𝑔𝑓must equal ℎ.\n",
+          "body_y_min": 70.67699432373047,
+          "body_y_max": 170.87847900390625
+        }
+      ]
+    },
+    {
+      "case": "L4-problem-statements",
+      "condition": "natural-v1",
+      "body_sha256": "f7a892a8544affda8372dff1e33fe62bab88c63320782ff79e28c7e1eae67a10",
+      "driver_sha256": "0234984c8b74f3d9704af6e8874b070298a952342cf64b8a0915ca6a914f624f",
+      "adapter_sha256": "1af2eb62e2602478a83a920e2c1a6fc595559ed8542594a10a5869651075d584",
+      "pdf_sha256": "faa2b989e82ac5a9e8edb6c3ddf88039525bf252e6fdd6bfa7d040b8ed03e886",
+      "pdf_bytes": 38242,
+      "page_count": 2,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1193,
+          "body_text": "1.1 Exercises on maps and linear operators\nThese problems use only functions, finite sets, composition, and elementary linear\nalgebra. Matrices act on column vectors over ℝ.\nExercise 1.1. Let 𝐴= {1, 2, 3} and 𝐵= {𝑎, 𝑏}. List all functions 𝑓∶𝐴→𝐵. How\nmany are surjective? Justify your count.\nExercise 1.2. For 𝑓∶𝐴→𝐵and 𝑔∶𝐵→𝐶, prove that 𝑔∘𝑓is injective if both\nmaps are injective. If 𝑔∘𝑓is injective, which of 𝑓and 𝑔must be injective? Give a\ncounterexample for the other implication.\nExercise 1.3. For the same types, prove that the composite of two surjective\nmaps is surjective. If the composite is surjective, determine which factor must\nbe surjective, and give a counterexample to the remaining implication.\nExercise 1.4. Let 𝑓∶𝐴→𝐵admit 𝑠∶𝐵→𝐴with 𝑠∘𝑓= id𝐴. Prove that 𝑓is\ninjective. Show by an example that 𝑓∘𝑠need not be id𝐵.\nExercise 1.5. Let 𝑓∶𝐴→𝐵admit 𝑟∶𝐵→𝐴with 𝑓∘𝑟= id𝐵. Prove that 𝑓is\nsurjective. Must 𝑟be unique? Explain.\nExercise 1.6. Suppose 𝑓∶𝐴→𝐵has a left inverse 𝑠and a right inverse 𝑟. Use\nassociativity to prove 𝑠= 𝑟. State precisely which compositions occur in your\ncalculation.\nExercise 1.7. Let 𝑉be a vector space and 𝑃∶𝑉→𝑉be linear with 𝑃2 = 𝑃.\nProve that 𝑉= ker 𝑃⊕im 𝑃. Identify the two summands of an arbitrary 𝑣∈𝑉.\nExercise 1.8. For 𝑇∶ℝ3 →ℝ3 with matrix\n⎛\n⎜⎜⎜⎜⎜⎜⎜⎜⎝\n1\n1\n0\n0\n1\n2\n0\n0\n1\n⎞\n⎟⎟⎟⎟⎟⎟⎟⎟⎠\n,\nfind ker(𝑇−id) and an inverse matrix. Decide whether 𝑇is diagonalizable, giving\na reason for each conclusion.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 676.0159301757812
+        },
+        {
+          "physical_page": 2,
+          "nonspace_characters": 248,
+          "body_text": "Exercise 1.9. Let 𝐷∶𝑃2(ℝ) →𝑃2(ℝ) denote differentiation. Prove 𝐷3 = 0. Ver-\nify both products showing that id −𝐷+ 𝐷2 is an inverse of id +𝐷.\nExercise 1.10. For a commuting square 𝑔𝑓= 𝑘ℎwith types 𝑓∶𝐴→𝐵, 𝑔∶𝐵→\n𝐷, ℎ∶𝐴→𝐶, and 𝑘∶𝐶→𝐷, suppose 𝑘is injective. Show that any ℎ′ satisfying\n𝑘ℎ′ = 𝑔𝑓must equal ℎ.\n",
+          "body_y_min": 70.67699432373047,
+          "body_y_max": 170.87847900390625
+        }
+      ]
+    },
+    {
+      "case": "L5-solution",
+      "condition": "baseline",
+      "body_sha256": "91a6f7df92267039f4e6558148dc62be349294cc1c3c5e51dbd322530f9be5ab",
+      "driver_sha256": "aa7011feb920aa6a1e0ca609f163a3dc41a9e2401fb31384ae0fcc39912b96b2",
+      "adapter_sha256": "b9bd5c68b39c86500725a4f03fcc7c5ea107531e02ad0bf25cd40c1fb05bdc5a",
+      "pdf_sha256": "13f2c8d60d7998b7b625b837b3e26f3a674e2b2175ad2e405a0e999ff18cb496",
+      "pdf_bytes": 37842,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1197,
+          "body_text": "1.1 A uniform limit\nExercise 1.1. Let 𝑓𝑛∶[0, 1] →ℝbe continuous for every 𝑛≥1, and suppose\nthat 𝑓𝑛→𝑓uniformly. Prove that 𝑓is continuous. Explain why pointwise con-\nvergence alone does not suffice.\nWhy one index must work at nearby points. The continuous functions 𝑓𝑛(𝑥) = 𝑥𝑛\nhave pointwise limit\n𝑓(𝑥) =\n⎧⎪⎪⎨⎪⎪⎩\n0,\n0 ≤𝑥< 1,\n1,\n𝑥= 1.\nThis limit is discontinuous at 1: points below 1 approach it, but their values differ from\n𝑓(1) by 1. Pointwise convergence allows the approximation index to depend on the\npoint. The proof will need one approximating function throughout a neighbourhood\nof the point where continuity is tested. We now return to the uniformly convergent\nsequence in the problem.\npf. Fix 𝑥0 ∈[0, 1] and 𝜀> 0.\nChoose the approximating function. Uniform convergence gives an index 𝑁such\nthat\n|𝑓𝑁(𝑥) −𝑓(𝑥)| < 𝜀\n3\nfor every 𝑥∈[0, 1].\nThe same bound holds at 𝑥0. We now keep this 𝑁fixed.\nChoose the neighbourhood. Continuity of 𝑓𝑁at 𝑥0 gives 𝛿> 0 such that\n𝑥∈[0, 1],\n|𝑥−𝑥0| < 𝛿\n⟹\n|𝑓𝑁(𝑥) −𝑓𝑁(𝑥0)| < 𝜀\n3.\nThe order matters: first 𝑁, then 𝛿for that particular function 𝑓𝑁.\nCombine the three bounds. Adding and subtracting 𝑓𝑁(𝑥) and 𝑓𝑁(𝑥0) gives, for such\n𝑥,\n|𝑓(𝑥) −𝑓(𝑥0)| ≤|𝑓(𝑥) −𝑓𝑁(𝑥)| + |𝑓𝑁(𝑥) −𝑓𝑁(𝑥0)| + |𝑓𝑁(𝑥0) −𝑓(𝑥0)|\n< 𝜀\n3 + 𝜀\n3 + 𝜀\n3 = 𝜀.\nUniform approximation bounds the outer terms, and continuity bounds the middle\nterm. Thus 𝑓is continuous at the arbitrary point 𝑥0 and hence on [0, 1], including\nrelative continuity at the endpoints.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 657.034912109375
+        }
+      ]
+    },
+    {
+      "case": "L5-solution",
+      "condition": "natural-v1",
+      "body_sha256": "91a6f7df92267039f4e6558148dc62be349294cc1c3c5e51dbd322530f9be5ab",
+      "driver_sha256": "a73650dd5d2ca18471b48a4999870529bbe5d472546ddb24bd8b6422f58dd778",
+      "adapter_sha256": "1af2eb62e2602478a83a920e2c1a6fc595559ed8542594a10a5869651075d584",
+      "pdf_sha256": "74ac400e685928f8005fb6347cb452eb9a4698348602585ea2fcf1cfdc2ea4a8",
+      "pdf_bytes": 37836,
+      "page_count": 1,
+      "diagnostics": [],
+      "pages": [
+        {
+          "physical_page": 1,
+          "nonspace_characters": 1197,
+          "body_text": "1.1 A uniform limit\nExercise 1.1. Let 𝑓𝑛∶[0, 1] →ℝbe continuous for every 𝑛≥1, and suppose\nthat 𝑓𝑛→𝑓uniformly. Prove that 𝑓is continuous. Explain why pointwise con-\nvergence alone does not suffice.\nWhy one index must work at nearby points. The continuous functions 𝑓𝑛(𝑥) = 𝑥𝑛\nhave pointwise limit\n𝑓(𝑥) =\n⎧⎪⎪⎨⎪⎪⎩\n0,\n0 ≤𝑥< 1,\n1,\n𝑥= 1.\nThis limit is discontinuous at 1: points below 1 approach it, but their values differ from\n𝑓(1) by 1. Pointwise convergence allows the approximation index to depend on the\npoint. The proof will need one approximating function throughout a neighbourhood\nof the point where continuity is tested. We now return to the uniformly convergent\nsequence in the problem.\npf. Fix 𝑥0 ∈[0, 1] and 𝜀> 0.\nChoose the approximating function. Uniform convergence gives an index 𝑁such\nthat\n|𝑓𝑁(𝑥) −𝑓(𝑥)| < 𝜀\n3\nfor every 𝑥∈[0, 1].\nThe same bound holds at 𝑥0. We now keep this 𝑁fixed.\nChoose the neighbourhood. Continuity of 𝑓𝑁at 𝑥0 gives 𝛿> 0 such that\n𝑥∈[0, 1],\n|𝑥−𝑥0| < 𝛿\n⟹\n|𝑓𝑁(𝑥) −𝑓𝑁(𝑥0)| < 𝜀\n3.\nThe order matters: first 𝑁, then 𝛿for that particular function 𝑓𝑁.\nCombine the three bounds. Adding and subtracting 𝑓𝑁(𝑥) and 𝑓𝑁(𝑥0) gives, for such\n𝑥,\n|𝑓(𝑥) −𝑓(𝑥0)| ≤|𝑓(𝑥) −𝑓𝑁(𝑥)| + |𝑓𝑁(𝑥) −𝑓𝑁(𝑥0)| + |𝑓𝑁(𝑥0) −𝑓(𝑥0)|\n< 𝜀\n3 + 𝜀\n3 + 𝜀\n3 = 𝜀.\nUniform approximation bounds the outer terms, and continuity bounds the middle\nterm. Thus 𝑓is continuous at the arbitrary point 𝑥0 and hence on [0, 1], including\nrelative continuity at the endpoints.\n",
+          "body_y_min": 63.09539031982422,
+          "body_y_max": 657.034912109375
+        }
+      ]
+    }
+  ],
+  "cross_context": {
+    "C": {
+      "pdf_sha256": "cc563ad73ca6b0593ddf72b45ab70ee81a3bcb84b92e1adad530d2eedc046438",
+      "pdf_pages": 14,
+      "T5_body_sha256": "7bc6a8b63fee6d8520d5492a63bf751d42e9c1252ca51a59b3890e561527944b",
+      "page8_first": "Mathematical language laboratory\nT5 / Polynomial operator and matrix\nT5: Polynomial operator and matrix\nFixed context.\nPrerequisites. Let 𝑃2(ℝ) be the three-dim",
+      "page9_continued_present": true
+    },
+    "I": {
+      "pdf_sha256": "6fe5de6daefa53fb5bdb1918a6b40de595c63673fc3d2562f759eb812f184666",
+      "pdf_pages": 14,
+      "T5_body_sha256": "7bc6a8b63fee6d8520d5492a63bf751d42e9c1252ca51a59b3890e561527944b",
+      "page8_first": "Mathematical language laboratory\nT5 / Polynomial operator and matrix\nT5: Polynomial operator and matrix\nFixed context.\nPrerequisites. Let 𝑃2(ℝ) be the three-dim",
+      "page9_continued_present": false
+    }
+  },
+  "pdf_pairing": {
+    "parts": [
+      {
+        "path": "deliverables/Math_Language_Controlled_Specimens_v1.pdf",
+        "sha256": "e8bfeb3e2a0cdf927b803bbf170fc61678838ecc9af5a2b395f2b24fa3dfb3e2",
+        "pages": 70,
+        "offset_in_combined": 0
+      },
+      {
+        "path": "experiments/pagination_lab/Pagination_Layout_Only_Prototypes.pdf",
+        "sha256": "10d010346903c2f77a2d940f83a1619969a813d9cdcd6515e631817892453ed9",
+        "pages": 14,
+        "offset_in_combined": 70
+      }
+    ],
+    "combined_pages": 84,
+    "sha256": "34e8322d75094a2a723e0fe7bfaa028ee18cf2b93335783f617e035f4ee9460b",
+    "bytes": 408262,
+    "bookmarks": 57,
+    "note": "PDF concatenation of already rendered source-paired experiments; not a new TeX manuscript."
+  },
+  "schema_checks": {
+    "checked_at_utc": "2026-11-18T13:07:02.481859+00:00",
+    "schema_meta_validation": "passed",
+    "actual_T7_example_validation": "passed",
+    "source_hash_checks": [
+      {
+        "artifact_id": "T7-before-snapshot",
+        "matched": true
+      },
+      {
+        "artifact_id": "T7-after-C",
+        "matched": true
+      },
+      {
+        "artifact_id": "T7-context",
+        "matched": true
+      },
+      {
+        "artifact_id": "math-review",
+        "matched": true
+      },
+      {
+        "artifact_id": "exact-calculations",
+        "matched": true
+      }
+    ],
+    "negative_record_checks": [
+      {
+        "case": "invented_model_readability_score",
+        "rejected": true,
+        "error_paths": [
+          ""
+        ]
+      },
+      {
+        "case": "human_outcome_claim_without_data",
+        "rejected": true,
+        "error_paths": [
+          "verification/human_outcome/data_artifact_ids",
+          "verification/human_outcome/outcomes",
+          "verification/human_outcome/study_design"
+        ]
+      },
+      {
+        "case": "different_model_claim_without_verification",
+        "rejected": true,
+        "error_paths": [
+          "reviewer/model_verification_evidence_ids"
+        ]
+      },
+      {
+        "case": "workflow_B_without_explicit_selection",
+        "rejected": true,
+        "error_paths": [
+          "workflow/selection_basis",
+          "workflow/selection_evidence"
+        ]
+      },
+      {
+        "case": "confirmed_defect_without_observation",
+        "rejected": true,
+        "error_paths": [
+          "observed_evidence"
+        ]
+      },
+      {
+        "case": "layout_only_claim_hiding_semantic_change",
+        "rejected": true,
+        "error_paths": [
+          "proposed_change/changes_mathematical_semantics"
+        ]
+      },
+      {
+        "case": "safe_math_only_claim_on_changed_assumptions",
+        "rejected": true,
+        "error_paths": [
+          "evidence_tags",
+          "proposed_change/changes_mathematical_semantics"
+        ]
+      },
+      {
+        "case": "missing_source_location",
+        "rejected": true,
+        "error_paths": [
+          ""
+        ]
+      }
+    ],
+    "scope": "Record completeness and evidence-state guardrails only.",
+    "not_established": [
+      "Mathematical truth from schema validation",
+      "Human reading benefit",
+      "Verified different-model independence",
+      "Formal workflow adoption"
+    ]
+  },
+  "portable_recovery": {
+    "scope": "Fresh extracted package, manifest verification, all historical archive extraction, P2/P3 restoration, 32 semantic bodies and 8 contexts regenerated; no fresh XeLaTeX build, no new reading/math review",
+    "steps": [
+      {
+        "script": "verify_package.py",
+        "returncode": 0
+      },
+      {
+        "script": "scripts/prepare_inputs.py",
+        "returncode": 0
+      },
+      {
+        "script": "scripts/create_semantic_experiments.py",
+        "returncode": 0
+      }
+    ],
+    "tex_comparisons": [
+      {
+        "path": "experiments/semantic_lab/author/T1/B.tex",
+        "identical": true,
+        "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T1/C.tex",
+        "identical": true,
+        "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T1/F.tex",
+        "identical": true,
+        "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T1/S.tex",
+        "identical": true,
+        "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T1/context.tex",
+        "identical": true,
+        "sha256": "d6604395c5cb4c37e7fb15ca0fb0b04ab36a3d36ff9cc4852b22a7505d85c1d8"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T2/B.tex",
+        "identical": true,
+        "sha256": "ce1bc7611d9edbba7f44620a49a546686d9ad1e905ef64e4d1fe5bfe0e448be3"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T2/C.tex",
+        "identical": true,
+        "sha256": "1ca90e74d10f4b38a2f6afe493130809fde3d8ff445133c232c844e8721c98da"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T2/F.tex",
+        "identical": true,
+        "sha256": "187faba21f5383a4d6fc09818f75f27884bab026f060cbdf724b18ab7c1300c9"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T2/S.tex",
+        "identical": true,
+        "sha256": "f423903aea8749421292f425ed2cc05546a15527fdcb24cf3ea4c941ae077266"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T2/context.tex",
+        "identical": true,
+        "sha256": "5c64f8a30c315aa3f75a2e612a7897e160dea25318e98903b098f003213acd71"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T3/B.tex",
+        "identical": true,
+        "sha256": "e8582bb8da371c9444d0ee896e447c8379ba215ae00a768191026e104a18f0c1"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T3/C.tex",
+        "identical": true,
+        "sha256": "38afd13526904f60fa4f4b82c612ded27000667e4fb0854d8ebcf37996cf0865"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T3/F.tex",
+        "identical": true,
+        "sha256": "e717afa27c11819422929c75495d0cb9c892236177ea7fb74b39ba052288af4e"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T3/S.tex",
+        "identical": true,
+        "sha256": "22c3a98a2824b3fbde24d443d0ee74cc6a483652253e1927113af3d9a14bba7c"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T3/context.tex",
+        "identical": true,
+        "sha256": "d68b484273fc9bbecaaedd0c978b7944de783f23dfaecf624abb1f9595003993"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T4/B.tex",
+        "identical": true,
+        "sha256": "bec5218131ee01c6d0a980ae0102fccb882d123a13619a78371023dccceb6f62"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T4/C.tex",
+        "identical": true,
+        "sha256": "18a9057ce4dafbc309e65b1a74b285b2d3081d96e9ed27fc5b5b90297625bc09"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T4/F.tex",
+        "identical": true,
+        "sha256": "0ff50697cb2a92e8b106577f05d442a30befbb6a4f34218cd4a03de8521d0a53"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T4/S.tex",
+        "identical": true,
+        "sha256": "7ca82a5d9c222b8a4637778b4b05a83b756f6f3a9cf06db020095e7f839de9f1"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T4/context.tex",
+        "identical": true,
+        "sha256": "836dcc0ec698813eca5f9c8d9cb833b4967e8ecb782d1acbbea3e6885c39a73f"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T5/B.tex",
+        "identical": true,
+        "sha256": "4b0e6e32020b22298d41f885a8e1226d34b6a06c5db3e5f84f28087c0b4bcf5f"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T5/C.tex",
+        "identical": true,
+        "sha256": "525e5e5ea88ee7f74bd7818639f7e8f6fa77d1c8d71dbd8bb16508cc1d0d2ce9"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T5/F.tex",
+        "identical": true,
+        "sha256": "456d1ab46e086baaf1472517c845f1b8f875ae64a4d50b9c6837ed8d9ebf9282"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T5/S.tex",
+        "identical": true,
+        "sha256": "a62185e642fb54faa2ee6f11ef9df4091ff5c4a1d574e2c1b5b6ff196b428d7f"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T5/context.tex",
+        "identical": true,
+        "sha256": "25f3ea71b7816a8c18602d9b780429c8c25ee1ed7bc6052fdf9a36c83d8733f9"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T6/B.tex",
+        "identical": true,
+        "sha256": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T6/C.tex",
+        "identical": true,
+        "sha256": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T6/F.tex",
+        "identical": true,
+        "sha256": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T6/S.tex",
+        "identical": true,
+        "sha256": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T6/context.tex",
+        "identical": true,
+        "sha256": "70ca455e1d8fee6ba7d8c9c6c415def2c80d76a967be220e9bf8d3a93519b219"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T7/B.tex",
+        "identical": true,
+        "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T7/C.tex",
+        "identical": true,
+        "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T7/F.tex",
+        "identical": true,
+        "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T7/S.tex",
+        "identical": true,
+        "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T7/context.tex",
+        "identical": true,
+        "sha256": "6ce70a3dccb550f0ac2f1c7573e5a711838ed3a7cc448c0d448b09c61f622dda"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T8/B.tex",
+        "identical": true,
+        "sha256": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T8/C.tex",
+        "identical": true,
+        "sha256": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T8/F.tex",
+        "identical": true,
+        "sha256": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T8/S.tex",
+        "identical": true,
+        "sha256": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6"
+      },
+      {
+        "path": "experiments/semantic_lab/author/T8/context.tex",
+        "identical": true,
+        "sha256": "19f18c7e2dbb1f9b26ff117aba780c0fd5097000dd488cd0b6217a3209d34d71"
+      }
+    ],
+    "same_cases_json": true,
+    "math_and_pdf_unchanged": true
+  },
+  "layout_visual_review": "# Semantic laboratory 視覺核查 — pagination research role\n\n日期：2026-11-18，Asia/Taipei。\n\n## 範圍與程序\n\n實際開完整頁圖檢視 `semantic_lab/rendered/C/page-001.png` 至 `page-014.png` 全14頁，以及 `I/page-008.png`、`I/page-009.png` 兩頁，共16頁。未視檢B、S、F或I其餘12頁；不把其他條件的文字相同／數學義務相同當作已看PDF。\n\n本角色曾製作去盒patch，知道C/I條件，這不是盲審或獨立人類評分。核查目的是辨識可觀察的續頁、環境、裁切、圖式及導航後果；沒有替教材給可讀性分數，也沒有完成數學終審。頁面編號均是各條件獨立PDF的物理頁及頁腳印頁，本批二者相同。\n\n已核PDF身份與T5固定正文另存 `semantic_cross_context_pagination.json`：C共14頁，SHA256 `cc563ad73ca6b0593ddf72b45ab70ee81a3bcb84b92e1adad530d2eedc046438`；I共14頁，SHA256 `6fe5de6daefa53fb5bdb1918a6b40de595c63673fc3d2562f759eb812f184666`。C/I建構driver中T5的LabLongExample完整片段hash一致：`7bc6a8b63fee6d8520d5492a63bf751d42e9c1252ca51a59b3890e561527944b`。\n\n## 逐例觀察\n\n| 條件／頁 | 內容 | 可見結果與限度 |\n|---|---|---|\n| C1 | T1映射初次引入 | 定義、有限模型及陪域反例都在一頁；未見缺字、裁切、孤立標題。較短段落不是省略的證據。 |\n| C2–4 | T2有限隨機映射 | 頁2完成stochastic arrow定義；頁3開始composition及identity並完成category證明；頁4完整數值例題。矩陣表格可辨、條件完整可見。頁4的下半留白是固定樣本結尾後另開下一case的結果，不判成正式書稿分頁缺陷。 |\n| C5–6 | T3指數與積的長證明 | 頁5下端停在「Their unique transposes are」，頁6以 `u_B,u_C` 接續同一句。這是具體待查斷點：謂語及其識別對象分跨兩頁。頁6保留結論、比較映射和兩種唯一性的提醒，沒有可見裁切；短尾程度仍受下一case固定換頁影響。 |\n| C7 | T4函子與自然變換 | 函子公理、naturality式及交換圖同頁；圖的上下、左右標籤完整，公式兩側型別說明存在；未見圖越界或正文覆疊。 |\n| C8–9 | T5矩陣／多項式算子 | 頁8完成矩陣、特徵空間與逆算子公式；頁9保留Example5.1(continued)，給任意原像、直接驗算、唯一性與最後結論。末頁短，但例題結束後的case邊界使後續不能填入；不把短頁本身當失敗。 |\n| I8–9 | 同T5去盒條件 | 仍2頁。頁9相同結尾內容可見，沒有裁切，但失去Example5.1(continued)及例題左側邊線，導航識別比C減少。去盒沒有消除跨頁；不能聲稱普遍修補成功。 |\n| C10–11 | T6一致收斂詳解 | 主證明、三個誤差項及pointwise反例均可見。頁10末停在「The proof above」，頁11兩行續成關於同一N的必要說明。這是樣本邊界敏感性：固定context與case結尾clearpage使兩行獨占頁11；不能推成全卷必然有孤立末頁。必要的N依賴說明也不能因尾頁而刪。 |\n| C12–13 | T7習題題目 | 頁12題1–7、頁13題8–9；各題題設與問句未被拆散，題號可追蹤。沒有以頁12較密判不合格；頁13短是本題組結尾，未追加大幅留白干預。 |\n| C14 | T8商映射詳解 | 題設、良定性條件、必要與充分推理、存在唯一輸出、兩個例子及最後提醒均可見；未見公式截斷或漂離相關推理。這是視覺檢查，非重新證明全部數學正確。 |\n\n## 具體問題單（未修補）\n\n### SP-V01：去盒結果無法跨場景維持，並失去續頁導航\n\n* 位置：C/I第8–9頁，T5；driver中的LabLongExample。\n* 固定：C/I數學body hash相同，全局幾何／字級／字型／行距相同。\n* 觀察：兩版皆2頁，I第9頁不再出現 `Example 5.1 (continued)`。\n* 影響：原工程正例不能直接當跨卷patch；續頁所屬環境的局部識別減弱。\n* 責任：行文排版角色；若要變更文字／拆分例題，另交精修／內容角色。\n* 處置：保留反例，不再修補。本次停止擴散；採用前需其他代表場景回歸及真實閱讀證據。\n* 比較界線：L3與T5除context不同，還用不同敘事版本，不能隔離「context高度」的單一因果作用。\n\n### SP-V02：唯一性推理的識別對象跨頁\n\n* 位置：C第5頁末至第6頁首；semantic-C.tex中 `Their unique transposes are $u_B,u_C$`。\n* 觀察：頁5留下「are」，頁6才見其數學對象。\n* 影響：讀者需在翻頁後接續同一句；是否造成顯著理解阻力尚無真人測量。\n* 處置：列為局部分頁候選，未修補；不能為消除該跨頁而綁住整個長證明。\n\n### SP-V03：T6末兩行對樣本邊界敏感\n\n* 位置：C第10頁末至第11頁首；`The proof above needs one N...`。\n* 觀察：必要說明的最後兩行在第11頁，下一case依試驗框架固定另起新頁。\n* 影響：這個原型顯示邊界穩定性風險；不支持「正式全卷已有孤末頁」判斷。\n* 處置：保留，不刪必要量詞依賴，不加頁碼補丁。若未來進正式章級整合，應在真實相鄰段落中重新檢查。\n\n## 結論界線\n\n在本角色實看頁面中，未見顯示裁切、公式／圖覆疊、矩陣缺列或整題被截斷；這不等於已核對全文來源覆蓋，更不等於其他條件或全卷通過。C/I差異只支持局部工程觀察。沒有採納建議、全局樣式變更、額外修補輪次或新的人類品質分數。\n",
+  "negative_findings": "All language variants 14 pages. L3 box-removal benefit does not transfer to T5; I loses continuation guidance. C5–6 and C10–11 limitations retained. Different L3/T5 body/context prevent single-factor attribution."
+}

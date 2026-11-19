@@ -1,0 +1,140 @@
+{
+  "version": "public-v1",
+  "date": "2026-11-18 Asia/Taipei",
+  "fixed_research_and_parent_commit": "4076cc01c41106be449ccd02e9c494a829bdd5f2",
+  "scope": "New public research files only; manifest self-hash covered by Git, mutable parent README excluded",
+  "files": [
+    {
+      "path": "EXPERIMENTS.md",
+      "version": "public-v1",
+      "bytes": 9720,
+      "sha256": "ee1f9d391907b2b56f96894d01335191133b9f88d5cb984a870ad54296b1ddc8"
+    },
+    {
+      "path": "FORENSICS.md",
+      "version": "public-v1",
+      "bytes": 28486,
+      "sha256": "ede98ae517aea2868d076b541057e7a51330d08ff012369e71725729e7e26884"
+    },
+    {
+      "path": "HANDOFF.md",
+      "version": "public-v1",
+      "bytes": 12758,
+      "sha256": "17c0158bbc09eca8cfb2aae2f74c57113edbe34a1aa80b907af23ec566dca6e8"
+    },
+    {
+      "path": "LANGUAGE-EXAMPLES.md",
+      "version": "public-v1",
+      "bytes": 22590,
+      "sha256": "cbab7f44275dc8c26ba5addab8299eed897834409b173f6e64139637f73ed521"
+    },
+    {
+      "path": "PREFIX-REVIEW.md",
+      "version": "public-v1",
+      "bytes": 21682,
+      "sha256": "e7a9583eaa7efc94690d941c2a7bdf2ab8840c24be30a20f6f946db72ada18ef"
+    },
+    {
+      "path": "README.md",
+      "version": "public-v1",
+      "bytes": 3064,
+      "sha256": "d5e0589930a6d73dbc6cfb1651c89f201c0c66f75fc90bf0949aa4f38e3e26ea"
+    },
+    {
+      "path": "RESULTS.md",
+      "version": "public-v1",
+      "bytes": 41115,
+      "sha256": "7c48441341ee85005fea55eb48aec7b1c49358ef00d1118fadfd17d6df28e05f"
+    },
+    {
+      "path": "ROLE-PROMPTS.md",
+      "version": "public-v1",
+      "bytes": 32055,
+      "sha256": "54df33312fb32004272309f875e45ee9d0acc43dadefff417600986373297c1f"
+    },
+    {
+      "path": "evidence/diagnostic-control.json",
+      "version": "public-v1",
+      "bytes": 639,
+      "sha256": "5fcc25c5b52bc7267a01ce643dc0e2586ff34711e93bed2f5395b687143805e6"
+    },
+    {
+      "path": "evidence/experiment-record.json",
+      "version": "public-v1",
+      "bytes": 63355,
+      "sha256": "ecf54715765276135f755a1ca7650aa3f764f039ecd27bc8a52d93c85333984f"
+    },
+    {
+      "path": "evidence/forensics.json",
+      "version": "public-v1",
+      "bytes": 88692,
+      "sha256": "4e69095da375a037009dec53d326f212ecf0b648929c601fdf5a9c60953209b1"
+    },
+    {
+      "path": "evidence/literature.json",
+      "version": "public-v1",
+      "bytes": 14726,
+      "sha256": "66a5715aaa69dd339ee02b21556f03449105ddc890e832f3d610e8f897fcfdd0"
+    },
+    {
+      "path": "evidence/prefix-adjudication.json",
+      "version": "public-v1",
+      "bytes": 1526,
+      "sha256": "fc91a921ba4bce90f13aecbb82cbd556882ae1d8645a71934d85762eeb199525"
+    },
+    {
+      "path": "evidence/semantic-cases.json",
+      "version": "public-v1",
+      "bytes": 21453,
+      "sha256": "641a2775a9a13f431261e78599d22fe821ce40d418710a89e384bdcb86c4eac8"
+    },
+    {
+      "path": "evidence/semantic-math-review.json",
+      "version": "public-v1",
+      "bytes": 34263,
+      "sha256": "b5ebbfcbf58099e3d9cb03a3f278aebb63861cc019def64b25213d4e7a188e4f"
+    },
+    {
+      "path": "evidence/source-identities.json",
+      "version": "public-v1",
+      "bytes": 25628,
+      "sha256": "9938286dd67f8d51f0fea3611074a66d77a49c90030f8cbc84e4cfddfd7e6801"
+    },
+    {
+      "path": "reading-defect.schema.json",
+      "version": "public-v1",
+      "bytes": 45080,
+      "sha256": "b1f3966e661014564fc539cccb9e19009843240ace24428a717bff0ec3241c8a"
+    },
+    {
+      "path": "tools/maps/P3-V0.json",
+      "version": "public-v1",
+      "bytes": 474,
+      "sha256": "78103f9b2442495d969be9de01f702d814e4819c59d816b03d0a17fa0276d0aa"
+    },
+    {
+      "path": "tools/maps/P3-V1.json",
+      "version": "public-v1",
+      "bytes": 518,
+      "sha256": "ba3871cf2b19d3c40366eec712406611a5eaf0f4ade6b844ff22b497026dc4ea"
+    },
+    {
+      "path": "tools/maps/P3-V2.json",
+      "version": "public-v1",
+      "bytes": 447,
+      "sha256": "1dc1751d64b8e7777a00adf36663fba19ab445e7664a95494c08f048e5a81aee"
+    },
+    {
+      "path": "tools/reading_diagnostics.py",
+      "version": "public-v1",
+      "bytes": 4903,
+      "sha256": "88cc7ef0bc9b2930155143174c28f6e936e01a666452c91757cb7a0f18b11cc5"
+    },
+    {
+      "path": "verify.py",
+      "version": "public-v1",
+      "bytes": 1430,
+      "sha256": "bc04de1bf52c4f4baa056f2d82b645243e3fced31a06607aae1f6bd74e70e2b2"
+    }
+  ]
+}

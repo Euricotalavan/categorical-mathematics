@@ -1,0 +1,23 @@
+{
+  "result": [
+    {
+      "volume": "V0",
+      "P2_target_edge_questions": 0,
+      "P3_target_edge_questions": 1
+    },
+    {
+      "volume": "V1",
+      "P2_target_edge_questions": 0,
+      "P3_target_edge_questions": 1
+    },
+    {
+      "volume": "V2",
+      "P2_target_edge_questions": 0,
+      "P3_target_edge_questions": 1
+    },
+    {
+      "missing_anchor_emits_UNKNOWN": true
+    }
+  ],
+  "limitations": "Anchors and classifications were selected after inspecting failures. This is an implementation check on known cases, not an unbiased sensitivity/specificity evaluation; no claim of autonomous discovery of all defects."
+}

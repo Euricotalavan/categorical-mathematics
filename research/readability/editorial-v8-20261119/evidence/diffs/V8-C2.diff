@@ -1,0 +1,53 @@
+--- P2/V0/layout/views/v0/solutions/09-inverse-equations-solutions.tex
++++ v8/V0/layout/views/v0/solutions/09-inverse-equations-solutions.tex
+@@ -2,28 +2,26 @@
+ % U08 v1 complete solution. No use of U07 or inverse uniqueness as a premise.
+ \subsection*{Solution}
+ \paragraph{Exercise~\ref{ex:separate-inverse-equations}.}
+-\textup{(i)} Compare $g\circ(f\circ h)$ with $(g\circ f)\circ h$:
+-each hypothesis simplifies one adjacent pair.
+-The given arrows have types $f:A\to B$ and $g,h:B\to A$.
+-Thus $g\circ f:A\to A$ and $f\circ h:B\to B$.
+-Every row below compares arrows $B\to A$ and records its reason.
++\textup{(i)} From $f:A\to B$ and $g,h:B\to A$ we get
++$g\circ f:A\to A$ and $f\circ h:B\to B$. Regrouping
++$g\circ(f\circ h)$ lets us use both hypotheses.
+ 
+ \begin{center}
+-\begin{tabular}{@{}>{$}l<{$} >{$}c<{$} l@{}}
++\begin{tabular}{@{}>{$}l<{$} l@{}}
+ \toprule
+-\multicolumn{1}{l}{Equality} & \multicolumn{1}{c}{Type} & Reason\\
++\multicolumn{1}{l}{Equality in $\operatorname{Hom}_{\C}(B,A)$} & Reason\\
+ \midrule
+-g=g\circ\id_B & B\to A & Right unit law.\\[3pt]
+-g\circ\id_B=g\circ(f\circ h) & B\to A & Substitute $f\circ h=\id_B$.\\[3pt]
+-g\circ(f\circ h)=(g\circ f)\circ h & B\to A & Associativity.\\[3pt]
+-(g\circ f)\circ h=\id_A\circ h & B\to A & Substitute $g\circ f=\id_A$.\\[3pt]
+-\id_A\circ h=h & B\to A & Left unit law.\\
++g=g\circ\id_B & Right unit law.\\[3pt]
++g\circ\id_B=g\circ(f\circ h) & Substitute $f\circ h=\id_B$.\\[3pt]
++g\circ(f\circ h)=(g\circ f)\circ h & Associativity.\\[3pt]
++(g\circ f)\circ h=\id_A\circ h & Substitute $g\circ f=\id_A$.\\[3pt]
++\id_A\circ h=h & Left unit law.\\
+ \bottomrule
+ \end{tabular}
+ \end{center}
+ 
+-Reading the five equalities in order gives $g=h:B\to A$. The premise $g\circ f=\id_A$ gives one inverse equation for $g$.
+-Substituting $g=h$ into $f\circ h=\id_B$ gives the other:
++The equalities give $g=h$. The given equation for $g$ and substitution
++into the equation for $h$ give
+ \[
+ \begin{aligned}
+ g\circ f&=\id_A &&(A\to A),\\
+@@ -40,7 +38,5 @@
+ u\circ f=\id_A\quad(A\to A),\qquad
+ f\circ v=\id_B\quad(B\to B).
+ \]
+-Apply part~\textup{(i)} with $g=u$ and $h=v$. Its types and hypotheses
+-match, so $u=v:B\to A$. Thus a fixed $f$ has at most one inverse.
+-This is an at-most-one statement; part~\textup{(i)} supplies existence
+-under its stated hypotheses.
++Apply part~\textup{(i)} with $g=u$ and $h=v$ to get $u=v:B\to A$.
++This proves uniqueness whenever an inverse exists.

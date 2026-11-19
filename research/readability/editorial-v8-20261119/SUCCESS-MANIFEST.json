@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "edition": "v8 reading success study v1",
+  "date": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "research_parent_commit": "287d217676ab8119a29bdd83367c33545e5dff3d",
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "identity_note": "This manifest excludes its own hash; the containing Git commit fixes its identity. Relative paths are from the editorial-v8-20261119 directory. Three unchanged CSV/JSON baseline inputs are included for verification.",
+  "files": [
+    {
+      "path": "../README.md",
+      "version": "success-v1",
+      "purpose": "Current feedback addendum and research navigation; historical evidence retained",
+      "bytes": 8357,
+      "sha256": "a206aa5a76301e161015d176078ab0e95f4839e2c15333d5aaf410d12190900b"
+    },
+    {
+      "path": "HANDOFF-SUCCESS-v1.md",
+      "version": "success-v1",
+      "purpose": "Complete v4-compatible research handoff",
+      "bytes": 13530,
+      "sha256": "261ca918e5b3e1a2b0f600846e3566e5e55fb89102e1d10b8b74b8c25a523ae5"
+    },
+    {
+      "path": "README.md",
+      "version": "success-v1",
+      "purpose": "Current feedback addendum and research navigation; historical evidence retained",
+      "bytes": 6075,
+      "sha256": "97a22fa280059fbb0f9e123816082a5870e1bef951fea621470369226a6ddd84"
+    },
+    {
+      "path": "REUSE-GUIDE.md",
+      "version": "success-v1",
+      "purpose": "Role-based reusable research operating draft",
+      "bytes": 8287,
+      "sha256": "25c1cda4709e7e7b5b2de48db5243566b148f11e0e883f1459a2f29bc31dd441"
+    },
+    {
+      "path": "SUCCESS-ANALYSIS.html",
+      "version": "success-v1",
+      "purpose": "Standalone illustrated success research report; public v8 source images only",
+      "bytes": 369344,
+      "sha256": "e4005323ac42645001f51f16a3284b03784085b7e4db10c01aa7d599047402db"
+    },
+    {
+      "path": "SUCCESS-ANALYSIS.md",
+      "version": "success-v1",
+      "purpose": "Success analysis, case evidence, limits and recommendations",
+      "bytes": 21779,
+      "sha256": "6189a16745cd2098ee5ec3fb9237b96c3d42aae1d17f8a373f7431ca3f740fd3"
+    },
+    {
+      "path": "chapter-density.csv",
+      "version": "retained-287d217",
+      "purpose": "Unchanged baseline input from 287d217",
+      "bytes": 5983,
+      "sha256": "83feb1e994dd57737444892fdb85d03c99dddb24f857a4124784a111316a851b"
+    },
+    {
+      "path": "evidence/diffs/V8-C1.diff",
+      "version": "success-v1",
+      "purpose": "Actual P2 to v8 source difference for a bounded case",
+      "bytes": 10994,
+      "sha256": "d2fd09ac1baf609ee5671113c98984d700bef286446bd9ce08c3642c0cc7c3a9"
+    },
+    {
+      "path": "evidence/diffs/V8-C2.diff",
+      "version": "success-v1",
+      "purpose": "Actual P2 to v8 source difference for a bounded case",
+      "bytes": 2447,
+      "sha256": "3621e2bcef08f3ae3da251a35c9ad4f9f50cbc401c902061ee9e9f63377349cc"
+    },
+    {
+      "path": "evidence/diffs/V8-C3.diff",
+      "version": "success-v1",
+      "purpose": "Actual P2 to v8 source difference for a bounded case",
+      "bytes": 5516,
+      "sha256": "561d3f14a15fba51089956604d7eafbff3692ee8479cebcc42627227cc7f9efd"
+    },
+    {
+      "path": "evidence/diffs/V8-C4.diff",
+      "version": "success-v1",
+      "purpose": "Actual P2 to v8 source difference for a bounded case",
+      "bytes": 3168,
+      "sha256": "e66a08ce8e54e40a084ed9be8dd7ebc22c38c8b0d76a4c6c934fe1fb2a6ed4e9"
+    },
+    {
+      "path": "evidence/success-boundary-observations.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 6830,
+      "sha256": "4b658efcdcb79081d86983019c7b465b282aaadec781a78cd0954cdc3c08ec21"
+    },
+    {
+      "path": "evidence/success-cases.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 23854,
+      "sha256": "d0a3d8c9d11a8c0f8384f517f4fb62e8d0d670bb4f16df89f070a82a7d2bc13a"
+    },
+    {
+      "path": "evidence/success-exercise-cases.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 8379,
+      "sha256": "8e059993a82acf4355421891e18f2abf7462ae2732a8770b75c094db3b0f6a3f"
+    },
+    {
+      "path": "evidence/success-feedback.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 1242,
+      "sha256": "0e8c15c99e493e2cff309e588cbc9f16bf3744728d5e0c62e733d19ae6c863e1"
+    },
+    {
+      "path": "evidence/success-metrics.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 57562,
+      "sha256": "1f65870684e54e453c8fff9c49c38d33b872b273ee650a1490db0e83ea6eb69d"
+    },
+    {
+      "path": "evidence/success-pdf-counts.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 2271,
+      "sha256": "ebe57a493dd57555692858a707f209e04d330aee9600ffc3b89d42bab3f2dba8"
+    },
+    {
+      "path": "evidence/success-source-controls.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 21551,
+      "sha256": "cb7235633bce4b267a491a87234746ad403e07c38e784d0de5040433d3fd8138"
+    },
+    {
+      "path": "evidence/success-verification.json",
+      "version": "success-v1",
+      "purpose": "Structured source identity, observation or verification evidence",
+      "bytes": 7319,
+      "sha256": "23dcab447679c7f6209d37bf35375c643ce33d318bf4d423237173bd5a130ef7"
+    },
+    {
+      "path": "input-pdfs.json",
+      "version": "retained-287d217",
+      "purpose": "Unchanged baseline input from 287d217",
+      "bytes": 1489,
+      "sha256": "3c58bcfd118f38c91d2fca64cd77f34ae3b20bedb7f3b977549ab92c54d73315"
+    },
+    {
+      "path": "page-density.csv",
+      "version": "retained-287d217",
+      "purpose": "Unchanged baseline input from 287d217",
+      "bytes": 63046,
+      "sha256": "2ccd592adad95a8104cea3100bb9b4769c1de427d5fabdf57f4f44deecb1a40d"
+    },
+    {
+      "path": "tools/build-success-html.py",
+      "version": "success-v1",
+      "purpose": "Reproducibility or public research verification tool; not textbook acceptance",
+      "bytes": 9128,
+      "sha256": "56c22d33e64829e1986e0dac8acdfc35eea6097eb54fe8c9aec22f4da6d4188d"
+    },
+    {
+      "path": "tools/recompute-success-metrics.py",
+      "version": "success-v1",
+      "purpose": "Reproducibility or public research verification tool; not textbook acceptance",
+      "bytes": 10366,
+      "sha256": "859e62a5ec69f056ceab30254ab1845422b644e72e3760b3e3b8933fbd557ef3"
+    },
+    {
+      "path": "tools/verify-success-pdfs.py",
+      "version": "success-v1",
+      "purpose": "Reproducibility or public research verification tool; not textbook acceptance",
+      "bytes": 2866,
+      "sha256": "4bd828c5b5533d9a09ba283215b45efadaff1d78c608c6513fe0029faa09c27d"
+    },
+    {
+      "path": "tools/verify-success.py",
+      "version": "success-v1",
+      "purpose": "Reproducibility or public research verification tool; not textbook acceptance",
+      "bytes": 3139,
+      "sha256": "4a56eb7e40089e4976b8bb8d463a1eec941bd1b7125d70aca148f4f06a4d1281"
+    }
+  ]
+}
