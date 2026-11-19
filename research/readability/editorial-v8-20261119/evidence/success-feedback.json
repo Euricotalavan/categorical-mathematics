@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "source_type": "direct user statement in this research conversation",
+  "verbatim_feedback": "看新的經驗git，評分85-93之間的水準，每頁評分不太一樣。\n但整體已經能看，這個版本我算是滿意，書也已經提交github",
+  "subsequent_authorization": "研究成功原因並把成功git上",
+  "edition": "V0–V2 ReadFlow editorial v8",
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "subjective_page_quality_range": [
+    85,
+    93
+  ],
+  "overall_response": "satisfied; readable",
+  "per_page_rating_table": null,
+  "mean_score": null,
+  "rated_page_list": null,
+  "reading_device": null,
+  "exact_bytes_opened_at_rating": "not independently observed; edition matched to current Git context",
+  "controlled_comprehension_test": false,
+  "controlled_application_test": false,
+  "delayed_retention_test": false,
+  "mathematical_final_acceptance": false,
+  "autonomous_reproducibility_without_chapter_by_chapter_user_help": "UNKNOWN",
+  "interpretation": "A real successful reading outcome for this user and this edition. No invented per-page measurements or global average; no general 90+ guarantee."
+}

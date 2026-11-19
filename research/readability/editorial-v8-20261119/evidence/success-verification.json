@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "research_baseline": "287d217676ab8119a29bdd83367c33545e5dff3d",
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "repository_visibility_observed": "public",
+  "template_source_commit": "8b9dc7f3749de81e47de9f525d7c5e0b3f8036c3",
+  "template_adoption_commit": "c749e4867538888d3069346fa055ac2ca834c9e1",
+  "governing_authorities": [
+    {
+      "name": "來源導覽與版本映射-v1.txt",
+      "bytes": 9303,
+      "sha256": "099d845787542f49e0a2379e6fce0d9fbf78dc0fee58f7d9d901f262ebbd5a02",
+      "read_scope": "full governing file; not republished"
+    },
+    {
+      "name": "A-B製作與交接總規範-v4.txt",
+      "bytes": 39172,
+      "sha256": "bb095f08c70f79ecfb84abbabf3f1350ee7f53ba9de707c917a412301bac4fea",
+      "read_scope": "full governing file; not republished"
+    },
+    {
+      "name": "固定來源入口與歷史限制-v2.txt",
+      "bytes": 6841,
+      "sha256": "26ace7d453b12b4f533dd2b478a9a6883ba4b030b7662cceeeb54dbee5ae8efa",
+      "read_scope": "full governing file; not republished"
+    }
+  ],
+  "source_zip": {
+    "name": "V0-V2-ReadFlow-Editorial-v8-Source.zip",
+    "bytes": 4207686,
+    "sha256": "6226f04971e5a097bd25ba685293840dc99aefed71ca7cf8d175b0f8694c81fe",
+    "zip_crc": "PASS",
+    "contained_manifest_files": 309,
+    "manifest_failures": []
+  },
+  "pairing": [
+    {
+      "volume": "V0",
+      "source_package_reading_pdf_equals_public_pdf": true
+    },
+    {
+      "volume": "V1",
+      "source_package_reading_pdf_equals_public_pdf": true
+    },
+    {
+      "volume": "V2",
+      "source_package_reading_pdf_equals_public_pdf": true
+    }
+  ],
+  "pdfs": [
+    {
+      "version": "v8",
+      "volume": "V0",
+      "file_name": "volume-0.pdf",
+      "bytes": 1906293,
+      "sha256": "4d931401a3bcbec3d7bae6b593c8e7d98d2821ac76c577ea40441f9631f15e85",
+      "recomputed_this_round": true,
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/60fe8d1910c06c309958edb9efcd20d63cbb08ac/archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-0.pdf"
+    },
+    {
+      "version": "v8",
+      "volume": "V1",
+      "file_name": "volume-1.pdf",
+      "bytes": 676184,
+      "sha256": "4bc998ed7a28d073247fe863036f875c4af3dec3c391e5e9349da452bd19eb43",
+      "recomputed_this_round": true,
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/60fe8d1910c06c309958edb9efcd20d63cbb08ac/archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-1.pdf"
+    },
+    {
+      "version": "v8",
+      "volume": "V2",
+      "file_name": "volume-2.pdf",
+      "bytes": 900904,
+      "sha256": "ad29b6392b95938ff9f471c05a6f53332f4afda1761d4c43818a6166dbb59537",
+      "recomputed_this_round": true,
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/60fe8d1910c06c309958edb9efcd20d63cbb08ac/archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-2.pdf"
+    },
+    {
+      "version": "P2",
+      "volume": "V0",
+      "file_name": "volume-0.pdf",
+      "bytes": 1917650,
+      "sha256": "ac173bc6a2bd1812ab9cf2100597950bf0e524236d3384f6525049dfd8260fa3",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    },
+    {
+      "version": "P2",
+      "volume": "V1",
+      "file_name": "volume-1.pdf",
+      "bytes": 669561,
+      "sha256": "60a44b7df6dbed93367269f8cc5092d7670cea109fad506580bc4c88ecfb596c",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    },
+    {
+      "version": "P2",
+      "volume": "V2",
+      "file_name": "volume-2.pdf",
+      "bytes": 885901,
+      "sha256": "e9142336256daca9b347e2df7fa2cf4b0f7432e9693ef350ab93e9714ea171f1",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    },
+    {
+      "version": "P3",
+      "volume": "V0",
+      "file_name": "V0_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 1943359,
+      "sha256": "3682e25a1363ec420dfbd273e99421bd810255357e99deee1a1f29790e7f79ee",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    },
+    {
+      "version": "P3",
+      "volume": "V1",
+      "file_name": "V1_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 678084,
+      "sha256": "4fda902bda98cbcad74f8ce6552cfaf92b575f56f70a9814a428a99f00805224",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    },
+    {
+      "version": "P3",
+      "volume": "V2",
+      "file_name": "V2_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 898011,
+      "sha256": "c6d86de914b338689396f70a6209e290dd6c3d12b6441873e60ef02069fa20f2",
+      "recomputed_this_round": true,
+      "availability": "Recovered from previously delivered research package. Full historical PDF is not republished by this commit."
+    }
+  ],
+  "prior_recovery_package": {
+    "name": "Math_Language_Pagination_Research_Package_v1.zip",
+    "bytes": 82230783,
+    "sha256": "ae2c7e9dc0b196c31b583c1f66b6d62f45c6949aa66fb610d3d9bfa15c8f8249",
+    "crc": "PASS",
+    "zip_members": 617,
+    "private_recovery_locator": "withheld from public research",
+    "restore": "P2/P3 restored in isolated copies with original guarded restore scripts; baseline and patch before/after hashes checked"
+  },
+  "engineering_scope": {
+    "fresh_latex_rebuild": false,
+    "print_pdfs_downloaded": false,
+    "v8_reading_pdfs_hash_verified": 3,
+    "source_files_verified": 309,
+    "pdf_char_counts_rederived": 1663,
+    "pdf_char_count_matches": 1663,
+    "template_body_size_pt": 10.4,
+    "template_body_leading_pt": 16,
+    "literal_input_files_checked": 294,
+    "unresolved_literal_inputs": 0
+  },
+  "mathematics_scope": "24 listed obligations in C1–C4 and finite checks of two exercise cases; no full-volume final mathematical review",
+  "reading_scope": "20 distinct full-page comparison renders and 2 footer crops; not an 886-page continuous full review",
+  "source_publication_scope": "Research documents and evidence only. Published v8 book, formal template, A/B workflow, main branch and earlier frozen archives not edited.",
+  "research_html_qa": {
+    "static": "four embedded source images, anchors and relative targets verified",
+    "browser_check": "NOT COMPLETED: Chromium launch denied socket() by environment before page load",
+    "offline_alternative": {
+      "method": "Offline WeasyPrint print rendering and static HTML checks",
+      "pages": 14,
+      "rendered_preview_pages": [
+        1,
+        2,
+        6
+      ],
+      "chromium_attempt": "Failed before page load: environment denied socket() for process singleton",
+      "browser_desktop_mobile_visual_check": "NOT COMPLETED",
+      "independent_html_static_check": "four embedded images and all anchor/relative links verified by verify-success.py",
+      "manuscript_pdf_rebuild": false
+    },
+    "mobile_visual": "NOT VERIFIED"
+  }
+}

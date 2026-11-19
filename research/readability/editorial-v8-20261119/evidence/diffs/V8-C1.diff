@@ -1,0 +1,218 @@
+--- P2/V1/manuscript/sections/44-existence-interface.tex
++++ v8/V1/manuscript/sections/44-existence-interface.tex
+@@ -1,93 +1,69 @@
+-Volume 0, Chapter 9 showed that category laws do not ensure the existence of every construction. We distinguish three tasks: use given data, assert existence for each input, and specify a choice for every input. This distinction supports the existence results below without fixing a foundation.
++Volume~0, Chapter~9 gave a category in which several constructions
++fail to exist. We now distinguish given data, existence for each input,
++and a specified assignment for all inputs.
+ 
+ \section{A property of data and an existence requirement}
+ \label{sec:existence-interface}
+ 
+-Fix a category $\C$. The category laws, equality rules and arrow conventions
+-are those of Volume 0, Chapter~1. In this chapter, quantifiers over objects and typed
+-arrows have their stated categorical ranges; writing them does not assert
+-that those ranges form sets.
+-
+-For example, to say that $(P,p,q)$ is a product of $A,B$ is to give the types
+-$p:P\to A$, $q:P\to B$ and require
+-\[
+-\begin{gathered}
+-\text{for every object }X\text{ and all }
+-\alpha:X\to A,\ \beta:X\to B,\\
+-\text{there is exactly one }u:X\to P
+-\text{ with }p\circ u=\alpha,\quad q\circ u=\beta.
+-\end{gathered}
+-\]
+-This property does not assert that the displayed data exist. Having binary
+-products adds an outer existence claim for every pair of objects.
++Fix $\C$ as in Volume~0, Definition~\ref{def:category}.
++For $A,B,P\in\operatorname{Ob}(\C)$ and $p:P\to A$, $q:P\to B$,
++the product property is
++\begin{equation*}
++\begin{aligned}
++ &\forall X\in\operatorname{Ob}(\C)\quad
++   \forall\alpha\in\operatorname{Hom}_{\C}(X,A)\quad
++   \forall\beta\in\operatorname{Hom}_{\C}(X,B)\\
++ &\qquad \exists!\,u\in\operatorname{Hom}_{\C}(X,P)
++   \quad(p\circ u=\alpha\ \land\ q\circ u=\beta).
++\end{aligned}
++\end{equation*}
++Condition (P) puts \(\forall A,B\;\exists(P,p,q)\) before this test.
+ 
+ \begin{definition}[Four existence requirements]
+ \label{def:existence-requirements}
+-For a fixed category $\C$, consider the following assertions.
+-\begin{enumerate}[label=\textup{(\Alph*)},leftmargin=2.2em]
+-\item[\textup{(T)}] There exists an object $T$ such that, for every object $X$,
+-there is exactly one arrow $X\to T$.
+-\item[\textup{(P)}] For every pair of objects $A,B$, there exist an object $P$
+-and arrows $p:P\to A$, $q:P\to B$ such that, for every object $X$ and all
+-$\alpha:X\to A$, $\beta:X\to B$, there is exactly one $u:X\to P$ with
+-$p\circ u=\alpha$ and $q\circ u=\beta$.
+-\item[\textup{(E)}] For every pair of objects $A,B$ and arrows $f,g:A\to B$,
+-there exist an object $E$ and an arrow $e:E\to A$ such that
+-$f\circ e=g\circ e$, and, for every object $X$ and every $h:X\to A$
+-satisfying $f\circ h=g\circ h$, there is exactly one $u:X\to E$
+-with $e\circ u=h$.
+-\item[\textup{(B)}] For every three objects $A,B,C$ and arrows
+-$f:A\to C$, $g:B\to C$, there exist an object $Q$ and arrows
+-$r:Q\to A$, $s:Q\to B$ such that $f\circ r=g\circ s$, and,
+-for every object $X$ and every pair $\alpha:X\to A$, $\beta:X\to B$
+-satisfying $f\circ\alpha=g\circ\beta$, there is exactly one $u:X\to Q$
+-with $r\circ u=\alpha$ and $s\circ u=\beta$.
+-\end{enumerate}
+-These say, respectively, that $\C$ has a terminal object, binary products,
+-equalizers of all parallel pairs, and pullbacks of all pairs with a common
+-target. They are assertions to be tested or assumed explicitly, not additional
+-axioms adopted by introducing this notation.
++Use the constructions from Volume~0, with $A,B,C\in\operatorname{Ob}(\C)$
++in the formulas below.
++\begin{equation*}
++\begin{aligned}
++ (\mathrm T)\quad &\exists T\in\operatorname{Ob}(\C)\quad
++   \forall X\in\operatorname{Ob}(\C)\quad
++   \exists!\,u\in\operatorname{Hom}_{\C}(X,T).\\
++ (\mathrm P)\quad &\forall A,B\quad
++   \exists(P,p,q)\ \text{a product of }A,B.\\
++ (\mathrm E)\quad &\forall A,B\quad \forall f,g\in\operatorname{Hom}_{\C}(A,B)
++   \quad \exists(E,e)\ \text{an equalizer of }f,g.\\
++ (\mathrm B)\quad &\forall A,B,C\quad
++   \forall f\in\operatorname{Hom}_{\C}(A,C)\quad
++   \forall g\in\operatorname{Hom}_{\C}(B,C)\\
++ &\qquad\exists(Q,r,s)\ \text{a pullback of }f,g.
++\end{aligned}
++\end{equation*}
+ \end{definition}
+ 
+-Read (P) from outside inward: fix the two target objects, obtain one
+-product triple, and only then test it against arbitrary sources and
+-components.
+-The order of quantifiers matters. In (P), the product data may depend on
+-$A,B$, but must work for \emph{every} test $X,\alpha,\beta$. Choosing a
+-different candidate product for each test would not prove (P).
+-For (E) and (B), only compatible tests require factors. A construction
+-does not have to factor an ineligible test, and it does not supply test
+-arrows that have never been given.
++In (P), $(P,p,q)$ may depend on $A,B$. It is fixed before
++$X,\alpha,\beta$ are chosen. In (E) and (B), the defining implication
++restricts factorization to compatible tests (Volume~0,
++Definitions~\ref{def:equalizer} and~\ref{def:pullback}).
+ 
+ \Needspace{6\baselineskip}
+ \section{Using a witness without choosing all witnesses}
+ \label{sec:local-existence-witnesses}
+ 
+-Suppose that (P) is a hypothesis. Fix particular objects $A,B$. We may then
+-use a product of those objects in a proof: the existence clause supplies
+-one product triple for this fixed pair. If the desired conclusion follows
+-from any triple satisfying that clause, it does not depend on selecting a
+-preferred one.
++Assume (P). Fix $A,B\in\operatorname{Ob}(\C)$, then take a witness
++$(P,p,q)$ for that pair. This is the same order as fixing $b$ before
++taking a preimage of $b$. To use several constructions in one proof,
++fix the inputs of each construction before taking its witness.
+ 
+-This is the same proof pattern as fixing $b$ before using a preimage witness
+-in the preliminary exercises. Here the witness is a structured tuple of an
+-object and arrows. A single argument may use several such witnesses in
+-sequence. Each later witness is taken for data already fixed at that point.
++A \emph{specified product assignment} includes a particular triple
++for every pair $A,B$. The arguments here use local witnesses.
++Comparing (P) with the existence of a simultaneous assignment
++requires a framework for families and choice.
+ 
+-A \emph{specified product assignment} would be further data: a particular
+-product triple for every pair $A,B$. Assertion (P) does not itself name
+-such an assignment. We will not collect witnesses into a function or an
+-object of all witnesses. Nor do we assert that such an assignment is
+-impossible or logically inequivalent to (P) under every possible foundation.
+-That question would require a fixed framework for families and choice.
+-
+-There is a different uniqueness statement after product data have been
+-fixed. For each test $X,\alpha,\beta$, the factor $u$ is unique. This does
+-not make the product object itself a unique object. Two product triples
+-are related by a unique projection-compatible isomorphism, as proved in
+-Proposition~\ref{prop:product}; their objects need not be equal.
+-Thus ``unique factor'', ``unique compatible isomorphism'' and ``a specified
+-construction'' carry different information.
++Fix a product triple and the test $X,\alpha,\beta$. The product
++property gives a unique factor $u$. With two product triples fixed,
++Proposition~\ref{prop:product} instead gives a unique
++projection-compatible isomorphism. The product objects may be
++different. A specified assignment would fix a triple for every pair.
+ 
+ \section{A requirement can leave another requirement undecided}
+ \label{sec:pullbacks-without-terminal}
+@@ -98,17 +74,24 @@
+ $a\ne b$, from Section~\ref{sec:discrete-construction}. Its objects are $a,b$,
+ and its only arrows are their identities.
+ 
+-Consider any arrows $f:A\to C$, $g:B\to C$ in this category. They must be
+-identities, so $A=B=C$ and $f=g=\id_C$. Take $Q=C$ and
+-$r=s=\id_C$. The square commutes. Any test
+-$\alpha:X\to C$, $\beta:X\to C$ must have $X=C$ and
+-$\alpha=\beta=\id_C$. It has the factor $u=\id_C$; both projection
+-equations hold, and no other arrow $C\to C$ exists. This proves the full
+-pullback property for every possible pair $f,g$. Thus (B) holds.
++All arrows are identities. For any cospan and any test to its two
++sources, this gives
++\begin{align*}
++ f:A\to C,\quad g:B\to C
++ &\quad\Longrightarrow\quad A=B=C,\quad f=g=\id_C,\\
++ \alpha,\beta:X\to C
++ &\quad\Longrightarrow\quad X=C,\quad \alpha=\beta=\id_C .
++\end{align*}
++The choice $(Q,r,s)=(C,\id_C,\id_C)$ commutes. The only arrow
++$u:C\to C$ is $\id_C$, and it satisfies both projection equations.
++This proves (B).
+ 
+-Neither object is terminal: there is no arrow $b\to a$ and no arrow
+-$a\to b$. Thus (T) fails. The example is nonempty and makes no decision
+-about an empty-category convention.
++Condition (T) fails at both candidates since
++\[
++\operatorname{Hom}_{\C}(b,a)=\varnothing
++=\operatorname{Hom}_{\C}(a,b).
++\]
++This is a nonempty example.
+ \end{example}
+ 
+ An existence assertion ranges over the inputs that the category actually
+@@ -126,23 +109,25 @@
+ available in that external model. It does not derive those sets or function
+ objects from the category laws.
+ 
+-This distinction gives a practical interface for later chapters. First
+-state the required objects, arrows and equations. Then prove the desired
+-consequence from those data. A later foundational module may supply the
+-data by an explicitly stated existence principle. The present chapter
+-does not select ETCS, a replacement scheme, a size convention, internal
+-number objects, recursion or choice. Uniform external syntax arguments
+-still carry their separate conditional premise.
++Later chapters state the needed objects, arrows and equations first,
++then derive consequences from those data. The eventual foundations
++must say which existence principles supply the data. ETCS, replacement,
++size conventions, internal number objects, recursion and choice remain
++open here. The conditional premise for uniform external syntax still applies.
+ 
+ \Needspace{8\baselineskip}
+ \begin{problem}[Read the requirement in the correct order]
+ \label{ex:existence-quantifier-order}
+ Work in a fixed category.
+ \begin{enumerate}[label=\textup{(\roman*)}]
+-\item Given $A,B$, suppose that for every $X$ and pair
+-$\alpha:X\to A$, $\beta:X\to B$, there exist some $P,p,q,u$
+-with $p:P\to A$, $q:P\to B$, $u:X\to P$ and
+-$p\circ u=\alpha$, $q\circ u=\beta$.
++\item Fix $A,B$ and suppose each test $\alpha:X\to A$, $\beta:X\to B$
++admits some $P$ and arrows satisfying
++\begin{equation*}
++\begin{aligned}
++ &p:P\to A,\qquad q:P\to B,\qquad u:X\to P,\\
++ &p\circ u=\alpha,\qquad q\circ u=\beta.
++\end{aligned}
++\end{equation*}
+ Explain why this is not the product requirement. Show that this weaker
+ test assertion follows from the category laws for each supplied test.
+ Then use the two-arrow category of Example~\ref{ex:idempotent} to show
