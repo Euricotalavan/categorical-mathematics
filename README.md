@@ -12,6 +12,10 @@ Template adoption is separate from textbook acceptance: V0 remains pending its i
 
 **ReadFlow editorial v8 — Chapters 0–51:** [three-volume reading and print PDFs, buildable LaTeX, and checksums](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md), 2026-11-19. Each volume also has an archive index: [V0](archive/v0/readflow-editorial-v8-2026-11-19/README.md), [V1](archive/v1/readflow-editorial-v8-2026-11-19/README.md), and [V2](archive/v2/readflow-editorial-v8-2026-11-19/README.md). Independent mathematical final review is pending.
 
+## Published Volume 4
+
+**V4 — Category Theory Continued:** [B-08 reading PDF, buildable LaTeX, and checksums](archive/v4/b08-audited-2026-11-23/README.md), 2026-11-23. The 539-page edition passed the whole-volume mathematical review. Chapters 71–84 are provisional pending the final numbering of Volume 3.
+
 ## Previous V0 editorial candidate
 
 **V0 — Language and given constructions, Chapter 0–9:** [ReadFlow R1 editorial candidate](archive/v0/readflow-r1-editorial-2026-11-17/README.md), 2026-11-17. The 464-page reading PDF, 464-page print PDF and complete source ZIP are included and verified with [verify_release.py](archive/v0/readflow-r1-editorial-2026-11-17/verify_release.py).
