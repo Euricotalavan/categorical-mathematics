@@ -1,0 +1,127 @@
+--- P2/V2/layout/views/v2/sections/77-parameter-induction.tex
++++ v8/V2/layout/views/v2/sections/77-parameter-induction.tex
+@@ -9,23 +9,21 @@
+ \subsection{The conditional arithmetic context}
+ \label{sec:arithmetic-context}
+ 
+-For this arithmetic block, condition (A) means that the category has
+-a terminal object, binary products and pullbacks, the exponentials
+-needed below, and a supplied natural-number object $(N,z,s)$.
+-For uniform statements with arbitrary parameter and output objects,
+-assume that $X^B$ exists for every given pair $X,B$. A proof fixes
+-only its required witnesses; no simultaneous choice of all witnesses
+-is made. Equalizers are then available from the earlier finite
+-construction. These are conditional requirements, not the selection
+-of a foundational axiom system.
++The arithmetic hypothesis (A) on $\C$ requires a terminal object,
++binary products, pullbacks, the needed exponentials and a supplied
++natural-number object $(N,z,s)$. Uniform statements assume the
++existence of $X^B$ for each given pair $X,B$ and use witnesses for the
++pairs in the proof. Equalizers follow from the earlier finite construction.
++The foundational axiom system remains open.
+ 
+ \paragraph{The supplied data and the quantifiers.}
+-Here $1$ denotes the chosen terminal object, $z:1\to N$ and
+-$s:N\to N$. The natural-number-object property says that for
+-\emph{each given} object $Y$, point $y:1\to Y$ and endomorphism
+-$v:Y\to Y$ there is exactly one $h:N\to Y$ with $hz=y$ and
+-$hs=vh$. Neither a set of all such data nor a simultaneous
+-selection of their solutions is part of this assertion.
++Here $1$ is the given terminal object, $z:1\to N$ and $s:N\to N$.
++For $Y\in\operatorname{Ob}(\C)$ and $y:1\to Y$, $v:Y\to Y$,
++the natural-number-object property gives
++\begin{equation*}
++\exists!h\in\operatorname{Hom}_{\C}(N,Y)\;(hz=y\ \land\ hs=vh).
++\end{equation*}
++Each application fixes $(Y,y,v)$ before taking its unique witness.
+ The parameter theorem below strengthens the input to an arrow
+ $b:B\to X$ and a single total step $t:B\times X\to X$.
+ Its uniqueness compares arrows on $N\times B$, with the same
+@@ -42,14 +40,15 @@
+ identity. Quantification over points $1\to N\times B$ alone
+ would not justify this converse.
+ 
+-We use the parameter-recursion theorem from
+-Proposition~\ref{prop:NNO-parameter-recursion}. In these hypotheses
+-it supplies, for $b:B\to X$, $t:B\times X\to X$, a unique
++Fix $b:B\to X$ and $t:B\times X\to X$.
++Proposition~\ref{prop:NNO-parameter-recursion} gives exactly one
+ $H:N\times B\to X$ with
+-\[
+-H\langle z!_B,\id_B\rangle=b,
+-\qquad H(s\times\id_B)=t\langle\pi_B,H\rangle.
+-\]
++\begin{equation*}
++\begin{aligned}
++ H\langle z!_B,\id_B\rangle &= b,\\
++ H(s\times\id_B) &= t\langle\pi_B,H\rangle .
++\end{aligned}
++\end{equation*}
+ The parameter projection is unchanged in the step. When several
+ parameters are used, $B$ is their fixed product with its specified
+ parenthesization; canonical product comparisons handle a change of
+@@ -80,18 +79,16 @@
+ \end{samepage}
+ 
+ \begin{proof}
+-Parameter recursion with target $M$, base $b$ and step
+-$u\pi_M:B\times M\to M$ gives $H:N\times B\to M$ with
+-$H\langle z!_B,\id_B\rangle=b$ and
+-$H(s\times\id_B)=u H$.
+-The map $m H:N\times B\to N\times B$ has base
+-$\langle z!_B,\id_B\rangle$ and step $s\times\id_B$ on its
+-previous output. The identity of $N\times B$ has the same base
+-and step. Parameterized uniqueness, now with output $N\times B$,
+-gives $m H=\id_{N\times B}$. Monicity then gives
+-$H m=\id_M$, since $m(H m)=m=m\id_M$.
+-The required exponentials are $M^B$ and $(N\times B)^B$;
+-(A) supplies both. Thus $H$ is the asserted inverse.
++Recursion into $M$ with base $b$ and step $u\pi_M:B\times M\to M$
++gives $H:N\times B\to M$. Its equations and those of $m$ give
++\begin{align*}
++ mH\langle z!_B,\id_B\rangle &= mb=\langle z!_B,\id_B\rangle,\\
++ mH(s\times\id_B)&=muH=(s\times\id_B)mH.
++\end{align*}
++The identity of $N\times B$ satisfies the same two equations, so
++parameterized uniqueness gives $mH=\id_{N\times B}$. Since
++$m(Hm)=m=m\id_M$, monicity gives $Hm=\id_M$. The two recursion
++arguments use $M^B$ and $(N\times B)^B$, both supplied by (A).
+ \end{proof}
+ 
+ The theorem has two entrance conditions. The arrow $b$ places every
+@@ -108,22 +105,24 @@
+ \begin{proposition}[Induction for an equation]
+ \label{prop:parameter-equality-induction}
+ Let $F,G:N\times B\to X$ under (A), and give their equalizer
+-$m:E\to N\times B$. Suppose their zero restrictions agree and
+-\[
+-F(s\times\id_B)m=G(s\times\id_B)m.
+-\]
++$m:E\to N\times B$. Suppose
++\begin{align*}
++ F\langle z!_B,\id_B\rangle &= G\langle z!_B,\id_B\rangle,\\
++ F(s\times\id_B)m &= G(s\times\id_B)m .
++\end{align*}
+ Then $F=G$.
+ \end{proposition}
+ \end{samepage}
+ 
+ \begin{proof}
+-The base equality makes $\langle z!_B,\id_B\rangle$ an eligible
+-equalizer test, giving a unique $b:B\to E$ with the required base
+-equation. The displayed step equality makes $(s\times\id_B)m$
+-another eligible test, giving $u:E\to E$ with
+-$m u=(s\times\id_B)m$. The parameter-induction proposition makes
+-$m$ invertible. Since $F m=G m$, precomposition with $m^{-1}$
+-in the equality gives $F=G$.
++The displayed equalities make $\langle z!_B,\id_B\rangle$ and
++$(s\times\id_B)m$ eligible equalizer tests. Their unique factors
++$b:B\to E$ and $u:E\to E$ satisfy
++\[
++ mb=\langle z!_B,\id_B\rangle,\qquad mu=(s\times\id_B)m.
++\]
++Parameter induction makes $m$ invertible, so
++$F=Fm m^{-1}=Gm m^{-1}=G$.
+ \end{proof}
+ 
+ An ``induction hypothesis''

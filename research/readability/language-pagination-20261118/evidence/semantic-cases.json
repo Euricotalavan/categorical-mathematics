@@ -1,0 +1,432 @@
+{
+  "scope": "Original research case cards: origins, contexts, fixed obligations, exact proposed edit spans and condition hashes. Full body TeX/PDF remains with source holder.",
+  "cases": [
+    {
+      "id": "T1",
+      "title": "Maps: first introduction",
+      "origin": {
+        "kind": "historical_excerpt_reused",
+        "path": "research_readflow/experiments/author/E1/0.tex",
+        "upstream": "V0 Chapter 1; historical source identity in prior study"
+      },
+      "obligations": [
+        "specified domain and codomain",
+        "exactly one value for each input",
+        "equality includes domain/codomain and pointwise values",
+        "unused outputs and repeated values allowed",
+        "finite map and codomain contrast retained"
+      ],
+      "context": "The reader knows elementary finite sets, equality and named elements. In all finite examples, differently named labels are distinct. These are supplied ordinary-set models, not constructions from category axioms. The task is to decide what data determine a map and whether two displayed maps are equal.",
+      "note": "Negative control: membership and map notation are being introduced. Do not replace the explanatory definition with an unexplained quantified formula. All four texts intentionally identical.",
+      "edits": [],
+      "variants": {
+        "B": {
+          "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+          "source_chars": 1370,
+          "changed": false
+        },
+        "S": {
+          "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+          "source_chars": 1370,
+          "changed": false
+        },
+        "F": {
+          "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+          "source_chars": 1370,
+          "changed": false
+        },
+        "C": {
+          "sha256": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+          "source_chars": 1370,
+          "changed": false
+        }
+      }
+    },
+    {
+      "id": "T2",
+      "title": "Finite stochastic maps",
+      "origin": {
+        "kind": "actual_P2_excerpt",
+        "path": "sources/unpacked/Categorical_Mathematics_R7_P2_Source_Delta/sources/V0/editorial_r7/023-b45-finite-stochastic-maps.tex",
+        "full_file_sha256": "ba71a364d77d9a860149ac8af5aba001a626a25406290b764a5ebc7598bc563e",
+        "lines": "1 through the end of Example One random step, two different inputs"
+      },
+      "obligations": [
+        "nonempty family of nonempty finite external carriers",
+        "external rational coefficients and finite index lists; foundational exclusions retained",
+        "stochastic table nonnegative and each column sums to one",
+        "parallel-arrow equality entrywise",
+        "composition and identity fully typed",
+        "closure via finite sums",
+        "both unit laws",
+        "associativity by finite reordering",
+        "two-input numerical example unchanged"
+      ],
+      "context": "The reader knows supplied finite ordinary sets, nonnegative rational arithmetic, finite sums, matrix-style tables, the category axioms, and $\\forall$ and $\\Longleftrightarrow$. Differently named sample elements are distinct. No internal construction of the rationals or unrestricted category of all sets is assumed. In the numerical example, assume $X,Y,Z\\in\\mathcal K$.",
+      "note": "Source samepage wrappers are retained in B/S/F/C. They are an inherited pagination variable, not silently cleaned during semantic tests.",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "Two parallel arrows are equal when all entries agree.  The",
+          "after": "For parallel $K,K':X\\rightsquigarrow Y$,\n\\[\n K=K'\\quad\\Longleftrightarrow\\quad\n K(y\\mid x)=K'(y\\mid x)\\quad(\\forall x\\in X,\\ \\forall y\\in Y).\n\\]\nThe",
+          "reason": "Make the domain of the equality test explicit. This tests whether a displayed logical condition actually helps; it can take more vertical space.",
+          "risk": "parallel endpoints and both index scopes must remain"
+        },
+        {
+          "factor": "F",
+          "before": "Closure, identities and associativity have now been\nverified without assuming a stochastic category in advance.",
+          "after": "",
+          "reason": "Delete the final recap after the three named proof stages; no proof calculation is removed.",
+          "risk": "The recap may still serve orientation for some readers; this is a candidate deletion, not a measured benefit."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "ce1bc7611d9edbba7f44620a49a546686d9ad1e905ef64e4d1fe5bfe0e448be3",
+          "source_chars": 4925,
+          "changed": false
+        },
+        "S": {
+          "sha256": "f423903aea8749421292f425ed2cc05546a15527fdcb24cf3ea4c941ae077266",
+          "source_chars": 5015,
+          "changed": true
+        },
+        "F": {
+          "sha256": "187faba21f5383a4d6fc09818f75f27884bab026f060cbdf724b18ab7c1300c9",
+          "source_chars": 4814,
+          "changed": true
+        },
+        "C": {
+          "sha256": "1ca90e74d10f4b38a2f6afe493130809fde3d8ff445133c232c844e8721c98da",
+          "source_chars": 4904,
+          "changed": true
+        }
+      }
+    },
+    {
+      "id": "T3",
+      "title": "Exponential product: long proof",
+      "origin": {
+        "kind": "historical_excerpt_reused",
+        "path": "research_readflow/experiments/author/E2/0.tex",
+        "upstream": "V1 Chapter 14 section 14.2, R7 active source"
+      },
+      "obligations": [
+        "given products and three exponentials",
+        "D and evaluation v correctly typed",
+        "arbitrary source X and test f",
+        "construct both transposes and pair them",
+        "evaluation equation by product uniqueness",
+        "uniqueness first by transpose then product property",
+        "isomorphism via previously proved comparison theorem",
+        "components are induced projection maps",
+        "reverse arrow and both inverse equations",
+        "projections not assumed monic"
+      ],
+      "context": "Work in a category with the indicated products and supplied exponentials. For arrows $r:X\\to B$ and $s:X\\to C$, the product property gives a unique arrow $\\langle r,s\\rangle:X\\to B\\times C$ whose two projection composites are $r,s$. Thus two arrows into a product are equal when their corresponding projection composites are equal. For each supplied $B^A$, evaluation is $\\ev_{B,A}:B^A\\times A\\to B$; for each $f:X\\times A\\to B$ there is a unique transpose $\\Lambda f:X\\to B^A$ with $\\ev\\circ(\\Lambda f\\times\\id_A)=f$. The notation $\\ev(g,h)$ abbreviates $\\ev\\circ\\langle g,h\\rangle$ for arrows with a common source. Exponential comparison means the following previously proved theorem: two objects with evaluations satisfying the same exponential property have a unique evaluation-compatible isomorphism, obtained by transposing each evaluation; both composites are identities by transpose uniqueness. For $b:B\\to C$, $b^A$ denotes the transpose of $b\\circ\\ev_{B,A}$. A map $m:Y\\to Z$ is monic if, for every object $W$ and all $g,h:W\\to Y$, $m\\circ g=m\\circ h$ implies $g=h$. Composition is read right to left.\n The reader knows the implication symbol and equality of arrows into a product.",
+      "note": "",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "The two components of $v\\circ(u\\times\\id_A)$ are $p_B f,p_C f$ by\nthe evaluation equations.",
+          "after": "By the evaluation equations,\n\\[\n p_Bv(u\\times\\id_A)=p_Bf,\\qquad\n p_Cv(u\\times\\id_A)=p_Cf.\n\\]",
+          "reason": "Replace an English description of two composites with the two correctly typed equations; retain the reason they hold.",
+          "risk": "Do not remove the following product-uniqueness inference or silently assume projections monic."
+        },
+        {
+          "factor": "F",
+          "before": "This proves the exponential property\nfor every source and test. Exponential comparison now gives the isomorphism.",
+          "after": "Exponential comparison now gives the isomorphism.",
+          "reason": "The arbitrary-source construction and uniqueness have just been completed. The comparison theorem remains named.",
+          "risk": "This final recap can be useful to novices; source context explicitly states the target property and comparison theorem."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "e8582bb8da371c9444d0ee896e447c8379ba215ae00a768191026e104a18f0c1",
+          "source_chars": 1832,
+          "changed": false
+        },
+        "S": {
+          "sha256": "22c3a98a2824b3fbde24d443d0ee74cc6a483652253e1927113af3d9a14bba7c",
+          "source_chars": 1833,
+          "changed": true
+        },
+        "F": {
+          "sha256": "e717afa27c11819422929c75495d0cb9c892236177ea7fb74b39ba052288af4e",
+          "source_chars": 1768,
+          "changed": true
+        },
+        "C": {
+          "sha256": "38afd13526904f60fa4f4b82c612ded27000667e4fb0854d8ebcf37996cf0865",
+          "source_chars": 1769,
+          "changed": true
+        }
+      }
+    },
+    {
+      "id": "T4",
+      "title": "Adjacent abstractions and a square",
+      "origin": {
+        "kind": "research_original_control",
+        "not_from_manuscript": true
+      },
+      "obligations": [
+        "functor types and identity/composition laws",
+        "natural transformation indexed by all objects",
+        "naturality for every arrow",
+        "common source and target of both composites",
+        "components need not be equalities or isomorphisms",
+        "walking-arrow and discrete examples contrasted",
+        "identity-square verification"
+      ],
+      "context": "The reader knows categories, composition, identity arrows, the category with one nonidentity arrow, discrete categories, and the convention that a commutative square asserts equality of its two composites. Functors and natural transformations are introduced below.",
+      "note": "Research-original positive control containing a deliberate redundant recap; it must never be presented as a quotation from P2/P3.",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "For each arrow $f:A\\to B$, following $F(f)$ and then $\\alpha_B$ must give the same arrow as following $\\alpha_A$ and then $G(f)$:",
+          "after": "For every $f:A\\to B$, require:",
+          "reason": "Let the already adjacent equation carry the two composites; preserve universal scope.",
+          "risk": "Valid only with supplied composition direction and square convention; keep the following type and compatibility explanation."
+        },
+        {
+          "factor": "F",
+          "before": "In other words, the two routes around this square give the same composite. This is precisely what the displayed equality says.\n",
+          "after": "",
+          "reason": "Synthetic positive control: the fixed context already explains commutative squares and the equation was just explained.",
+          "risk": "Not evidence that all actual manuscript diagram explanations are redundant."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "bec5218131ee01c6d0a980ae0102fccb882d123a13619a78371023dccceb6f62",
+          "source_chars": 1550,
+          "changed": false
+        },
+        "S": {
+          "sha256": "7ca82a5d9c222b8a4637778b4b05a83b756f6f3a9cf06db020095e7f839de9f1",
+          "source_chars": 1451,
+          "changed": true
+        },
+        "F": {
+          "sha256": "0ff50697cb2a92e8b106577f05d442a30befbb6a4f34218cd4a03de8521d0a53",
+          "source_chars": 1423,
+          "changed": true
+        },
+        "C": {
+          "sha256": "18a9057ce4dafbc309e65b1a74b285b2d3081d96e9ed27fc5b5b90297625bc09",
+          "source_chars": 1324,
+          "changed": true
+        }
+      }
+    },
+    {
+      "id": "T5",
+      "title": "Polynomial operator and matrix",
+      "origin": {
+        "kind": "prior_research_original",
+        "path": "research_readflow/experiments/author/E4/0.tex",
+        "not_from_manuscript": true
+      },
+      "obligations": [
+        "linearity",
+        "images of ordered basis",
+        "correct matrix columns",
+        "only eigenvalue 1",
+        "eigenspace span1 and dimension1",
+        "no eigenbasis hence not diagonalizable",
+        "D cubed zero",
+        "both inverse equations",
+        "inverse I-D+D squared",
+        "arbitrary inverse image and direct substitution",
+        "uniqueness",
+        "invertible does not imply diagonalizable"
+      ],
+      "context": "\\paragraph{Prerequisites.}\nLet $P_2(\\mathbb R)$ be the three-dimensional real vector space of polynomials of degree at most two. The ordered basis is $\\mathcal B=(1,x,x^2)$. A matrix column records the coordinates of the image of the corresponding basis vector. Assume the definitions of eigenvalue, eigenspace, diagonalizability, and inverse linear map. The previously available triangular-matrix theorem states that the eigenvalues of a triangular matrix are precisely its diagonal entries, counted with algebraic multiplicity. The identity operator is denoted by $\\id$; differentiation is a linear map on $P_2(\\mathbb R)$.\n The reader also knows that a polynomial over $\\mathbb R$ with zero derivative is constant.",
+      "note": "",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "Hence the eigenspace has dimension one. As $P_2(\\mathbb R)$ has dimension three, it cannot have a basis consisting of eigenvectors, and $T$ is not diagonalizable.",
+          "after": "Since $\\dim E_1=1<3=\\dim P_2(\\mathbb R)$, there is no eigenbasis; hence $T$ is not diagonalizable.",
+          "reason": "Use familiar dimension notation for the comparison, retaining why it rules out diagonalization.",
+          "risk": "Do not replace the reason with just eigenvalue multiplicity or confuse geometric and algebraic multiplicity."
+        },
+        {
+          "factor": "F",
+          "before": "Thus this calculation provides both a left and a right inverse, and",
+          "after": "Therefore",
+          "reason": "The preceding two product equations already exhibit both inverse directions; preserve both equations.",
+          "risk": "Would be unsafe if only one inverse equation remained."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "4b0e6e32020b22298d41f885a8e1226d34b6a06c5db3e5f84f28087c0b4bcf5f",
+          "source_chars": 1748,
+          "changed": false
+        },
+        "S": {
+          "sha256": "a62185e642fb54faa2ee6f11ef9df4091ff5c4a1d574e2c1b5b6ff196b428d7f",
+          "source_chars": 1684,
+          "changed": true
+        },
+        "F": {
+          "sha256": "456d1ab46e086baaf1472517c845f1b8f875ae64a4d50b9c6837ed8d9ebf9282",
+          "source_chars": 1690,
+          "changed": true
+        },
+        "C": {
+          "sha256": "525e5e5ea88ee7f74bd7818639f7e8f6fa77d1c8d71dbd8bb16508cc1d0d2ce9",
+          "source_chars": 1626,
+          "changed": true
+        }
+      }
+    },
+    {
+      "id": "T6",
+      "title": "Uniform convergence and a solution",
+      "origin": {
+        "kind": "prior_research_original",
+        "path": "research_readflow/experiments/author/E5/0.tex",
+        "not_from_manuscript": true
+      },
+      "obligations": [
+        "every f_n continuous on closed interval relative topology",
+        "uniform convergence not pointwise",
+        "choose one N before delta",
+        "same N controls x and x0",
+        "continuity of fixed f_N",
+        "three error terms and epsilon/3",
+        "arbitrary x0 including endpoints",
+        "x^n counterexample and its limit",
+        "lack of uniform nearby-point control explained"
+      ],
+      "context": "\\paragraph{Prerequisites.}\nAll functions below map $[0,1]$ into $\\mathbb R$. Continuity at an endpoint means continuity relative to $[0,1]$. Uniform convergence means that for every $\\eta>0$ there is $N_0$ such that $|f_n(x)-f(x)|<\\eta$ for every $n\\ge N_0$ and every $x\\in[0,1]$. Assume the triangle inequality, continuity of polynomials, and $x^n\\to0$ when $0\\le x<1$.\n The quantifier $\\forall$ is familiar.",
+      "note": "F is an intentional unchanged negative control: apparent repetition explains quantifier dependence and the failure of pointwise convergence.",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "\\qquad\\text{for every }x\\in[0,1].",
+          "after": "\\qquad(\\forall x\\in[0,1]).",
+          "reason": "Only replace the familiar universal phrase inside a displayed condition; retain the explanatory sentence about the shared index.",
+          "risk": "The N-before-delta sentence is necessary dependency information and is not a deletion candidate."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe",
+          "source_chars": 1766,
+          "changed": false
+        },
+        "S": {
+          "sha256": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441",
+          "source_chars": 1759,
+          "changed": true
+        },
+        "F": {
+          "sha256": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe",
+          "source_chars": 1766,
+          "changed": false
+        },
+        "C": {
+          "sha256": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441",
+          "source_chars": 1759,
+          "changed": true
+        }
+      }
+    },
+    {
+      "id": "T7",
+      "title": "Problem statements without a density cap",
+      "origin": {
+        "kind": "research_original_exercise_control",
+        "not_from_manuscript": true
+      },
+      "obligations": [
+        "all nine problems retained",
+        "common n-positive and representative-independence instructions",
+        "both proof directions where required",
+        "counterexample requirements",
+        "map types and codomain-equality convention"
+      ],
+      "context": "The reader knows elementary finite sets, maps, injective and surjective maps, integer divisibility, congruence, and quotient sets. These are problem statements, not worked solutions.",
+      "note": "All semantic variants identical. No general prose-density cap is imposed; statements may be compact, but shared conditions and each problem body remain intact.",
+      "edits": [],
+      "variants": {
+        "B": {
+          "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+          "source_chars": 2066,
+          "changed": false
+        },
+        "S": {
+          "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+          "source_chars": 2066,
+          "changed": false
+        },
+        "F": {
+          "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+          "source_chars": 2066,
+          "changed": false
+        },
+        "C": {
+          "sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+          "source_chars": 2066,
+          "changed": false
+        }
+      }
+    },
+    {
+      "id": "T8",
+      "title": "Worked quotient solution",
+      "origin": {
+        "kind": "research_original_solution_control",
+        "not_from_manuscript": true
+      },
+      "obligations": [
+        "m,n positive",
+        "well-defined representative-independence criterion",
+        "necessary m divides n from n and0",
+        "sufficient factorization n=mk and a-b=nt",
+        "existence and unique output for every input class",
+        "iff conclusion",
+        "valid6to2 and invalid3to2 examples",
+        "statement versus construction distinguished"
+      ],
+      "context": "The reader knows integer divisibility and $[a]_n=[b]_n\\Longleftrightarrow n\\mid(a-b)$. A map on classes must assign one output to each class independently of representatives.",
+      "note": "F remains unchanged: the final warning distinguishes proposing a formula from proving descent. It is not dismissed as filler.",
+      "edits": [
+        {
+          "factor": "S",
+          "before": "If $[a]_n=[b]_n$, there is an integer $t$ such that $a-b=nt$. Then $a-b=mkt$, so $[a]_m=[b]_m$.",
+          "after": "For $[a]_n=[b]_n$, write $a-b=nt$ with $t\\in\\mathbb Z$. Then\n\\[\na-b=nt=mkt\\quad\\Longrightarrow\\quad[a]_m=[b]_m.\n\\]",
+          "reason": "Display the divisibility calculation while retaining the existence and type of t.",
+          "risk": "Do not infer well-definedness just from the displayed definition of r; retain both directions and arbitrary representatives."
+        }
+      ],
+      "variants": {
+        "B": {
+          "sha256": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff",
+          "source_chars": 1268,
+          "changed": false
+        },
+        "S": {
+          "sha256": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6",
+          "source_chars": 1287,
+          "changed": true
+        },
+        "F": {
+          "sha256": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff",
+          "source_chars": 1268,
+          "changed": false
+        },
+        "C": {
+          "sha256": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6",
+          "source_chars": 1287,
+          "changed": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "version": "public-research-v1",
+  "date": "2026-11-18 Asia/Taipei",
+  "research_baseline_commit": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+  "scope": "64 input identities; not a claim all inputs are publicly downloadable or fully read",
+  "sources": [
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R3_Prose_Source_RECONCILED.zip",
+      "version": "2",
+      "bytes": 7092144,
+      "sha256": "4c6714ec40251d13fcd56c5e6391cf10bcca2e7c0affdca424a3ebfdc4eaf750",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R3_Reconciled_Rebuild_Receipt_20261117.md",
+      "version": "0",
+      "bytes": 1743,
+      "sha256": "8d998f053aae096b6569d019dfc3b545620ed2f96126de2ad7adf307062d062c",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R3_Reconciled_Verified_Reading.pdf",
+      "version": "1",
+      "bytes": 2416676,
+      "sha256": "a0ebdfd685f20206c720036493860a97099baacd71689034238e4c9787be417e",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R4_FirstPass_Reading.pdf",
+      "version": "3",
+      "bytes": 2413701,
+      "sha256": "9ec3a72d6d8cb26504b9adc65e61dab397c4083d65712f60befa7449dfae46d7",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R4_FirstPass_Source.zip",
+      "version": "2",
+      "bytes": 3474428,
+      "sha256": "a126c94d2cac3d93ef1ce9c56163b5019b897751fd0bb7ea886bcd1fcfe8c259",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R5_Reading.pdf",
+      "version": "0",
+      "bytes": 2417702,
+      "sha256": "cdb0022074f62e31fda1c59ce580de1f0ccea889f511348154dab599c63a3e2f",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R5_Source.zip",
+      "version": "0",
+      "bytes": 7237476,
+      "sha256": "a999f61721e2fa7997d0dee3bc0f1ab74a9fd288ededa1e6bf283a03791e49fb",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R6_Reading.pdf",
+      "version": "6",
+      "bytes": 2419509,
+      "sha256": "c2370614b9e5a3fe51658be95226e3d6d6d1020183443bc7b890f5e1ee0b4a83",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R6_Source.zip",
+      "version": "5",
+      "bytes": 7417959,
+      "sha256": "148a7284c81f0ff752aa7aa0feccc54cfc84234732b9dfafc1eaf664acfd9195",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R7_Reading.pdf",
+      "version": "4",
+      "bytes": 2418779,
+      "sha256": "7ec178c4484805f39442c84396de7a9203ddb91ebcc76c7193a9c385a09aa67d",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_ReadFlow_R7_Source.zip",
+      "version": "3",
+      "bytes": 7651354,
+      "sha256": "0c7b57ef13987be95e81c79696fb3ce51967ea9c32fb55a87ffb94ca03e3c358",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R3_Reconciliation_Handoff_20261117.md",
+      "version": "0",
+      "bytes": 8531,
+      "sha256": "a00d30077b2997557d4fd34d2fa9acf2da3effef8df2cca02636ecb3edc94aec",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R4_FirstPass_Handoff.md",
+      "version": "0",
+      "bytes": 11522,
+      "sha256": "485ced1c88fe5c220a14368cedcd021875610bf33d7eddcdba20b02cd644a853",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R5_Handoff_20261117.md",
+      "version": "0",
+      "bytes": 13502,
+      "sha256": "71f03d1c8c3653a84228e7a1430b2ccd0cc4c2d82aa58ba8749dda159063c906",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R6_Handoff_20261118.md",
+      "version": "0",
+      "bytes": 11286,
+      "sha256": "bca02f1935ad83155ea201828a4d246e3ad758642479d0cf790cf825f37a69ae",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R6_QA.json",
+      "version": "5",
+      "bytes": 3623,
+      "sha256": "27e985da0af4cc14e3c622aff4bf5d0f261cd7cfc86f1c8250b87f55d1d454f8",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R7_Delivery_Manifest.json",
+      "version": "0",
+      "bytes": 11773,
+      "sha256": "cd519a1148276afb9895ac3384f0f15367dbd2a67da023387056295225c85da9",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R7_Dense_Page_Backlog.csv",
+      "version": "0",
+      "bytes": 20356,
+      "sha256": "67935399d7b84137c33035ee426fe7658271ecc38a279814402468a66ff96aef",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R7_Handoff_20261118.md",
+      "version": "0",
+      "bytes": 13996,
+      "sha256": "9ad9c5b9bec94482446ecffb9aa58cfa41060ccf6b253a2531709156bb66c391",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V0_V1_V2_ReadFlow_R7_QA.json",
+      "version": "1",
+      "bytes": 5830,
+      "sha256": "c3c6853e826b44d8be70ba3fa06cd6d4835bcc2559580fbc56e511b68e97fa3f",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R3_Prose_Reading.pdf",
+      "version": "0",
+      "bytes": 867944,
+      "sha256": "5974dd83722a82ab77d966d2dc4d993bf74956654dacc081c495c8de99b81b2a",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R3_Prose_Source.zip",
+      "version": "1",
+      "bytes": 6894018,
+      "sha256": "230bef2a69ad2bb2a606123cf4ea8d06753b30bc78999e7a9e90646c981cde18",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R4_FirstPass_Reading.pdf",
+      "version": "2",
+      "bytes": 865977,
+      "sha256": "db95c235061b6e64df4acad4fa94894a22a15d7897a85f1b522cfde48041063b",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R4_FirstPass_Source.zip",
+      "version": "2",
+      "bytes": 4872696,
+      "sha256": "9e160693baf98ba5bdc37a625740214440a645c9c0b16881735e52f808028d11",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R5_Reading.pdf",
+      "version": "0",
+      "bytes": 863201,
+      "sha256": "f607b6cf157ca2a4397fab2b4460631f0153d0d5ef7dc229bfb2c1449f9a5de0",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R5_Source.zip",
+      "version": "0",
+      "bytes": 6205422,
+      "sha256": "2b7ebc34697cb6c74bcc53d7b5eef25e11592563530176ef3fc8a62cfe9ac8fe",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R6_Reading.pdf",
+      "version": "5",
+      "bytes": 863661,
+      "sha256": "47426e31ae6e8908fa146e65c25c0be3c0d49a6414845b7383b58b1bfedfd011",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R6_Source.zip",
+      "version": "4",
+      "bytes": 6289318,
+      "sha256": "4705d8d5c1abd988bed609efaed6dc59c05bbb11bfe13072ec369eca7e2f5644",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R7_Reading.pdf",
+      "version": "4",
+      "bytes": 667392,
+      "sha256": "20bc45cb7d776286531c1e91c60245547519de34efcdb0a15fc8fe39dd800547",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V1_ReadFlow_R7_Source.zip",
+      "version": "3",
+      "bytes": 6347265,
+      "sha256": "61d257b077b7119fe82fb1689d6d0a981838c85de4ed5246102d1dbc3ca8e50d",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R3_Prose_Reading.pdf",
+      "version": "0",
+      "bytes": 1108770,
+      "sha256": "0b03c362b3f6e90b5830a2c0f03fcdfdbada767336daec728912036093f55248",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R3_Prose_Source_RECONCILED.zip",
+      "version": "0",
+      "bytes": 6734755,
+      "sha256": "6d2b63b8f98bad0bba32e431918a91c1ae8ebf479e2792123781892b5b7b0547",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R4_FirstPass_Reading.pdf",
+      "version": "2",
+      "bytes": 1108039,
+      "sha256": "ba492981935b678d8d29ad9b2b3467f8fac57bab37c53baa03a8dfcb81f70db7",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R4_FirstPass_Source.zip",
+      "version": "2",
+      "bytes": 3373593,
+      "sha256": "7eeb46c01f14007edc06cbf55f8b004874773cc18b5a9c7d83b56b0602a0b139",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R5_Reading.pdf",
+      "version": "0",
+      "bytes": 1105196,
+      "sha256": "aa386d30e57ebf8d2e9f7b8ebd623e0344361123d630ab79a0c70e6d56aa3195",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R5_Source.zip",
+      "version": "0",
+      "bytes": 5135631,
+      "sha256": "c3debd6ebf4069efa75336f93aa021867ebe0ceabcddc48c917f8477b4c60e6f",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R6_Reading.pdf",
+      "version": "5",
+      "bytes": 1104236,
+      "sha256": "6c1e586ba31c127b75a83633705a85b5b46d7cdc884c682f0926e877e100134c",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R6_Source.zip",
+      "version": "4",
+      "bytes": 5243367,
+      "sha256": "5a9c260dd671244e813f15926244e624a43748b9595563125909e973603fffd7",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R7_Reading.pdf",
+      "version": "4",
+      "bytes": 883326,
+      "sha256": "e4bd8348bfed7efa30dc663b256ab3d8515643893004acf61c47ce6b5201675e",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "historical_delivery",
+      "name": "V2_ReadFlow_R7_Source.zip",
+      "version": "3",
+      "bytes": 5369965,
+      "sha256": "d8db301cf6da1cd4463ee81717ccc7d24ca766347ec650309545f19c6b9e4786",
+      "read_scope": "identity verified; content read only as explicitly recorded in report",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "math-extractor-v0.4.zip",
+      "bytes": 1021262,
+      "sha256": "c2d47e097447a836bcad63d5a030106b1ec261bac4ffe32a6aecc783aca244f3",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "math-curriculum-v4-git-aligned.html",
+      "bytes": 2167706,
+      "sha256": "098aaacab85e330cb0493fc928916361c3fba09c0d36b3964f61c74ad2a2e1df",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "math-references-v4-git-aligned.html",
+      "bytes": 3482004,
+      "sha256": "4b3e0af09024a799744ee6fbb76ad68b95d82baeb020e5a6b8033cf00361a59d",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "文獻擷取與覆蓋工作流-v2.txt",
+      "bytes": 4865,
+      "sha256": "c607c7db2aaf7aeedeb24420b2e876a578abd54b802a318e4efe6d1d7522ecd5",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "Math_Readability_System_Study_v1.html",
+      "bytes": 308180,
+      "sha256": "5b07cfcac26be6816af532330e5a08432c1bd40f72e3d124d22df8fd8fda0347",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Editor_Operating_Draft_v1.md",
+      "bytes": 4986,
+      "sha256": "84a62270d02019a31001470fd23f8c503c4fd79d72b0fd17a1cc74cb11a2b8fa",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Study_Handoff_v1.md",
+      "bytes": 11074,
+      "sha256": "1220ea24fa381e19a78c96995189d5732c10a975c8afbd7b0ddc559c78e24ea9",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Delivery_Manifest_v1.json",
+      "bytes": 5056,
+      "sha256": "1597085afa26fbc580ec23c4526301f8b0fdd55c7f2683d53dd20690262511ee",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Evidence_v1.json",
+      "bytes": 32521,
+      "sha256": "97168aeaa98eb3a31e4af97257e5397fdc6346b0c8833924738d2185f0574d51",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Research_Samples_Screen_v1.pdf",
+      "bytes": 71014,
+      "sha256": "3996571dc6bb4f5acf5692fb715f4760d3219451c600b66df79cf7b19b646ff9",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "V0_Ch1_S2_1_Smaller_Font.pdf",
+      "version": "1",
+      "bytes": 167150,
+      "sha256": "436c2ddd005621eea22aa0341eb8ff29e7be3bfe8a28539e55d9211d50a53895",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "ReadFlow_Research_Kit_v1.zip",
+      "bytes": 1311342,
+      "sha256": "fc75b72e39c8006af57daaa2efab55a41e9d0967e3e25198468390f28229446d",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "V0_Ch1_S2_1_Editable_LaTeX.zip",
+      "version": "1",
+      "bytes": 19011,
+      "sha256": "a772b4bb2ea1bae4b37d14298b0147ed7b637d08178e8d9cae73cc84818b5e79",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "A-B製作與交接總規範-v4.txt",
+      "bytes": 39172,
+      "sha256": "bb095f08c70f79ecfb84abbabf3f1350ee7f53ba9de707c917a412301bac4fea",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "固定來源入口與歷史限制-v2.txt",
+      "bytes": 6841,
+      "sha256": "26ace7d453b12b4f533dd2b478a9a6883ba4b030b7662cceeeb54dbee5ae8efa",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "來源導覽與版本映射-v1.txt",
+      "bytes": 9303,
+      "sha256": "099d845787542f49e0a2379e6fce0d9fbf78dc0fee58f7d9d901f262ebbd5a02",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "排版官必讀：Git方法論與QA入口-v1.txt",
+      "bytes": 2659,
+      "sha256": "daec7694b1813f1ea4dc1e1b3feaeeffe0980e1896c5926f4d31ee6130a109d6",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "project_attachment",
+      "name": "A-B標準流程圖-v2-相容修正版.html",
+      "bytes": 35197,
+      "sha256": "e7abc462f8fe4549e3493ece650e2ea885f9479bf2f95f5791e490fb932a47d6",
+      "read_scope": "see report; hashing is not full content audit",
+      "access_note": "原始證據由研究持有人保存；公開版只列身份，未發布私人恢復入口或完整來源"
+    },
+    {
+      "kind": "fixed_git_methodology",
+      "name": "METHODOLOGY-v1.md",
+      "commit": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+      "bytes": 17686,
+      "sha256": "a2d89bba12f74b2eac883fd9009a85acec95e2ae9dbf50a3a54b9af9063330df",
+      "read_scope": "full file read",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/1dace0ac242267e1bf2c3650df4d21d9879383b8/research/readability/METHODOLOGY-v1.md",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    },
+    {
+      "kind": "fixed_git_methodology",
+      "name": "EDITOR-QA-v1.md",
+      "commit": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+      "bytes": 6081,
+      "sha256": "152c3b0ea5f3d6b702d31c89a27f8bea61980847493131d5a601f051d9e943c5",
+      "read_scope": "full file read",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/1dace0ac242267e1bf2c3650df4d21d9879383b8/research/readability/EDITOR-QA-v1.md",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    },
+    {
+      "kind": "fixed_git_methodology",
+      "name": "LESSONS-R3-R7-20261118.md",
+      "commit": "1dace0ac242267e1bf2c3650df4d21d9879383b8",
+      "bytes": 11601,
+      "sha256": "ae25090cf75dc72544a450395ba145a36396699b229d83706ad52b26957cf54e",
+      "read_scope": "full file read",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/1dace0ac242267e1bf2c3650df4d21d9879383b8/research/readability/LESSONS-R3-R7-20261118.md",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    },
+    {
+      "kind": "formal_fixed_reference",
+      "name": "V0-ReadFlow-R1-Source.zip",
+      "commit": "8b9dc7f3749de81e47de9f525d7c5e0b3f8036c3",
+      "bytes": 7007679,
+      "sha256": "5f91243f32d7e76d643575a76488d5b1e26d4909aa3017bd812cb526bf5ed732",
+      "read_scope": "identity plus template/adoption read; no whole-volume math audit",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/8b9dc7f3749de81e47de9f525d7c5e0b3f8036c3/archive/v0/readflow-r1-editorial-2026-11-17/V0-ReadFlow-R1-Source.zip",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    },
+    {
+      "kind": "formal_fixed_reference",
+      "name": "TEMPLATE-ADOPTION.md",
+      "commit": "c749e4867538888d3069346fa055ac2ca834c9e1",
+      "bytes": 2631,
+      "sha256": "e379ec03aabfa14a60f4b68b9a10047a16422dca99420438b6c88d6c9efdccea",
+      "read_scope": "identity plus template/adoption read; no whole-volume math audit",
+      "public_url": "https://github.com/Euricotalavan/categorical-mathematics/blob/c749e4867538888d3069346fa055ac2ca834c9e1/archive/v0/readflow-r1-editorial-2026-11-17/TEMPLATE-ADOPTION.md",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    },
+    {
+      "kind": "public_lecture_notes",
+      "name": "Advanced calculus I-1: Metric spaces, topological spaces and sequences",
+      "bytes": 11595684,
+      "sha256": "db165d29fbdc9bedf923ff9eb99ce1969521f9805e541f38b8bac608517d309f",
+      "read_scope": "PDF33–37 / printed28–32 only; identity pages additionally checked",
+      "public_url": "https://www.math.nthu.edu.tw/~hjshiu/teaching/tehbooks/book.files/advancedcalculusI-12023.pdf",
+      "access_note": "公開固定入口；實際可讀範圍與身份核對另列"
+    }
+  ]
+}

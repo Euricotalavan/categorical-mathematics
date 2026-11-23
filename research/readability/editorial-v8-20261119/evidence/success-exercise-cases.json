@@ -1,0 +1,191 @@
+{
+  "audit_date": "2026-11-19",
+  "research_baseline_commit": "287d217676ab8119a29bdd83367c33545e5dff3d",
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "publication_scope": "Public case text and fingerprints; do not copy historical PDFs or full-page images into Git by default.",
+  "visual_method": "Render the listed PDF pages at 1.4x with PyMuPDF and inspect all9PNG outputs; text extraction used for lookup, not as a substitute for visual inspection.",
+  "identities": [
+    {
+      "id": "p2_v0",
+      "file_name": "volume-0.pdf",
+      "bytes": 1917650,
+      "sha256": "ac173bc6a2bd1812ab9cf2100597950bf0e524236d3384f6525049dfd8260fa3",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 462
+    },
+    {
+      "id": "p2_v1",
+      "file_name": "volume-1.pdf",
+      "bytes": 669561,
+      "sha256": "60a44b7df6dbed93367269f8cc5092d7670cea109fad506580bc4c88ecfb596c",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 158
+    },
+    {
+      "id": "p3_v0",
+      "file_name": "V0_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 1943359,
+      "sha256": "3682e25a1363ec420dfbd273e99421bd810255357e99deee1a1f29790e7f79ee",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 484
+    },
+    {
+      "id": "p3_v1",
+      "file_name": "V1_ReadFlow_R7_P3_Reading.pdf",
+      "bytes": 678084,
+      "sha256": "4fda902bda98cbcad74f8ce6552cfaf92b575f56f70a9814a428a99f00805224",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 169
+    },
+    {
+      "id": "v8_v0",
+      "file_name": "volume-0.pdf",
+      "bytes": 1906293,
+      "sha256": "4d931401a3bcbec3d7bae6b593c8e7d98d2821ac76c577ea40441f9631f15e85",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 481,
+      "archive_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac"
+    },
+    {
+      "id": "v8_v1",
+      "file_name": "volume-1.pdf",
+      "bytes": 676184,
+      "sha256": "4bc998ed7a28d073247fe863036f875c4af3dec3c391e5e9349da452bd19eb43",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "pages": 174,
+      "archive_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac"
+    },
+    {
+      "id": "v8_direct_images",
+      "file_name": "64-direct-images.tex",
+      "bytes": 8639,
+      "sha256": "75a7d9e2d7b2c211ac936f41b79e04bd1584702e6937c6ebedbedc1128e557e3",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "path_inside_public_zip": "source/V1/editorial_r6/sections/64-direct-images.tex",
+      "archive_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac"
+    },
+    {
+      "id": "v8_category_exercises",
+      "file_name": "01-opening.tex",
+      "bytes": 14475,
+      "sha256": "bffd1834618d86fb415168cc5f5c4dcccefd29eed5ec211602ba6e6369997eb5",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "path_inside_public_zip": "source/V0/editorial_r3/views/v0/sections/01-opening.tex",
+      "archive_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac"
+    },
+    {
+      "id": "v8_category_solutions",
+      "file_name": "01-opening-solutions.tex",
+      "bytes": 1451,
+      "sha256": "cbe07d9d5c25a36dea24d4caf56fe01d77b6d32bd92176ef824940d9253b66ce",
+      "verification": "downloaded local bytes independently hashed in this audit",
+      "path_inside_public_zip": "source/V0/layout/views/v0/solutions/01-opening-solutions.tex",
+      "archive_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac"
+    }
+  ],
+  "cases": [
+    {
+      "id": "V8-SUCCESS-EX23-7",
+      "object": "V1 Exercise 23.7, A commuting square which is too small",
+      "evidence_level": "Actual rendered PDF inspection plus source read; local mathematical sanity check only",
+      "pdf_pages_1_based": {
+        "P2": [
+          99
+        ],
+        "P3": [
+          103,
+          104
+        ],
+        "v8": [
+          108,
+          109
+        ]
+      },
+      "printed_pages": {
+        "P2": [
+          91
+        ],
+        "P3": [
+          94,
+          95
+        ],
+        "v8": [
+          100,
+          101
+        ]
+      },
+      "v8_target_page": 109,
+      "source_id": "v8_direct_images",
+      "source_location": "source/V1/editorial_r6/sections/64-direct-images.tex, label ex:basechange-needs-pullback, following Solution paragraph",
+      "observed_before": "P2 has the statement and solution together. P3 leaves the statement at the end of PDF p103 and moves only its short solution to PDF p104.",
+      "observed_after": "v8 PDF p109 has the complete Exercise23.7 statement immediately followed by its complete solution. The page also contains the preceding Exercise23.6 solution; it is no longer an isolated page containing only the short Exercise23.7 solution.",
+      "local_math_checked": [
+        "For f=b=id on a singleton and m=id_X, f_*m and b^*(f_*m) are whole-singleton subobjects.",
+        "The pullback of id_X along a:empty->X is represented by id_empty; its direct image under f_prime:empty->singleton is empty.",
+        "The two identity maps from a singleton form a compatible pair but cannot factor through empty X_prime.",
+        "The source explicitly retains X=Y=Y_prime={*}, f=b=id, X_prime=empty, the two unique maps, and m=id_X."
+      ],
+      "neighbor_limitation": "v8 Exercise23.6 is stated on p108 and solved on p109. This audit does not claim every exercise/solution pair is kept on one page. The shorter p109 is a chapter-end page, not evidence that every short page is bad or that every continuation is optimal.",
+      "inference": "The observed repair removes a specific need to turn a page solely for this short solution; explicit typed expressions also expose the two sides of the failed base-change equation.",
+      "not_established": [
+        "The isolated causal effect of this repair on the user score",
+        "Whether the user rated this exact page",
+        "A global mathematical final-review result",
+        "A direct P3-to-v8 editing lineage"
+      ]
+    },
+    {
+      "id": "V8-SUCCESS-EX1-3",
+      "object": "V0 Exercise1.3, Associativity still has to be checked",
+      "evidence_level": "Actual rendered PDF inspection plus source read; local table calculation checked",
+      "pdf_pages_1_based": {
+        "P2": [
+          44
+        ],
+        "P3": [
+          50,
+          51
+        ],
+        "v8": [
+          44
+        ]
+      },
+      "printed_pages": {
+        "P2": [
+          32
+        ],
+        "P3": [
+          35,
+          36
+        ],
+        "v8": [
+          32
+        ]
+      },
+      "source_ids": [
+        "v8_category_exercises",
+        "v8_category_solutions"
+      ],
+      "source_location": [
+        "source/V0/editorial_r3/views/v0/sections/01-opening.tex, label exr:bad-table",
+        "source/V0/layout/views/v0/solutions/01-opening-solutions.tex, Exercise1.3"
+      ],
+      "observed_before": "P2 p44 keeps the table and its instructions together. P3 puts the table at the bottom of p50 and the two-line task under a continued heading on p51.",
+      "observed_after": "v8 p44 keeps the full statement, table, row/column convention and requested task together; Exercise1.4 and the first three solutions also fit on this page. Exercise1.3 solution is on the same page as its table.",
+      "wording_before": "Use the same row/column convention as Example 1.13.",
+      "wording_after": "The entry in row g, column f is g∘f.",
+      "local_math_checked": [
+        "The displayed table entries agree across the inspected versions.",
+        "The e row and e column supply both identity laws.",
+        "(a∘a)∘b=b∘b=e, whereas a∘(a∘b)=a∘e=a; the solution explicitly distinguishes e and a."
+      ],
+      "inference": "The table and the rule for reading it are available at the point of use; the local reminder can reduce avoidable lookup without removing the exercise task.",
+      "not_established": [
+        "The isolated causal effect of the local reminder or pagination on rating",
+        "Whether this exact page received a score of85 or93",
+        "That all exercise pages should be sparse",
+        "Equivalence between the preserved editorial-v4 calibration chapter and historical S2.1"
+      ]
+    }
+  ]
+}

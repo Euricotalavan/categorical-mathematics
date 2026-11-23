@@ -8,13 +8,19 @@ The owner has formally adopted **ReadFlow R1, as implemented in the V0 R1 source
 
 Template adoption is separate from textbook acceptance: V0 remains pending its independent strict mathematical final review, and all OPEN/UNKNOWN items remain unchanged.
 
-## Current V0–V2 editorial candidate
+## Latest volume editions
 
-**ReadFlow editorial v8 — Chapters 0–51:** [three-volume reading and print PDFs, buildable LaTeX, and checksums](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md), 2026-11-19. Each volume also has an archive index: [V0](archive/v0/readflow-editorial-v8-2026-11-19/README.md), [V1](archive/v1/readflow-editorial-v8-2026-11-19/README.md), and [V2](archive/v2/readflow-editorial-v8-2026-11-19/README.md). Independent mathematical final review is pending.
+| Volume | Chapters | Edition status | Files |
+| --- | ---: | --- | --- |
+| V0 · Language and given constructions | 0–9 | ReadFlow editorial v8 | [Reading PDF, 481 pages](archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-0.pdf) · [Volume index](archive/v0/readflow-editorial-v8-2026-11-19/README.md) |
+| V1 · Conditional categorical foundations | 10–28 | ReadFlow editorial v8 | [Reading PDF, 174 pages](archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-1.pdf) · [Volume index](archive/v1/readflow-editorial-v8-2026-11-19/README.md) |
+| V2 · Arithmetic and number systems | 29–51 | ReadFlow editorial v8 | [Reading PDF, 231 pages](archive/v0-v2/readflow-editorial-v8-2026-11-19/reading/volume-2.pdf) · [Volume index](archive/v2/readflow-editorial-v8-2026-11-19/README.md) |
+| V3 · Linear Algebra | 52–70 | B-07 repair candidate | [Reading PDF, 507 pages](archive/v3/b07-repair-candidate-2026-11-20/V3-B07-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v3/b07-repair-candidate-2026-11-20/README.md) |
+| V4 · Category Theory Continued | 71–84, provisional | B-08 published edition with completed mathematical review | [Reading PDF, 539 pages](archive/v4/b08-audited-2026-11-23/V4-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v4/b08-audited-2026-11-23/README.md) |
 
-## Published Volume 4
+The [V0–V2 edition index](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md) contains print PDFs, shared buildable LaTeX, and checksums. V0–V3 retain their candidate status and pending independent whole-volume review. V4's chapter numbering awaits the final numbering of V3.
 
-**V4 — Category Theory Continued:** [B-08 reading PDF, buildable LaTeX, and checksums](archive/v4/b08-audited-2026-11-23/README.md), 2026-11-23. The 539-page edition passed the whole-volume mathematical review. Chapters 71–84 are provisional pending the final numbering of Volume 3.
+[Editorial research and historical records](research/readability/README.md) include the v8 retrospective and ReadFlow QA studies. The research proposals retain the status recorded in their individual reports.
 
 ## Previous V0 editorial candidate
 

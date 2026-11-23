@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "observation_scope": "Two targeted footer crops inspected independently; not all 886 pages.",
+  "observations": [
+    {
+      "id": "V8-ENGINEERING-FOOTER-V0",
+      "status": "OPEN",
+      "volume": "V0",
+      "physical_pdf_page_1based": 274,
+      "printed_page": 262,
+      "section_or_unit": "Solution to Exercise 5.17",
+      "pdf_sha256": "4d931401a3bcbec3d7bae6b593c8e7d98d2821ac76c577ea40441f9631f15e85",
+      "visually_confirmed": "The final body text line and the left footer are visibly superimposed. For V0, the body also reaches the printed page number region. This is an actual layout defect, not merely a high-character warning.",
+      "line_geometry": [
+        {
+          "bbox_pdf_points": [
+            76.53497314453125,
+            700.1768798828125,
+            446.77191162109375,
+            710.6105346679688
+          ],
+          "text": "of arrows 𝑋→𝐵in 𝒞. Since 𝑢is monic, ℎ= 𝑘there, and hence in the completion.",
+          "fonts": [
+            "Asana-Math",
+            "TeXGyrePagellaX-Regular"
+          ]
+        },
+        {
+          "bbox_pdf_points": [
+            76.53500366210938,
+            702.5519409179688,
+            219.2363739013672,
+            713.9500122070312
+          ],
+          "text": "V0 / ReadFlow R1 / Editorial notation",
+          "fonts": [
+            "NotoSans-Regular"
+          ]
+        },
+        {
+          "bbox_pdf_points": [
+            443.3269958496094,
+            699.836181640625,
+            462.0469665527344,
+            714.6943359375
+          ],
+          "text": "262",
+          "fonts": [
+            "NotoSans-Bold"
+          ]
+        }
+      ],
+      "source_path_in_zip": "source/V0/editorial_r6/views/v0/breadth/b48-idempotent-completion.tex",
+      "source_lines_inclusive": [
+        379,
+        390
+      ],
+      "source_sha256": "41ee7c4253a6736500f2b84ca78d504859af789ccb25e8d9f1dfddb34b664417",
+      "source_excerpt": "% RFV0-003: give the last full solution sufficient space before chapter break. Layout only.\n\\enlargethispage{3\\baselineskip}\n\\noindent\\textbf{Solution to Exercise~\\ref{ex:breadth-karoubi-monic-inclusion}.}\nAssume $u$ is monic in $\\mathcal C$.  For any object\n$(X,e)$ of the completion, let\n$h,k:(X,e)\\to J(A)$ satisfy $J(u)\\circ h=J(u)\\circ k$.\nThe equality is an equality $u h=u k$ of arrows\n$X\\to B$ in $\\mathcal C$.  Since $u$ is monic,\n$h=k$ there, and hence in the completion.\n\nThis proves\n$J(u)$ monic using every new test object $(X,e)$.\n",
+      "nearby_control": "\\enlargethispage{3\\baselineskip}",
+      "attribution": "Source contains this positive enlargement immediately before the affected solution, and source text maps to the displayed PDF page. No isolated removal/rebuild was performed; this does not establish sole causality.",
+      "image_path_relative_to_analysis": "root-renders/v8-V0-p274-footer.png",
+      "image_sha256": "526204fd51cc6617a0a4c3f5ba504236dfbf97f2856e42368fd147419805c906",
+      "responsible_role": "行文排版官；若後續授權修正，固定修正版仍循原流程回打厚複核",
+      "blocks_research_publication": false,
+      "manuscript_changed": false,
+      "next_step": "記入交接。僅在後續取得修稿授權時，核頁面可用高度及局部擴頁，並重看受影響前後頁；本輪不啟動修稿。"
+    },
+    {
+      "id": "V8-ENGINEERING-FOOTER-V2",
+      "status": "OPEN",
+      "volume": "V2",
+      "physical_pdf_page_1based": 175,
+      "printed_page": 166,
+      "section_or_unit": "Solution to the negative-fraction bound exercise",
+      "pdf_sha256": "ad29b6392b95938ff9f471c05a6f53332f4afda1761d4c43818a6166dbb59537",
+      "visually_confirmed": "The final body text line and the left footer are visibly superimposed. For V0, the body also reaches the printed page number region. This is an actual layout defect, not merely a high-character warning.",
+      "line_geometry": [
+        {
+          "bbox_pdf_points": [
+            76.53500366210938,
+            701.8318481445312,
+            165.00843811035156,
+            712.1929321289062
+          ],
+          "text": "each point is made.",
+          "fonts": [
+            "TeXGyrePagellaX-Regular"
+          ]
+        },
+        {
+          "bbox_pdf_points": [
+            76.53500366210938,
+            702.5519409179688,
+            219.2363739013672,
+            713.9500122070312
+          ],
+          "text": "V2 / ReadFlow R1 / Editorial notation",
+          "fonts": [
+            "NotoSans-Regular"
+          ]
+        },
+        {
+          "bbox_pdf_points": [
+            443.3269958496094,
+            699.836181640625,
+            462.0469665527344,
+            714.6943359375
+          ],
+          "text": "166",
+          "fonts": [
+            "NotoSans-Bold"
+          ]
+        }
+      ],
+      "source_path_in_zip": "source/V2/editorial_r6/sections/118-order-and-bounds-for-fractions.tex",
+      "source_lines_inclusive": [
+        174,
+        185
+      ],
+      "source_sha256": "a6629ddad58055ddba4891685390f930995d78344658817cb8cbb33ee29c3a9e",
+      "source_excerpt": "% ReadFlow R1 localized pagination: keep the final exercise solution with its preceding page.\n\\enlargethispage{3\\baselineskip}\n\\paragraph{Solution.}\nThe numerator magnitude is two, giving\n$-2\\leq_F-2/5\\leq_F2$ and strict bounds\n$-3<_F-2/5<_F3$.\nFor a family the canonical numerator is the existing\nprojection $a:F\\to Z$, so $|a|$ and $s|a|$ are\ncomposites of supplied arrows. The proved inequalities\nhold on $F$ itself and restrict by any map into it.\nNo independent choice of a numerical bound at each\npoint is made.\n",
+      "nearby_control": "\\enlargethispage{3\\baselineskip}",
+      "attribution": "Source contains this positive enlargement immediately before the affected solution, and source text maps to the displayed PDF page. No isolated removal/rebuild was performed; this does not establish sole causality.",
+      "image_path_relative_to_analysis": "root-renders/v8-V2-p175-footer.png",
+      "image_sha256": "1d02b928777c1f8722d43181dbc3de4a44e8e29a9bd06b2f878a24c75db16e0c",
+      "responsible_role": "行文排版官；若後續授權修正，固定修正版仍循原流程回打厚複核",
+      "blocks_research_publication": false,
+      "manuscript_changed": false,
+      "next_step": "記入交接。僅在後續取得修稿授權時，核頁面可用高度及局部擴頁，並重看受影響前後頁；本輪不啟動修稿。"
+    }
+  ],
+  "interpretation": "Overall reader satisfaction and these localized engineering defects can both be true. Do not reinterpret the human 85–93 range as per-page inspected approval, mathematical validation, or proof of flawless pagination."
+}

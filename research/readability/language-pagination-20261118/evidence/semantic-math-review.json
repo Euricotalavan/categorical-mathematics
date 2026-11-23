@@ -1,0 +1,862 @@
+{
+  "reviewed_at_utc": "2026-11-18T12:53:58.163074+00:00",
+  "reviewer": "symbolic_language research sub-agent",
+  "scope": "T1–T8 isolated research prototypes B/S/F/C with their fixed shared contexts",
+  "method": {
+    "C_and_context_first": true,
+    "baseline_and_all_variant_diffs_second": true,
+    "cases_json_author_reason_read": false,
+    "human_reader_test": false,
+    "different_model_verified": false,
+    "full_project_blindness": false,
+    "prior_history_exposure": "Some mathematical examples and earlier study outcomes were present in inherited project history.",
+    "formal_thickener_final_review": false,
+    "readability_score_produced": false,
+    "PDF_full_visual_read": false
+  },
+  "overall_result": "No unresolved mathematical obligation loss found in the reviewed strategy changes after the two shared prerequisite amendments; this conclusion is conditional on the stated contexts and does not establish reading benefit.",
+  "findings": [
+    {
+      "id": "T7-MATH-01",
+      "severity": "mathematical_condition_gap",
+      "variants": [
+        "B",
+        "S",
+        "F",
+        "C"
+      ],
+      "location": "T7 first problem, source line 3 before amendment",
+      "before_span": "Let A={0,1} and B={u,v,w}. ... Explain why none is surjective.",
+      "issue": "Neither original problem nor T7 context explicitly required three distinct labels.",
+      "counterexample": "u=v=w gives a singleton codomain; its unique map from {0,1} is surjective.",
+      "minimum_fix": "Add Here u,v,w are distinct to the first problem in every variant.",
+      "status": "RESOLVED_AND_RECHECKED",
+      "common_amendment_not_strategy_effect": true,
+      "before_C_sha256": "725e5ce5524443a78e5ba24caf3bae15515d7799ba2c3ccfcb507f2a72f24ec7",
+      "after_C_sha256": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+      "recheck": "All four files contain the same distinctness condition and have equal body hashes. Under that condition enumeration gives 9 maps, 6 injections, 0 surjections."
+    },
+    {
+      "id": "T2-CTX-01",
+      "severity": "excerpt_context_scope_ambiguity",
+      "variants": [
+        "B",
+        "S",
+        "F",
+        "C"
+      ],
+      "location": "T2 numerical example: B line 122 / C line 127 before amendment; shared context",
+      "before_span": "Assuming these carriers have been supplied",
+      "issue": "Supplied finite sets are not automatically members of a previously fixed family K.",
+      "counterexample": "A supplied family containing only one singleton has none of the example two-element carriers as objects. The numerical table multiplication still exists externally but is not an example in that fixed Stoch(K).",
+      "minimum_fix": "State in shared context that the numerical example assumes X,Y,Z in K.",
+      "status": "RESOLVED_AND_RECHECKED",
+      "common_amendment_not_strategy_effect": true,
+      "before_context_sha256": "faab65a0e4cd085bc04ad749c3ca2e735927f8eea857e37e3923e19a7e035716",
+      "after_context_sha256": "5c64f8a30c315aa3f75a2e612a7897e160dea25318e98903b098f003213acd71",
+      "recheck": "Shared context now explicitly assumes X,Y,Z in K; historical body remains unchanged."
+    }
+  ],
+  "cases": [
+    {
+      "case": "T1",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T1-01",
+          "obligation": "Specified domain and codomain are part of map data",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T1-02",
+          "obligation": "Exactly one output for every domain element",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T1-03",
+          "obligation": "Equality requires same endpoints and all values",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T1-04",
+          "obligation": "Repeated outputs and unused codomain elements are allowed",
+          "evidence_anchor": "first example",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T1-05",
+          "obligation": "Corestriction has different codomain and is a different map under the stated convention",
+          "evidence_anchor": "second example",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T1-06",
+          "obligation": "Distinct sample labels justify B != B-prime",
+          "evidence_anchor": "context",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "identical",
+        "F": "identical",
+        "C": "identical",
+        "note": "KEEP negative control."
+      },
+      "source_hashes": {
+        "context.tex": "d6604395c5cb4c37e7fb15ca0fb0b04ab36a3d36ff9cc4852b22a7505d85c1d8",
+        "B.tex": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+        "S.tex": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+        "F.tex": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5",
+        "C.tex": "1d13239849db8562c33664f4a3ddb7fd605f0c3aede685fb0a69b4a8321dbed5"
+      }
+    },
+    {
+      "case": "T2",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T2-01",
+          "obligation": "Objects are supplied nonempty finite ordinary sets, and all valid tables between them are considered",
+          "evidence_anchor": "opening scope and proposition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-02",
+          "obligation": "External nonnegative rational arithmetic and finite sums; no internal rational construction asserted",
+          "evidence_anchor": "opening scope and context",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-03",
+          "obligation": "Example carriers X,Y,Z belong to the selected K",
+          "evidence_anchor": "amended shared context",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-04",
+          "obligation": "Typed arrow equality is entrywise for all input/output indices",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-05",
+          "obligation": "Composite entries remain nonnegative rational and each column sums to one",
+          "evidence_anchor": "closure proof",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-06",
+          "obligation": "Identity table is stochastic and satisfies both unit laws",
+          "evidence_anchor": "identity proof",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-07",
+          "obligation": "Both bracketings reduce to the same finite double sum",
+          "evidence_anchor": "associativity proof",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T2-08",
+          "obligation": "Numerical composite entries and column normalization are correct",
+          "evidence_anchor": "example and exact calculation",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "Arrow equality expressed with iff and universal input/output quantifiers; endpoints retained.",
+        "F": "Summary removed after all three category-law parts; no proof part removed.",
+        "C": "Union of S and F edits.",
+        "note": "All-table external model and amended example membership context required."
+      },
+      "source_hashes": {
+        "context.tex": "5c64f8a30c315aa3f75a2e612a7897e160dea25318e98903b098f003213acd71",
+        "B.tex": "ce1bc7611d9edbba7f44620a49a546686d9ad1e905ef64e4d1fe5bfe0e448be3",
+        "S.tex": "f423903aea8749421292f425ed2cc05546a15527fdcb24cf3ea4c941ae077266",
+        "F.tex": "187faba21f5383a4d6fc09818f75f27884bab026f060cbdf724b18ab7c1300c9",
+        "C.tex": "1ca90e74d10f4b38a2f6afe493130809fde3d8ff445133c232c844e8721c98da"
+      }
+    },
+    {
+      "case": "T3",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T3-01",
+          "obligation": "Products, evaluations, transpose uniqueness and comparison theorem supplied as prerequisites",
+          "evidence_anchor": "context",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-02",
+          "obligation": "v has source D x A and target B x C",
+          "evidence_anchor": "definition of v",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-03",
+          "obligation": "u_B and u_C exist as typed transposes for arbitrary X,f",
+          "evidence_anchor": "candidate construction",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-04",
+          "obligation": "Both output components satisfy evaluation equations",
+          "evidence_anchor": "candidate equation/prose",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-05",
+          "obligation": "Product uniqueness yields v(u x id)=f",
+          "evidence_anchor": "first uniqueness step",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-06",
+          "obligation": "Transpose uniqueness identifies the two components of any w",
+          "evidence_anchor": "second uniqueness step",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-07",
+          "obligation": "Product uniqueness into D identifies w=u without assuming a projection monic",
+          "evidence_anchor": "end of universal-property proof",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T3-08",
+          "obligation": "Comparison gives isomorphism, identified components and both inverse equations",
+          "evidence_anchor": "last proof paragraph plus supplied theorem",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "Output-component prose replaced by two typed equations.",
+        "F": "Universal-property completion summary removed after construction/uniqueness.",
+        "C": "Union of S and F.",
+        "note": "Prior comparison theorem genuinely needed; formal summary deletion is not measured pedagogical improvement."
+      },
+      "source_hashes": {
+        "context.tex": "d68b484273fc9bbecaaedd0c978b7944de783f23dfaecf624abb1f9595003993",
+        "B.tex": "e8582bb8da371c9444d0ee896e447c8379ba215ae00a768191026e104a18f0c1",
+        "S.tex": "22c3a98a2824b3fbde24d443d0ee74cc6a483652253e1927113af3d9a14bba7c",
+        "F.tex": "e717afa27c11819422929c75495d0cb9c892236177ea7fb74b39ba052288af4e",
+        "C.tex": "38afd13526904f60fa4f4b82c612ded27000667e4fb0854d8ebcf37996cf0865"
+      }
+    },
+    {
+      "case": "T4",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T4-01",
+          "obligation": "Functor object/arrow typing",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T4-02",
+          "obligation": "Preservation of identities and composable-arrow composition",
+          "evidence_anchor": "displayed functor laws",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T4-03",
+          "obligation": "Natural-transformation component typing for every object",
+          "evidence_anchor": "definition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T4-04",
+          "obligation": "Naturality equation type F(A)->G(B) and composition direction",
+          "evidence_anchor": "equation and diagram",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T4-05",
+          "obligation": "One-arrow category requires one nonidentity square, identity squares automatic",
+          "evidence_anchor": "first recognition example",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T4-06",
+          "obligation": "Discrete two-object category imposes no nonidentity naturality equations",
+          "evidence_anchor": "second recognition example",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "Sequential verbal routes replaced by formula introduction; naturality formula retained.",
+        "F": "Post-diagram restatement removed.",
+        "C": "Union of S and F.",
+        "note": "Commutative-square decoding is explicitly in prerequisites."
+      },
+      "source_hashes": {
+        "context.tex": "836dcc0ec698813eca5f9c8d9cb833b4967e8ecb782d1acbbea3e6885c39a73f",
+        "B.tex": "bec5218131ee01c6d0a980ae0102fccb882d123a13619a78371023dccceb6f62",
+        "S.tex": "7ca82a5d9c222b8a4637778b4b05a83b756f6f3a9cf06db020095e7f839de9f1",
+        "F.tex": "0ff50697cb2a92e8b106577f05d442a30befbb6a4f34218cd4a03de8521d0a53",
+        "C.tex": "18a9057ce4dafbc309e65b1a74b285b2d3081d96e9ed27fc5b5b90297625bc09"
+      }
+    },
+    {
+      "case": "T5",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T5-01",
+          "obligation": "T linear on P2(R) and correct ordered basis convention",
+          "evidence_anchor": "context and first paragraph",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-02",
+          "obligation": "Basis images yield the displayed upper triangular matrix",
+          "evidence_anchor": "basis calculation",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-03",
+          "obligation": "Only eigenvalue 1 by the supplied triangular theorem",
+          "evidence_anchor": "eigenvalue paragraph",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-04",
+          "obligation": "Eigenspace equals constants, dimension one",
+          "evidence_anchor": "eigenspace equation and supplied zero-derivative fact",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-05",
+          "obligation": "No three-dimensional eigenbasis, hence not diagonalizable",
+          "evidence_anchor": "dimension comparison",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-06",
+          "obligation": "D^3=0 and both products with I-D+D^2 are identities",
+          "evidence_anchor": "inverse calculation",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-07",
+          "obligation": "General preimage coefficient formula and substitution",
+          "evidence_anchor": "last calculation",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T5-08",
+          "obligation": "Uniqueness follows from the actual two-sided inverse",
+          "evidence_anchor": "concluding inverse-image statement",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "Eigenspace dimension comparison uses dim notation; eigenbasis reasoning retained.",
+        "F": "Both-inverse verbal summary shortened after both equations.",
+        "C": "Union of S and F.",
+        "note": "Inverse-map definition and triangular theorem supplied."
+      },
+      "source_hashes": {
+        "context.tex": "25f3ea71b7816a8c18602d9b780429c8c25ee1ed7bc6052fdf9a36c83d8733f9",
+        "B.tex": "4b0e6e32020b22298d41f885a8e1226d34b6a06c5db3e5f84f28087c0b4bcf5f",
+        "S.tex": "a62185e642fb54faa2ee6f11ef9df4091ff5c4a1d574e2c1b5b6ff196b428d7f",
+        "F.tex": "456d1ab46e086baaf1472517c845f1b8f875ae64a4d50b9c6837ed8d9ebf9282",
+        "C.tex": "525e5e5ea88ee7f74bd7818639f7e8f6fa77d1c8d71dbd8bb16508cc1d0d2ce9"
+      }
+    },
+    {
+      "case": "T6",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T6-01",
+          "obligation": "Uniform convergence supplies one N valid for every x",
+          "evidence_anchor": "context and first displayed inequality",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-02",
+          "obligation": "N chosen before delta, keeping f_N fixed",
+          "evidence_anchor": "explicit purpose sentence",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-03",
+          "obligation": "Delta uses continuity of f_N at x0",
+          "evidence_anchor": "continuity inequality",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-04",
+          "obligation": "All three triangle terms below epsilon/3 under their respective assumptions",
+          "evidence_anchor": "triangle estimate",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-05",
+          "obligation": "Arbitrary x0 yields continuity including relative endpoints",
+          "evidence_anchor": "context and proof conclusion",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-06",
+          "obligation": "x^n pointwise limit and discontinuity at 1 correctly identified",
+          "evidence_anchor": "counterexample",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T6-07",
+          "obligation": "Pointwise convergence lacks common N as x varies",
+          "evidence_anchor": "explanation after counterexample",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "For every x replaced by familiar universal-quantifier notation.",
+        "F": "identical",
+        "C": "Same change as S.",
+        "note": "Purpose/dependency sentences retained."
+      },
+      "source_hashes": {
+        "context.tex": "70ca455e1d8fee6ba7d8c9c6c415def2c80d76a967be220e9bf8d3a93519b219",
+        "B.tex": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe",
+        "S.tex": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441",
+        "F.tex": "89c3a3cd090494a38a5dc171ba189103fd2235f28ed87ed756e37b89f141c5fe",
+        "C.tex": "b573f1a8708b8fd845b1916a67e33098af79762ff63c9aaedd69fd6707d62441"
+      }
+    },
+    {
+      "case": "T7",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T7-01",
+          "obligation": "Problem 1 has three distinct codomain labels and true no-surjection requirement",
+          "evidence_anchor": "amended first problem",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-02",
+          "obligation": "Injective composite implication and counterexample requested are valid",
+          "evidence_anchor": "problem 2",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-03",
+          "obligation": "Surjective composite implication and counterexample requested are valid",
+          "evidence_anchor": "problem 3",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-04",
+          "obligation": "Successor on residue classes is well-defined and invertible",
+          "evidence_anchor": "problem 4",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-05",
+          "obligation": "Reduction to mod 2 has exact condition 2 divides n",
+          "evidence_anchor": "problem 5",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-06",
+          "obligation": "Reduction mod n to mod m has exact condition m divides n",
+          "evidence_anchor": "problem 6",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-07",
+          "obligation": "Two noncommuting maps on two-element X exist",
+          "evidence_anchor": "problem 7",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-08",
+          "obligation": "Typed left/right inverse comparison gives l=r",
+          "evidence_anchor": "problem 8",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T7-09",
+          "obligation": "Equality with corestriction requires B=B-prime under explicit convention",
+          "evidence_anchor": "problem 9",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "identical",
+        "F": "identical",
+        "C": "identical",
+        "note": "Common distinctness fix across all variants is not a strategy effect."
+      },
+      "source_hashes": {
+        "context.tex": "6ce70a3dccb550f0ac2f1c7573e5a711838ed3a7cc448c0d448b09c61f622dda",
+        "B.tex": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+        "S.tex": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+        "F.tex": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3",
+        "C.tex": "e79684d537a2a767a58e175817a0271f27e86db14e01cf10416225c0d574a2e3"
+      }
+    },
+    {
+      "case": "T8",
+      "status": "CHECKED_WITH_STATED_PREREQUISITES",
+      "obligations": [
+        {
+          "id": "T8-01",
+          "obligation": "m,n positive and representative independence is required",
+          "evidence_anchor": "problem and opening condition",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T8-02",
+          "obligation": "Necessary direction uses representatives n and 0 to prove m divides n",
+          "evidence_anchor": "first direction",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T8-03",
+          "obligation": "Sufficient direction retains integers k,t and a-b=mkt",
+          "evidence_anchor": "second direction",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T8-04",
+          "obligation": "Every class has a representative, output unique by the independence proof",
+          "evidence_anchor": "end of sufficient direction",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        },
+        {
+          "id": "T8-05",
+          "obligation": "Positive 6-to-2 and negative 3-to-2 examples correct",
+          "evidence_anchor": "closing examples",
+          "coverage": {
+            "B": "PRESENT_OR_VALIDLY_DERIVED",
+            "S": "PRESENT_OR_VALIDLY_DERIVED",
+            "F": "PRESENT_OR_VALIDLY_DERIVED",
+            "C": "PRESENT_OR_VALIDLY_DERIVED"
+          }
+        }
+      ],
+      "variant_changes": {
+        "S": "Finite divisibility substitution displayed as equality and implication, integer witnesses retained.",
+        "F": "identical",
+        "C": "Same change as S.",
+        "note": "Both directions, totality and representative independence remain."
+      },
+      "source_hashes": {
+        "context.tex": "19f18c7e2dbb1f9b26ff117aba780c0fd5097000dd488cd0b6217a3209d34d71",
+        "B.tex": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff",
+        "S.tex": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6",
+        "F.tex": "75324f3aace3cabd145c3fd3c9bb2ff386af4248546a3253d032af297f8b76ff",
+        "C.tex": "f3322ba134e4b9f9251e6dc8371d40a817f1bd2a69f19e118d0a20d3d8419fd6"
+      }
+    }
+  ],
+  "verification_artifacts": [
+    "qa/semantic_math_first_pass.json",
+    "qa/candidate_context/",
+    "qa/semantic_review_input_final_manifest.json",
+    "qa/semantic_review_input_final/",
+    "qa/semantic_math_calculations.json",
+    "qa/semantic_amendments.json"
+  ],
+  "unresolved_design_questions": [
+    "Whether actual readers have the stated notation/prerequisite fluency.",
+    "Whether summary deletion improves reading or removes a useful proof-end integration cue.",
+    "Whether symbolized displays alter page flow or increase visual decoding effort.",
+    "Whether I really uses identical C mathematical body: not checked by this review; needs source/engineering pairing."
+  ],
+  "not_authorized_by_review": [
+    "Formal manuscript changes",
+    "Official template changes",
+    "A/B workflow changes",
+    "GitHub writes",
+    "Adoption or 90+ reading-quality claims"
+  ]
+}

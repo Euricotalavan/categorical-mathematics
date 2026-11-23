@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "book_commit": "60fe8d1910c06c309958edb9efcd20d63cbb08ac",
+  "retrospective_commit": "287d217676ab8119a29bdd83367c33545e5dff3d",
+  "case_basis": "direct fixed PDF/source comparisons; human response applies to v8 edition, not to individual cases",
+  "pdf_identities": {
+    "P2_V0": {
+      "bytes": 1917650,
+      "sha256": "ac173bc6a2bd1812ab9cf2100597950bf0e524236d3384f6525049dfd8260fa3",
+      "pages": 462
+    },
+    "P2_V1": {
+      "bytes": 669561,
+      "sha256": "60a44b7df6dbed93367269f8cc5092d7670cea109fad506580bc4c88ecfb596c",
+      "pages": 158
+    },
+    "P2_V2": {
+      "bytes": 885901,
+      "sha256": "e9142336256daca9b347e2df7fa2cf4b0f7432e9693ef350ab93e9714ea171f1",
+      "pages": 221
+    },
+    "v8_V0": {
+      "bytes": 1906293,
+      "sha256": "4d931401a3bcbec3d7bae6b593c8e7d98d2821ac76c577ea40441f9631f15e85",
+      "pages": 481
+    },
+    "v8_V1": {
+      "bytes": 676184,
+      "sha256": "4bc998ed7a28d073247fe863036f875c4af3dec3c391e5e9349da452bd19eb43",
+      "pages": 174
+    },
+    "v8_V2": {
+      "bytes": 900904,
+      "sha256": "ad29b6392b95938ff9f471c05a6f53332f4afda1761d4c43818a6166dbb59537",
+      "pages": 231
+    }
+  },
+  "cases": [
+    {
+      "id": "V8-C1",
+      "title": "沿用已定義的構造，保留量詞依賴與相容性",
+      "volume": "V1",
+      "comparison": "P2 fixed scoring artifact vs published v8; P2 is not asserted to be v8 direct editing parent",
+      "source_path_in_packages": "manuscript/sections/44-existence-interface.tex",
+      "before": {
+        "version": "P2",
+        "lines_inclusive": [
+          6,
+          60
+        ],
+        "source_identity": {
+          "bytes": 8011,
+          "sha256": "7f894b5e1e7c7936b87f185d79599ba34c667d446bc721437eba1bacfef1a905"
+        },
+        "excerpt": "Fix a category $\\C$. The category laws, equality rules and arrow conventions\nare those of Volume 0, Chapter~1. In this chapter, quantifiers over objects and typed\narrows have their stated categorical ranges; writing them does not assert\nthat those ranges form sets.\n\nFor example, to say that $(P,p,q)$ is a product of $A,B$ is to give the types\n$p:P\\to A$, $q:P\\to B$ and require\n\\[\n\\begin{gathered}\n\\text{for every object }X\\text{ and all }\n\\alpha:X\\to A,\\ \\beta:X\\to B,\\\\\n\\text{there is exactly one }u:X\\to P\n\\text{ with }p\\circ u=\\alpha,\\quad q\\circ u=\\beta.\n\\end{gathered}\n\\]\nThis property does not assert that the displayed data exist. Having binary\nproducts adds an outer existence claim for every pair of objects.\n\n\\begin{definition}[Four existence requirements]\n\\label{def:existence-requirements}\nFor a fixed category $\\C$, consider the following assertions.\n\\begin{enumerate}[label=\\textup{(\\Alph*)},leftmargin=2.2em]\n\\item[\\textup{(T)}] There exists an object $T$ such that, for every object $X$,\nthere is exactly one arrow $X\\to T$.\n\\item[\\textup{(P)}] For every pair of objects $A,B$, there exist an object $P$\nand arrows $p:P\\to A$, $q:P\\to B$ such that, for every object $X$ and all\n$\\alpha:X\\to A$, $\\beta:X\\to B$, there is exactly one $u:X\\to P$ with\n$p\\circ u=\\alpha$ and $q\\circ u=\\beta$.\n\\item[\\textup{(E)}] For every pair of objects $A,B$ and arrows $f,g:A\\to B$,\nthere exist an object $E$ and an arrow $e:E\\to A$ such that\n$f\\circ e=g\\circ e$, and, for every object $X$ and every $h:X\\to A$\nsatisfying $f\\circ h=g\\circ h$, there is exactly one $u:X\\to E$\nwith $e\\circ u=h$.\n\\item[\\textup{(B)}] For every three objects $A,B,C$ and arrows\n$f:A\\to C$, $g:B\\to C$, there exist an object $Q$ and arrows\n$r:Q\\to A$, $s:Q\\to B$ such that $f\\circ r=g\\circ s$, and,\nfor every object $X$ and every pair $\\alpha:X\\to A$, $\\beta:X\\to B$\nsatisfying $f\\circ\\alpha=g\\circ\\beta$, there is exactly one $u:X\\to Q$\nwith $r\\circ u=\\alpha$ and $s\\circ u=\\beta$.\n\\end{enumerate}\nThese say, respectively, that $\\C$ has a terminal object, binary products,\nequalizers of all parallel pairs, and pullbacks of all pairs with a common\ntarget. They are assertions to be tested or assumed explicitly, not additional\naxioms adopted by introducing this notation.\n\\end{definition}\n\nRead (P) from outside inward: fix the two target objects, obtain one\nproduct triple, and only then test it against arbitrary sources and\ncomponents.\nThe order of quantifiers matters. In (P), the product data may depend on\n$A,B$, but must work for \\emph{every} test $X,\\alpha,\\beta$. Choosing a\ndifferent candidate product for each test would not prove (P).\nFor (E) and (B), only compatible tests require factors. A construction\ndoes not have to factor an ineligible test, and it does not supply test\narrows that have never been given.\n",
+        "pdf_pages": [
+          9,
+          10
+        ]
+      },
+      "after": {
+        "version": "v8",
+        "lines_inclusive": [
+          8,
+          46
+        ],
+        "source_identity": {
+          "bytes": 5871,
+          "sha256": "e851115ccc8e8076ee22ecc67975915d2968abde771b00aa8a47b65bba36060c"
+        },
+        "excerpt": "Fix $\\C$ as in Volume~0, Definition~\\ref{def:category}.\nFor $A,B,P\\in\\operatorname{Ob}(\\C)$ and $p:P\\to A$, $q:P\\to B$,\nthe product property is\n\\begin{equation*}\n\\begin{aligned}\n &\\forall X\\in\\operatorname{Ob}(\\C)\\quad\n   \\forall\\alpha\\in\\operatorname{Hom}_{\\C}(X,A)\\quad\n   \\forall\\beta\\in\\operatorname{Hom}_{\\C}(X,B)\\\\\n &\\qquad \\exists!\\,u\\in\\operatorname{Hom}_{\\C}(X,P)\n   \\quad(p\\circ u=\\alpha\\ \\land\\ q\\circ u=\\beta).\n\\end{aligned}\n\\end{equation*}\nCondition (P) puts \\(\\forall A,B\\;\\exists(P,p,q)\\) before this test.\n\n\\begin{definition}[Four existence requirements]\n\\label{def:existence-requirements}\nUse the constructions from Volume~0, with $A,B,C\\in\\operatorname{Ob}(\\C)$\nin the formulas below.\n\\begin{equation*}\n\\begin{aligned}\n (\\mathrm T)\\quad &\\exists T\\in\\operatorname{Ob}(\\C)\\quad\n   \\forall X\\in\\operatorname{Ob}(\\C)\\quad\n   \\exists!\\,u\\in\\operatorname{Hom}_{\\C}(X,T).\\\\\n (\\mathrm P)\\quad &\\forall A,B\\quad\n   \\exists(P,p,q)\\ \\text{a product of }A,B.\\\\\n (\\mathrm E)\\quad &\\forall A,B\\quad \\forall f,g\\in\\operatorname{Hom}_{\\C}(A,B)\n   \\quad \\exists(E,e)\\ \\text{an equalizer of }f,g.\\\\\n (\\mathrm B)\\quad &\\forall A,B,C\\quad\n   \\forall f\\in\\operatorname{Hom}_{\\C}(A,C)\\quad\n   \\forall g\\in\\operatorname{Hom}_{\\C}(B,C)\\\\\n &\\qquad\\exists(Q,r,s)\\ \\text{a pullback of }f,g.\n\\end{aligned}\n\\end{equation*}\n\\end{definition}\n\nIn (P), $(P,p,q)$ may depend on $A,B$. It is fixed before\n$X,\\alpha,\\beta$ are chosen. In (E) and (B), the defining implication\nrestricts factorization to compatible tests (Volume~0,\nDefinitions~\\ref{def:equalizer} and~\\ref{def:pullback}).\n",
+        "pdf_pages": [
+          9
+        ]
+      },
+      "local_mathematical_obligations_reviewed": [
+        "固定類別及物件/箭頭範圍",
+        "終物件、積、等化子、拉回四種存在斷言",
+        "P 的見證先於測試來源與分量固定",
+        "等化子及拉回只對相容測試要求唯一因子",
+        "存在斷言不同於同時指定所有見證",
+        "Ob/Hom 在本書只是量詞範圍，不暗加集合大小假設"
+      ],
+      "review_status": "local condition and reasoning check, not whole-volume mathematical final review",
+      "diff_file": "V8-C1.diff"
+    },
+    {
+      "id": "V8-C2",
+      "title": "共同型別移到表頭，五行推理理由保留",
+      "volume": "V0",
+      "comparison": "P2 fixed scoring artifact vs published v8; P2 is not asserted to be v8 direct editing parent",
+      "source_path_in_packages": "layout/views/v0/solutions/09-inverse-equations-solutions.tex",
+      "before": {
+        "version": "P2",
+        "lines_inclusive": [
+          3,
+          46
+        ],
+        "source_identity": {
+          "bytes": 1839,
+          "sha256": "78f1b5581de471e274e2880ec86854144f8e655d680c4792191038323a6da5ae"
+        },
+        "excerpt": "\\subsection*{Solution}\n\\paragraph{Exercise~\\ref{ex:separate-inverse-equations}.}\n\\textup{(i)} Compare $g\\circ(f\\circ h)$ with $(g\\circ f)\\circ h$:\neach hypothesis simplifies one adjacent pair.\nThe given arrows have types $f:A\\to B$ and $g,h:B\\to A$.\nThus $g\\circ f:A\\to A$ and $f\\circ h:B\\to B$.\nEvery row below compares arrows $B\\to A$ and records its reason.\n\n\\begin{center}\n\\begin{tabular}{@{}>{$}l<{$} >{$}c<{$} l@{}}\n\\toprule\n\\multicolumn{1}{l}{Equality} & \\multicolumn{1}{c}{Type} & Reason\\\\\n\\midrule\ng=g\\circ\\id_B & B\\to A & Right unit law.\\\\[3pt]\ng\\circ\\id_B=g\\circ(f\\circ h) & B\\to A & Substitute $f\\circ h=\\id_B$.\\\\[3pt]\ng\\circ(f\\circ h)=(g\\circ f)\\circ h & B\\to A & Associativity.\\\\[3pt]\n(g\\circ f)\\circ h=\\id_A\\circ h & B\\to A & Substitute $g\\circ f=\\id_A$.\\\\[3pt]\n\\id_A\\circ h=h & B\\to A & Left unit law.\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\n\nReading the five equalities in order gives $g=h:B\\to A$. The premise $g\\circ f=\\id_A$ gives one inverse equation for $g$.\nSubstituting $g=h$ into $f\\circ h=\\id_B$ gives the other:\n\\[\n\\begin{aligned}\ng\\circ f&=\\id_A &&(A\\to A),\\\\\nf\\circ g&=f\\circ h=\\id_B &&(B\\to B).\n\\end{aligned}\n\\]\nThese are the equations in Definition~\\ref{def:isomorphism}, so $f$ is an\nisomorphism with inverse $g=h$.\n\n\\medskip\n\\noindent\\textup{(ii)} Fix $f:A\\to B$, and let $u,v:B\\to A$ be any two\ninverses of $f$. Take one inverse equation from each:\n\\[\nu\\circ f=\\id_A\\quad(A\\to A),\\qquad\nf\\circ v=\\id_B\\quad(B\\to B).\n\\]\nApply part~\\textup{(i)} with $g=u$ and $h=v$. Its types and hypotheses\nmatch, so $u=v:B\\to A$. Thus a fixed $f$ has at most one inverse.\nThis is an at-most-one statement; part~\\textup{(i)} supplies existence\nunder its stated hypotheses.\n",
+        "pdf_pages": [
+          56,
+          57
+        ]
+      },
+      "after": {
+        "version": "v8",
+        "lines_inclusive": [
+          3,
+          42
+        ],
+        "source_identity": {
+          "bytes": 1466,
+          "sha256": "f3856a423d6f1bfc852e675472454c24a569a6c6acdc333e5b7d1dcd59b8893b"
+        },
+        "excerpt": "\\subsection*{Solution}\n\\paragraph{Exercise~\\ref{ex:separate-inverse-equations}.}\n\\textup{(i)} From $f:A\\to B$ and $g,h:B\\to A$ we get\n$g\\circ f:A\\to A$ and $f\\circ h:B\\to B$. Regrouping\n$g\\circ(f\\circ h)$ lets us use both hypotheses.\n\n\\begin{center}\n\\begin{tabular}{@{}>{$}l<{$} l@{}}\n\\toprule\n\\multicolumn{1}{l}{Equality in $\\operatorname{Hom}_{\\C}(B,A)$} & Reason\\\\\n\\midrule\ng=g\\circ\\id_B & Right unit law.\\\\[3pt]\ng\\circ\\id_B=g\\circ(f\\circ h) & Substitute $f\\circ h=\\id_B$.\\\\[3pt]\ng\\circ(f\\circ h)=(g\\circ f)\\circ h & Associativity.\\\\[3pt]\n(g\\circ f)\\circ h=\\id_A\\circ h & Substitute $g\\circ f=\\id_A$.\\\\[3pt]\n\\id_A\\circ h=h & Left unit law.\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\n\nThe equalities give $g=h$. The given equation for $g$ and substitution\ninto the equation for $h$ give\n\\[\n\\begin{aligned}\ng\\circ f&=\\id_A &&(A\\to A),\\\\\nf\\circ g&=f\\circ h=\\id_B &&(B\\to B).\n\\end{aligned}\n\\]\nThese are the equations in Definition~\\ref{def:isomorphism}, so $f$ is an\nisomorphism with inverse $g=h$.\n\n\\medskip\n\\noindent\\textup{(ii)} Fix $f:A\\to B$, and let $u,v:B\\to A$ be any two\ninverses of $f$. Take one inverse equation from each:\n\\[\nu\\circ f=\\id_A\\quad(A\\to A),\\qquad\nf\\circ v=\\id_B\\quad(B\\to B).\n\\]\nApply part~\\textup{(i)} with $g=u$ and $h=v$ to get $u=v:B\\to A$.\nThis proves uniqueness whenever an inverse exists.\n",
+        "pdf_pages": [
+          55
+        ]
+      },
+      "local_mathematical_obligations_reviewed": [
+        "f:A→B 與 g,h:B→A",
+        "僅假設 gf=id_A 與 fh=id_B，不能預設 g/h 各自已雙側可逆",
+        "所有五行等式同屬 Hom_C(B,A)",
+        "五個等式理由逐一保留",
+        "g=h 之後另核 fg=id_B",
+        "(ii) 結論是若逆存在則唯一，不由唯一性捏造存在"
+      ],
+      "review_status": "local condition and reasoning check, not whole-volume mathematical final review",
+      "diff_file": "V8-C2.diff"
+    },
+    {
+      "id": "V8-C3",
+      "title": "公式承載可核的條件與計算，文字說明方法",
+      "volume": "V2",
+      "comparison": "P2 fixed scoring artifact vs published v8; P2 is not asserted to be v8 direct editing parent",
+      "source_path_in_packages": "layout/views/v2/sections/77-parameter-induction.tex",
+      "before": {
+        "version": "P2",
+        "lines_inclusive": [
+          108,
+          139
+        ],
+        "source_identity": {
+          "bytes": 8493,
+          "sha256": "8f6be18f1de329b67aed6b26e433e457d2ed8876df47eba1c74c6ad8f2ae17b0"
+        },
+        "excerpt": "\\begin{proposition}[Induction for an equation]\n\\label{prop:parameter-equality-induction}\nLet $F,G:N\\times B\\to X$ under (A), and give their equalizer\n$m:E\\to N\\times B$. Suppose their zero restrictions agree and\n\\[\nF(s\\times\\id_B)m=G(s\\times\\id_B)m.\n\\]\nThen $F=G$.\n\\end{proposition}\n\\end{samepage}\n\n\\begin{proof}\nThe base equality makes $\\langle z!_B,\\id_B\\rangle$ an eligible\nequalizer test, giving a unique $b:B\\to E$ with the required base\nequation. The displayed step equality makes $(s\\times\\id_B)m$\nanother eligible test, giving $u:E\\to E$ with\n$m u=(s\\times\\id_B)m$. The parameter-induction proposition makes\n$m$ invertible. Since $F m=G m$, precomposition with $m^{-1}$\nin the equality gives $F=G$.\n\\end{proof}\n\nAn ``induction hypothesis''\nfor $F=G$ means using the equation on the equalizer source $E$;\nthe step must make the successor test factor back through that\nsame equalizer. If that is proved, the proposition establishes the\nequation on all of $N\\times B$.\n\nOften both candidate maps already satisfy the same base and step\nrecursion. Then recursive uniqueness proves equality directly, with\nno equalizer needed. We will use this shorter route whenever its\nequations have been checked. Equality induction is useful when the\nstep calculation uses an equation known only on the represented part.\n",
+        "pdf_pages": [
+          12
+        ]
+      },
+      "after": {
+        "version": "v8",
+        "lines_inclusive": [
+          105,
+          138
+        ],
+        "source_identity": {
+          "bytes": 8154,
+          "sha256": "d54e49fed6b111981e4297c9d1c173dc17f2e8e3e502fb485e02550e2e7d789d"
+        },
+        "excerpt": "\\begin{proposition}[Induction for an equation]\n\\label{prop:parameter-equality-induction}\nLet $F,G:N\\times B\\to X$ under (A), and give their equalizer\n$m:E\\to N\\times B$. Suppose\n\\begin{align*}\n F\\langle z!_B,\\id_B\\rangle &= G\\langle z!_B,\\id_B\\rangle,\\\\\n F(s\\times\\id_B)m &= G(s\\times\\id_B)m .\n\\end{align*}\nThen $F=G$.\n\\end{proposition}\n\\end{samepage}\n\n\\begin{proof}\nThe displayed equalities make $\\langle z!_B,\\id_B\\rangle$ and\n$(s\\times\\id_B)m$ eligible equalizer tests. Their unique factors\n$b:B\\to E$ and $u:E\\to E$ satisfy\n\\[\n mb=\\langle z!_B,\\id_B\\rangle,\\qquad mu=(s\\times\\id_B)m.\n\\]\nParameter induction makes $m$ invertible, so\n$F=Fm m^{-1}=Gm m^{-1}=G$.\n\\end{proof}\n\nAn ``induction hypothesis''\nfor $F=G$ means using the equation on the equalizer source $E$;\nthe step must make the successor test factor back through that\nsame equalizer. If that is proved, the proposition establishes the\nequation on all of $N\\times B$.\n\nOften both candidate maps already satisfy the same base and step\nrecursion. Then recursive uniqueness proves equality directly, with\nno equalizer needed. We will use this shorter route whenever its\nequations have been checked. Equality induction is useful when the\nstep calculation uses an equation known only on the represented part.\n",
+        "pdf_pages": [
+          12
+        ]
+      },
+      "local_mathematical_obligations_reviewed": [
+        "保留假設 (A) 及給定等化子 m:E→N×B",
+        "基底與後繼條件明列",
+        "b:B→E 和 u:E→E 來自各自相容測試",
+        "mb 和 mu 的兩條方程保留",
+        "用 parameter induction 取得 m 可逆",
+        "F=Fmm⁻¹=Gmm⁻¹=G 型別一致",
+        "保留何時用遞迴唯一性較直接、何時需 equality induction 的文字"
+      ],
+      "review_status": "local condition and reasoning check, not whole-volume mathematical final review",
+      "diff_file": "V8-C3.diff"
+    },
+    {
+      "id": "V8-C4",
+      "title": "完整比較來源仍在；不得把中間稿修復冒充 P2 分頁收益",
+      "volume": "V2",
+      "comparison": "P2 fixed scoring artifact vs published v8; P2 is not asserted to be v8 direct editing parent",
+      "source_path_in_packages": "layout/views/v2/sections/103-integer-universal-property.tex",
+      "before": {
+        "version": "P2",
+        "lines_inclusive": [
+          118,
+          130
+        ],
+        "source_identity": {
+          "bytes": 5555,
+          "sha256": "71c25fe4675b1fd94e23e7771edc4d42612f46db3046bdd83e70c46bf922628b"
+        },
+        "excerpt": "\\begin{problem}[A map is determined on the natural embedding]\n\\label{ex:integer-map-determined}\nLet $u,v:Z\\to H$ be group homomorphisms with $u j=v j$.\nProve $u=v$ without selecting a pair representative for\nevery arrow into $Z$.\n\\end{problem}\n\n\\paragraph{Solution.}\nFor the single supplied regular cover $q:P\\to Z$,\n$u q(a,b)=u j a-u j b=v j a-v j b=v q(a,b)$.\nThese are equations of maps $P\\to H$. Epicity of $q$\nthen gives $u=v$. The argument never constructs a section\nof $q$ or a representation for an arbitrary parameter arrow.\n",
+        "pdf_pages": [
+          111
+        ]
+      },
+      "after": {
+        "version": "v8",
+        "lines_inclusive": [
+          130,
+          141
+        ],
+        "source_identity": {
+          "bytes": 5836,
+          "sha256": "a7fcad0a45931e67f7ebab046cd40c83489a59ef93c940e1a8dc82293668db16"
+        },
+        "excerpt": "\\begin{problem}[A map is determined on the natural embedding]\n\\label{ex:integer-map-determined}\nLet $u,v:Z\\to H$ be group homomorphisms with $u j=v j$.\nProve $u=v$ without selecting a pair representative for\nevery arrow into $Z$.\n\\end{problem}\n\n\\paragraph{Solution.}\nFor the single supplied regular cover $q:P\\to Z$,\n$u q(a,b)=u j a-u j b=v j a-v j b=v q(a,b)$.\nThis proves $uq=vq$ as arrows $P\\to H$. Epicity of $q$ gives $u=v$.\nThe comparison uses the supplied pair object $P$.\n",
+        "pdf_pages": [
+          113,
+          114
+        ]
+      },
+      "local_mathematical_obligations_reviewed": [
+        "u,v:Z→H 為群同態且 uj=vj",
+        "保留單一給定 regular cover q:P→Z",
+        "比較等式來源明示 P→H",
+        "由 uq=vq 與 q epic 推得 u=v",
+        "未選每個 Z 箭頭的全域代表元"
+      ],
+      "review_status": "local condition and reasoning check, not whole-volume mathematical final review",
+      "diff_file": "V8-C4.diff"
+    }
+  ],
+  "definition_10_1_recount": {
+    "P2": {
+      "regions_pdf_points": [
+        {
+          "physical_page_1based": 9,
+          "block_top_min": 527,
+          "block_bottom_max": 681
+        },
+        {
+          "physical_page_1based": 10,
+          "block_top_min": 78,
+          "block_bottom_max": 253
+        }
+      ],
+      "extracted_text": "For a fixed category 𝒞, consider the following assertions.\n(T) There exists an object 𝑇such that, for every object 𝑋, there is exactly one\narrow 𝑋→𝑇.\n(P) For every pair of objects 𝐴, 𝐵, there exist an object 𝑃and arrows 𝑝∶𝑃→𝐴,\n𝑞∶𝑃→𝐵such that, for every object 𝑋and all 𝛼∶𝑋→𝐴, 𝛽∶𝑋→𝐵, there\nis exactly one 𝑢∶𝑋→𝑃with 𝑝∘𝑢= 𝛼and 𝑞∘𝑢= 𝛽.\n(E) For every pair of objects 𝐴, 𝐵and arrows 𝑓, 𝑔∶𝐴→𝐵, there exist an object\n𝐸and an arrow 𝑒∶𝐸→𝐴such that 𝑓∘𝑒= 𝑔∘𝑒, and, for every object 𝑋and\nevery ℎ∶𝑋→𝐴satisfying 𝑓∘ℎ= 𝑔∘ℎ, there is exactly one 𝑢∶𝑋→𝐸with\n𝑒∘𝑢= ℎ.\n(B) For every three objects 𝐴, 𝐵, 𝐶and arrows 𝑓∶𝐴→𝐶, 𝑔∶𝐵→𝐶, there exist\nan object 𝑄and arrows 𝑟∶𝑄→𝐴, 𝑠∶𝑄→𝐵such that 𝑓∘𝑟= 𝑔∘𝑠, and, for\nevery object 𝑋and every pair 𝛼∶𝑋→𝐴, 𝛽∶𝑋→𝐵satisfying 𝑓∘𝛼= 𝑔∘𝛽,\nthere is exactly one 𝑢∶𝑋→𝑄with 𝑟∘𝑢= 𝛼and 𝑠∘𝑢= 𝛽.\nThese say, respectively, that 𝒞has a terminal object, binary products, equalizers\nof all parallel pairs, and pullbacks of all pairs with a common target. They are\nassertions to be tested or assumed explicitly, not additional axioms adopted by\nintroducing this notation.\n",
+      "nonwhitespace_characters": 882
+    },
+    "v8": {
+      "regions_pdf_points": [
+        {
+          "physical_page_1based": 9,
+          "block_top_min": 431.8,
+          "block_bottom_max": 562
+        }
+      ],
+      "extracted_text": "Use the constructions from Volume 0, with 𝐴, 𝐵, 𝐶∈Ob(𝒞) in the formulas\nbelow.\n(T)\n∃𝑇∈Ob(𝒞)\n∀𝑋∈Ob(𝒞)\n∃! 𝑢∈Hom𝒞(𝑋, 𝑇).\n(P)\n∀𝐴, 𝐵\n∃(𝑃, 𝑝, 𝑞) a product of 𝐴, 𝐵.\n(E)\n∀𝐴, 𝐵\n∀𝑓, 𝑔∈Hom𝒞(𝐴, 𝐵)\n∃(𝐸, 𝑒) an equalizer of 𝑓, 𝑔.\n(B)\n∀𝐴, 𝐵, 𝐶\n∀𝑓∈Hom𝒞(𝐴, 𝐶)\n∀𝑔∈Hom𝒞(𝐵, 𝐶)\n∃(𝑄, 𝑟, 𝑠) a pullback of 𝑓, 𝑔.\n",
+      "nonwhitespace_characters": 227
+    }
+  },
+  "supporting_prerequisite_sources": [
+    {
+      "source_path_in_v8_zip": "source/V0/editorial_r3/views/v0/sections/01-opening.tex",
+      "lines_inclusive": [
+        133,
+        159
+      ],
+      "bytes": 14475,
+      "sha256": "bffd1834618d86fb415168cc5f5c4dcccefd29eed5ec211602ba6e6369997eb5"
+    },
+    {
+      "source_path_in_v8_zip": "source/V0/layout/views/v0/sections/06-products.tex",
+      "lines_inclusive": [
+        9,
+        27
+      ],
+      "bytes": 4603,
+      "sha256": "921209a5b1dcd879b1e24770bb53c392abd45eb6ecd299e9bcd27482a38fbd37"
+    },
+    {
+      "source_path_in_v8_zip": "source/V0/layout/views/v0/sections/19-equalizers.tex",
+      "lines_inclusive": [
+        15,
+        36
+      ],
+      "bytes": 4419,
+      "sha256": "30b9bed8c0d526d5945fa32add3a1a07c1e0c0a3532fb4b5ba64c6d42933ec01"
+    },
+    {
+      "source_path_in_v8_zip": "source/V0/editorial_r3/views/v0/sections/22-pullbacks.tex",
+      "lines_inclusive": [
+        14,
+        46
+      ],
+      "bytes": 5596,
+      "sha256": "15a78c34aa9b8ffeefa33f222b22bafe9b85366687cb46c6073be22655bb8111"
+    }
+  ],
+  "visually_inspected_physical_pages": {
+    "P2": {
+      "V0": [
+        56,
+        57
+      ],
+      "V1": [
+        9,
+        10
+      ],
+      "V2": [
+        12,
+        111
+      ]
+    },
+    "v8": {
+      "V0": [
+        55
+      ],
+      "V1": [
+        9
+      ],
+      "V2": [
+        12,
+        113,
+        114
+      ]
+    }
+  },
+  "limits": [
+    "No new human case ratings or comprehension/retention testing.",
+    "No full 886-page visual rereading in this subtask.",
+    "No whole-volume mathematical final review.",
+    "Intermediate v4/v5/v6/v7 pagination snapshots not retrieved; retrospective claims about an intermediate equals-sign break and split closing sentence cannot be independently reproduced as P2-to-v8 fixes.",
+    "V8-C4 is mixed evidence: argument is explicit and complete but P2 has exercise+solution together while v8 separates them across pages 113–114.",
+    "Preservation of v4 calibration chapter reported by retrospective, not independently verified here."
+  ]
+}

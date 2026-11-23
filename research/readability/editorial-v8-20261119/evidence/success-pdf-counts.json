@@ -1,0 +1,84 @@
+{
+  "initial_fixed_crop": {
+    "method": "PyMuPDF text clip (45,65,width-45,height-55); nonwhitespace Unicode characters",
+    "version": "1.26.6",
+    "checked": 1663,
+    "matches": 1660,
+    "differences": [
+      {
+        "version": "P2",
+        "volume": "V2",
+        "pdf_page": 123,
+        "csv": 1821,
+        "extracted": 1804
+      },
+      {
+        "version": "v8",
+        "volume": "V0",
+        "pdf_page": 274,
+        "csv": 1960,
+        "extracted": 1827
+      },
+      {
+        "version": "v8",
+        "volume": "V2",
+        "pdf_page": 175,
+        "csv": 1770,
+        "extracted": 1684
+      }
+    ]
+  },
+  "expanded_fixed_crop_attempts": [
+    {
+      "bottom_inset_pt": 40,
+      "checked": 1663,
+      "matches": 1661,
+      "differences": [
+        {
+          "version": "v8",
+          "volume": "V0",
+          "pdf_page": 274,
+          "csv": 1960,
+          "extracted": 1898
+        },
+        {
+          "version": "v8",
+          "volume": "V2",
+          "pdf_page": 175,
+          "csv": 1770,
+          "extracted": 1754
+        }
+      ]
+    },
+    {
+      "bottom_inset_pt": 35,
+      "checked": 1663,
+      "matches": 1661,
+      "differences": [
+        {
+          "version": "v8",
+          "volume": "V0",
+          "pdf_page": 274,
+          "csv": 1960,
+          "extracted": 1919
+        },
+        {
+          "version": "v8",
+          "volume": "V2",
+          "pdf_page": 175,
+          "csv": 1770,
+          "extracted": 1756
+        }
+      ]
+    }
+  ],
+  "accepted_page_element_exclusion": {
+    "method": "PyMuPDF dict lines; remove header y0<55pt, footer text containing / ReadFlow below690pt and the matching printed-page label at x0>400pt,y0>690pt; count nonwhitespace Unicode characters of remaining spans. Do not crop tall body lines at foot.",
+    "pymupdf": "1.26.6",
+    "checked": 1663,
+    "matches": 1663,
+    "differences": [],
+    "scope": "Non-whitespace chars only; text_letters/math_chars font estimates not independently rederived."
+  },
+  "interpretation": "Initial crop omitted tall body lines. The accepted rule excludes observed headers/footers by their page element identity and reproduces 1663/1663 counts. Matching text extraction does not imply a page has no visual overlap."
+}

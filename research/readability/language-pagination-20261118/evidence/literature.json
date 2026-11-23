@@ -1,0 +1,358 @@
+{
+  "scope": "Selected primary sources, precise reading ranges, claims and limits. does_not_support contains claims explicitly NOT established by that source. Not a systematic review. Full papers excluded.",
+  "sources": [
+    {
+      "id": "S01",
+      "authors": [
+        "Kenneth R. Koedinger",
+        "Mitchell J. Nathan"
+      ],
+      "year": 2004,
+      "title": "The Real Story Behind Story Problems: Effects of Representations on Quantitative Reasoning",
+      "journal": "Journal of the Learning Sciences",
+      "volume_issue": "13(2)",
+      "publication_pages": "129–164",
+      "doi": "10.1207/s15327809jls1302_1",
+      "url": "https://website.education.wisc.edu/mnathan/Publications_files/2004_Koedinger%26Nathan_JLS_Story.pdf",
+      "canonical_redirect": "https://website.education.wisc.edu/mnathan/Publications_files/2004_Koedinger&Nathan_JLS_Story.pdf",
+      "source_type": "primary_empirical_paper_author_university_copy",
+      "read_scope": {
+        "publication_pages": [
+          "129–131",
+          "139–145",
+          "159–160"
+        ],
+        "pdf_physical_pages_1based": [
+          "1–3",
+          "11–17",
+          "31–32"
+        ],
+        "sections": [
+          "Abstract and initial rationale",
+          "Difficulty Factors Assessments: Studies 1 and 2 (methods and results)",
+          "Conclusion and expert blind spot discussion"
+        ],
+        "visual_page_check": false
+      },
+      "design": "Two matched-representation difficulty-factor assessments; n=76 and n=171 beginning algebra students; story, word-equation, and symbol-equation presentations; numeric and unknown-position factors.",
+      "supports": [
+        "Symbolic decoding is not automatically easier than verbally stated mathematics for beginning algebra learners.",
+        "Reader prerequisites must be assessed separately from semantic equivalence."
+      ],
+      "does_not_support": [
+        "More English is better for every mathematics domain.",
+        "An effect size for ReadFlow/P2/P3 or long advanced textbooks.",
+        "Direct causal validation of the proposed symbolization checklist."
+      ],
+      "sha256": "359a9ca133b8fe9204330415f1c9b052dfb10cb3e526ffd25481190ffaa9ccf7",
+      "bytes": 677111,
+      "retrieved_on": "2026-11-18",
+      "redistribution": "Source PDFs are working evidence only; exclude full external papers from public deliverables; deliver citations and original examples."
+    },
+    {
+      "id": "S02",
+      "authors": [
+        "John Clement",
+        "Jack Lochhead",
+        "George S. Monk"
+      ],
+      "year": 1981,
+      "title": "Translation Difficulties in Learning Mathematics",
+      "journal": "The American Mathematical Monthly",
+      "volume_issue": "88(4)",
+      "publication_pages": "286–290 (publisher bibliography); author scan cover says 287–290",
+      "doi": "10.1080/00029890.1981.11995253",
+      "url": "https://people.umass.edu/clement/pdf/Translation%20Difficulties%20in%20Learning%20Math.pdf",
+      "publisher_url": "https://doi.org/10.1080/00029890.1981.11995253",
+      "source_type": "primary_empirical_paper_author_university_scan",
+      "read_scope": {
+        "publication_pages": [
+          "288–289"
+        ],
+        "pdf_physical_pages_1based": [
+          "3–4"
+        ],
+        "sections": [
+          "Students-and-professors problem, samples and error rates",
+          "Word-order matching, static comparison and operative translation",
+          "Conclusion (available extracted portion)"
+        ],
+        "visual_page_check": false
+      },
+      "design": "Reports written responses of 150 calculus-level students and 47 college-algebra nonscience majors; also 15 think-aloud interviews.",
+      "supports": [
+        "English-to-algebra translation can reverse relationships even when the relation appears simple.",
+        "Type/quantity meaning and operational checking matter; literal word matching is insufficient."
+      ],
+      "does_not_support": [
+        "Error frequency for AI rewriting or modern graduate learners.",
+        "A universal estimate of symbolization risk.",
+        "A controlled demonstration that this report’s prompts improve learning."
+      ],
+      "access_limitations": [
+        "Author URL with tilde repeatedly returned 502. URL without tilde yielded a readable 5-page web extraction once, but direct download and screenshot later returned 502.",
+        "Printed page 288–289 read; the mismatch between publisher start page and author cover is recorded, not silently resolved."
+      ],
+      "sha256": "UNKNOWN — no local PDF acquired",
+      "retrieved_on": "2026-11-18",
+      "redistribution": "Source PDFs are working evidence only; exclude full external papers from public deliverables; deliver citations and original examples."
+    },
+    {
+      "id": "S03",
+      "authors": [
+        "David Landy",
+        "Robert L. Goldstone"
+      ],
+      "year": 2007,
+      "title": "How Abstract Is Symbolic Thought?",
+      "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "volume_issue": "33(4)",
+      "publication_pages": "720–733",
+      "doi": "10.1037/0278-7393.33.4.720",
+      "url": "https://gwern.net/doc/math/2007-landy.pdf",
+      "metadata_urls": [
+        "https://psych.indiana.edu/directory/faculty/landy-david.html",
+        "https://pubmed.ncbi.nlm.nih.gov/17576149/"
+      ],
+      "source_type": "primary_empirical_article_fulltext_public_mirror_metadata_crosschecked",
+      "read_scope": {
+        "publication_pages": [
+          "720–724",
+          "730–731"
+        ],
+        "pdf_physical_pages_1based": [
+          "1–5",
+          "11–12"
+        ],
+        "sections": [
+          "Abstract and rationale",
+          "Stimuli, methods and main results of Experiment 1",
+          "General Discussion (selected sections)"
+        ],
+        "visual_page_check": true,
+        "visual_pages": [
+          "722 (Table 3 spacing stimuli)"
+        ]
+      },
+      "design": "Four algebra-validity judgment experiments manipulate perceptual grouping; Experiment 1 recruited 51 undergraduates and analyzed 44 after stated exclusion; selected detail read, not all four experiment sections exhaustively.",
+      "supports": [
+        "Visual grouping and spacing can affect parsing of symbolic arithmetic/algebra.",
+        "A symbolically correct expression also needs visual inspection for grouping."
+      ],
+      "does_not_support": [
+        "An optimum page character count.",
+        "LaTeX page-break rules or a 1750-character threshold.",
+        "A direct effect on high-level proof reading or ReadFlow preferences."
+      ],
+      "access_limitations": [
+        "Full article accessed from public mirror, not publisher site.",
+        "Author faculty page and DOI corroborate bibliographic identity; do not describe mirror hash as publisher download hash."
+      ],
+      "sha256": "6ed8d1586fdf92a567b71be026e1e752fb50fbac21ffeda06d37a5d865530e93",
+      "bytes": 564090,
+      "retrieved_on": "2026-11-18",
+      "redistribution": "Source PDFs are working evidence only; exclude full external papers from public deliverables; deliver citations and original examples."
+    },
+    {
+      "id": "S04",
+      "authors": [
+        "Donald E. Knuth",
+        "Tracy Larrabee",
+        "Paul M. Roberts"
+      ],
+      "year": "1987 course; Stanford report PDF; 1989 published book",
+      "title": "Mathematical Writing",
+      "publication": "Stanford Computer Science course report; book published by Mathematical Association of America",
+      "publication_pages": "Course report has 117 PDF pages; printed numbering begins at PDF page 3",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/cs1193.pdf",
+      "metadata_url": "https://www-cs-faculty.stanford.edu/~knuth/klr.html",
+      "source_type": "primary_expert_writing_guidance_course_transcript_not_empirical_trial",
+      "read_scope": {
+        "publication_pages": [
+          "1–3",
+          "67",
+          "70–72"
+        ],
+        "pdf_physical_pages_1based": [
+          "3–5",
+          "69",
+          "72–74"
+        ],
+        "sections": [
+          "Section 1 points 1–19",
+          "Section 30 definition/use proximity and variable types",
+          "Section 31 Lamport on structure and algebraic notation",
+          "Sections 32–33 unnecessary prose and proof structure"
+        ],
+        "visual_page_check": true,
+        "visual_pages": [
+          "71 (before/after prose handout)"
+        ]
+      },
+      "design": "Expert course notes and handouts; not a controlled reader or learning study.",
+      "supports": [
+        "Meaningful prose connects formulas and explains purpose.",
+        "Complementary restatement can help; empty or self-congratulatory prose can be cut.",
+        "Algebra can expose relational structure more efficiently than long verbal descriptions."
+      ],
+      "does_not_support": [
+        "A universal ban on quantifier notation in all textbooks.",
+        "A fixed prose/formula ratio.",
+        "Empirically verified efficacy for ReadFlow or all mathematical domains."
+      ],
+      "sha256": "646072129e5c74443447d5de1f8343626bcb7cdefb97758721d3ec15d044f5e0",
+      "bytes": 4783300,
+      "retrieved_on": "2026-11-18",
+      "redistribution": "Source PDFs are working evidence only; exclude full external papers from public deliverables; deliver citations and original examples."
+    },
+    {
+      "name": "amsldoc.pdf",
+      "url": "https://www.latex-project.org/help/documentation/amsldoc.pdf",
+      "bytes": 497720,
+      "sha256": "cda4af4c675bc457b154a75fee71d3ad70adb79ddbae4352a387b0385e36d52c",
+      "id": "P02",
+      "primary": "AMS / LaTeX Project official documentation",
+      "version": "Guide version2.1, revised2020-02-18",
+      "read_pages_physical": [
+        13,
+        14
+      ],
+      "read_pages_printed": [
+        9,
+        10
+      ],
+      "read_sections": [
+        "3.7 ending",
+        "3.9",
+        "3.10 beginning"
+      ],
+      "claims": [
+        "allowdisplaybreaks and displaybreak differ in strength",
+        "aligned/split/gathered/alignedat remain unbreakable",
+        "intertext preserves alignment"
+      ],
+      "limitations": "Engineering semantics, no human reading study; package version pinned in compile logs"
+    },
+    {
+      "name": "needspace.pdf",
+      "url": "https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/needspace/needspace.pdf",
+      "bytes": 66807,
+      "sha256": "b2aa35b2484f9107e3b80ab96fe6fe9ef481723decc544a470ad6d78bf39c944",
+      "id": "P03",
+      "primary": "Maintained LaTeX Project package documentation",
+      "version": "v1.3f 2026-10-13",
+      "read_pages_physical": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "read_sections": [
+        "1 Documentation",
+        "2 Examples",
+        "3 Implementation"
+      ],
+      "claims": [
+        "needspace approximate, Needspace exact",
+        "insufficient space triggers a break",
+        "precise form belongs between paragraphs"
+      ],
+      "limitations": "Local installed version is1.3d2010-09-12; relevant local implementation separately read; not upgraded"
+    },
+    {
+      "name": "tcolorbox.pdf",
+      "url": "https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/tcolorbox/tcolorbox.pdf",
+      "bytes": 4948471,
+      "sha256": "100ac6cd783d9fd327a984925b8a17c130f95ba8f1ec8cabaf313ced10bb8025",
+      "id": "P04",
+      "primary": "Thomas F.Sturm official package manual on CTAN",
+      "version": "6.10.0 2026-05-28",
+      "read_pages_physical": [
+        410,
+        411,
+        412,
+        413,
+        414
+      ],
+      "read_pages_printed": [
+        410,
+        411,
+        412,
+        413,
+        414
+      ],
+      "read_sections": [
+        "18.4",
+        "19.1",
+        "19.2",
+        "19.3 beginning"
+      ],
+      "claims": [
+        "breakable boxes split by available height",
+        "nested inner box made unbreakable",
+        "enforce breakable is discouraged",
+        "lines before break reserves opening lines"
+      ],
+      "limitations": "Local installed6.4.1; current docs are not proof all behavior identical; isolated compile used installed source"
+    },
+    {
+      "name": "TeXbyTopic.pdf",
+      "url": "https://mirrors.ibiblio.org/CTAN/info/texbytopic/TeXbyTopic.pdf",
+      "bytes": 1509267,
+      "sha256": "6a5e8794121bf1ab4a557ec5a968077e0c1bf7b64cb03abade84c192a5443068",
+      "id": "P01",
+      "primary": "Victor Eijkhout author reference, authorized CTAN distribution",
+      "version": "2007 GNU FDL release",
+      "read_pages_physical": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "read_pages_printed": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "read_sections": [
+        "27.1–27.5",
+        "27.6.1"
+      ],
+      "claims": [
+        "page builder chooses available breakpoints with penalties/glue/page goal",
+        "cutting text advances subsequent material rather than reserving blank area",
+        "unbreakable boxes constrain candidate points"
+      ],
+      "limitations": "Engine explanation not human performance evidence; subsequent recommended semantic units are study design reasoning"
+    },
+    {
+      "id": "AI03",
+      "authors": "Lianmin Zheng et al.",
+      "year": 2023,
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "venue": "NeurIPS 2023 Datasets and Benchmarks",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/91f18a1287b398d378ef22505bf41832-Paper-Datasets_and_Benchmarks.pdf",
+      "doi": "10.48550/arXiv.2306.05685",
+      "html_url": "https://arxiv.org/html/2306.05685v4",
+      "html_web_ref": "turn622938255view2",
+      "read_ranges": "Official PDF pp.4–6,15: §3.1–3.5 and Figure 8; HTML v4 Appendix D.1–D.2",
+      "caution": "Specific original-paper human agreement percentages are not textbook readability or learning outcomes."
+    },
+    {
+      "id": "AI04",
+      "authors": "Arjun Panickssery, Samuel R. Bowman, Shi Feng",
+      "year": 2024,
+      "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+      "venue": "NeurIPS 2024",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7f1f0218e45f5414c79c0679633e47bc-Paper-Conference.pdf",
+      "doi": "10.52202/079017-2197",
+      "read_ranges": "PDF pp.2–3,7–9; §2.1–2.3,§3.4–3.5,§5.2",
+      "caution": "News-summary tasks, limited ground-truth quality control; same model in independent contexts is not independent model family."
+    }
+  ]
+}

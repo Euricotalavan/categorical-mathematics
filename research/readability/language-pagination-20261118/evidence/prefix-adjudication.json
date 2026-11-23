@@ -1,0 +1,23 @@
+{
+  "status": "RESEARCH_OPEN_NOT_FORMAL_ACCEPTANCE",
+  "no_further_manuscript_or_prototype_edit": true,
+  "reason": "Three issues concern reader-contract and notation explicitness, not demonstrated false theorems. Preserve the fixed experiment and report them; no need to obscure limitations by adding revision rounds.",
+  "items": [
+    {
+      "id": "PREFIX-T3-PI",
+      "disposition": "OPEN_READER_NOTATION",
+      "assessment": "pi_D and pi_A can denote standard product projections but the supplied excerpt does not explicitly name them. Proposed future shared-context addition: name projections D×A→D,A. No claim of a new mathematical error."
+    },
+    {
+      "id": "PREFIX-T6-PREREQ",
+      "disposition": "UNKNOWN_READER_CONTRACT",
+      "assessment": "The problem treats continuous as known, but the exact epsilon-delta and pointwise conventions are not explicitly in the reader card. Check their actual earlier-text locations before deployment; do not demand every known term be redefined."
+    },
+    {
+      "id": "PREFIX-T8-CONGRUENCE",
+      "disposition": "OPEN_READER_NOTATION",
+      "assessment": "Class equality and divisibility are supplied; the congruence glyph is not explicitly connected in the context. Proposed reader-card note rather than deleting the well-definedness explanation."
+    }
+  ],
+  "relation_to_math_review": "57 obligations checked under stated and conventional prerequisites; these decoding uncertainties are not closed by mathematical algebra checks; no formal-ready claim."
+}

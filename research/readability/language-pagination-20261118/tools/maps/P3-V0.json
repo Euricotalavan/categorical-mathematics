@@ -1,0 +1,16 @@
+{
+  "page_roles": {
+    "50": "mixed_prose_and_exercise_statements",
+    "51": "mixed_exercise_statements_and_solutions"
+  },
+  "units": [
+    {
+      "id": "exercise1.3",
+      "kind": "exercise_statement",
+      "start_anchor": "On one object P, take arrows",
+      "end_anchor": "then use a triple to show that this is not a category",
+      "crossing_permitted": false
+    }
+  ],
+  "expected_sha256": "3682e25a1363ec420dfbd273e99421bd810255357e99deee1a1f29790e7f79ee"
+}

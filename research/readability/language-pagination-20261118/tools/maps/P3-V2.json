@@ -1,0 +1,15 @@
+{
+  "page_roles": {
+    "11": "toc_tail"
+  },
+  "edges": [
+    {
+      "id": "least-index-to-p",
+      "kind": "construction_to_naming",
+      "from_anchor": "not just local existential witnesses",
+      "to_anchor": "be that index plus two",
+      "review_question": "Does the page break force a backtrack to identify the bounded-search index?"
+    }
+  ],
+  "expected_sha256": "c6d86de914b338689396f70a6209e290dd6c3d12b6441873e60ef02069fa20f2"
+}
