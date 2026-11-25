@@ -18,6 +18,7 @@ Template adoption is separate from textbook acceptance: V0 remains pending its i
 | V3 · Linear Algebra | 52–70 | B-07 repair candidate | [Reading PDF, 507 pages](archive/v3/b07-repair-candidate-2026-11-20/V3-B07-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v3/b07-repair-candidate-2026-11-20/README.md) |
 | V4 · Category Theory Continued | 71–84, provisional | B-08 published edition with completed mathematical review | [Reading PDF, 539 pages](archive/v4/b08-audited-2026-11-23/V4-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v4/b08-audited-2026-11-23/README.md) |
 | V5 · Matrix Analysis and Perturbation | 85–93 | B-08 edition with completed mathematical review | [Reading PDF, 81 pages](archive/v5/b08-audited-2026-11-24/V5-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v5/b08-audited-2026-11-24/README.md) |
+| V6 · Axiomatic Set Theory | 94–105 | ReadFlow R1 teaching edition | [Reading PDF, 102 pages](archive/v6/teaching-edition-2026-11-25/V6B-Teaching-Edition.pdf) · [LaTeX and checksums](archive/v6/teaching-edition-2026-11-25/README.md) |
 
 The [V0–V2 edition index](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md) contains print PDFs, shared buildable LaTeX, and checksums. V0–V3 retain their candidate status and pending independent whole-volume review. V4's chapter numbering awaits the final numbering of V3.
 
