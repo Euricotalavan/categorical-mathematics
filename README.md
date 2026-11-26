@@ -23,6 +23,7 @@ Template adoption is separate from textbook acceptance: V0 remains pending its i
 | V8 · Mathematical Logic and Model Theory | 114–125 | ReadFlow R1 teaching edition | [Reading PDF, 159 pages](archive/v8/teaching-edition-2026-11-26/V8B-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v8/teaching-edition-2026-11-26/README.md) |
 | V9 · Computability and Reverse Mathematics | 126–137 | ReadFlow R1 teaching edition | [Reading PDF, 155 pages](archive/v9/teaching-edition-2026-11-26/V9B-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v9/teaching-edition-2026-11-26/README.md) |
 | V10 · Proof Theory | 138–145 | ReadFlow R1 teaching edition | [Reading PDF, 93 pages](archive/v10/teaching-edition-2026-11-26/V10B-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v10/teaching-edition-2026-11-26/README.md) |
+| V11 · Non-Classical Logic | 146–153 | ReadFlow R1 teaching edition | [Reading PDF, 87 pages](archive/v11/teaching-edition-2026-11-26/V11B-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v11/teaching-edition-2026-11-26/README.md) |
 
 The [V0–V2 edition index](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md) contains print PDFs, shared buildable LaTeX, and checksums. V0–V3 retain their candidate status and pending independent whole-volume review. V4's chapter numbering awaits the final numbering of V3.
 
