@@ -1,0 +1,10 @@
+# V7 — Constructive Foundations and Categorical Set Theory
+
+ReadFlow R1 teaching edition · Chapters 106–113 · 84 PDF pages · 2026-11-26
+
+- [Reading PDF](V7B-ReadFlow-R1.pdf)
+- [LaTeX source, PDF, and build notes](V7B-ReadFlow-R1.zip)
+- [SHA-256 checksums](SHA256SUMS)
+
+The verified local teaching edition includes 8 chapters with worked examples, exercises and solutions, a project, and an assessment with separately paginated keys.
+The 48 contact hours are planned teaching time, not classroom validation.
