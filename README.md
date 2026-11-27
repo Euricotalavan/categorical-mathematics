@@ -29,6 +29,7 @@ Template adoption is separate from textbook acceptance: V0 remains pending its i
 | V14 · Basic Analysis: One Variable, Metric Spaces, and Sequences of Functions | 179–194 | B-08 edition with completed mathematical review | [Reading PDF, 152 pages](archive/v14/b08-audited-2026-11-27/V14-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v14/b08-audited-2026-11-27/README.md) |
 | V15 · Multivariable Analysis | 195–207 | B-08 edition with completed mathematical review | [Reading PDF, 209 pages](archive/v15/b08-audited-2026-11-27/V15-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v15/b08-audited-2026-11-27/README.md) |
 | V16 · Measure and Real Analysis | 208–223 | Expanded B-08 edition with completed mathematical review | [Reading PDF, 138 pages](archive/v16/b08-expanded-2026-11-27/V16-Expanded-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v16/b08-expanded-2026-11-27/README.md) |
+| V17 · Series, Improper Integrals, and Topics in Real Analysis | 224–231 | B-08 edition with completed mathematical review | [Reading PDF, 92 pages](archive/v17/b08-audited-2026-11-27/V17-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v17/b08-audited-2026-11-27/README.md) |
 
 The [V0–V2 edition index](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md) contains print PDFs, shared buildable LaTeX, and checksums. V0–V3 retain their candidate status and pending independent whole-volume review. V4's chapter numbering awaits the final numbering of V3.
 
