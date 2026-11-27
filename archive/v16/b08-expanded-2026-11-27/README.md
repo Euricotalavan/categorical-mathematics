@@ -1,24 +1,22 @@
 # V16 · Measure and Real Analysis
 
-Expanded ReadFlow R1 edition · Chapters 208–223 · 138 PDF pages · 2026-11-27
+ReadFlow R1 revised B-08 edition · Chapters 208–223 · 187 PDF pages · 2026-11-27
 
 - [Reading PDF](V16-Expanded-ReadFlow-R1.pdf)
-- [LaTeX, dependencies, paired PDF, and review records](V16-Expanded-ReadFlow-R1-Source.zip)
+- [LaTeX source, paired PDF, and review records](V16-Expanded-ReadFlow-R1-Source.zip)
 - [SHA-256 checksums](SHA256SUMS)
 
-All 52 teaching sections were expanded within the established volume scope.
-The 16 practice sections contain 89 exercises with full solutions, including
-57 additions. The archive contains the independent mathematical review, the
-page-by-page layout record, and the updated locations for the 140 literature
-responsibilities.
+This edition has 16 chapters, 33 additional numbered subsections, and
+138 exercises with full solutions, including 49 additions. The chapter
+body occupies 180 pages. The exact source and PDF completed independent
+mathematical review and page-by-page layout and navigation checks.
 
-Royden–Fitzpatrick could be compared at the level of the cover and contents.
-The source package records the resulting coverage limit and the other
-open items.
+The comparison with Royden–Fitzpatrick is limited to its cover and
+contents. The archive records source scope and unresolved items.
 
 ## Rebuild
 
-Run python3 verify_release.py after extraction. Build with XeLaTeX by
-running python3 build.py --jobname V16-Expanded-ReadFlow-R1 from the
-extracted source directory. See that directory's README for dependencies
-and the flag for a Debian installation without an indexed XeLaTeX format.
+Extract the ZIP and run python3 verify_release.py from the
+V16-ReadFlow-R1-Rerun directory. Build using XeLaTeX with
+python3 build.py --jobname V16-ReadFlow-R1-Rerun. The included README
+lists dependencies and the additional flag for unindexed TeX Live installations.
