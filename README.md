@@ -34,6 +34,7 @@ Template adoption is separate from textbook acceptance: V0 remains pending its i
 | V19 · Locally Convex Spaces, Distributions, and Integral Equations | 246–257 | B-08 edition with completed mathematical review | [Reading PDF, 280 pages](archive/v19/b08-audited-2026-11-28/V19-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v19/b08-audited-2026-11-28/README.md) |
 | V20 · Unbounded Operators, Semigroups, and Evolution | 258–269 | B-08 edition with completed mathematical review | [Reading PDF, 182 pages](archive/v20/b08-audited-2026-11-28/V20-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v20/b08-audited-2026-11-28/README.md) |
 | V21 · Fourier Analysis and Integral Transforms | 270–281 | B-08 edition with completed mathematical review | [Reading PDF, 301 pages](archive/v21/b08-audited-2026-11-28/V21-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v21/b08-audited-2026-11-28/README.md) |
+| V22 · Approximation, Sampling, and Reconstruction | 282–290 | B-08 edition with completed mathematical review | [Reading PDF, 201 pages](archive/v22/b08-audited-2026-11-28/V22-B08-ReadFlow-R1.pdf) · [LaTeX and checksums](archive/v22/b08-audited-2026-11-28/README.md) |
 
 The [V0–V2 edition index](archive/v0-v2/readflow-editorial-v8-2026-11-19/README.md) contains print PDFs, shared buildable LaTeX, and checksums. V0–V3 retain their candidate status and pending independent whole-volume review. V4's chapter numbering awaits the final numbering of V3.
 
